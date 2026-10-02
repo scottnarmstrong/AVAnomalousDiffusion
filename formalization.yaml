@@ -1,0 +1,226 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "Anomalous diffusion by fractal homogenization"
+  description: >-
+    A Lean 4 / Mathlib formalization of S. Armstrong and V. Vicol, "Anomalous
+    diffusion by fractal homogenization" (arXiv:2305.05048). For every
+    alpha in (0, 1/3) it constructs one divergence-free, Z^2-periodic drift b
+    in C^0_t C^{0,alpha}_x intersect C^{0,alpha}_t C^0_x on [0,1] x T^2, and
+    proves three properties
+    of the advection-diffusion equation with this drift: anomalous
+    dissipation of scalar variance for every mean-zero H^1 datum (Theorem 1.1
+    of the paper); a uniform C^{0,mu}([0,1]; L^2) bound by C times the H^1
+    norm of the datum along a set of diffusivities accumulating at zero
+    (Remark r.LeBron.2); and non-uniqueness of vanishing-diffusivity limits
+    for a class of data containing cos(2 pi n x_1) for infinitely many n (a
+    corrected form of the paper's no-selection principle). The three
+    properties are combined in one theorem, restated in a Mathlib-only
+    comparator challenge. The formalization also proves existence and
+    uniqueness of weak solutions and the classical facts the paper uses
+    without proof.
+  authors:
+    - "Scott Armstrong"
+    - "Vlad Vicol"
+  responsible_maintainers:
+    - "Scott Armstrong"
+    - "Vlad Vicol"
+  affiliations:
+    - "Scott Armstrong: CNRS and Laboratoire Jacques-Louis Lions, Sorbonne Université; Courant Institute School of Mathematics, Computing, and Data Science, New York University"
+    - "Vlad Vicol: Department of Mathematics, Courant Institute School of Mathematics, Computing, and Data Science, New York University"
+  license: "Apache-2.0"
+  funding:
+    - "Scott Armstrong was supported by the European Research Council (ERC) under the European Union's Horizon Europe research and innovation programme, grant agreement No. 101200828."
+    - "Vlad Vicol was partially supported by the Collaborative NSF grant DMS-2307681 and by a Simons Investigator Award."
+
+classification:
+  arxiv: ["math.AP"]
+  msc2020: ["35K15", "35B27", "76F25", "35Q35"]
+
+sources:
+  - title: "Anomalous diffusion by fractal homogenization"
+    authors:
+      - "Scott Armstrong"
+      - "Vlad Vicol"
+    id: "arXiv:2305.05048"
+    type: "article"
+    location: "https://arxiv.org/abs/2305.05048"
+    relationship: "formalizes"
+    note: >-
+      Theorem 1.1 is formalized in dimension 2, the dimension in which the
+      paper writes out its proof. In a few places the formal proof differs
+      in detail from the printed one, and it takes beta in
+      (max{6/5, 1 + alpha}, 4/3) instead of beta = 1 + alpha.
+      Remark r.LeBron.2 is formalized as stated along the set of
+      diffusivities K. Proposition p.no.selection.principle is formalized in
+      a corrected form for a different class of data; the printed statement
+      for the class H^2(A, B) with beta >= 68/67 is not formalized. These
+      points are listed in doc/errata.pdf.
+    license: "unknown"
+    author_endorsement: "participated"
+
+related_formalizations:
+  - id: "https://github.com/scottnarmstrong/CoarseGraining"
+    relationship: "builds-on"
+    note: >-
+      The ambient-space and Sobolev definitions (Vec, MemL2On, weak
+      gradients) are vendored from CoarseGraining at commit
+      c7ddd76c08ade64fed1b8d2ca51be14dfee8deb4, ported to Lean's module
+      system, in the Homogenization directory.
+
+status:
+  scope: >-
+    Complete for Theorem 1.1 of the paper in dimension 2: for every
+    alpha in (0, 1/3) one drift b with the stated regularity, divergence free
+    in the sense of distributions, and one rate function rho with values in
+    (0, 1], such that every mean-zero H^1 datum satisfies the anomalous
+    dissipation bound for the weak solutions. For the same drift, the
+    combined theorem also proves the uniform C^{0,mu}([0,1]; L^2) bound of
+    Remark r.LeBron.2 along K = union of [kappa_j/2, 2 kappa_j] with
+    4 kappa_{j+1} < kappa_j, and a corrected no-selection principle: a class
+    of smooth mean-zero data, closed under nonzero scalings and containing
+    cos(2 pi n x_1) for infinitely many n, for which the solutions along
+    kappa_{2j}/2 and along 2 kappa_{2j} converge in C^{0,nu}([0,1]; L^2) to
+    two transport solutions whose L^2 norms differ at some time. Existence and
+    uniqueness of weak solutions are proved, so the hypotheses on the
+    solution family are satisfiable. Not formalized: the paper's other
+    dimensions, Appendix A, the explicit formula for rho, and the printed
+    no-selection statement for the class H^2(A, B), whose proof in the paper
+    fails and whose truth is open.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+  main_results:
+    - declaration: "AVenhance.anomalous_dissipation_full"
+      file: "AVenhance/Statements/FullTheorem/AnomalousDissipationFull.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "comparator.json"
+      literature_dependencies: []
+    - declaration: "AVChallenge.anomalous_dissipation_full"
+      file: "Solution.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "comparator.json"
+      literature_dependencies: []
+    - declaration: "AVenhance.anomalous_dissipation"
+      file: "AVenhance/Statements/Roots/AnomalousDissipation.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      literature_dependencies: []
+
+automation:
+  methods:
+    - method: "agent"
+      models:
+        - "gpt-6-luna"
+        - "gpt-6.1-sol"
+        - "gpt-6-astra"
+        - "claude-opus-5-5"
+        - "claude-sonnet-5-5"
+      framework: >-
+        Codex (GPT-6 luna, GPT-6.1 sol, GPT-6 astra) and Claude Code (Claude
+        Opus 5.5 coordinating, Claude Sonnet 5.5), under the authors'
+        supervision.
+      tool_setup: >-
+        Lean 4 and Mathlib v4.35.0-rc2. Every public definition and theorem
+        statement was written first, compared with the paper by an
+        independent model review, and approved by the authors before its
+        proof was developed. Before release, an independent model audit
+        compared the comparator statement with the paper, and the drift class
+        was strengthened to state the paper's class literally.
+        Verification uses full builds, axiom checks, and the Mathlib-only
+        comparator challenge with Lean's comparator and the independent
+        kernel checkers bundled with the toolchain.
+      cost:
+        wall_time: "about two and a half days of development plus release preparation"
+        spend_usd: "not separately tracked (ChatGPT Pro and Claude Max subscriptions)"
+        hardware: "one 8-CPU / 30 GB RAM Linux machine"
+      prompting_notes: >-
+        The authors determined the statements, approved the details of the
+        proofs, and reviewed the scope of each extension of the main
+        theorem. Where the printed proof needed a different argument, models
+        proposed one, and each was checked by a separate model review before it was
+        formalized.
+  spend_usd: "not separately tracked (ChatGPT Pro and Claude Max subscriptions)"
+  notes: >-
+    All Lean code was written by the listed models under the supervision of
+    the authors, who decided the mathematics, the statements and the
+    details of the proofs. Every proof is checked by the Lean kernel; the
+    library contains no sorry and no custom axiom. Challenge.lean contains
+    exactly one intentional theorem-body placeholder; Solution.lean proves the
+    same declaration from the library, and comparator.json selects it.
+
+fidelity:
+  divergences: >-
+    Dimension 2 only (the paper states Theorem 1.1 for d >= 2 but proves it
+    only for d = 2). The formal proof of Theorem 1.1 uses beta in
+    (max{6/5, 1 + alpha}, 4/3) and a later start of the induction, so the
+    exponent in the rate rho differs slightly from the paper's; the theorem
+    statement itself is unchanged, with rho depending only on the ratio
+    ||theta_0||_{L^2} / ||grad theta_0||_{L^2}. Weak solutions are weakly
+    continuous in time with values in L^2 (existence and uniqueness are
+    proved in this class). Hölder norms on R^2 use the sup norm, equivalent
+    to the Euclidean norm. The drift class C^0_t C^{0,alpha}_x intersect
+    C^{0,alpha}_t C^0_x of the paper is stated as joint continuity,
+    boundedness, a spatial alpha-Hölder bound uniform in t, an alpha-Hölder
+    bound in t uniform in x, and continuity of t into the spatial
+    C^{0,alpha} seminorm. The no-selection part is a corrected statement
+    for a different class of data than the paper's H^2(A, B) class, holds for
+    the same drift as Theorem 1.1 (constructed with beta in [6/5, 4/3)), and uses the explicit sequences kappa_{2j}/2 and
+    2 kappa_{2j}; the limit solutions solve the transport equation in
+    divergence form. Differences in the details of the proofs are listed in
+    doc/errata.pdf.
+
+review:
+  status: "author-verified"
+  reviewers:
+    - "Scott Armstrong"
+    - "Vlad Vicol"
+  notes: >-
+    Lean checks each proof against its formal statement. The authors reviewed
+    that the statements are the intended theorems. Each public statement was
+    compared with the paper by independent model reviews before its proof
+    was accepted, and the comparator declaration is checked mechanically.
+    This is not external peer review.
+
+alignment:
+  namespace: "AVenhance"
+  statements:
+    - source: "Theorem 1.1 (t.anomalous.diffusion) with Remark r.LeBron.2 and a corrected Proposition p.no.selection.principle, for one drift"
+      lean: "AVenhance.anomalous_dissipation_full"
+      module: "AVenhance.Statements.FullTheorem.AnomalousDissipationFull"
+      status: "proved"
+      note: >-
+        Part (i) is Theorem 1.1 in d = 2; part (ii) is Remark r.LeBron.2 along
+        K; part (iii) is a corrected no-selection principle (see
+        doc/errata.pdf). Comparator pair Challenge.lean / Solution.lean.
+    - source: "Theorem 1.1 (t.anomalous.diffusion), d = 2"
+      lean: "AVenhance.anomalous_dissipation"
+      module: "AVenhance.Statements.Roots.AnomalousDissipation"
+      status: "proved"
+      note: "Theorem 1.1 alone; identical to part (i) of the combined theorem."
+    - source: "Well-posedness of weak solutions (Section 1)"
+      lean: "AVenhance.weak_wellposed"
+      module: "AVenhance.Statements.Roots.WeakWellposed"
+      status: "proved"
+      note: "Existence and uniqueness of weak solutions for every kappa > 0 and every H^1 datum."
+    - source: "Proposition p.indystepdown"
+      lean: "AVenhance.indystepdown"
+      module: "AVenhance.Statements.Section4.IndyStepDown"
+      status: "adapted"
+      note: "Stated with errors measured relative to the dissipation; see doc/errata.pdf."
+    - source: "Remark r.LeBron"
+      lean: "AVenhance.lebron_step"
+      module: "AVenhance.Statements.FullTheorem.LebronStep"
+      status: "proved"
+      note: "The printed proof is incomplete; a complete argument is formalized."
+
+acknowledgements: >-
+  Scott Armstrong was supported by the European Research Council (ERC) under
+  the European Union's Horizon Europe research and innovation programme
+  (grant agreement No. 101200828). Vlad Vicol was partially supported by the
+  Collaborative NSF grant DMS-2307681 and by a Simons Investigator Award.
+  Built on Lean 4, Mathlib and Lake; the Sobolev carriers are taken from the
+  CoarseGraining formalization of Scott Armstrong and Tuomo Kuusi.

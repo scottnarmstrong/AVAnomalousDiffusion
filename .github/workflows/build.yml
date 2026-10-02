@@ -1,0 +1,46 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build and check axioms
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Check Lean source requirements
+        run: python3 scripts/check-lean-sources.py
+      - name: Check for unfinished proofs outside the Challenge
+        run: |
+          if grep -rnwE 'sorry|admit|axiom' --include='*.lean' AVenhance Homogenization AVenhance.lean Solution.lean \
+              | grep -vE '^[^:]+:[0-9]+:\s*(--|/-|.*-/\s*$)'; then
+            echo "unexpected sorry/admit/axiom" >&2; exit 1
+          fi
+      - uses: leanprover/lean-action@38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9
+        with:
+          build: true
+      - name: Print and check axioms of the main theorems
+        run: |
+          cat > "$RUNNER_TEMP/Axioms.lean" <<'LEAN'
+          import AVenhance
+          import Solution
+          #print axioms AVenhance.anomalous_dissipation
+          #print axioms AVenhance.anomalous_dissipation_full
+          #print axioms AVChallenge.anomalous_dissipation_full
+          LEAN
+          lake env lean "$RUNNER_TEMP/Axioms.lean" | tee "$RUNNER_TEMP/axioms.txt"
+          test "$(grep -c "depends on axioms: \[propext, Classical.choice, Quot.sound\]" "$RUNNER_TEMP/axioms.txt")" -eq 3

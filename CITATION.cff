@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: >-
+  If you use this formalization, please cite it as below, together with the
+  paper it formalizes. Scott Armstrong was supported by the European Research
+  Council (ERC) under the European Union's Horizon Europe research and
+  innovation programme, grant agreement No. 101200828. Vlad Vicol was
+  partially supported by the Collaborative NSF grant DMS-2307681 and by a
+  Simons Investigator Award.
+title: "AVAnomalousDiffusion: a Lean 4 formalization of anomalous diffusion by fractal homogenization"
+version: "1.0"
+date-released: 2026-10-02
+abstract: >-
+  A machine-checked Lean 4 / Mathlib formalization of S. Armstrong and V.
+  Vicol, "Anomalous diffusion by fractal homogenization". For every alpha in
+  (0, 1/3) it constructs a divergence-free, alpha-Hölder drift on [0,1] x T^2
+  for which the advection-diffusion equation exhibits anomalous dissipation
+  for every mean-zero H^1 datum, the solutions are uniformly Hölder in time
+  with values in L^2 along a set of diffusivities accumulating at zero, and
+  vanishing-diffusivity limits are not unique. The proof uses only the
+  standard axioms; corrections to the paper are documented in the
+  repository.
+type: software
+authors:
+  - family-names: Armstrong
+    given-names: Scott
+    affiliation: "CNRS and Laboratoire Jacques-Louis Lions, Sorbonne Université; Courant Institute School of Mathematics, Computing, and Data Science, New York University"
+  - family-names: Vicol
+    given-names: Vlad
+    affiliation: "Courant Institute School of Mathematics, Computing, and Data Science, New York University"
+keywords:
+  - Lean
+  - mathlib
+  - formal verification
+  - anomalous dissipation
+  - homogenization
+  - advection-diffusion equation
+license: Apache-2.0
+repository-code: "https://github.com/scottnarmstrong/AVAnomalousDiffusion"
+references:
+  - type: article
+    title: "Anomalous diffusion by fractal homogenization"
+    authors:
+      - family-names: Armstrong
+        given-names: Scott
+      - family-names: Vicol
+        given-names: Vlad
+    identifiers:
+      - type: other
+        value: "arXiv:2305.05048"
+    url: "https://arxiv.org/abs/2305.05048"

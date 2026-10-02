@@ -1,0 +1,482 @@
+\documentclass[11pt]{amsart}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{enumitem}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+\newcommand{\ep}{\varepsilon}
+\newcommand{\TT}{\mathbb{T}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Id}{\mathrm{I}}
+\newcommand{\K}{\mathbf{K}}
+\newcommand{\J}{\mathbf{J}}
+\newcommand{\F}{\mathbf{F}}
+\newcommand{\s}{\mathbf{s}}
+\newcommand{\A}{\mathbf{A}}
+\newcommand{\Q}{\mathbf{Q}}
+\renewcommand{\P}{\mathbf{P}}
+\newcommand{\Chi}{\mathbf{X}}
+\newcommand{\DD}{\mathbb{D}}
+\newcommand{\Ln}[1]{l.~#1}
+\newcommand{\Lns}[1]{ll.~#1}
+\newcommand{\lab}[1]{\texttt{#1}}
+\newcommand{\nf}[2]{\nicefrac{#1}{#2}}
+\providecommand{\nicefrac}[2]{#1/#2}
+
+\makeatletter
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}{.8\linespacing\@plus.4\linespacing}{.4\linespacing}{\normalfont\bfseries}}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}{.5\linespacing\@plus.2\linespacing}{-.5em}{\normalfont\bfseries}}
+\makeatother
+
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{proposition}[lemma]{Proposition}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+\setlist[itemize]{leftmargin=1.5em,itemsep=2pt}
+
+\newenvironment{erratum}[2]{\par\smallskip\noindent\textbf{#1}\ {\small(#2)}.\ }{\par}
+
+\title[Errata for ``Anomalous diffusion by fractal homogenization'']{Errata for ``Anomalous diffusion by fractal homogenization''}
+\date{October 2, 2026}
+
+\begin{document}
+
+\begin{abstract}
+We list the errors in S.~Armstrong and V.~Vicol, \emph{Anomalous diffusion by fractal homogenization} (arXiv:2305.05048), that were found while formalizing the paper in Lean~4. At two points the proof of the main theorem needs a modified argument, which we give below; it has been checked in Lean. The other errors are local: false auxiliary statements, wrong signs, ranges or exponents, and steps that needed a new argument. None of them affects Theorem~1.1. Finally, the proof of the no-selection principle in Section~5.5 of the paper contains a scaling error. We state and prove a corrected version, and leave the printed version open.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+\paragraph{What was formalized.}
+Theorem~1.1 of the paper has been proved in Lean~4, using only the standard axioms, in dimension~$d=2$, the only dimension in which the paper writes out the proof (\Ln{518}). The formal statement has the paper's quantifier structure. For every $\alpha\in(0,\nf13)$ there is a single field $\mathbf b\in C^0_tC^{0,\alpha}_x\cap C^{0,\alpha}_tC^0_x([0,1]\times\TT^2)$, divergence-free in the sense of distributions, and a function $\varrho:(0,\infty)\to(0,1]$, such that every mean-zero $\theta_0\in H^1(\TT^2)$ satisfies
+\begin{equation}
+\label{t.main}
+\limsup_{\kappa\to0^+}\kappa\|\nabla\theta^\kappa\|_{L^2((0,1)\times\TT^2)}^2\geq\varrho^2\bigl(\|\theta_0\|_{L^2}/\|\nabla\theta_0\|_{L^2}\bigr)\|\theta_0\|_{L^2}^2 .
+\end{equation}
+Here $\theta^\kappa$ is the unique weak solution with datum $\theta_0$; existence and uniqueness of weak solutions were also proved. Everything in Sections~2--5.4 and Appendices~B and~C that the proof uses was formalized. The paper uses some classical facts without proof: well-posedness, smoothness of solutions for smooth drifts, smooth dependence of flows, Liouville, and the forced energy identity used in \S5.4. These were proved too. They are not errata and are not discussed further.
+
+For the same field~$\mathbf b$ two further results of the paper were formalized. The first is the uniform bound of Remark~\lab{r.LeBron.2}: along the set $\mathcal K=\bigcup_j[\kappa_j/2,2\kappa_j]$ of diffusivities, where $\kappa_j\to0$ and $4\kappa_{j+1}<\kappa_j$, every solution satisfies $\|\theta^\kappa\|_{C^{0,\mu}([0,1];L^2(\TT^2))}\leq C\|\theta_0\|_{H^1}$ with $\mu,C$ independent of $\kappa$ and~$\theta_0$. The second is a corrected form of Proposition~\lab{p.no.selection.principle}; see \S\ref{ss.noselection}. Appendix~A, the remaining parts of Section~5.5 and the explicit form~\lab{e.varrho.def} of~$\varrho$ were not formalized.
+
+\paragraph{Effect on the main result.}
+Theorem~1.1 holds as stated (in dimension~$d=2$, the case formalized). Two places needed a new argument: the induction step (\S\ref{ss.relative}) and the coarse coefficient of the ansatz (\S\ref{ss.jacobian}). The repaired proof uses $\beta\in(\max\{\nf65,1+\alpha\},\nf43)$ in place of $\beta=1+\alpha$. It also starts the induction slightly later. As a result the power of $\|\theta_0\|_{L^2}/\|\nabla\theta_0\|_{L^2}$ in~$\varrho$ changes slightly (see~\eqref{e.pplus}).
+
+\paragraph{Conventions.}
+Line numbers refer to the TeX source \texttt{enhance.tex} of the arXiv version used for the formalization (11\,238 lines, SHA-256 \texttt{f57bca98\ldots e22312}). Labels are the paper's \verb|\label| keys. Each item is given one of three classes.
+\begin{itemize}
+\item \emph{Modified arguments} (\S\ref{s.modified}): the printed argument for the main theorem does not go through as written at that point. The modification changes either a definition in the construction or the structure of the argument.
+\item \emph{Other mathematical errors} (\S\ref{s.other}): false statements, wrong signs, ranges or exponents, and unproved steps that needed a new argument. For each we give the corrected statement and its effect on the main result. In every case the effect is at most a change of constants or of the admissible range of~$\beta$.
+\item \emph{Minor issues and typos} (\S\ref{s.minor}).
+\end{itemize}
+Matters internal to the formalization (encoding conventions, transcription slips) are omitted.
+
+\smallskip
+Throughout, $2\leq m\leq M$, $\kappa_M=\kappa$, and we abbreviate
+\begin{equation*}
+E:=\ep_{m-1},\quad e:=\ep_m,\quad \mu:=\kappa_m,\quad \nu:=\kappa_{m-1},\quad N:=\|\theta_0\|_{L^2(\TT^2)},\quad
+\mathsf D_j:=\kappa_j\|\nabla\theta_j\|^2_{L^2((0,1)\times\TT^2)} .
+\end{equation*}
+The parameters $q,\gamma,\delta$ are those of~\lab{e.q.def.0}, \lab{e.gamma} and~\lab{e.delta}. We use the exact identities
+\begin{equation}
+\label{e.identities}
+q(\beta-\gamma)=\beta+\gamma,\qquad
+\frac{(q-1)(\beta+\gamma)}{q}=2\gamma,\qquad
+q(1-\gamma)-1-\tfrac\gamma2=q-1-\tfrac\gamma2-q\gamma=4\delta,\qquad
+\frac\gamma\delta=\frac{16q}{q-1},
+\end{equation}
+all checked symbolically. In particular $\sqrt{\nu/\mu}\simeq e^{-\gamma}=E^{-q\gamma}$ for $m<M$.
+
+%=====================================================================
+\section{Two modified arguments in the proof of Theorem~1.1}
+\label{s.modified}
+
+\subsection{Relative versus additive errors in the induction step}
+\label{ss.relative}
+
+\paragraph{Where.}
+Proposition~\lab{p.indystepdown} (\Lns{8026--8061}) asserts the ratio bound~\lab{e.tildethetam.energy.diss} (\Ln{8059}),
+\begin{equation}
+\label{e.ratio}
+|\mathsf D_m-\mathsf D_{m-1}|\leq C\ep_{m-1}^\delta\,\mathsf D_{m-1},
+\end{equation}
+with $C=C(\beta)$ independent of $R_{\theta_0}$ and $\theta_0$. The proof reduces~\eqref{e.ratio} to~\lab{e.left.to.show} (\Lns{8108--8110} and~8271--8292). The proof of Theorem~1.1 then uses~\eqref{e.ratio} at every level $m>m_*$, in the form~\lab{e.crunch} (\Ln{9199}).
+
+\paragraph{What fails.}
+Every error estimate in \S\S4--5.3 is normalized by the datum norm~$N$. The ansatz error (\Lns{8088--8104}), \lab{e.leadingord} (\Ln{8256}), \lab{e.left.to.show} and \lab{e.Tm.thetam} (\Ln{5576}) together give only the additive bound
+\begin{equation}
+\label{e.additive}
+\bigl|\mathsf D_m^{1/2}-\mathsf D_{m-1}^{1/2}\bigr|\leq C\ep_{m-1}^\delta N ,
+\qquad\text{hence}\qquad
+|\mathsf D_m-\mathsf D_{m-1}|\leq C\ep_{m-1}^\delta N^2 .
+\end{equation}
+The second bound uses $\mathsf D_j\leq N^2/2$. Passing from~\eqref{e.additive} to~\eqref{e.ratio} requires a lower bound $\mathsf D_{m-1}\geq cN^2$, with~$c$ independent of~$\ep$ and~$R_{\theta_0}$. Nothing in \S5.3 supplies it. Nothing in \S5.4 supplies it either. The only lower bound there is the Poincaré bound~\lab{e.theta.m*.anomaly} (\Ln{9187}):
+\begin{equation*}
+\mathsf D_{m_*}\geq 2\pi^2c_*R_{\theta_0}^{\frac{2q(\beta+\gamma)}{2+\gamma}}N^2 .
+\end{equation*}
+By minimality of~$m_{\theta_0}$ the first additive error is $\ep_{m_*}^{2\delta}N^2\gtrsim R_{\theta_0}^{4q\delta/(2+\gamma)}N^2$. Since $2\delta<\beta+\gamma$, this error is larger than the Poincaré base. For example, take $\beta=\nf65$, so that $(q,\gamma,\delta)=(\nf32,\nf6{25},\nf1{200})$, and take $R_{\theta_0}=10^{-2}$. The base is $\approx1.4\cdot10^{-4}N^2$ and the error bound is $\approx0.94\,C N^2$. Moving the start to a finer level or enlarging~$\Lambda$ only makes the comparison worse: the base is of order $\kappa_j\simeq\ep_j^{\beta+\gamma}$ and the error of order $\ep_j^{\delta}$.
+
+No lower bound can be extracted from the scalar information alone. The sequence $\mathsf D_j=\ep_j^{\beta+\gamma}N^2$ satisfies the energy bound, the Poincaré lower bound and~\eqref{e.additive}, yet tends to zero. The failure is in the deduction, not necessarily in the statement: we neither proved nor refuted~\eqref{e.ratio} at the paper's starting level~$m_{\theta_0}$. The difficulty is genuine, however. The lower bound in Theorem~1.1 is a power of the length scale of~$\theta_0$, so $\mathsf D_{m-1}$ is in general much smaller than~$N^2$ at the levels where the induction starts, and errors proportional to~$N$ cannot be converted into relative errors.
+
+\paragraph{Repair.}
+The remedy is to measure every error by the dissipation of the coarse solution,
+\begin{equation*}
+S:=\mathsf D_{m-1}^{1/2}=\nu^{1/2}\|\nabla\theta_{m-1}\|_{L^2((0,1)\times\TT^2)},
+\end{equation*}
+rather than by~$N$. This requires two ingredients. The first is a later start of the induction. The second is a new initial-trace estimate, which bounds the derivatives of~$\theta_0$ by~$S$.
+
+\emph{Step 1: later start.} Put $r:=E^{1+\gamma/2}$, the analyticity radius of~$\theta_{m-1}$ supplied by \lab{l.theta.m-1.reg.upgrade}. Replace the condition $E^{1+\gamma/2}\leq R_{\theta_0}$ in~\lab{e.mtheta0.def} (\Ln{8045}) by
+\begin{equation}
+\label{e.later}
+E^{1+\gamma/2-\delta}\leq R_{\theta_0}, \qquad\text{that is,}\qquad R_{\theta_0}/r\geq E^{-\delta}.
+\end{equation}
+Accordingly set $j_*:=\min\{j\geq1:\ep_j^{1+\gamma/2-\delta}\leq R_{\theta_0}\}$ and run the induction for $m\in\{j_*+1,\ldots,M\}$.
+
+\emph{Step 2: initial trace.} The following lemma holds for an arbitrary drift and is new.
+
+\begin{lemma}
+\label{l.trace}
+Let $v$ be smooth, periodic and divergence-free, and set $B:=\sup_{[0,1]\times\TT^2}|\nabla v|$. Let $u$ solve $\partial_tu+v\cdot\nabla u-\nu\Delta u=0$ with $u(0)=g$, and set $S:=\nu^{1/2}\|\nabla u\|_{L^2((0,1)\times\TT^2)}$. Let $\Pi_\omega$ be the Fourier projection onto the frequencies $|2\pi k|\leq\omega$. If $\nu\omega^2\geq\max\{1,B\}$, then
+\begin{equation*}
+\|\nabla\Pi_\omega g\|_{L^2(\TT^2)}\leq 2e\,\omega S .
+\end{equation*}
+\end{lemma}
+\begin{proof}
+Let $T:=(\nu\omega^2)^{-1}\leq\min\{1,B^{-1}\}$, $G:=\|\nabla\Pi_\omega g\|_{L^2}$, and let $X_t$ be the flow of~$v$. The function $h(t):=(-\Delta\Pi_\omega g)\circ X_t^{-1}$ solves the transport equation. By the Piola identity, $h(t)=-\nabla\cdot w(t)$ with $w(t)=(\nabla X_t\,\nabla\Pi_\omega g)\circ X_t^{-1}$. For $t\leq T$ we have $|\nabla X_t^{\pm1}|\leq e^{Bt}\leq e$. Hence $\|w(t)\|_{L^2}\leq eG$ and $\|\nabla h(t)\|_{L^2}\leq e\|\nabla\Delta\Pi_\omega g\|_{L^2}\leq e\omega^2G$. Testing the equation for~$u$ with~$h$, and using Fourier orthogonality at $t=0$, gives
+\begin{equation*}
+G^2=\langle\nabla u(t),w(t)\rangle+\nu\int_0^t\langle\nabla u,\nabla h\rangle .
+\end{equation*}
+Divide by~$G$, average over $t\in(0,T)$ and apply the Cauchy--Schwarz inequality:
+\begin{equation*}
+G\leq e\bigl(T^{-1/2}+\nu\omega^2T^{1/2}\bigr)\|\nabla u\|_{L^2((0,T)\times\TT^2)}\leq 2e\,\omega S. \qedhere
+\end{equation*}
+\end{proof}
+
+\emph{Step 3: derivatives of the datum in terms of~$S$.} Apply Lemma~\ref{l.trace} with $u=\theta_{m-1}$, $v=\mathbf b_{m-1}$ and $\omega=A/r$ for a fixed large~$A$. This choice is admissible because $B\lesssim E^{\beta-2}\simeq\nu/r^2$ by~\lab{e.bm.Dn} and~\lab{e.kappam.bound}. The analyticity condition~\lab{e.theta0.anal.encore} gives the Fourier tail
+\begin{equation*}
+\|\partial^\alpha(1-\Pi_\omega)\theta_0\|_{L^2}\leq Cn!(C/R_{\theta_0})^ne^{-cR_{\theta_0}\omega}N .
+\end{equation*}
+Poincaré and the energy identity give $N\leq C\nu^{-1/2}S$. By~\eqref{e.later}, $e^{-cR_{\theta_0}\omega}\nu^{-1/2}\leq e^{-cAE^{-\delta}}E^{-(\beta+\gamma)/2}\leq1$ for $\Lambda$ large. Combining the two frequency ranges yields
+\begin{equation}
+\label{e.trace.derivs}
+\max_{|\alpha|=n}\|\partial^\alpha\theta_0\|_{L^2}\leq Cn!\,(C/r)^n\,S,\qquad n\geq1 .
+\end{equation}
+At the paper's start, where only $R_{\theta_0}\geq r$ is available, the exponential cannot absorb~$\nu^{-1/2}$. This is the reason for~\eqref{e.later}.
+
+\emph{Step 4: rerun \S\S4--5.3 with amplitude~$S$.} The structural point is that every estimate in \S\S4--5.3 uses $\theta_{m-1}$ only through positive spatial derivatives and the integrated gradient. Its undifferentiated norm $\sup_t\|\theta_{m-1}(t)\|_{L^2}$ is never needed. That norm is bounded by~$N$, but not by~$CS$ (this would be false). Replace the initial term in the differentiated energy recursion of \lab{l.theta.m-1.reg.upgrade} (\Lns{4590--4631}) by~\eqref{e.trace.derivs}. The recursion is otherwise unchanged and gives
+\begin{equation*}
+\|\partial^\alpha\theta_{m-1}\|_{L^\infty_tL^2_x}+\nu^{1/2}\|\nabla\partial^\alpha\theta_{m-1}\|_{L^2_{t,x}}\leq CS\,n!(C/r)^n ,\qquad n\geq1 .
+\end{equation*}
+The corrections $V^{(i)}_{m-1}$ have zero initial data, so the induction of \lab{l.V.m-1.reg.upgrade} runs verbatim with amplitude~$S$. It must, however, be corrected as described in \S\ref{ss.other4}. The same holds for \lab{e.Tm.reg.upgrade}, \lab{e.Tm.thetam}, \lab{e.barf.cascade}, \lab{p.Amnr.bounds}, \lab{p.Hm.bounds} and \lab{p.dm.bounds}: each keeps its power of~$E$, with $N$ replaced by~$S$. The nine error terms keep their powers. The ergodic remainders retain their full analytic amplitude $CE^{-P}S$, resp.\ $CE^{-P}S^2$, and the exponential absorbs the polynomial factor. The initial defect of the ansatz (\S\ref{ss.other53}) is $\leq C(E^{4\delta}+E^\delta)S$ by~\eqref{e.trace.derivs} with $n=1$. The result is $|\mathsf D_m^{1/2}-S|\leq C\ep_{m-1}^\delta S$, that is,
+\begin{equation}
+\label{e.relative}
+|\mathsf D_m-\mathsf D_{m-1}|\leq C'\ep_{m-1}^\delta\,\mathsf D_{m-1}\qquad\text{whenever}\quad \ep_{m-1}^{1+\gamma/2-\delta}\leq R_{\theta_0}.
+\end{equation}
+Here $C'$ depends only on~$\beta$ and the cutoff constants, and in particular not on~$\Lambda$, $R_{\theta_0}$ or~$\theta_0$. At $m=M$ one must use the product bound $\kappa_M\kappa_{M-1}\gtrsim a_M^2\ep_M^4$ in place of the two-sided bound for~$\kappa_M$ (see \S\ref{ss.other3}, item on $m=M$).
+
+\emph{Step 5: assembly.} Choose $\Lambda$ with $C'\Lambda^{-\delta}/(1-\Lambda^{-\delta})\leq\nf12$. Only then quantify over~$\theta_0$. If $j_*>1$, minimality gives $\ep_{j_*-1}^{1+\gamma/2-\delta}>R_{\theta_0}$, and with $\ep_{j_*}\geq\frac23\ep_{j_*-1}^q$ this yields $\kappa_{j_*}\geq cR_{\theta_0}^{p_+}$. If $j_*=1$, then $\kappa_1\geq c\ep_1^{\beta+\gamma}\geq cR_{\theta_0}^{p_+}$ with $c=c(\beta,\Lambda)$, because $R_{\theta_0}\leq(\sqrt2\pi)^{-1}$ by~\lab{e.theta0.anal.encore} with $n=1$ and Poincaré. The Poincaré argument of \Lns{9166--9190} gives $\mathsf D_{j_*}\geq c\kappa_{j_*}N^2$. Multiplying only the lower inequalities in~\eqref{e.relative} gives $\mathsf D_M\geq\frac12\mathsf D_{j_*}$. The upper half of~\lab{e.crunch} is not needed. For the comparison of $\theta_M$ with~$\theta$, the forced energy identity for $w=\theta-\theta_M$, whose right side is $\nabla\cdot((\phi-\phi_M)\sigma\nabla\theta_M)$, gives
+\begin{equation*}
+\kappa^{1/2}\|\nabla(\theta-\theta_M)\|_{L^2}\leq\frac{\|\phi-\phi_M\|_{L^\infty}}{\kappa}\,\kappa^{1/2}\|\nabla\theta_M\|_{L^2}\leq C\ep_M^{\beta(q-1)+\gamma}\,\kappa^{1/2}\|\nabla\theta_M\|_{L^2}.
+\end{equation*}
+This bounds the error relative to $\mathsf D_M$ and avoids the numerical error at \Ln{9371} (\S\ref{ss.other54}). The passage to $H^1$ data is the paper's mollification argument with the new exponent.
+
+\paragraph{Effect on exponents and constants.}
+The Poincaré exponent $\frac{2q(\beta+\gamma)}{2+\gamma}$ of~\lab{e.kappa*.def} and \lab{e.theta.m*.anomaly} is replaced by
+\begin{equation}
+\label{e.pplus}
+p_+:=\frac{q(\beta+\gamma)}{1+\frac\gamma2-\delta}<2\qquad\text{for } \tfrac65\leq\beta<\tfrac43 .
+\end{equation}
+For instance $p_+=\nf{432}{223}$ at $\beta=\nf65$, compared with the printed $\nf{27}{14}$. The mollification step needs $p_+<2$, just as the printed argument needs $\frac{q(\beta+\gamma)}{2+\gamma}<1$ (see \S\ref{ss.other54}). It yields $\varrho(L)=cL^{p_+/(2-p_+)}$ in place of $cL^{p/(2-p)}$ with $p=\frac{2q(\beta+\gamma)}{2+\gamma}$, where $L=\|\theta_0\|_{L^2}/\|\nabla\theta_0\|_{L^2}$.
+
+The repaired argument was verified only for $\beta\in[\nf65,\nf43)$. On this range $\delta\leq\nf1{200}$ and $q\gamma\leq\nf25$, which gives the margins needed in the tiny terms. Since $\mathbf b\in C^{0,\alpha}$ for all $\alpha<\beta-1$, this restriction costs nothing for Theorem~1.1. Proposition~\lab{p.indystepdown} holds in the form~\eqref{e.relative}, together with the unchanged estimate~\lab{e.homogenization.m}. The ratio bound at the paper's start $m_{\theta_0}$ remains unproved. We did not check whether the closing remark (\Lns{9483--9486}) on the exponent $\frac{1+\alpha}{1-\alpha}+\ep$ in~\lab{e.varrho.def} survives; since $p_+\to\beta$ as $q\downarrow1$, its form is plausible (\emph{unconfirmed}).
+
+%---------------------------------------------------------------------
+\subsection{The missing left Jacobian in the coarse coefficient}
+\label{ss.jacobian}
+
+\paragraph{Where.}
+Three places are involved. The first is the coarse matrix~\lab{e.sm} (\Ln{3974}), $\K_m+\s_{m-1}=\K_m\sum_l\hat\xi_{m,l}\F_l$. The second is the first tensor of the $\widetilde H_m$ hierarchy, \lab{e.A.mnr.def} (\Lns{4188--4196}), $\A^{ijk}_{m,n,0}=-\delta_{ij}L_{m,n}\sum_l\hat\xi_{m,l}(\F_l\nabla T_{m-1})_k$. Here $\F_l:=(\nabla X_{m-1,l})\circ X_{m-1,l}^{-1}$, with the paper's row convention $(\nabla X)_{ij}=\partial_iX_j$, so that $\nabla(T\circ X_l)\circ X_l^{-1}=\F_l\nabla T$ (\Ln{4137}). The third is the estimate of the last error term~\lab{e.monster.normie3} (\Ln{6976}): it applies the ergodic lemma with the fast factor~\lab{e.fg.choice.4} (\Lns{7236--7250}), which contains $\nabla\Chi_{m,k}$, whereas the term itself (\Lns{7952--7963}) contains $\nabla\widetilde\Chi_{m,k}$.
+
+\paragraph{What fails.}
+Fix a window in which a single odd~$k$ is active, and write $l=l_k$, $\F=\F_l$, $\Q:=\F^{-1}=(\nabla X_l^{-1})$ and $\P:=\J_m-\mu\Id$. The rank-one matrix $\P\simeq\nu$ is given explicitly at \Lns{3017--3042}. The chain rule reads
+\begin{equation*}
+\nabla\widetilde\Chi_{m,k}=\nabla(\Chi_{m,k}\circ X_l^{-1})=\Q\,(\nabla\Chi_{m,k})\circ X_l^{-1},
+\end{equation*}
+not $(\nabla\Chi_{m,k})\circ X_l^{-1}$. Because $\det\F=1$, we have $\sigma\Q=\F^{\mathsf T}\sigma$. Freezing the slow variables, the fast-cell mean of the actual flux of the ansatz is therefore
+\begin{equation*}
+\bigl\langle(\mu\Id+\tilde\psi_{m,k}\sigma)(\Id+\nabla\widetilde\Chi_{m,k})\bigr\rangle_{\mathrm{fast}}=\mu\Id+\F^{\mathsf T}\P .
+\end{equation*}
+The transport side has only $(\mu\Id+\P)$ in this place. Indeed, $\K_m+\s_{m-1}=\K_m\F$ supplies $\nabla\cdot(\K_m\F\nabla T)$ and $\widetilde H_m$ supplies $\nabla\cdot((\J_m-\K_m)\F\nabla T)$, so together they give $\nabla\cdot((\mu\Id+\P)\F\nabla T)$. Hence the residual of the ansatz contains the exact slow term
+\begin{equation}
+\label{e.L}
+L:=\nabla\cdot\sum_{k\in2\Z+1}\xi_{m,k}\,(\F_k^{\mathsf T}-\Id)\,\P\,\F_k\nabla T_{m-1},
+\end{equation}
+which has no centered fast factor. The ergodic gain at \Lns{7970--8004} does not apply to it. The assertion at \Ln{6874} that the $\J_m$ term ``centers its mean'' is false for the composed corrector. No other term cancels~$L$. Regrouping twistie4, twistie5 and normie3 by the corrector equation and the Piola identities leaves exactly~$-L$.
+
+The term is not small. Suppose the active level-$(m-1)$ shear is horizontal, so that $\F^{\mathsf T}-\Id=s\,e_1\otimes e_2$ with $|s|\simeq E^{2\delta}$ on a fixed fraction of each refresh window (\lab{e.Xm.bound.1}), and the level-$m$ shear is vertical, so that $\P=c\nu\,e_2\otimes e_2$. Then $(\F^{\mathsf T}-\Id)\P=c\nu s\,e_1\otimes e_2\neq0$. The two shear directions alternate on the time scale $\tau_m\ll\tau_m''$, so this happens about half of the time. The natural size of~$L$ is
+\begin{equation*}
+\|L\|_{L^2_t\dot H^{-1}_x}\lesssim\nu E^{2\delta}\|\nabla T_{m-1}\|_{L^2}\lesssim\nu^{1/2}E^{2\delta}N ,
+\end{equation*}
+while~\lab{e.bigbound} asserts $C\mu^{1/2}E^{\delta}N$. The ratio of the two is $E^{\delta-q\gamma}\to\infty$, because $q\gamma\gg\delta$ by~\eqref{e.identities}. The proof of~\lab{e.bigbound} therefore fails. We believe the estimate is false for the paper's ansatz: modulo the other eight estimates, it is equivalent to a cancellation in~$L$ of order $E^{q\gamma-\delta}$, which nothing provides. We have not, however, proved a matching lower bound for an actual instance. If the estimate is used as written, the energy step gives $\|\theta_m-\widetilde\theta_m\|\lesssim E^{2\delta-q\gamma}N\gg N$, and \lab{p.indystepdown} fails as well.
+
+The mechanism is the Piola rule. In Lagrangian variables the operator $\nabla_y\cdot\mathbf a\nabla_y$ becomes $\nabla_x\cdot\F^{\mathsf T}\mathbf a\F\nabla_x$ in Eulerian variables. The coarse coefficient must therefore have the form $\F^{\mathsf T}(\cdot)\F$, whereas~\lab{e.sm} and~\lab{e.A.mnr.def} carry only the right factor~$\F$. The heuristic at \Ln{3909} returns to Eulerian variables without the left factor.
+
+\paragraph{Repair.}
+Put the left Jacobian into both the coarse matrix and the first $\A$ tensor, keeping everything else (the ansatz formula~\lab{e.ansatz.line2}, $\K_m$, $L_{m,n}$, $\mathbf q_{m,n,r}$, $N_*$) unchanged:
+\begin{align*}
+\s^+_{m-1}&:=\K_m\sum_l\hat\xi_{m,l}(\F_l-\Id)+\sum_l\hat\xi_{m,l}(\F_l^{\mathsf T}-\Id)(\K_m-\mu\Id)\F_l ,
+\\
+(\A^+_{m,n,0})^{ijk}&:=-L_{m,n}\sum_l\hat\xi_{m,l}(\F_l^{\mathsf T})_{ij}(\F_l\nabla T_{m-1})_k .
+\end{align*}
+Thus $\K_m+\s^+_{m-1}=\sum_l\hat\xi_{m,l}\bigl[\mu\F_l+\F_l^{\mathsf T}(\K_m-\mu\Id)\F_l\bigr]$, and $\A^+_{m,n,r}$ is defined by the recursion~\lab{e.A.mnr.def} with the sign corrected (\S\ref{ss.other4}). Since $\DD_{t,m-1}\F_l=\F_l\nabla\mathbf b_{m-1}$, induction on~$r$ gives the closed form
+\begin{equation*}
+(\A^+_{m,n,r})^{ijk}=-\sum_l(\F_l^{\mathsf T})_{ij}\,\DD_{t,m-1}^r\bigl(L_{m,n}\hat\xi_{m,l}(\F_l\nabla T_{m-1})_k\bigr).
+\end{equation*}
+This confirms the orientation and shows that the new factor costs no derivatives. The telescoping argument of \Lns{4206--4262} now gives $\DD_{t,m-1}\widetilde H^+_m=\nabla\cdot\sum_l\hat\xi_{m,l}\F_l^{\mathsf T}(\J_m-\K_m)\F_l\nabla T+\nabla\cdot d^+_m$. The key identity is
+\begin{equation*}
+\K_m+\s^+_{m-1}+\sum_l\hat\xi_{m,l}\F_l^{\mathsf T}(\J_m-\K_m)\F_l=\sum_l\hat\xi_{m,l}\bigl[\mu\F_l+\F_l^{\mathsf T}\P\F_l\bigr].
+\end{equation*}
+By the support dichotomy for the cutoffs, the right side acting on~$\nabla T$ equals $\sum_k\xi_{m,k}(\mu\Id+\F_k^{\mathsf T}\P)\F_k\nabla T$ plus the transition term of~\S\ref{ss.other51} (first item). This is the fast-cell mean of the diffusive flux exactly. The slow defect~$L$ disappears. What remains is a molecular divergence $\nabla\cdot(\mu\sum_k\xi_{m,k}(\F_k-\Id)\nabla T)$ of size $\mu^{1/2}E^{2\delta}N$. The last error term becomes
+\begin{equation*}
+\sum_k\xi_{m,k}\F_k^{\mathsf T}\bigl(\J_m-C^0_k\bigr):\nabla(\F_k\nabla T),\qquad C^0_k=(\mu\Id+\tilde\psi_{m,k}\sigma)\bigl(\Id+(\nabla\Chi_{m,k})\circ X_{l_k}^{-1}\bigr).
+\end{equation*}
+Its fast factor $\J_m-C^0_k$ is precisely the centered one of~\lab{e.fg.choice.4}. The printed proof therefore applies and gives the printed power~$E^{4\delta}$.
+
+\paragraph{Effect on constants and exponents.}
+None. We have $\|\s^+_{m-1}\|_\infty\leq C\nu E^{2\delta}$ and $\|\partial^\alpha\s^+_{m-1}\|_\infty\leq C\nu\,n!(C/E)^n$, the same bounds as for~$\s_{m-1}$. All of \S4 keeps its powers. Coercivity in the $T$-iteration is unaffected, since it is supplied by $\nu\Delta$; the coefficient $\K_m+\s^+_{m-1}-\nu\Id$ only multiplies the previous iterate. After regrouping, each of the eleven residual terms (the nine revised terms, the transition term and the molecular divergence) is bounded by $C\mu^{1/2}E^{2\delta}N$, or by $C\mu^{1/2}E^{2\delta}S$ under~\eqref{e.later}. This is better than the target~$C\mu^{1/2}E^{\delta}$. Estimate~\lab{e.bigbound} and Proposition~\lab{p.indystepdown} (in the form of \S\ref{ss.relative}) hold for the corrected ansatz.
+
+%=====================================================================
+\section{The no-selection principle}
+\label{ss.noselection}
+
+\begin{erratum}{Proposition~\lab{p.no.selection.principle}}{\S5.5, \Lns{9510--10142}}
+The display at \Ln{9590} uses $a_m\ep_m^{2+\gamma}=\ep_m^{2\beta/(q+1)}$. In fact $a_m\ep_m^{2+\gamma}=\ep_m^{\beta+\gamma}$, while $\ep_m^{2\beta/(q+1)}=\ep_m^{\beta-\gamma}$; the exponents differ by~$2\gamma$. Three consequences follow.
+\begin{itemize}
+\item Lemma~\lab{l.kappa.m.flippity.floppity} is false as printed, and the alternating sequences of diffusivities it constructs do not lie in the set~$\mathcal K$ of~\lab{e.permitted}. Proposition~\lab{p.indystepdown} therefore does not apply to them.
+\item The restriction $\beta\geq\nf{68}{67}$ is an artifact of the error. The printed factor $\bigl(1+\frac{2q\delta}{2+\gamma-2q\delta}\bigr)\frac{2}{2+\gamma}\bigl(2-\beta+\frac{2\beta}{q+1}\bigr)$ equals~$2$ exactly at $q=17$, that is, at $\beta=\nf{68}{67}$. With the correct exponent the factor is $2\bigl(1+\frac{2q\delta}{2+\gamma-2q\delta}\bigr)>2$ for every~$\beta$.
+\item For data in the class $\dot H^2(A,B)$ of the proposition, the separation between the two candidate limits produced by the argument is of order $\ep_{m_*}^{2q\delta}$. This is smaller than the error $\ep_{m_*}^{\delta}$ of the telescoped estimate of Proposition~\lab{p.indystepdown}. So the argument does not prove the statement for this class. We do not know whether the statement is true.
+\end{itemize}
+\emph{Correction.} The analytic-data argument of the paper (\Lns{9840--9958}) goes through once the exponent is corrected and the $\dot H^2$ approximation step is removed, provided the datum oscillates on a sufficiently small length scale. The following holds for every $\beta\in[\nf65,\nf43)$, hence, choosing $\beta>1+\alpha$, for every $\alpha\in(0,\nf13)$ and for the same field~$\mathbf b$ as in Theorem~1.1. The restriction $\beta\geq\nf65$ comes from the repaired induction step of \S\ref{ss.relative}. There are $\kappa_j\to0$ with $4\kappa_{j+1}<\kappa_j$, an exponent $\nu>0$, and a class~$\mathcal D$ of smooth, mean-zero, nonzero data with the following properties: $\mathcal D$ is closed under multiplication by nonzero constants, and it contains $\cos(2\pi nx_1)$ for infinitely many~$n$. For every $\theta_0\in\mathcal D$ the solutions along the two sequences $\frac12\kappa_{2j}$ and $2\kappa_{2j}$, which lie in~$\mathcal K$, converge in $C^{0,\nu}([0,1];L^2(\TT^2))$ to two weak solutions of the transport equation $\partial_t\theta+\mathbf b\cdot\nabla\theta=0$ with datum~$\theta_0$, and the $L^2$ norms of these two solutions differ at some time. The two sequences are chosen so that the renormalized diffusivities at each level differ by a factor~$4^{\pm1}$. Convergence along each sequence follows from the estimate $\|\theta^\kappa-\theta^{\kappa'}\|\leq|\kappa-\kappa'|(4\kappa\kappa')^{-1/2}\|\theta_0\|$ at each level. This statement is part of the formalized main theorem.
+\end{erratum}
+
+The proof of Remark~\lab{r.LeBron} (\Lns{9041--9131}) is incomplete as printed: the display~\lab{e.Duhamel.shorttime} is cut off at \Ln{9095}. A complete argument was written and formalized; it uses only part~(i) of Proposition~\lab{p.indystepdown}.
+
+%=====================================================================
+\section{Other mathematical errors}
+\label{s.other}
+
+Each item gives the location, what is wrong, the correction, and the effect on the main result.
+
+\subsection{Section 2: construction and regularity}
+\label{ss.other2}
+
+\begin{erratum}{Definition of $l_k$, \lab{e.lk.def}}{\Ln{1173}}
+With the ceiling, the inclusion~\lab{e.taum.prime.supp} and the overlap property~\lab{e.cutoff.overlaps} are false. Write $\tau''_m/\tau_m=4n+1$. The inclusion says $(4n+1)l_k\in[k-2n,k+2n]$, while the ceiling gives $(4n+1)l_k\geq k+2n$. At $k=0$ one gets $l_0=1$, and $[-\tau_m/2,\tau_m/2]\not\subseteq[\tau''_m/2,3\tau''_m/2]$. Exact computation with $4n+1\in\{5,9,21\}$ and $|k|\leq30$ shows that the inclusion fails for most~$k$.
+\emph{Correction:} $l_k:=\bigl\lfloor\bigl(k\tau_m+\frac12(\tau''_m-\tau_m)\bigr)/\tau''_m\bigr\rfloor$, which equals $\bigl\lceil\bigl(k\tau_m-\frac12(\tau''_m-\tau_m)\bigr)/\tau''_m\bigr\rceil$. With this definition both properties hold, and each value of~$l$ is taken by exactly $\tau''_m/\tau_m$ consecutive~$k$. \emph{Effect:} none once corrected.
+\end{erratum}
+
+\begin{erratum}{Lower bound for $\tau''_m$ in \lab{e.taubounds}}{\Lns{1161--1168}}
+Since $\lceil y\rceil\geq y$, the definition gives $\tau''_m\leq2^{-25}\ep_{m-1}^{2-\beta+2\delta}$, so the printed lower bound with~$2^{-25}$ fails in general. For example, $\beta=1.02$, $\Lambda=128$, $m=2$ gives ratio $0.9977$. \emph{Correction:} $2^{-26}\ep_{m-1}^{2-\beta+2\delta}\leq\tau''_m\leq2^{-25}\ep_{m-1}^{2-\beta+2\delta}$. The bounds for~$\tau_m$ are correct. \emph{Effect:} none.
+\end{erratum}
+
+\begin{erratum}{Constant $10$ in \lab{e.supergeo}}{\Ln{1077}}
+The upper bound $\ep_{m+1}\leq(1+10\ep_m)\ep_m^q$ is false for large~$q$. At $\beta=1.01$ ($q=25.25$), $\Lambda=128$, $m=1$ one has $\ep_2/\ep_1^q=1.110>1+10\ep_1=1.064$. \emph{Correction:} $\ep_{m+1}\leq(1+C(\beta)\ep_m)\ep_m^q$, for instance with $C=2qe^{q/128}$. The lower bound is correct. The bounds $\frac23\ep_m^q\leq\ep_{m+1}\leq\frac43\ep_m^q$ then hold for $\Lambda\geq C(\beta)$. \emph{Effect:} none; $\Lambda$ is chosen large depending on~$\beta$.
+\end{erratum}
+
+\begin{erratum}{Proposition \lab{p.material.goal}, orders $\ell\geq3$}{\Lns{2106--2371}, in particular \Ln{2300}}
+The case $3\leq\ell\leq N_*$ is omitted, with a reference to commutator estimates in~[BMNV, A.6--A.7]. The printed cases $\ell\in\{1,2\}$ are also incomplete: the induction in~$m$ reuses an unchanged constant on the strength of monotonicity alone, which does not give uniformity in~$m$. A complete proof was written. It proceeds by induction on the material order, simultaneously at all scales. At each order one bounds the increment $\DD_{t,m}^\ell\mathbf b_m-\DD_{t,m-1}^\ell\mathbf b_{m-1}$ and then sums the increments over the scales, so the constant is uniform in~$m$. Exact noncommutative word expansions of $(\DD_{t,m-1}+\mathbf v_m\cdot\nabla)^\ell$ and $[\nabla^n,\DD^\ell_{t,m-1}]$, with explicit term counts, replace the citation. The second assertion of~\lab{e.material.goal} involves $\nabla^{n-1}$ and so is meaningful only for $n\geq1$. \emph{Effect:} none; the statement is correct.
+\end{erratum}
+
+\subsection{Section 3: correctors and renormalized diffusivities}
+\label{ss.other3}
+
+\begin{erratum}{Sign of the corrector, \lab{e.Chimk.formula}}{\Ln{2831}, also \Ln{2843}}
+A minus sign is missing:
+\begin{equation*}
+\Chi^\kappa_{m,k}=-\mathbf u_{m,k}\int_{-\infty}^t\hat\zeta_{m,l_k}\zeta_{m,k}\,e^{4\pi^2\kappa(s-t)/\ep_m^2}\,ds .
+\end{equation*}
+For $k\in4\Z+1$ the profile solves $f'+\frac{4\pi^2\kappa}{\ep_m^2}f=-\hat\zeta\zeta$. With the printed sign, $\J_m-\kappa\Id$ would be negative definite and \lab{l.amt.ergodic} would be false. The subsequent formulas (\Ln{3019} onward) are consistent with the corrected sign. \emph{Effect:} none.
+\end{erratum}
+
+\begin{erratum}{Two-sided bound in \lab{e.exprat.bound}}{\Lns{3580--3586} and \Ln{3715}}
+The identity $(2-\beta)(q-1)-q\gamma=4\delta$ at \Ln{3715} is wrong; the left side equals~$8\delta$. Consequently $\ep_m^2/(\kappa_m\tau_m)\simeq\ep_{m-1}^{4\delta}$, not $\ep_{m-1}^{2\delta}$. The upper bound $C\ep_{m-1}^{2\delta}$ remains true, but the lower bound $c\ep_{m-1}^{2\delta}$ is false for large~$m$. \emph{Correction:} $c\ep_{m-1}^{4\delta}\leq\ep_m^2/(\kappa_m\tau_m)\leq C\ep_{m-1}^{4\delta}$. \emph{Effect:} none; only the upper bound is used.
+\end{erratum}
+
+\begin{erratum}{Index ranges in \lab{l.recurse}}{\Lns{3561--3588}}
+The lemma claims both bounds for $m\in\{0,\ldots,M-1\}$. At $m=0$, \lab{e.kappam.bound} fails with $\Lambda$-independent constants: $\kappa_0/(a_0\ep_0^{2+\gamma})\to0$ as $\Lambda\to\infty$. Also \lab{e.exprat.bound} is undefined at $m=0$, and its lower bound fails at $m=1$. \emph{Correction:} \lab{e.kappam.bound} holds for $1\leq m\leq M-1$, and \lab{e.exprat.bound} (with~$4\delta$) for $2\leq m\leq M-1$. \emph{Effect:} none; every use has $m\geq1$, resp.\ $m\geq2$ (note $m_{\theta_0}\geq2$).
+\end{erratum}
+
+\begin{erratum}{Use of two-sided bounds at the top level $m=M$}{\Lns{7268--7277}, \Ln{7997}, \Lns{8167, 8198, 8233, 8250}}
+Lemma~\lab{l.recurse} covers only $m\leq M-1$, but the reference list and \S\S5.2--5.3 apply $\kappa_m\simeq\ep_m^{\beta+\gamma}$ and $\ep_m^2/(\kappa_m\tau_m)\simeq\ep_{m-1}^{2\delta}$ also at $m=M$. There $\kappa_M\simeq\ep_M^{2\beta/(q+1)}=\ep_M^{\beta-\gamma}\gg\ep_M^{\beta+\gamma}$. The upper bound for~$\kappa_M$ and the lower bound for the ratio are false; numerically, $\kappa_M/(a_M\ep_M^{2+\gamma})\approx4\cdot10^3$ at $\Lambda=128$. In particular the displayed simplification $(\kappa_m/\kappa_{m-1})^{1/2}\ep_m^{-\gamma}\leq C$ (\Lns{7997, 8167, 8198, 8233}) and the bound $C\ep_{m-1}^{\delta+\gamma}$ for the $\widetilde H_m$ gradient (\Ln{8250}) fail or do not follow at $m=M$. \emph{Correction:} every quantity involved is monotone in~$\kappa_m$ before simplification, so only the true one-sided bounds are needed. Use $\kappa_m\geq c\ep_m^{\beta+\gamma}$ together with positive enhancement, $\kappa_{m-1}\kappa_m\geq c\,a_m^2\ep_m^4$, which gives $\kappa_m\|\nabla\Chi_{m,k}\|_\infty\leq C(\kappa_m\kappa_{m-1})^{1/2}$. For the $\widetilde H_m$ gradient use the uniform bound $E^{4\delta}$. \emph{Effect:} none.
+\end{erratum}
+
+\begin{erratum}{Periods of $\mathbf j_{m,n}$, $\mathbf q_{m,n,r}$ and $\J_m$}{\Lns{3037, 3092, 3232, 3245}}
+The paper claims $\tau_m$-periodicity (resp.\ $\tau''_m$-periodicity for~$\J_m$). Translation by~$\tau_m$ maps the odd cutoffs to the even ones, and translation by $2\tau_m$ swaps the two shear directions. With the given cutoffs, $\mathbf j_{m,0}(0)=0\neq\mathbf j_{m,0}(\tau_m)$. \emph{Correction:} the periods are $4\tau_m$ and $4\tau''_m$. Since $1/(4\tau_m)\in\N$, the time averages and the characterization~\lab{e.q.mnr.def} remain valid with this period. \emph{Effect:} constants only.
+\end{erratum}
+
+\begin{erratum}{Factor $1/r!$ in \lab{e.qmnr.bounds}}{\Ln{3261}}
+The bound $\|\mathbf q_{m,n,r}\|_\infty\leq Ca_m^2\ep_m^2(\ep_m^2/\kappa\tau_m)^n(C\tau_m)^r/r!$ is false for large~$r$. Repeated mean-zero primitives of a periodic function of period $4\tau_m$ decay like $(4\tau_m/2\pi)^r$, not like $C^r\tau_m^r/r!$; this was checked numerically for $r\leq160$. \emph{Correction:} drop the~$r!$, so that $|\mathbf q_{m,n,r}|\leq C_{N_*}a_m^2\ep_m^2(C\ep_m^2/\kappa\tau_m)^n(C\tau_m)^r$. \emph{Effect:} none; only $r\leq\lfloor(N_*-1)/2\rfloor$ is used.
+\end{erratum}
+
+\begin{erratum}{Ergodic comparison \lab{e.Kbar.almost.average}}{\Ln{3218}}
+The proof applies Lemma~\lab{l.averages}, which needs analyticity bounds of all orders, to $L_{m,n}$ and~$\K_m$. These have only $N_*$ derivative bounds, \lab{e.Lmn.bound} (\Ln{3129}). \emph{Correction:} a Taylor-remainder argument gives the bound with an additional relative error $C(C\tau_m/\tau'_m)^{N_*}$. Since $\tau_m/\tau'_m\lesssim\ep_{m-1}^\delta$ and $N_*\geq\delta^{-2}$, this is $\lesssim\ep_{m-1}^{\delta N_*}\leq\ep_{m-1}^{1/\delta}$, smaller than any rate used later. The printed single-rate bound remains unproved. \emph{Effect:} none, provided the second rate is carried into the $V$ iteration (\S\ref{ss.other4}).
+\end{erratum}
+
+\begin{erratum}{$a_m\tau_m\leq1$ in \lab{e.corrbounds.Chi.decay}}{\Ln{2903}}
+In fact $a_m\tau_m\gg1$; it is a negative power of~$\ep_{m-1}$. Hence the last inequality is not valid for all $\kappa>0$. It does hold when $\kappa\tau_m/\ep_m^2$ is at least a negative power of~$\ep_{m-1}$, since the exponential then absorbs $a_m\tau_m$; by~\lab{e.exprat.bound} this is the only case used. \emph{Effect:} none.
+\end{erratum}
+
+\subsection{Section 4: the multiscale ansatz}
+\label{ss.other4}
+
+\begin{erratum}{Identity \lab{e.dancing.partitions} and the twisted corrector \lab{e.Chim.def}}{\Lns{4354--4392}}
+The identity $\hat\xi_{m,l}\xi_{m,k}\Chi_{m,k}=\xi_{m,k}\Chi_{m,k}\mathbf 1_{\{l=l_k\}}$ is false. The transitions of~$\hat\xi_{m,l}$ have width $2\tau'_m\geq10\tau_m$, so they meet the supports of some~$\xi_{m,k}$ with $k$ odd, where $\Chi_{m,k}$ has a nonzero (exponentially small) tail. The two lines of~\lab{e.ansatz} are therefore different functions. Moreover, $\widetilde\Chi_{m,k}$ must be $\Chi_{m,k}\circ X^{-1}_{m-1,l_k}$, not $\Chi_{m,k}\circ X^{-1}_{m-1,k}$. \emph{Correction:} define $\widetilde\theta_m$ by~\lab{e.ansatz.line2} with $l_k$ throughout; this is the object differentiated in \S5. With this definition the ansatz has exact spatial mean $\langle\theta_0\rangle$. A double sum with twist by $X^{-1}_{m-1,l_k}$ and composition with $X_{m-1,l}$ does not: its mean is nonzero in the transition windows, so its residual has infinite $\dot H^{-1}$ norm. \emph{Effect:} none, after the additional term of~\S\ref{ss.other51} is included.
+\end{erratum}
+
+\begin{erratum}{Truncation of $\widetilde H_m$}{\Lns{4241--4262}, \Lns{4330--4331}, Step~1 of \lab{p.Hm.bounds}}
+The sum $\sum_{r=0}^{N_*/2}\widetilde H_{m,r}$ telescopes to a remainder with index $N_*/2+1$, not the printed~$N_*/2$. Also, Step~1 of the proof of \lab{p.Hm.bounds} needs $\|\nabla\DD_{t,m-1}\A_{m,n,r}\|$, which \lab{p.Amnr.bounds} supplies only when $N_*-2r\geq3$; this fails at the top index when $N_*$ is even. \emph{Correction:} sum over $0\leq r<J:=\lfloor(N_*-1)/2\rfloor$, with remainder $\nabla\cdot\sum_n\A_{m,n,J}\mathbf q_{m,n,J}$. \emph{Effect:} none; $\delta J$ is still large enough for the~$d_m$ bound.
+\end{erratum}
+
+\begin{erratum}{Sign in the recursion \lab{e.A.mnr.def}}{\Ln{4199}}
+For divergence-free~$\mathbf b$ one has $\DD_t\nabla\cdot v=\nabla\cdot\bigl(\DD_tv-(\nabla\mathbf b)^{\mathsf T}v\bigr)$. Hence the telescoping identity requires
+\begin{equation*}
+\A^{ijk}_{m,n,r+1}=\DD_{t,m-1}\A^{ijk}_{m,n,r}-\partial_\ell\mathbf b^i_{m-1}\A^{\ell jk}_{m,n,r}.
+\end{equation*}
+With the printed plus sign a defect of the form $2(\partial_i\mathbf b^p)\partial_p\A^{i\cdot\cdot}$ remains (checked symbolically). \emph{Effect:} none.
+\end{erratum}
+
+\begin{erratum}{Case $n=0$ of \lab{l.theta.m-1.reg.upgrade}}{\Lns{4477--4490}}
+At $n=0$ the claim $\sup_t\|\theta_{m-1}\|_{L^2}+\kappa_{m-1}^{1/2}\|\nabla\theta_{m-1}\|_{L^2}\leq\|\theta_0\|_{L^2}$ is false for every nonconstant datum. The energy identity gives only $(1+2^{-1/2})\|\theta_0\|_{L^2}$. The normalization $D_0\leq1$ in the proof (\Lns{4632--4680}) inherits the error. \emph{Correction:} put a factor~$2$ on the right side for all~$n$. \emph{Effect:} constants only.
+\end{erratum}
+
+\begin{erratum}{Energy estimates in the $V^{(i)}_{m-1}$ induction, \lab{l.V.m-1.reg.upgrade}}{\Lns{4795--4830}, \Lns{5105--5132}, \Lns{5464--5486}}
+There are three problems. (a) The left side of~\lab{e.test.partialaaVm-1} contains $\sup_{t\in[0,1]}$, but the right side consists of full-interval integrals. The energy identity on~$[0,t]$ produces the boundary term $\langle\nabla\partial^\alpha V^{(i)},\Q_m(t)\nabla\partial^\alpha V^{(i-1)}\rangle$, which the time integration by parts (using $\Q_m(0)=\Q_m(1)=0$) does not remove. At $i=1$ the second integration by parts produces $\frac12\|\Q_m(t):\nabla^2\partial^\alpha V^{(0)}\|^2$ as well. (b) The mean discrepancy $\langle\!\langle\K_m\rangle\!\rangle-\kappa_{m-1}\Id$ must include the second rate of~\lab{e.Kbar.almost.average} (\S\ref{ss.other3}). (c) The closing display (\Lns{5477--5486}) drops the $C/C_0$ term present for $i\geq3$ at $n=0$ (\Ln{5441}). \emph{Correction:} keep the boundary terms. Moving their derivative onto the previous iterate, they cost $C(\nu\tau''_m\mathcal H^2)^2(\mathsf A_{i-1}/\mathsf A_i)^2$, with the same factorials and with $\mathcal H$ the analyticity parameter of the induction. Keep the second rate, which is $\leq\ep_{m-1}^{2\delta}$ after enlarging~$\Lambda$. Keep the $C/C_0$ term and choose~$C_0$ large. \emph{Effect:} constants only; the lemma holds as stated.
+\end{erratum}
+
+\begin{erratum}{$\kappa_m\ep_m^{-2}\leq C(\tau'_m)^{-1}$ in the proof of \lab{p.Amnr.bounds}}{\Ln{5961}}
+This is false: $\kappa_m\tau'_m/\ep_m^2\simeq\ep_{m-1}^{-5\delta}$. \emph{Correction:} it is not needed. The bounds for $\A_{m,n,r}$ follow from the material rate $(\tau'_m)^{-1}$ of the coefficients and the rate $a_{m-1}$ of the flow. \emph{Effect:} none.
+\end{erratum}
+
+\subsection{Sections 5.1--5.2: the error of the ansatz}
+\label{ss.other51}
+
+\begin{erratum}{An omitted error term near the $\hat\xi$ transitions}{\Lns{6508--6987}}
+The computation of $(\partial_t-\kappa_m\Delta+\mathbf b_m\cdot\nabla)\widetilde\theta_m$ for~\lab{e.ansatz.line2} treats the transport side, which involves $\sum_l\hat\xi_{m,l}\nabla(T\circ X_l)\circ X_l^{-1}$ (see \Ln{6870}), as if it equalled $\nabla(T\circ X_{l_k})\circ X_{l_k}^{-1}$ on $\operatorname{supp}\xi_{m,k}$. The exact residual contains in addition
+\begin{equation*}
+R_{46}=\nabla\cdot\Bigl(\J_m\sum_k\xi_{m,k}\Bigl(\sum_l\hat\xi_{m,l}\F_l-\F_{l_k}\Bigr)\nabla T_{m-1}\Bigr),
+\end{equation*}
+which is supported in the transition windows. \emph{Correction:} if some $\hat\zeta_{m,l}(t)\neq0$, then (using the corrected~$l_k$) every active $\xi_{m,k}$ has $l_k=l$ and $\hat\xi_{m,l}=1$, so the bracket vanishes. Otherwise all $\hat\zeta_{m,l}(t)$ vanish and $\J_m=\kappa_m\Id$ by~\lab{e.Jm.explicit.mofo}. Hence $\|R_{46}\|_{L^2\dot H^{-1}}\leq\kappa_m\|\sum_k\xi_{m,k}(\cdots)\nabla T\|_{L^2}\leq C\kappa_m^{1/2}E^{2\delta}N$. \emph{Effect:} none.
+\end{erratum}
+
+\begin{erratum}{Parameters and analyticity input of the ergodic lemma}{\Lns{7065--7078}, \Lns{7090--7103}}
+In \Ln{7078} the choice $R=r=C_X=C\ep_{m-1}^{-1}$ is inconsistent with Lemma~\lab{l.flow.averages}, where $r\in(0,1]$ is a radius. The bound~\lab{e.flow.for.ergodic} corresponds to $C_X=C\ep_{m-1}$ and $R=C\ep_{m-1}^{-1}$. Moreover, \lab{e.checking.f.ergodic} claims $L^\infty$ derivative bounds for~$f$ at radius~$\ep_{m-1}$. The available input, \lab{e.Tm.reg.upgrade}, gives $L^2$ bounds at radius $r=\ep_{m-1}^{1+\gamma/2}/C$ only, and the product and composition steps need the averaged estimates of \S\ref{ss.otherC}. \emph{Correction:} take $r=\ep_{m-1}^{1+\gamma/2}/C$ and retain the full amplitude of~$f$ (a polynomial factor $CE^{-P}N$). The exponential factor becomes $\exp(-cE^{-(q-1-\gamma/2)})$. Since $q-1-\gamma/2=q\gamma+4\delta>0$, it still absorbs every polynomial factor. The amplitude-free remainders $\ep_{m-1}^{500}\|g\|$ (\Lns{7099--7101}) must carry the amplitude of~$f$. \emph{Effect:} none.
+\end{erratum}
+
+\begin{erratum}{Mean-zero condition in the $\dot H^{-1}$ ergodic lemma}{\Ln{11120} as applied in \S5.2}
+Lemma~\lab{l.Hminusone.ergodic} requires $\langle fg\rangle=0$, and the $\dot H^{-1}$ norm of a function with nonzero mean is infinite. The individual nondivergence terms twistie4, twistie5 and normie3 have small but nonzero means; only suitable sums are mean-zero. \emph{Correction:} the full residual has exact mean zero, since the ansatz has constant mean. Apply the lemma to centered fast factors, or to the group twistie4~$+$~twistie5~$+$~normie3, which is a divergence. In the corrected scheme of \S\ref{ss.jacobian} each revised term is individually mean-zero. \emph{Effect:} none.
+\end{erratum}
+
+\begin{erratum}{Lower bounds for $N_*$}{\Ln{7850}, \Ln{7883}}
+The claims $N_*\geq8+\frac{128q^2}{q-1}=8+4(q-1)(\beta+\gamma)/\delta$ and $N_*\geq8+128q^2(q-1)$ are false for~$\beta$ close to~$1$. For instance $\beta=\nf{400}{399}$ gives $N_*=8494<12937$, and the first claim fails for $\beta\lesssim1.0038$. \emph{Correction:} enlarge~$N_*$ in~\lab{e.N} by these quantities. \emph{Effect:} none; Theorem~1.1 can use $\beta\geq\nf65$.
+\end{erratum}
+
+\begin{erratum}{\lab{e.tam}}{\Ln{7265}}
+$\tau_m\simeq a_{m-1}^{-1}\ep_{m-1}^{2\delta}$ is the scaling of~$\tau''_m$. In fact $\tau_m\simeq a_{m-1}^{-1}\ep_{m-1}^{4\delta}$. \emph{Effect:} none; the places where it is used involve $a_{m-1}\tau''_m$.
+\end{erratum}
+
+\subsection{Section 5.3: the induction step}
+\label{ss.other53}
+
+\begin{erratum}{Initial values of $\theta_m-\widetilde\theta_m$}{\Ln{8094}}
+The claim that $\theta_m=\widetilde\theta_m$ at $t=0$ is false. Indeed $\xi_{m,\pm1}(0)\Chi_{m,\pm1}(0)\neq0$, and $\widetilde H_m(0)\neq0$ since $L_{m,0}(0)\approx\ep_m^2/(4\pi^2\kappa_m)$. \emph{Correction:} add the initial term to the energy estimate. Using~\lab{e.corrm}, $|\nabla X_{m-1,l_k}|\leq2$ on $\operatorname{supp}\xi_{m,k}$, \lab{e.theta0.anal.encore} with $n=1$, and $E^{1+\gamma/2}\leq R_{\theta_0}$, one gets
+\begin{equation*}
+\|\widetilde\theta_m(0)-\theta_0\|_{L^2}\leq C\ep_m^{1-\gamma}\|\nabla\theta_0\|_{L^2}+\|\widetilde H_m(0)\|_{L^2}\leq C(E^{4\delta}+E^\delta)N ,
+\end{equation*}
+by the identity $q(1-\gamma)-1-\frac\gamma2=4\delta$. \emph{Effect:} none.
+\end{erratum}
+
+\subsection{Section 5.4: the proof of Theorem 1.1}
+\label{ss.other54}
+
+\begin{erratum}{\lab{e.kappa*.def} when $m_*=1$}{\Ln{9152}}
+The chain $c_*\ep_{m_*-1}^{q(\beta+\gamma)}\leq c_*\ep_{m_*}^{\beta+\gamma}$ is false when $m_*=1$, because $\ep_0=1>\ep_1$. \emph{Correction:} treat $m_*=1$ separately. In that case $\kappa_1\geq c\ep_1^{\beta+\gamma}$ with $c=c(\beta,\Lambda)$, and $R_{\theta_0}\leq(\sqrt2\pi)^{-1}$ for every nonzero admissible datum. \emph{Effect:} constants only.
+\end{erratum}
+
+\begin{erratum}{Triangle inequality in \lab{e.theta.yes.anom}}{\Ln{9371}}
+From $\kappa\|\nabla\theta_M\|^2\geq\frac34\mathsf D_{m_*}$ and $\kappa\|\nabla(\theta-\theta_M)\|^2\leq\frac14\mathsf D_{m_*}$ one gets only $(\sqrt{3/4}-\sqrt{1/4})\approx0.366$ in place of the claimed $2^{-1/2}\approx0.707$. \emph{Correction:} make the comparison error at most $\frac1{100}\mathsf D_{m_*}$ by enlarging~$\Lambda$, or compare relative to $\mathsf D_M$ as in \S\ref{ss.relative}. \emph{Effect:} constants only.
+\end{erratum}
+
+\begin{erratum}{Admissible range of $\beta$ in the choice of $\alpha$}{\Lns{9419--9472}, \Ln{981}}
+The choice $\alpha\leq cL_{\theta_0}^{q(\beta+\gamma)/(2+\gamma-q(\beta+\gamma))}$ requires $\frac{q(\beta+\gamma)}{2+\gamma}<1$, which holds only for $\beta>\beta_0\approx1.1912$; at $\beta=1.01$ this quantity is $\approx16.7$. With $\beta=1+\alpha$ as stated at \Ln{981}, the argument therefore fails for small Hölder exponents~$\alpha$. In addition, \lab{c.phim} gives $\mathbf b\in C^{0,\beta'}$ only for $\beta'<\beta-1$, not for $\beta'=\beta-1$. \emph{Correction:} for a given $\alpha\in(0,\nf13)$ choose $\beta\in(\max\{\beta_0,1+\alpha\},\nf43)$; in the repaired route, $\beta\in(\max\{\nf65,1+\alpha\},\nf43)$. \emph{Effect:} none on Theorem~1.1.
+\end{erratum}
+
+\begin{erratum}{The $H^1$ reduction}{\Lns{9384--9472}}
+The proof needs $\|\theta_0-\tilde\theta_0\|_{L^2}\leq C\alpha\|\theta_0\|_{L^2}$, but~\lab{e.them.mollifiers} only compares the norms of $\theta_0$ and~$\tilde\theta_0$. The missing bound follows from $\|\theta_0-e^{s\Delta}\theta_0\|_{L^2}\leq s^{1/2}\|\nabla\theta_0\|_{L^2}$. The passage from the bound for $\kappa\in\mathcal K$ to the $\limsup$ is also not written; it needs $M(\kappa)\to\infty$, in particular $M(\kappa)>m_*$. \emph{Effect:} none.
+\end{erratum}
+
+\subsection{Appendix B}
+\label{ss.otherB}
+
+\begin{erratum}{Lemma \lab{l.transport.reg:shift} for unequal radii}{\Lns{10577--10666}}
+After~\lab{eq.vomit.2} the second coefficient is $\frac{nR_Y(t)}{16(n+1)R_{\mathbf f}}$, not~$\frac1{16}$, because $R_Y/R_{\mathbf f}\geq1$ was dropped. Absorbing the supremum also uses an unstated a~priori finiteness. The lemma is false when $R_{\mathbf g}\gg R_{\mathbf f}$. Take $d=1$, $\mathbf f(x)=-x$, $C_{\mathbf f}=4$, $R_{\mathbf f}=1$, and the time-independent $\mathbf g(x)=(N+1)^{-2}(1+(100x)^2)^{-1}$, so that $C_{\mathbf g}=1$ and $R_{\mathbf g}=100$, with $N=1000$. At $x=0$ and $t=T=\nf1{16}$ one finds $T^{-1}[\![Y(T)]\!]_{N,101}\geq(\nf{100}{101})^N(e^{N/16}-1)/(N/16)>22>8$ (checked by hand). \emph{Correction:} state the lemma for $R_{\mathbf g}=R_{\mathbf f}$, the only case used. There the argument closes with constant $\frac87$ in place of $\frac{16}{15}$, and $8dC_{\mathbf g}$ still holds. \emph{Effect:} none.
+\end{erratum}
+
+\begin{erratum}{A summation bound in the proof of Lemma \lab{l.transport.reg:shift}}{\Ln{10663}}
+The inequality $\sum_{k=0}^{n-2}(n+1)^2(k+1)^{-2}(n-k+1)^{-2}\leq\frac32$ is false: the sum is $1.70$ at $n=4$ and $2.24$ at $n=22$. \emph{Correction:} the sum that actually occurs in the preceding display has $(k+2)^{-2}$ in place of $(k+1)^{-2}$, and it is at most $1.16$. \emph{Effect:} none.
+\end{erratum}
+
+\subsection{Appendix C}
+\label{ss.otherC}
+
+\begin{erratum}{Order zero in Remark \lab{r.averages.square}}{\Lns{10997--11025}}
+The Leibniz step uses the $j=0$ term $\langle|f|^2\rangle^{1/2}\leq C_f$, but~\lab{e.ass.f.anal.2} is stated without a range for~$n$. If only $n\geq1$ is assumed, the estimate is false; take $f=M+a\cos2\pi x$ with $M$ large. Also, applying Lemma~\lab{l.averages} at radius $r/2$ needs $Nr\geq2$, while only $Nr\geq1$ is assumed. \emph{Correction:} require~\lab{e.ass.f.anal.2} for all $n\in\N_0$, also in~\lab{e.ass.f.anal.2.again}. Either assume $Nr\geq2$ or extend the Fourier argument (both work). Consumers must supply the order-zero bound. For the slow factors of \S5.2 it holds with their full analytic amplitude. \emph{Effect:} none.
+\end{erratum}
+
+\begin{erratum}{Composition step in Lemma \lab{l.flow.averages}}{\Lns{11092--11106}}
+Proposition~\lab{prop:compose:analytic} is an $L^\infty$ estimate, whereas~$f$ satisfies only averaged ($L^1$ or~$L^2$) derivative bounds. Hence~\lab{e.ass.tilde.f.anal} does not follow as written. \emph{Correction:} composition with a volume-preserving~$X$ preserves the averaged bounds, with the same composed radius $\tilde r=r/(R(r+dC_X))$. This is proved by expanding with Faà di Bruno and changing variables term by term. The conclusion of the lemma is unchanged. \emph{Effect:} none.
+\end{erratum}
+
+\begin{erratum}{Fourier decay in the proof of Lemma \lab{l.averages}}{\Lns{10982--10986}}
+The bound $e^{r|k|/C}|\hat f_k|\leq CC_f$ is false at $k=0$, which is not controlled by derivatives, and when $r|k|\ll1$. The ``simple exercise'' is correct for $r|k|\geq1$, which is the only case used since $|k|\geq N\geq r^{-1}$. A proof was written and formalized. \emph{Effect:} none.
+\end{erratum}
+
+%=====================================================================
+\section{Minor issues and typos}
+\label{s.minor}
+
+\begin{itemize}
+\item \Ln{640}, \lab{e.Khom.int}: with $\langle\sin^2\rangle=\frac12$ the enhanced entry is $\kappa+\frac{a^2\ep^4}{2\kappa}$, not $\kappa+\frac{a^2\ep^4}\kappa$ (heuristic only).
+\item \Ln{981} and \Ln{9486}: ``$\alpha=\beta-1$''; only $\alpha<\beta-1$ is proved (\lab{c.phim}).
+\item \Ln{1280}: ``for each $k\in4\Z$'' should be $k\in\Z$ (only odd $k$ matter).
+\item \Lns{1312--1324}: the families $\hat\zeta_{m,l}$, $\hat\xi_{m,l}$ are indexed by $m\in\N_0$, but $\tau'_0,\tau''_0$ are undefined; only $m\geq1$ is used.
+\item \Ln{1465}, \lab{e.flowabbrev}: every use reads $X_{m-1,l}:=X_{m-1}(\cdot,\cdot,l\tau''_m)$, with the refresh time of level~$m$, not $X_{m-1}(\cdot,\cdot,l\tau''_{m-1})$.
+\item \Ln{1535}: $\ep_m$ should be $\ep_{m-1}$ (twice).
+\item \Lns{1786--1794}, \lab{e.nabphimm1bound}: with the sharp interpolation constant $\|f'\|_\infty^2\leq2\|f\|_\infty\|f''\|_\infty$ the bound is $\approx270\,\ep_m^{\beta-1}$, so $2^8$ should be $2^9$; \lab{e.phi.m.m-1.bounds} is unaffected.
+\item \Lns{1808--1815}: the sum starts at $j=0$ and includes the undefined $\phi_0-\phi_{-1}$; it is harmless since $\phi_0=0$.
+\item \Ln{2043}, \lab{e.Xm.bound.4}: the constant $2^{13}$ does not follow from \lab{e.Xm.bound.3} for $n\geq7$; $2^{14}$ does.
+\item \lab{e.vm.Dn} (\Ln{2143}) at $n=0$ involves $(n-1)!$; the endpoint needs a separate (easy) argument. The stray $\ep_{m-2}$ at \Ln{2291} is not needed.
+\item \Ln{2994}: the symmetry argument gives only $\overline{\K}_{11}=\overline{\K}_{22}$ and $\overline{\K}_{12}=\overline{\K}_{21}$. That $\overline{\K}^\kappa_m$ is a positive scalar follows instead from the explicit formula~\lab{e.Jm.explicit.mofo}.
+\item \lab{e.bfK.dervs} (\Ln{3199}) is claimed for all $\ell\in\N$, but its input \lab{e.Lmn.bound} covers only $\ell\leq N_*$.
+\item \lab{e.q.mnr.def} (\Ln{3255}): the relation $\partial_t\mathbf q_{r+1}=-\mathbf q_r$ must hold for $r\in\N_0$; otherwise $\mathbf q_{m,n,1}$ is not determined.
+\item \Ln{3330}, \lab{e.Emkappa.formula}: the identity part is $\kappa(\sum_k\xi_{m,k})^2\Id=\kappa\Id$, not $\sum_k\xi_{m,k}^2\kappa\Id$. Orthogonality~\lab{e.alt.orth} kills only the $\nabla\Chi$ cross terms. The correct form is the one used at \Ln{8442}.
+\item \Ln{3513}: the value $\frac9{10}$ is $\tau_m^{-1}\int_\R\zeta_{m,0}^2$, not an average over $[-\frac12\tau_m,\frac12\tau_m]$.
+\item \Ln{3679}: the exponent $2q\theta\wedge1$ involves an undefined~$\theta$; also the rate in~\lab{e.kappa.n.n-1} is $2\delta$ while~$\delta$ is supplied.
+\item \Ln{7031}: ``$m\leq m_{\theta_0}$'' should be $m\geq m_{\theta_0}$.
+\item \Ln{7065}: $X_{k-1,m}$ should be $X_{m-1,l_k}$; the same holds in~\lab{e.flow.for.ergodic}.
+\item \Ln{7442}: $(\kappa_{m-1}/\kappa_m)^{1/2}\leq C\ep_{m-1}^{-q\gamma}$, not $C\ep_{m-1}^{-\gamma\beta}$.
+\item \Ln{8059}: the ratio is $0/0$ for $\theta_0=0$; state it in cross-multiplied form.
+\item \Ln{8104}: the last bound should have $\|\theta_0\|_{L^2}^2$.
+\item \Ln{8395}: ``$\kappa_m\Id$ is equal to $\langle\J_m\rangle$'' should be $\kappa_{m-1}\Id=\langle\!\langle\J_m\rangle\!\rangle=\overline{\K}^{\kappa_m}_m$.
+\item \Lns{8402--8452}: the expansion of $\langle\F^{\mathsf t}\F\rangle$ uses $\sum_{k\text{ odd}}\xi_{m,k}=1$ and $\langle(\nabla\Chi_{m,k})\circ X^{-1}_{m-1,l_k}\rangle=0$ (by volume preservation), neither of which is stated. At \Ln{8497} the prefactor $a_m^2\ep_m^4/\kappa_m$ is replaced by~$\kappa_{m-1}$; at $m=M$ only $\lesssim$ holds, which suffices.
+\item \Lns{8576--8629}: the radius $r=R_{\theta_0}^{-1}\ep_{m-1}^{1+\gamma/2}$ should be $\ep_{m-1}^{1+\gamma/2}/C$, and $C_{\theta_0}$ is undefined. The step $\exp(-\ep_{m-1}^{-2(q-1)/3}/(CR_{\theta_0}))\leq\ep_{m-1}^{500}$ needs $R_{\theta_0}$ bounded; this is automatic, since $R_{\theta_0}\leq(\sqrt2\pi)^{-1}$ for $\theta_0\neq0$. The amplitude at \Ln{8623} is polynomial in~$\ep_{m-1}^{-1}$, not $\kappa_{m-1}^{1/2}$; this is harmless.
+\item \Ln{9305}: the forcing is $\nabla\cdot((\phi-\phi_M)\sigma\nabla\theta_M)$; the matrix~$\sigma$ is missing.
+\item \Ln{9386}: $L_{\theta_0}$ uses $\|\theta_0\|_{H^1}$ while Theorem~1.1 uses $\|\nabla\theta_0\|_{L^2}$. These are equivalent by Poincaré. The letter~$\alpha$ is also reused for the mollification parameter.
+\item \Ln{10471}: ``$d\geq1$'' with multi-indices in $\N_0^2$; read $\N_0^d$.
+\item \Ln{10871}: $4(-1)^{n-1}\binom{1/2}{n}\leq\frac1n$ fails at $n=1$; it is used only at level $n+1\geq2$.
+\item \Lns{11035, 11197}: a ``$\Z^d$-periodic diffeomorphism'' cannot be periodic; read $X(x+k)=X(x)+k$, as in~\S2.
+\end{itemize}
+
+\end{document}

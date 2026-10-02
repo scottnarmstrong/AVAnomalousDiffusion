@@ -1,0 +1,14 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+
+module
+
+public import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
+public import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+public import AVenhance.Infra.Section5.RelativeError.IteratesExist
+
+/-! Facade for RelativeError item 13: smoothness of the iterate forcing and construction of the `T`
+iterates (`IteratesLMNSmooth`, `IteratesForcingSmooth`, `IteratesExist`). -/
+
+@[expose] public section
+
