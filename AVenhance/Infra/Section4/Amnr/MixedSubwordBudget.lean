@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.GradientFirstSpatialRates
+public import AVenhance.Infra.Section4.Amnr.Induction
+import AVenhance.Infra.Section4.Amnr.Seed
 
 /-! Separate spatial and material budgets for actual Leibniz subwords. -/
 

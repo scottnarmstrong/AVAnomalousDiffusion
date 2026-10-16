@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.AnsatzProduct
-public import AVenhance.Infra.Section5.AnsatzGradient
+import AVenhance.Infra.Section5.AnsatzProduct
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import AVenhance.Infra.Section5.GradientChain
 
 /-! The finite-sum product rule for the material derivative of an ansatz. -/
 

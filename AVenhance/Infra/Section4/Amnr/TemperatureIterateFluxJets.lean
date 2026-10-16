@@ -4,6 +4,10 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.TemperatureIterateGradientPDE
+import AVenhance.Infra.Section4.Amnr.Cutoff
+import AVenhance.Infra.Section4.Amnr.TemperatureFluxIdentity
+import AVenhance.Infra.Section4.Amnr.TemperatureGradientDiffusion
+import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
 
 /-! Primitive regularity and lower flux jets for the actual iterate family. -/
 

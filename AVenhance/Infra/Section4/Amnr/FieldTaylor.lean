@@ -3,14 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CurveDifferentiability
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Comp
+import Mathlib.Analysis.Calculus.MeanValue
 
 /-! Uniform Taylor estimates for Banach-valued primitive fields. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory Set
+open Set
 namespace AVenhance.Infra.Section4
 
 /-- A primitive second derivative bound gives a uniform quadratic Taylor

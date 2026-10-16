@@ -3,8 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTAbstractUpgrade
-public import AVenhance.Infra.Section4.IteratesTSourceScale
+import AVenhance.Infra.Section4.IteratesTAbstractUpgrade
+import AVenhance.Infra.Section4.IteratesTSourceScale
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesBudgetConstantChoice
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Section4.IsTIterates
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 @[expose] public section
 

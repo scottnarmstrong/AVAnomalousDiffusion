@@ -3,11 +3,19 @@
 
 module
 
-public import AVenhance.Statements.Section3.LRecurse
-public import AVenhance.Statements.Section4.KappaSeqPred
-public import AVenhance.Infra.Section3.LRecurseTop
-public import AVenhance.Infra.Section3.KappaAtBounds
-public import AVenhance.Infra.Ingredients.TimeScaleArithmetic
+import AVenhance.Statements.Section3.LRecurse
+import AVenhance.Statements.Section4.KappaSeqPred
+import AVenhance.Infra.Section3.LRecurseTop
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Ingredients.TimeScaleArithmetic
+public import AVenhance.Infra.Section3.KappaAtPrimeBootstrap
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! # Scale arithmetic for `e.left.to.show`
 

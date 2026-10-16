@@ -3,12 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section3.TimeMemorySymmetry
 public import AVenhance.Infra.Shear.OneDimensional
-public import AVenhance.Infra.Torus.FrozenBridge
-public import AVenhance.Infra.Torus.Slicing
+import AVenhance.Infra.Torus.Slicing
 public import AVenhance.Statements.Section3.SpaceAvg
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+public import AVenhance.Infra.Torus.Basic
+public import AVenhance.Statements.Ingredients.Ingredients
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
 
 /-! Exact averages of the integer-frequency trigonometric modes in §3. -/
 

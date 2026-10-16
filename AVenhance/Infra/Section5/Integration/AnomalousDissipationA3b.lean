@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.AnomalousDissipation
+import AVenhance.Infra.Section5.Integration.AnomalousDissipation
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Statements.Construction.LimitFieldRegular
+import AVenhance.Statements.Construction.LimitFieldRegular
 
 /-! # Main theorem from the two remaining estimates, step-down and classical well-posedness
 

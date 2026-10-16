@@ -3,9 +3,13 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.LebronStep.DivFree
-public import AVenhance.Infra.Construction.LimitSeries
-public import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Infra.Construction.LimitSeries
+import AVenhance.Statements.Construction.StreamRegularity
+public import AVenhance.Infra.Construction.LimitFieldBounds
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! # Uniform velocity bound and Lemma-U hypotheses for the stream drifts (Lemma r.LeBron, step (b))
 

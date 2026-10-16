@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowSpatialJetRates
+import AVenhance.Infra.Section4.Amnr.FlowSpatialJetRates
+public import AVenhance.Infra.Section4.Amnr.JacobianJetBounds
+public import AVenhance.Infra.Section4.Amnr.VelocitySpatialRates
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.Rates
+import AVenhance.Infra.Section4.Amnr.VelocityHigherOrders
+import AVenhance.Infra.Section4.Amnr.VelocitySecondRates
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Scale-uniform all-order estimates for the actual source forward and inverse flows. -/
 

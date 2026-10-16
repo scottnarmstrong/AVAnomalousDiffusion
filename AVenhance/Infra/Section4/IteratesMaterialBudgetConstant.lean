@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesMaterialBudgetMajorant
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Positivity.Basic
 
 @[expose] public section
 

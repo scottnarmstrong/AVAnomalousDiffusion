@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.SelectedAnsatzSpatial
-public import AVenhance.Infra.Section5.CorrectorLocalization
+import AVenhance.Infra.Section5.SelectedAnsatzSpatial
+import AVenhance.Infra.Section5.CorrectorLocalization
+public import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Infra.Section5.Terms
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Rewrite the diffusion flux of the ansatz using the selected
 corrector fluxes, the selected-gradient mismatch, the pulled-gradient term,

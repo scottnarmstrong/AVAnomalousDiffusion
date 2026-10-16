@@ -4,7 +4,9 @@
 module
 
 public import Homogenization.Ambient.Basic
-public import Mathlib.Analysis.ODE.ExistUnique
+import Mathlib.Analysis.ODE.ExistUnique
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Basic uniqueness for global integral curves of uniformly Lipschitz fields. -/
 

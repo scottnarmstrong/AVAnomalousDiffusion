@@ -3,14 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientBounds
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Abstract scalar rate algebra used by the temperature energy cascade. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
 
 /-- The source spatial radius cancels the extra diffusivity power exactly. -/

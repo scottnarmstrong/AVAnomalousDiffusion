@@ -4,6 +4,12 @@
 module
 
 public import AVenhance.Infra.FullTheorem.UniformAnalytic.TailHolder
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.Contracts.UniformInputs
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Scales
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Tail
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.RelativeError.AssemblyScales
 
 /-! # Sup-in-time bound of the tail `θ − θ_M` in terms of `‖θ₀‖_{L²}`
 

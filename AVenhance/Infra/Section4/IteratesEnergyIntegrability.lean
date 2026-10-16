@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordRegularity
-public import AVenhance.Infra.Section4.IteratesTime
+import AVenhance.Infra.Section4.IteratesWordRegularity
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.UnitCube
 
 /-! Natural energy integrability follows from actual smoothness up to time zero.
 Within derivatives provide continuous representatives at the initial boundary. -/

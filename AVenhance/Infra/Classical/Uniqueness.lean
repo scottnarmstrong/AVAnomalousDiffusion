@@ -3,9 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Classical.TimeEnergy
-public import Mathlib.Analysis.Calculus.DerivativeTest
-public import Mathlib.MeasureTheory.Measure.OpenPos
+import AVenhance.Infra.Classical.TimeEnergy
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Classical.PeriodicCalculus
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Algebra.Ring.IsFormallyReal
 
 /-! L² energy uniqueness for smooth periodic advection-diffusion solutions. -/
 

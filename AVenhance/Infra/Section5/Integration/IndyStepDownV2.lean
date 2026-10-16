@@ -3,11 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.BigBound
 public import AVenhance.Infra.Section5.Integration.IndyStepDownPartI
-public import AVenhance.Infra.Section5.RelativeError.RelativeStep
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.MatrixContinuity
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section5.RelativeError.RelativeStep
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.LeftToShow.Assembly.SecondLast
+import AVenhance.Infra.Section5.LeftToShow.Matrix
+import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Section5.RelativeError.RelativeSecondLast
 
 /-! # Step-down assembly: `IndyStepDownStatement` from named inputs
 

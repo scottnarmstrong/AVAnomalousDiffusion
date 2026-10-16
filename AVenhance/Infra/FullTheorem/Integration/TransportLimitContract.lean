@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Statements.FullTheorem.IsTransportWeakSolution
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsWeakSolution
 
 /-! # Phase 2: vanishing-diffusivity limits are transport weak solutions
 

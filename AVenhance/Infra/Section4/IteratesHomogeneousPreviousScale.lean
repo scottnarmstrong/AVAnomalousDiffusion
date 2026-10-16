@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
+import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
+public import Mathlib.Analysis.Real.Sqrt
 
 @[expose] public section
 

@@ -4,8 +4,8 @@
 module
 
 public import AVenhance.Infra.Section5.CorrectorFlux
-public import AVenhance.Infra.Section5.FlowPiolaDivergence
-public import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section3.ChiMKCorrector
+import Mathlib.Order.CompletePartialOrder
 
 /-! The corrector equation pushed through its smooth inverse flow. -/
 

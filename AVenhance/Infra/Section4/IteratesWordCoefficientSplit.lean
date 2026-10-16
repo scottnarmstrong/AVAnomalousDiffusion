@@ -4,6 +4,9 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+public import AVenhance.Statements.Section4.SMat
+import AVenhance.Infra.Section4.IteratesWordEquation
+import Std.Tactic.BVDecide.Normalize.Bool
 
 /-! The literal time-only K coefficient and the spatial flow correction
 remain separate in every differentiated forcing. -/

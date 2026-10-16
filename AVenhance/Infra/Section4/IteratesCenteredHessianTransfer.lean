@@ -3,10 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualHalfSquareBound
-public import AVenhance.Infra.Section4.IteratesMatrixContinuity
+import AVenhance.Infra.Section4.IteratesMatrixContinuity
 public import AVenhance.Infra.Section4.IteratesTruncatedCell
-public import AVenhance.Infra.Section4.IteratesC1SpatialContinuity
+import AVenhance.Infra.Section4.IteratesC1SpatialContinuity
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section4.IteratesCancellation
+import AVenhance.Infra.Section4.IteratesEnergy
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesWordRegularity
+import Mathlib.Order.CompletePartialOrder
 
 @[expose] public section
 

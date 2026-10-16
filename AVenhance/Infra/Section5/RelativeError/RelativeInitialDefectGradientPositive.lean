@@ -4,6 +4,12 @@
 module
 
 public import AVenhance.Infra.Section4.HmBounds
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.Approx
+import AVenhance.Infra.Section3.QMNRRecursion
+import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.DmBounds
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! Positive-time Hmr gradient source reductions. Differentiation is needed
 only on the physical time support of the measure. The owner modules are

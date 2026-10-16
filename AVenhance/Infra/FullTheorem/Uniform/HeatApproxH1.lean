@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.Uniform.HeatGradient
+import AVenhance.Infra.FullTheorem.Uniform.HeatGradient
+public import AVenhance.Infra.Section5.H1Reduction
+import AVenhance.Infra.Heat.FrozenEstimates
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # `analytic_approximation` with the `H¹` contraction conjunct

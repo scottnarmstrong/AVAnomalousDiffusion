@@ -3,9 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMaterialGradientEnergy
-public import AVenhance.Infra.Section4.IteratesActualErrorGradient
-public import AVenhance.Infra.Section4.IteratesWordAnalyticForcing
+import AVenhance.Infra.Section4.IteratesMaterialGradientEnergy
+import AVenhance.Infra.Section4.IteratesActualErrorGradient
+import AVenhance.Infra.Section4.IteratesWordAnalyticForcing
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.IteratesForcing
+import AVenhance.Infra.Section4.IteratesForcingCoefficients
+import AVenhance.Infra.Section4.IteratesLaplacianEnergy
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
+import AVenhance.Infra.Section4.IteratesWordForcingContinuity
+import AVenhance.Infra.Section5.SMatRegularity
 
 /-! Actual increment material-gradient energy from forcing and velocity bounds. -/
 

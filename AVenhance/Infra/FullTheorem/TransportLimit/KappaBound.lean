@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.TransportLimit.DriftData
+import AVenhance.Infra.FullTheorem.TransportLimit.DriftData
+public import AVenhance.Statements.Roots.TimeCube
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.MeasureTheory.Function.L2Space
 
 /-!
 # The viscous remainder vanishes with the diffusivity

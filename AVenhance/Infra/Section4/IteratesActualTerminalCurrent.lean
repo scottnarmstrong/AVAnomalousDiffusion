@@ -3,9 +3,25 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualMaterialGradient
-public import AVenhance.Infra.Section4.IteratesTruncatedCurrentRegularity
-public import AVenhance.Infra.Section4.IteratesCurrentCorrectedBudget
+import AVenhance.Infra.Section4.IteratesTruncatedCurrentRegularity
+import AVenhance.Infra.Section4.IteratesCurrentCorrectedBudget
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.IteratesForcing
+import AVenhance.Infra.Section4.IteratesForcingCoefficients
+import AVenhance.Infra.Section4.IteratesLaplacianEnergy
+import AVenhance.Infra.Section4.IteratesWordAnalyticForcing
+import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
+import AVenhance.Infra.Section4.IteratesWordForcingContinuity
+import AVenhance.Infra.Section4.IteratesWordRegularity
+import AVenhance.Infra.Section4.IteratesWordSolution
+import AVenhance.Infra.Section5.SMatRegularity
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Actual current increment with the corrected material budget. -/
 

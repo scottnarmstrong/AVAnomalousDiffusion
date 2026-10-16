@@ -4,7 +4,7 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinSmoothTimeEquation
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import AVenhance.Infra.Classical.PeriodicCalculus
 
 /-! Jointly continuous periodic coefficients for the limiting spatial equation. -/
 

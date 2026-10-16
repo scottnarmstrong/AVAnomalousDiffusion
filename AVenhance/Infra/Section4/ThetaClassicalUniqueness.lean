@@ -3,10 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaEnergy
-public import AVenhance.Infra.Section4.ThetaTimeEnergy
-public import Mathlib.Analysis.Calculus.DerivativeTest
-public import Mathlib.MeasureTheory.Measure.OpenPos
+import AVenhance.Infra.Section4.ThetaEnergy
+import AVenhance.Infra.Section4.ThetaTimeEnergy
+public import AVenhance.Infra.Torus.Basic
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Algebra.Ring.IsFormallyReal
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! L² energy uniqueness for smooth periodic advection-diffusion solutions. -/
 

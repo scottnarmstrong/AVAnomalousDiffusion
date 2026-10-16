@@ -4,6 +4,9 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Section4.VecDiv
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.IteratesDiffusion
 
 /-! All-order divergence-form forcing with exact coefficient-gradient products. -/
 

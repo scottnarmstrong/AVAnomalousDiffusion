@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.HigherMaterialScaling
+public import AVenhance.Infra.Section4.Amnr.VelocitySpatialRates
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
 
 /-! The actual spatial velocity base case, without a drift amplitude bound. -/
 

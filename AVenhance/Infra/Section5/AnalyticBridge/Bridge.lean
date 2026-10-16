@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.AnalyticBridge.CompBound
-public import AVenhance.Infra.Torus.Basic
+import AVenhance.Infra.Section5.AnalyticBridge.CompBound
+public import AVenhance.Infra.Ergodic.FourierDecay
+public import AVenhance.Infra.Section5.AnalyticBridge.Defs
+public import AVenhance.Infra.Section5.AnalyticBridge.Sobolev
+import AVenhance.Infra.Section5.AnalyticBridge.Derivs
+import AVenhance.Infra.Section5.AnalyticBridge.GradSnorm
+import AVenhance.Infra.Section5.AnalyticBridge.SupBound
 
 /-! # The `L²_x → L¹` composed-analyticity bridge (route A)
 

@@ -3,11 +3,14 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.FlipFlop.Abstract
-public import AVenhance.Infra.Section3.KappaPrimeScaling
+import AVenhance.Infra.FullTheorem.FlipFlop.Abstract
+import AVenhance.Infra.Section3.KappaPrimeScaling
 public import AVenhance.Infra.Ingredients.EpsilonConsequences
-public import AVenhance.Infra.Ingredients.Parameters
-public import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Ingredients.Parameters
+public import AVenhance.Statements.Ingredients.A
+public import AVenhance.Statements.Ingredients.Gamma
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Scale comparison for the flip-flop
 
@@ -15,8 +18,6 @@ public import AVenhance.Infra.Construction.Scalars
 `K_s = max 10 (supergeoConstant β)`; and the identity `a_n² ε_n⁴ = ε_n^{2β}`. -/
 
 @[expose] public section
-
-open Homogenization
 
 noncomputable section
 

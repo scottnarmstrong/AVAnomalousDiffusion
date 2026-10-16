@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Flow.JetStartDerivative
-public import AVenhance.Infra.Flow.JointC1
+import AVenhance.Infra.Flow.JetStartDerivative
+import AVenhance.Infra.Flow.JointC1
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Flow.IsFlow
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-! Joint C² regularity of the nonautonomous flow. -/
 

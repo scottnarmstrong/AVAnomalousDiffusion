@@ -3,11 +3,23 @@
 
 module
 
-public import AVenhance.Infra.Section5.AnalyticBridge.FlowForErgodicBound
-public import AVenhance.Infra.Construction.Section2FlowBoundsAtScale
-public import AVenhance.Infra.Construction.LimitFieldBounds
 public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
 public import AVenhance.Statements.Section4.FlowGrad
+public import AVenhance.Statements.Ingredients.XiMK
+import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Construction.Section2FlowHigherDerivative
+import AVenhance.Infra.Construction.Section2FlowInverseBounds
+import AVenhance.Infra.Construction.Section2FlowRegularityCore
+import AVenhance.Infra.Construction.Section2JointInduction
+import AVenhance.Infra.Construction.Section2Scales
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Flow near-identity on `supp ξ_{m,k}` (`e.Xm.bound.1`, `e.Xm.bound.2`)
 

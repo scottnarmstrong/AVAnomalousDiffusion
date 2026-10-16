@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Heat.WeakFourier
+import AVenhance.Infra.Heat.WeakFourier
+public import AVenhance.Infra.Heat.Energy
+public import AVenhance.Infra.Heat.WeakBridge
 
 /-! Heat-flow energy estimates for the periodic weak H1 carriers. -/
 

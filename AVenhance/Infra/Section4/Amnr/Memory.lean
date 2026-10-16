@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.Induction
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.ExplicitBounds.CutoffMemory
+import Mathlib.Order.CompletePartialOrder
 
 /-! Memory infrastructure for the AMNR tensors. -/
 

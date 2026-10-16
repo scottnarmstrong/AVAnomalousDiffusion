@@ -4,7 +4,7 @@
 module
 
 public import AVenhance.Infra.Section3.ParabolicMaximum
-public import Mathlib.Topology.Order.Compact
+import Mathlib.Algebra.Order.Star.Real
 
 /-! A bounded whole-plane maximum principle for the scalar shear corrector. -/
 

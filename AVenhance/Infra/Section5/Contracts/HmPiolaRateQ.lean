@@ -4,7 +4,21 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.HmPiolaRateCalculus
-public import AVenhance.Infra.Section4.HmSourceRatesGradient
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Construction.Section2FlowBridge
+import AVenhance.Infra.Construction.Section2Scales
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.Amnr.DissipationCoordinateL2
+import AVenhance.Infra.Section4.HmSourceRatesGradientCore
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section4.TUpgradeConsumersFinal
+import AVenhance.Infra.Section4.TUpgradeConsumersScales
+import AVenhance.Infra.Section4.ThetaProfileDischarge
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `L²` rate of the Hessian/gradient majorant `hmPiolaQ`
 

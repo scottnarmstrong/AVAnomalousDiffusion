@@ -4,7 +4,8 @@
 module
 
 public import AVenhance.Infra.Section5.HMinusTools
-public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Statements.Ingredients.Delta
+public import AVenhance.Statements.Ingredients.Epsilon
 
 /-! Common source-scale target and scalar L²-to-Ḣ⁻¹ transfer.
 

@@ -3,7 +3,7 @@
 
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Analysis.Real.Sqrt
 
 /-! # Abstract real step for the sup-in-time stream-difference estimate -/
 

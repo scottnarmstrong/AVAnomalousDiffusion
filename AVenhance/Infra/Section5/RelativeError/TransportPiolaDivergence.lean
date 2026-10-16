@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TransportPiolaFlow
-public import AVenhance.Infra.Section5.PiolaFormula
+import AVenhance.Infra.Section5.RelativeError.TransportPiolaFlow
+import AVenhance.Infra.Section5.PiolaFormula
 public import AVenhance.Statements.Section3.SpaceLap
+public import AVenhance.Infra.FaaDiBruno.TransportODEApplications
+public import AVenhance.Statements.Section4.VecDiv
+import Mathlib.Order.CompletePartialOrder
 
 /-! # RelativeError: divergence of the transported gradient potential -/
 

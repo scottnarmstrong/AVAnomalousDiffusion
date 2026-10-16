@@ -10,8 +10,6 @@ This file contains exactly one declaration of the formalization's public stateme
 
 @[expose] public section
 
-open MeasureTheory Homogenization
-
 noncomputable section
 
 namespace AVenhance

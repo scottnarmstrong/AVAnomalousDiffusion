@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCoefficientContinuity
-public import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
+import AVenhance.Infra.Section4.IteratesCoefficientContinuity
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Section4.SMat
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section4.IteratesWordCoefficientSplit
+import AVenhance.Infra.Section4.IteratesWordEquation
+import AVenhance.Infra.Section5.SMatRegularity
 
 /-! Actual full forcing coefficient jets at every spatial order. -/
 

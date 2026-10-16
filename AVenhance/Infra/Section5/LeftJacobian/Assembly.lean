@@ -4,13 +4,14 @@
 module
 
 public import AVenhance.Infra.Section5.LeftJacobian.Candidate
-public import AVenhance.Infra.Section5.LeftJacobian.Transport
-public import AVenhance.Infra.Section5.LeftJacobian.PiolaColumn
-public import AVenhance.Infra.Section5.FrozenShearDiffusionOperator
-public import AVenhance.Infra.Section5.CorrectorDiffusionDivergence
-public import AVenhance.Infra.Section5.ResidualR46
-public import AVenhance.Infra.Section5.OddSupportTsum
-public import AVenhance.Infra.Section5.DivergenceLinearity
+import AVenhance.Infra.Section5.LeftJacobian.Transport
+import AVenhance.Infra.Section5.LeftJacobian.PiolaColumn
+import AVenhance.Infra.Section5.FrozenShearDiffusionOperator
+import AVenhance.Infra.Section5.OddSupportTsum
+import AVenhance.Infra.Section5.DivergenceLinearity
+public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Section5.Terms.R46
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-!: the literal-name residual identity (36) from the material and
 diffusion expansions.

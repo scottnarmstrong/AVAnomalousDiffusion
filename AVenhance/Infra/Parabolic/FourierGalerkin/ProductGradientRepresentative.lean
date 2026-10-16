@@ -4,9 +4,8 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.ProductWeakSlices
-public import AVenhance.Infra.Torus.Basic
-public import AVenhance.Statements.Roots.UnitCube
 public import AVenhance.Statements.Roots.TimeCube
+import Homogenization.Ambient.HilbertFinite
 
 /-!
 # Euclidean representatives of the synchronized gradient limit

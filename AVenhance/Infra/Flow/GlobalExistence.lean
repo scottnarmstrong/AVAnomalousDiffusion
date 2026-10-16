@@ -3,11 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.Laws
 public import AVenhance.Infra.Flow.FlowOn
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
 public import Mathlib.Topology.MetricSpace.Contracting
-public import Mathlib.Topology.Algebra.Order.Floor
+public import AVenhance.Statements.Flow.IsFlow
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import AVenhance.Infra.Flow.CurveUniqueness
+import Mathlib.Analysis.ODE.ExistUnique
 
 /-! Global existence for continuous, uniformly globally Lipschitz ODE fields. -/
 

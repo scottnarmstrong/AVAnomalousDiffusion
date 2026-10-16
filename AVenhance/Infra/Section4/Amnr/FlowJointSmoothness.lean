@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TimeParameterizedCurve
+import AVenhance.Infra.Section4.Amnr.TimeParameterizedCurve
+public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Infra.Section4.Amnr.CurveIntegral
+import AVenhance.Infra.Section4.Amnr.CurveLocalImplicit
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.RingTheory.Finiteness.Prod
 
 /-! Actual joint smoothness of a flow from its parameterized integral equation. -/
 

@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.Psi
+public import Mathlib.Algebra.Notation.Indicator
+public import Mathlib.Basic.Real.Basic
 
 /-! Statement file: `indIcc` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -13,8 +14,6 @@ This file contains exactly one declaration of the formalization's public stateme
 noncomputable section
 
 namespace AVenhance
-
-open Homogenization
 
 /-- Indicator (as a real function) of the closed interval `[u, v]`. -/
 def indIcc (u v : ℝ) (t : ℝ) : ℝ := Set.indicator (Set.Icc u v) (fun _ => (1 : ℝ)) t

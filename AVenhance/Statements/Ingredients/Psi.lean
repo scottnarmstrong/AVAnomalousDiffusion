@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Statements.Ingredients.Psi0
+public import AVenhance.Statements.Ingredients.A
 
 /-! Statement file: `psi` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/

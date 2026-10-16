@@ -3,8 +3,9 @@
 
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.FiniteDimension
-public import Mathlib.Analysis.Calculus.FDeriv.Partial
+import Mathlib.Analysis.Calculus.FDeriv.Partial
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! A reusable joint `C¹` criterion from time and parameter derivatives. -/
 

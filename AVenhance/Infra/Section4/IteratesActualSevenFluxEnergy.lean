@@ -3,10 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualOscillatoryFiveParts
-public import AVenhance.Infra.Section4.IteratesTerminalTwoForcingParts
-public import AVenhance.Infra.Section4.IteratesActualTerminalInequality
-public import AVenhance.Infra.Section4.IteratesSevenFluxTriangle
+import AVenhance.Infra.Section4.IteratesActualOscillatoryFiveParts
+import AVenhance.Infra.Section4.IteratesTerminalTwoForcingParts
+import AVenhance.Infra.Section4.IteratesActualTerminalInequality
+import AVenhance.Infra.Section4.IteratesSevenFluxTriangle
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
 
 @[expose] public section
 

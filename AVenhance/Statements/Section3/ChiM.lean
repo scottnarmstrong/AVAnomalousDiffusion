@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Statements.Section3.ChiMK
+public import AVenhance.Statements.Ingredients.XiMK
 
 /-! Statement file: `chiM` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/

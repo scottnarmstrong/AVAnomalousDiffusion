@@ -3,7 +3,7 @@
 
 module
 
-public import Mathlib.Analysis.PSeries
+import Mathlib.Analysis.PSeries
 public import AVenhance.Infra.Torus.FrozenBridge
 
 /-! # `H² ⊂ L∞` on the 2-torus

@@ -4,8 +4,6 @@
 module
 
 public import AVenhance.Infra.Cutoff.SmoothStep
-public import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
-public import Mathlib.Data.Nat.Choose.Sum
 
 /-! Uniform derivative estimates for products of translated smooth transitions. -/
 

@@ -4,6 +4,20 @@
 module
 
 public import AVenhance.Infra.FullTheorem.NoSelectionLimit.Middle
+public import AVenhance.Infra.FullTheorem.UniformAnalytic.TailHolder
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.Contracts.FlipFlop
+import AVenhance.Infra.FullTheorem.LebronStep.Pieces
+import AVenhance.Infra.FullTheorem.NoSelectionLimit.Chain
+import AVenhance.Infra.FullTheorem.NoSelectionLimit.Limit
+import AVenhance.Infra.FullTheorem.NoSelectionLimit.Sup
+import AVenhance.Infra.FullTheorem.UniformAnalytic.CaseBig
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Scales
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.RelativeError.AssemblyScales
+import AVenhance.Infra.Section5.RelativeError.LaterStart
+import AVenhance.Statements.Section4.MTheta0IsLeast
 
 /-! # The pair estimate: `θ(κ_j)` and `θ(κ_{j'})` are close in sup-`L²`
 

@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTerminalVelocityTransfer
-public import AVenhance.Infra.Section4.IteratesTerminalMaterialHessian
+import AVenhance.Infra.Section4.IteratesTerminalVelocityTransfer
+import AVenhance.Infra.Section4.IteratesTerminalMaterialHessian
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 /-! Quantitative actual differentiated material commutator after transfer. -/
 
@@ -12,7 +19,6 @@ public import AVenhance.Infra.Section4.IteratesTerminalMaterialHessian
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

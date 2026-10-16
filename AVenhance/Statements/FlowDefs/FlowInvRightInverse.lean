@@ -4,7 +4,8 @@
 module
 
 public import AVenhance.Statements.FlowDefs.FlowInv
-public import AVenhance.Statements.FlowDefs.FlowIsFlow
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import AVenhance.Infra.Flow.Laws
 
 /-! Statement file: `flowInv_rightInverse` (FlowDefs).
 This file contains exactly one declaration of the formalization's public statement surface. -/

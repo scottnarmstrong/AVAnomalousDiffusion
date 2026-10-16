@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWeightedFlux
-public import AVenhance.Infra.Section4.IteratesWordGrouping
-public import AVenhance.Infra.Section4.IteratesRecursion
+import AVenhance.Infra.Section4.IteratesWordGrouping
+import AVenhance.Infra.Section4.IteratesRecursion
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
 
 /-! Dissipation allocation with exact binomial multiplicities. -/
 

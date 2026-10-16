@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesForcing
-public import AVenhance.Infra.Section4.ThetaEnergy
+import AVenhance.Infra.Section4.ThetaEnergy
+public import AVenhance.Infra.Torus.FrozenBridge
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Section4.VecDiv
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Forced torus energy calculations for the actual classical increments. -/
 
@@ -12,7 +19,6 @@ public import AVenhance.Infra.Section4.ThetaEnergy
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 
 def IteratesEnergy.iterateClosedCell : Set (Vec 2) :=

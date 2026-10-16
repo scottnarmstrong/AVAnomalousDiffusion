@@ -4,10 +4,10 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Integration.UniformContracts
-public import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
-public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
-public import AVenhance.Infra.FullTheorem.Uniform.ForcedEnergySup
-public import AVenhance.Infra.FullTheorem.Uniform.HeatApproxH1
+import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
+import AVenhance.Infra.FullTheorem.Uniform.ForcedEnergySup
+import AVenhance.Infra.FullTheorem.Uniform.HeatApproxH1
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Proofs of the uniform-regularity statements -/
 

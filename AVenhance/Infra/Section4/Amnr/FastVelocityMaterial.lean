@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.StreamGradientSum
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
 
 /-! Material cancellation and bounds for the actual fast velocity increment. -/
 

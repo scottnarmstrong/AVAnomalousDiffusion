@@ -4,8 +4,9 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinHorizonConsistency
-public import AVenhance.Infra.Classical.GalerkinHorizonGluing
-public import AVenhance.Infra.Classical.Uniqueness
+import AVenhance.Infra.Classical.GalerkinHorizonGluing
+import AVenhance.Infra.Classical.Uniqueness
+public import AVenhance.Statements.Section4.IsClassicalSol
 
 /-! Conditional assembly of the integer-horizon Galerkin limits into the classical solution operator. -/
 

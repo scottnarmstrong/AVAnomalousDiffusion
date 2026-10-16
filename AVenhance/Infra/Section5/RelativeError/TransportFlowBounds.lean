@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Flow.GradientDeviation
-public import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.GradientDeviation
+public import AVenhance.Infra.Flow.VariationalEquation
+public import Mathlib.Analysis.Complex.Exponential
 
 /-! # RelativeError: short-time derivative bounds for the transport flow -/
 

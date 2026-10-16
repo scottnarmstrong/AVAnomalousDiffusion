@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Statements.Section3.GradMatrix
 
 /-! Product-rule cancellation for a matrix transported along a flow. -/
 

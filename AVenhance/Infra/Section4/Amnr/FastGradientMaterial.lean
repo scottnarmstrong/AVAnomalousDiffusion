@@ -10,7 +10,7 @@ public import AVenhance.Infra.Section4.Amnr.SecondSpatialCommutator
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
+open MeasureTheory
 namespace AVenhance.Infra.Section4
 
 end AVenhance.Infra.Section4

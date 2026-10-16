@@ -3,7 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Construction.Section2FlowRegularityCore
+import AVenhance.Infra.Construction.Section2FlowRegularityCore
+public import AVenhance.Infra.Construction.RecursionIncrement
+import AVenhance.Infra.Construction.AppB2FieldBounds
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Construction.Section2JointInduction
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Infra.FaaDiBruno.FlowDnInduction.SmallTime
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+import Mathlib.Topology.Separation.CompletelyRegular
 
 /-! Pointwise all-order spatial derivative bounds for the §2 flow. -/
 

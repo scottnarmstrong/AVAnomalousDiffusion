@@ -4,18 +4,21 @@
 module
 
 public import AVenhance.Infra.Section4.HmPerTimeAssembly
-public import AVenhance.Infra.Section4.HmPerTimePairingInputs
-public import AVenhance.Infra.Section4.TIterateSmooth
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectMaterialFlow
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
-public import AVenhance.Infra.Section5.Integration.BigBoundMeanZeroData
-public import AVenhance.Infra.Section5.Contracts.TermFluxesJoint
-public import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
-public import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTiny
-public import AVenhance.Infra.Section5.ResidualFluxRegularity
-public import AVenhance.Infra.Section5.HmBaseFluxIdentity
-public import AVenhance.Infra.Section4.HmSourcePairing
+import AVenhance.Infra.Section4.HmPerTimePairingInputs
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectMaterialFlow
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
+import AVenhance.Infra.Section5.Integration.BigBoundMeanZeroData
+import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTiny
+import AVenhance.Infra.Section5.ResidualFluxRegularity
 public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.Amnr.Base
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Section5.FrozenHmSourceIdentity
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.LeftJacobian.PulledFluxSmooth
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
 
 /-! Positive-time regularity and material derivative for the actual `H_m` source, packaged for the per-time transported energy assembler. -/
 

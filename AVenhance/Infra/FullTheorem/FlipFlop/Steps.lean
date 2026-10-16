@@ -5,8 +5,13 @@ module
 
 public import AVenhance.Infra.FullTheorem.FlipFlop.Scales
 public import AVenhance.Infra.Section3.OneStepAveragingUnconditional
-public import AVenhance.Infra.Section3.KappaAtBounds
-public import AVenhance.Infra.Construction.LimitSeries
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Construction.LimitSeries
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.FlipFlop.Abstract
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Tactic.NormNum.RealSqrt
 
 /-! # Inner and top steps of the flip-flop
 

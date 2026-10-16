@@ -4,14 +4,22 @@
 module
 
 public import AVenhance.Infra.Section5.ResidualFluxRegularity
-public import AVenhance.Infra.Section5.HmBaseFluxIdentity
+import AVenhance.Infra.Section5.HmBaseFluxIdentity
 public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
-public import AVenhance.Infra.Section5.ClassicalRegularity
 public import AVenhance.Infra.Section5.SMatRegularity
-public import AVenhance.Infra.Section5.SourceErrors
 public import AVenhance.Infra.Section5.LeftJacobian.PulledFluxSmooth
 public import AVenhance.Infra.Section5.Terms.R46IteratesRegularity
 public import AVenhance.Infra.Section4.TIterateSmooth
+public import AVenhance.Infra.Section4.Amnr.HmAdapter
+public import AVenhance.Infra.Section5.FrozenFlowRegularity
+public import AVenhance.Infra.Section5.ResidualCompletion
+public import AVenhance.Infra.Section5.ResidualDataRegularity
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularityFlow
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Construct the residual calculus data from the classical iterates,
 their actual AMNR regularity, and the smooth flow. -/

@@ -4,8 +4,7 @@
 module
 
 public import AVenhance.Infra.Section5.AnalyticBridge.Sobolev
-public import AVenhance.Infra.Section5.AnalyticBridge.Derivs
-public import AVenhance.Infra.Section5.AnalyticBridge.Defs
+import AVenhance.Infra.Section5.AnalyticBridge.Derivs
 
 /-! # Step 1: pointwise bounds on `∂^α ∂_i T(t)` from the `L²_x` bounds
 

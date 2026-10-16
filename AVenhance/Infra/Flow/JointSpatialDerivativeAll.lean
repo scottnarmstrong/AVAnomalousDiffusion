@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Flow.JointSpatialDerivative
-public import AVenhance.Infra.Flow.SpatialRegularity
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
+import AVenhance.Infra.Flow.JointSpatialDerivative
+import AVenhance.Infra.Flow.SpatialRegularity
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Flow.IsFlow
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.SmoothField
 
 /-! Joint continuity of the spatial derivative in all flow parameters. -/
 

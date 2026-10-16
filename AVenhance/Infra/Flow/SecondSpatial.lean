@@ -4,7 +4,11 @@
 module
 
 public import AVenhance.Infra.Flow.HigherVariation
-public import Mathlib.Analysis.ODE.Gronwall
+import AVenhance.Infra.Flow.Estimates
+import AVenhance.Infra.Flow.FieldTaylor
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.SpatialC1
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Uniform-in-time comparison estimates for first spatial variations. -/
 

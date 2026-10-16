@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.PartIAnsatzL2
-public import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.Integration.PartIAnsatzL2
 public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Roots.L2NormSq
 
 /-! # `L²` bookkeeping for Lemma r.LeBron
 

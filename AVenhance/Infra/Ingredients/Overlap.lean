@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Ingredients.CutoffConsequences
-public import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Ingredients.LIdxConsequences
+public import AVenhance.Statements.Ingredients.HatZetaML
+public import AVenhance.Statements.Ingredients.LIdx
+public import AVenhance.Statements.Ingredients.ZetaMK
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Disjointness of the small `ζ` window from all but its assigned large window. -/
 

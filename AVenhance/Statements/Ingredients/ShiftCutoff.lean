@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.ScaledCutoff
+public import Mathlib.Basic.Real.Basic
 
 /-! Statement file: `shiftCutoff` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -13,8 +13,6 @@ This file contains exactly one declaration of the formalization's public stateme
 noncomputable section
 
 namespace AVenhance
-
-open Homogenization
 
 /-- Translation `f_{m,l} = f_{m,0}(· - l τ''_m)` (1319-1322). -/
 def shiftCutoff (f : ℝ → ℝ) (c : ℝ) : ℝ → ℝ := fun t => f (t - c)

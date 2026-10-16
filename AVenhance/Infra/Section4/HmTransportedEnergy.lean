@@ -3,18 +3,18 @@
 
 module
 
-public import AVenhance.Statements.Section4.Hm
 public import AVenhance.Infra.Ergodic.Flow
-public import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
-public import AVenhance.Infra.Torus.FrozenBridge
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
-public import AVenhance.Infra.Section4.HmEndpoints
-public import AVenhance.Infra.Section5.MaterialGradient
-public import AVenhance.Infra.Section5.FrozenHmSourceTelescope
-public import AVenhance.Infra.Section5.TransportCalculus
-public import AVenhance.Infra.Classical.PeriodicCalculus
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section4.HmEndpoints
+import AVenhance.Infra.Section5.MaterialGradient
+import AVenhance.Infra.Classical.PeriodicCalculus
+public import AVenhance.Infra.Section5.AmnrMaterialStep
+public import AVenhance.Infra.Section5.FrozenHmTelescope
+public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+import Mathlib.Algebra.Order.Star.Real
 
 /-! A transported energy estimate on the unit torus.  The flow and material
 derivative are explicit inputs, so the lemma is independent of the amplitude

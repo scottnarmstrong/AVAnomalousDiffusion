@@ -4,13 +4,21 @@
 module
 
 public import AVenhance.Infra.Section5.LeftJacobian.Candidate
-public import AVenhance.Infra.Section5.LeftJacobian.SourceMaterial
-public import AVenhance.Infra.Section5.LeftJacobian.AnsatzMaterial
-public import AVenhance.Infra.Section5.LeftJacobian.Assembly
-public import AVenhance.Infra.Section5.LeftJacobian.Regroup
-public import AVenhance.Infra.Section5.NamedDiffusionExpansion
-public import AVenhance.Infra.Section5.ResidualR46
-public import AVenhance.Infra.Section5.DivergenceLinearity
+import AVenhance.Infra.Section5.LeftJacobian.SourceMaterial
+import AVenhance.Infra.Section5.LeftJacobian.AnsatzMaterial
+import AVenhance.Infra.Section5.LeftJacobian.Assembly
+import AVenhance.Infra.Section5.LeftJacobian.Regroup
+import AVenhance.Infra.Section5.NamedDiffusionExpansion
+import AVenhance.Infra.Section5.DivergenceLinearity
+public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Infra.Section5.FrozenAnsatzTime
+public import AVenhance.Infra.Section5.HmMaterialIncrement
+public import AVenhance.Infra.Section5.LeftJacobian.SourceHelpers
+public import AVenhance.Infra.Section5.SourceErrors
+public import AVenhance.Infra.Section5.Terms.R46
+import AVenhance.Infra.Section5.LeftJacobian.Transport
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-!: the end-to-end residual identity for the names.
 

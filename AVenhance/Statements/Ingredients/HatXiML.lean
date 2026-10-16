@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.HatZetaML
+public import AVenhance.Statements.Ingredients.Ingredients
 
 /-! Statement file: `hatXiML` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -14,7 +14,6 @@ noncomputable section
 
 namespace AVenhance
 
-open Homogenization
 namespace Ingredients
 variable {β : ℝ} (I : Ingredients β)
 

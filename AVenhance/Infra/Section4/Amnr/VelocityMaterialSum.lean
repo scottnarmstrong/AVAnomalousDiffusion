@@ -3,14 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.VelocityMaterialStep
+public import AVenhance.Statements.Ingredients.Ingredients
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.EpsilonConsequences
 
 /-! Summation of the actual first-material velocity recursion. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
+open MeasureTheory
 namespace AVenhance.Infra.Section4
 
 /-- Minimal separation controls every negative-power scalar amplitude sum.

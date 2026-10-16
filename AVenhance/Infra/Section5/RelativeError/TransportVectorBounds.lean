@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TransportFlowBounds
-public import AVenhance.Infra.Section5.RelativeError.TransportPiolaFlow
-public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Infra.FaaDiBruno.TransportSolution.GradientMatrix
+import Homogenization.Sobolev.WeakDerivatives
 
 /-! # RelativeError: pointwise size of the Piola vector -/
 

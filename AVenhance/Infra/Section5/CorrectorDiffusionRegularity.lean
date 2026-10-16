@@ -3,9 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.CorrectorFluxFlow
-public import AVenhance.Infra.Section5.CorrectorDiffusionFlow
+import AVenhance.Infra.Section5.CorrectorFluxFlow
+import AVenhance.Infra.Section5.CorrectorDiffusionFlow
 public import Mathlib.Analysis.Matrix.Normed
+public import AVenhance.Infra.Section5.CorrectorDiffusionDivergence
+import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import Mathlib.Order.CompletePartialOrder
 
 /-! The local derivatives in the corrector diffusion identity follow
 from the spatial C² regularity of the flows and correctors. -/

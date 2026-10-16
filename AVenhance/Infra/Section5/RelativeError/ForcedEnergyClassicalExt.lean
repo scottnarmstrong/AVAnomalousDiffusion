@@ -4,8 +4,6 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyClassicalReg
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyModes
 
 /-!
 # Globally continuous extensions of a classical solution and its derivatives
@@ -24,8 +22,6 @@ open Homogenization
 open scoped Topology
 
 namespace AVenhance.Infra.Section5.RelativeError
-
-open AVenhance.Infra.Parabolic.WeakUniqueness
 
 /-- Extension of a classical solution by `t ↦ max t 0`. -/
 def clExt (θ : ℝ → Vec 2 → ℝ) (p : ℝ × Vec 2) : ℝ := θ (max p.1 0) p.2

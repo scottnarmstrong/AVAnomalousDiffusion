@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Flow.VariationalJointC1
-public import AVenhance.Infra.Flow.SpatialC2
+import AVenhance.Infra.Flow.VariationalJointC1
+import AVenhance.Infra.Flow.SpatialC2
+public import AVenhance.Infra.Flow.SecondJetContinuity
+import AVenhance.Infra.Flow.JointSpatialDerivativeAll
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.SmoothField
+import Mathlib.Analysis.Calculus.ContDiff.Comp
 
 /-! Start-time continuity of the second spatial derivative via inverse flow. -/
 

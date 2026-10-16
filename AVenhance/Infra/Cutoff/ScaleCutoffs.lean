@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Cutoff.BaseCutoffs
-public import AVenhance.Infra.Cutoff.DerivativeBounds
+import AVenhance.Infra.Cutoff.DerivativeBounds
+public import AVenhance.Infra.Cutoff.ShiftPartition
+public import AVenhance.Infra.Cutoff.SmoothStep
+public import AVenhance.Statements.Ingredients.IndIcc
+public import AVenhance.Statements.Ingredients.ShiftCutoff
+public import Mathlib.Analysis.InnerProductSpace.Basic
 
 /-! The two cutoffs at the large time scale. -/
 

@@ -3,8 +3,7 @@
 
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Exp
-public import Mathlib.Basic.Real.Basic
+public import Mathlib.Analysis.Complex.Exponential
 
 /-!# RelativeError: abstract low/high frequency recombination
 

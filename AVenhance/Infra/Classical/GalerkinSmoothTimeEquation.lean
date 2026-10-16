@@ -4,8 +4,13 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinSmoothTimeCauchy
-public import AVenhance.Infra.Classical.GalerkinSmoothInitialPointwise
-public import AVenhance.Infra.Torus.FourierCalculus
+public import AVenhance.Infra.Classical.GalerkinSmoothEquationLimit
+public import AVenhance.Infra.Classical.GalerkinSmoothReal
+public import AVenhance.Infra.Ergodic.AveragesL1
+import AVenhance.Infra.Classical.GalerkinSmoothTimeDerivativeLaplacian
+import AVenhance.Infra.Classical.GalerkinSmoothTransportCoefficient
+import AVenhance.Infra.Classical.TimeEnergy
+import Mathlib.Topology.Algebra.ProperAction.Basic
 
 /-! Fourier coefficients of the smooth Galerkin representative and its time derivative. -/
 

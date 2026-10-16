@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Flow.SecondSpatial
+import AVenhance.Infra.Flow.SecondSpatial
+public import AVenhance.Infra.Flow.HigherVariation
+import AVenhance.Infra.Flow.FieldTaylor
+import AVenhance.Infra.Flow.SmoothField
 
 /-! Joint continuity of the second variation in target time and initial point. -/
 

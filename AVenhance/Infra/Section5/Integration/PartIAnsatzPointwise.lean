@@ -3,11 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsError
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsError
 public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebra
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
-public import AVenhance.Infra.Section3.CorrectorBounds
-public import AVenhance.Infra.Section3.MovingEnergyReduction
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section3.MovingEnergyReduction
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
 
 /-! # Pointwise bound for the corrector part of the ansatz
 

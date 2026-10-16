@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Torus
-public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Infra.Torus.FrozenBridge
 
 /-!
 # Real-valued periodic integration by parts for Galerkin tests

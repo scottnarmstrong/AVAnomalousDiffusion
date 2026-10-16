@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesHessianFactor
-public import AVenhance.Infra.Section4.IteratesTerminalAnalyticMaterial
+import AVenhance.Infra.Section4.IteratesHessianFactor
+import AVenhance.Infra.Section4.IteratesTerminalAnalyticMaterial
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 
 /-! Actual preceding Hessian and current lower drift error in analytic weights. -/
 
@@ -12,7 +16,6 @@ public import AVenhance.Infra.Section4.IteratesTerminalAnalyticMaterial
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

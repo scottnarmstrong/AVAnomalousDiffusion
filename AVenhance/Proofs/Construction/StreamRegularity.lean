@@ -4,11 +4,12 @@
 module
 
 public import AVenhance.Infra.Construction.Section2Induction
-public import AVenhance.Infra.Construction.Section2JointInduction
-public import AVenhance.Infra.Construction.Section2FlowBridge
+import AVenhance.Infra.Construction.Section2FlowBridge
 public import AVenhance.Infra.Construction.Section2Scales
-public import AVenhance.Infra.Construction.TimeIncrement.Recursion
-public import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Construction.TimeIncrement.Recursion
+import AVenhance.Infra.Construction.AppB2Smoothness
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsHolderClass
 
 /-! Proofs of the Section 2 stream-function stream estimates.
 

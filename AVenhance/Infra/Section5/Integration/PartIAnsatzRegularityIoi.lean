@@ -4,6 +4,9 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularityFlow
+import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
 
 /-! # Part I: regularity of the ansatz `θ̃_m` on the open half space
 

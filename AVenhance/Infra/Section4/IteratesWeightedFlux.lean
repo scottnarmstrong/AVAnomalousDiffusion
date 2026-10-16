@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordFluxPairing
-public import AVenhance.Infra.Section4.IteratesCoefficientWords
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+import AVenhance.Infra.Section4.IteratesEnergy
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Weighted Young estimates for the actual coefficient-gradient Leibniz terms. -/
 
@@ -12,7 +13,6 @@ public import AVenhance.Infra.Section4.IteratesCoefficientWords
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open AVenhance
 

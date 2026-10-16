@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureForcedEnergyInduction
+public import AVenhance.Statements.Section4.IsTIterates
 
 /-! Actual classical witnesses for every temperature iterate. -/
 

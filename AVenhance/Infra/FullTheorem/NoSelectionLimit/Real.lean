@@ -3,9 +3,8 @@
 
 module
 
-public import Mathlib.Analysis.Complex.ExponentialBounds
+import Mathlib.Analysis.Complex.ExponentialBounds
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Analysis.SpecialFunctions.Sqrt
 
 /-! # Abstract real lemmas for the no-selection limit argument
 

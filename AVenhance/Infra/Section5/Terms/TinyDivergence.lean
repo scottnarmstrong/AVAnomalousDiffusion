@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.HMinusTools
-public import AVenhance.Infra.Section5.Terms
+import AVenhance.Infra.Section5.HMinusTools
+public import AVenhance.Statements.Section4.HMinusOneNorm
+public import AVenhance.Statements.Section4.VecDiv
 
 /-! Test duality for the divergence-form part of the tiny residual.
 The separate nondivergence summand needs the mean-zero and L² estimates, which are proved

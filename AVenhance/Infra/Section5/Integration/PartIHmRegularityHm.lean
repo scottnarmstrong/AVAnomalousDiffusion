@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularity
+import AVenhance.Infra.Section5.Integration.PartIHmRegularity
 public import AVenhance.Statements.Section4.Hm
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+import AVenhance.Infra.Section5.ResidualDataRegularity
 
 /-! # Part I: `H̃_m` is jointly `C^∞` on the open half space
 

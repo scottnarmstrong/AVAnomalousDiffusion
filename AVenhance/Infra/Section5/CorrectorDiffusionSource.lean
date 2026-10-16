@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.CorrectorDiffusionRegularity
-public import AVenhance.Infra.Section5.StreamFlowPiola
+import AVenhance.Infra.Section5.CorrectorDiffusionRegularity
+import AVenhance.Infra.Section5.StreamFlowPiola
+public import AVenhance.Infra.Section5.CorrectorDiffusionDivergence
 
 /-! The selected corrector diffusion expansion with all flow-divergence
 inputs derived from the stream sequence. -/

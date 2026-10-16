@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.FaaDiBruno.TransportSolution.GradientMatrix
+public import AVenhance.Infra.FaaDiBruno.TransportSolution.Definitions
+public import AVenhance.Statements.Flow.IsFlow
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Analysis.Calculus.Deriv.Prod
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
 
 @[expose] public section
 

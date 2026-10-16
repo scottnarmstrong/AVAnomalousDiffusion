@@ -4,9 +4,14 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesDischargeBounds
-public import AVenhance.Infra.Section4.IteratesTA5Upgrade
-public import AVenhance.Statements.Construction.StreamRegularity
-public import AVenhance.Statements.Section3.LRecurse
+import AVenhance.Infra.Section4.IteratesTA5Upgrade
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
+public import AVenhance.Infra.Section4.Amnr.Calculus
+public import AVenhance.Infra.Section4.IteratesBudgetConstantChoice
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 @[expose] public section
 

@@ -3,15 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.SlowFactorBounds
-public import AVenhance.Infra.Section5.RelativeError.RelativeAnalytic
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
-public import AVenhance.Infra.Section5.AnalyticBridge.FlowForErgodicBound
 public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
-public import AVenhance.Infra.Section5.Contracts.TermCenteredDefs
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticNear
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticSmooth
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticCompose
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticNear
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticSmooth
+public import AVenhance.Infra.Ergodic.HMinusOneErgodicFlow
+public import AVenhance.Infra.Section5.SlowFactorBoundsSource
 
 /-! # Analytic inputs of the centered ergodic estimates
 
@@ -27,7 +23,7 @@ noncomputable section
 
 namespace AVenhance.Infra.Section5.Contracts
 
-open AVenhance AVenhance.Infra.Section5 AVenhance.Infra.Section5.RelativeError
+open AVenhance AVenhance.Infra.Section5
 
 /-- Near-identity of the actual flow slice on the support of `ξ_{m,k}`. -/
 theorem sd_flow_nearIdentity {β : ℝ} (I : Ingredients β) {Φ : ℕ → ℝ → Vec 2 → ℝ}

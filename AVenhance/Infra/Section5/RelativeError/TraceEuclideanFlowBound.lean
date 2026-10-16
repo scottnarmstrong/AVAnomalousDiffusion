@@ -5,8 +5,8 @@ module
 
 public import AVenhance.Statements.Section4.VecDiv
 public import AVenhance.Infra.Flow.VariationalEquation
-public import AVenhance.Infra.Flow.SpatialC1
-public import Mathlib.Analysis.ODE.Gronwall
+import AVenhance.Infra.Flow.SpatialC1
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # RelativeError: Euclidean energy control for divergence-free flow derivatives
 

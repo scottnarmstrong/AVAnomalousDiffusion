@@ -30,7 +30,9 @@ Lean files begin with the notice
 
 followed by the `module` header; the vendored files in
 [Homogenization](Homogenization) keep their own notice. All Lean files use
-Lean's module system.
+Lean's module system. A file imports the modules whose declarations it uses, and
+imports a module `public`ly only when its statements or exposed definitions need
+it; never import all of Mathlib.
 
 Library code contains no `sorry`, `admit` or custom axiom; the only
 intentional `sorry` is the theorem body in [Challenge.lean](Challenge.lean),

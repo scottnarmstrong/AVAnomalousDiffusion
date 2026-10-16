@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCancellation
-public import AVenhance.Infra.Section4.IteratesCrossIntegrability
+import AVenhance.Infra.Section4.IteratesCancellation
+import AVenhance.Infra.Section4.IteratesCrossIntegrability
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.IteratesEnergyIntegrability
 
 /-! Natural integrability of the transported half-square cancellation. -/
 

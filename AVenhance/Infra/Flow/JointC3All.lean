@@ -3,9 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Flow.JointC3Forward
-public import AVenhance.Infra.Flow.JointC2All
-public import AVenhance.Infra.Flow.JointSpatialDerivativeAll
+import AVenhance.Infra.Flow.JointC3Forward
+import AVenhance.Infra.Flow.JointC2All
+import AVenhance.Infra.Flow.JointSpatialDerivativeAll
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Flow.IsFlow
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import AVenhance.Infra.Flow.JointC1
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-! Global joint C³ regularity by reference-time factorization. -/
 

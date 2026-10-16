@@ -3,9 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Regularity
-public import AVenhance.Infra.Section4.CoarseCoeff.Bounds
-public import AVenhance.Infra.Section4.IteratesWordCoefficientSplit
+import AVenhance.Infra.Section4.CoarseCoeff.Regularity
+public import AVenhance.Infra.Section4.CoarseCoeff.Form
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.CoarseCoeff.CutoffAverage
+import AVenhance.Infra.Section4.CoarseCoeff.Representation
+import AVenhance.Infra.Section4.IteratesWordFlux
 
 @[expose] public section
 

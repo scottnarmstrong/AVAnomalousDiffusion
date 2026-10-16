@@ -3,8 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedVelocityTerm
-public import AVenhance.Infra.Section4.IteratesPositiveGrouping
+import AVenhance.Infra.Section4.IteratesTruncatedVelocityTerm
+import AVenhance.Infra.Section4.IteratesPositiveGrouping
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesVelocityYoung
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesVelocityLower
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 /-! Integrated all-order drift errors with linear lower-energy dependence. -/
 

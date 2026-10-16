@@ -3,9 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Representation
-public import AVenhance.Infra.Section5.Integration.BigBoundRegularity
-public import AVenhance.Infra.Section5.LeftJacobian.PulledFluxSmooth
+import AVenhance.Infra.Section4.CoarseCoeff.Representation
+import AVenhance.Infra.Section5.Integration.BigBoundRegularity
+import AVenhance.Infra.Section5.LeftJacobian.PulledFluxSmooth
+public import AVenhance.Infra.Section5.SourceErrors
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.SMatRegularity
 
 /-! Smoothness and periodicity of the two actual source errors used by `tiny`.
 -/

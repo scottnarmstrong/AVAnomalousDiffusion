@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.TransportLimit.AbstractLimit
-public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
+import AVenhance.Infra.FullTheorem.TransportLimit.AbstractLimit
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.TimeCube
+public import Homogenization.Sobolev.H1.Definitions
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # The limit profile of a uniformly `L²`-Cauchy family of space-time functions

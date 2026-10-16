@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.FrozenHmSourceIdentity
+import AVenhance.Infra.Section5.FrozenHmSourceIdentity
 public import AVenhance.Infra.Section5.FrozenHmTelescope
+public import AVenhance.Infra.Section5.HmMaterialIncrement
 
 /-! Source-specific finite telescope for the `H_m` potential. -/
 

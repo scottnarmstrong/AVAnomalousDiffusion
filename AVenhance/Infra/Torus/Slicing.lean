@@ -4,8 +4,7 @@
 module
 
 public import AVenhance.Infra.Torus.Basic
-public import Mathlib.MeasureTheory.Integral.Prod
-public import Homogenization.Sobolev.CubeEmbedding.PeelFubini
+import Mathlib.MeasureTheory.Integral.Prod
 
 /-! Coordinate slicing of half-open unit cells in `Vec d`. -/
 

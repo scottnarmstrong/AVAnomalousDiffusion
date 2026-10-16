@@ -3,8 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.DmBounds
-public import AVenhance.Infra.Section4.HmDmScales
+public import AVenhance.Infra.Construction.LimitFieldBounds
+public import AVenhance.Statements.Ingredients.HatXiML
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.FlowGrad
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.Amnr.Cutoff
+import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+import AVenhance.Infra.Section4.Amnr.VelocitySpatial
+import AVenhance.Infra.Section4.ThetaSpaceTime
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.MeasureTheory.Function.L2Space
 
 /-! Inputs of the first-summand `d_m` estimate: the stream-regularity flow-Jacobian bound
 on active cutoff windows in the elementwise supremum norm, and the `L²` bound

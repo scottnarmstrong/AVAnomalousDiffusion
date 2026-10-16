@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenInitialData
+import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenInitialData
 public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenMatrix
 public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarSpace
+public import AVenhance.Infra.Parabolic.FourierGalerkin.GradientSpace
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Parabolic.FourierGalerkin.ProjectionCoefficients
 
 /-!
 # Positive real Fourier Galerkin data for the drift

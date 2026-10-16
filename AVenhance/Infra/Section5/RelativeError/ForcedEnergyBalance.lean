@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyDifference
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyDifference
+public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
+public import AVenhance.Statements.Roots.IsDivFree
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyDrift
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyIdentity
 
 /-!
 # Energy balance for the difference of two weak solutions

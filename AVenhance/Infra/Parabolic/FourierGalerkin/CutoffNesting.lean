@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ConcreteData
+import AVenhance.Infra.Parabolic.FourierGalerkin.ConcreteData
+public import AVenhance.Infra.Parabolic.FourierGalerkin.GradientSpace
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarSpace
 
 /-!
 # Nested finite real Fourier spaces

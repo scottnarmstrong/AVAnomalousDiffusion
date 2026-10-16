@@ -3,10 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Classical.Drift
-public import AVenhance.Infra.Torus.Calculus
-public import AVenhance.Infra.Torus.FrozenBridge
-public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
+import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Torus.FrozenBridge
+public import AVenhance.Infra.Torus.Basic
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Section3.SpaceLap
+public import AVenhance.Statements.Section4.VecDiv
 
 /-! Real-valued periodic integration by parts on the unit cell. -/
 

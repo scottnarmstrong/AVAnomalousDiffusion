@@ -3,9 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMaterialPrimitiveSmooth
-public import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
-public import AVenhance.Infra.Section4.IteratesCancellation
+import AVenhance.Infra.Section4.IteratesMaterialPrimitiveSmooth
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
+import AVenhance.Infra.Section4.IteratesCancellation
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.UnitCube
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 /-! Material primitive identity for actual differentiated increments. -/
 

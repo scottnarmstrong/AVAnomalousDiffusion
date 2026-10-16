@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinSmoothReal
-public import AVenhance.Infra.Parabolic.FourierGalerkin.Density
+import AVenhance.Infra.Parabolic.FourierGalerkin.Density
+public import AVenhance.Infra.Classical.GalerkinSmoothLimit
 
 /-! The strong Galerkin limit retains the prescribed initial trace. -/
 

@@ -3,13 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Ingredients.EpsilonConsequences
-public import AVenhance.Infra.Numeric.Exponents
-public import AVenhance.Infra.Construction.Scalars
-public import AVenhance.Statements.Section3.PermittedInterval
-public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
-public import AVenhance.Statements.Section3.KMat
-public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Ingredients.EpsilonConsequences
+import AVenhance.Infra.Numeric.Exponents
+import AVenhance.Infra.Construction.Scalars
+public import AVenhance.Infra.Ingredients.TimeScales
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Ingredients.Nstar
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Scalar bridges for §4. Diffusivity results named `conditional` take the
 applicable diffusivity-recursion conclusion explicitly. No draft theorem module is imported.
@@ -19,7 +23,6 @@ The top index never acquires an interior two-sided bound. -/
 
 noncomputable section
 namespace AVenhance.Infra.Section4
-open scoped Matrix.Norms.Elementwise
 open AVenhance
 open AVenhance.Infra.Ingredients
 

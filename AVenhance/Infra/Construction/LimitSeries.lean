@@ -3,14 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Construction.LimitFieldBounds
+public import AVenhance.Statements.Ingredients.Ingredients
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.EpsilonConsequences
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Geometric summability of the construction scales (the use of
 `e.minsep` in the §2 limit argument). -/
 
 @[expose] public section
 
-open MeasureTheory Homogenization Filter Topology
+open MeasureTheory Filter Topology
 
 noncomputable section
 

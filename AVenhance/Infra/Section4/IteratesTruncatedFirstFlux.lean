@@ -3,9 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedFluxIntegral
-public import AVenhance.Infra.Section4.IteratesTruncatedFirstStream
-public import AVenhance.Infra.Section4.IteratesStreamCoefficient
+import AVenhance.Infra.Section4.IteratesTruncatedFluxIntegral
+import AVenhance.Infra.Section4.IteratesTruncatedFirstStream
+import AVenhance.Infra.Section4.IteratesStreamCoefficient
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.SigmaMat
 
 /-! The first stream radius gain for the actual selected vector flux. -/
 

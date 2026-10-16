@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesPhysicalBudgetScales
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

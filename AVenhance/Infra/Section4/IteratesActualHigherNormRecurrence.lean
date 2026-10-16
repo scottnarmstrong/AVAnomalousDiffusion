@@ -3,8 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualHigherEnergyRecurrence
-public import AVenhance.Infra.Section4.IteratesEnergyRecurrenceNorm
+import AVenhance.Infra.Section4.IteratesActualHigherEnergyRecurrence
+import AVenhance.Infra.Section4.IteratesEnergyRecurrenceNorm
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesHigherEnergyBudget
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.Analysis.Matrix.Normed
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

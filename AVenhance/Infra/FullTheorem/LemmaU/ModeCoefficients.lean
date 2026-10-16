@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakProjectionConvergence
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakProjectionConvergence
+public import AVenhance.Infra.Classical.GalerkinModeCalculus
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.IsPeriodicH1With
+public import AVenhance.Statements.Roots.L2NormSq
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # Lemma U: cell coefficients of real Fourier modes

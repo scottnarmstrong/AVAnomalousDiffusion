@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
+public import Mathlib.Analysis.InnerProductSpace.Basic
 
 /-! Spatial derivatives of the classical solutions in Section 4 inherit the
 periodicity needed by the torus energy argument. -/

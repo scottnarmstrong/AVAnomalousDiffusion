@@ -3,10 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMaterialMatrixRegularity
-public import AVenhance.Infra.Section4.IteratesMatrixContractionEnergy
-public import AVenhance.Infra.Section4.IteratesCrossCell
-public import AVenhance.Infra.Section4.IteratesIntegralCauchy
+import AVenhance.Infra.Section4.IteratesMaterialMatrixRegularity
+import AVenhance.Infra.Section4.IteratesMatrixContractionEnergy
+import AVenhance.Infra.Section4.IteratesCrossCell
+import AVenhance.Infra.Section4.IteratesIntegralCauchy
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section4.IteratesTruncatedCell
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

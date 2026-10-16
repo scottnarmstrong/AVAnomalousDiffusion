@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowAverage
-public import Mathlib.Analysis.Calculus.VectorField
+import Mathlib.Analysis.Calculus.VectorField
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
 
 /-! Actual spatial/material commutators for the T and flow estimates. -/
 

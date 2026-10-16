@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFluxL2
+import AVenhance.Infra.Section5.Contracts.TermSourcesFluxL2
 public import AVenhance.Infra.Section5.HMinusTools
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Time transfer for the centered `Ḣ⁻¹` bounds
 

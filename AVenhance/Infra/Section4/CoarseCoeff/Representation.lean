@@ -4,12 +4,13 @@
 module
 
 public import AVenhance.Infra.Section4.CoarseCoeff.Form
+public import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Statements.Roots.IsZ2Periodic
 
 @[expose] public section
 
 noncomputable section
 open Homogenization
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open AVenhance
 

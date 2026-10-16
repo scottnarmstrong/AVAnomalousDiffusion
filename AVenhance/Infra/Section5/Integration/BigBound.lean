@@ -3,22 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.Statements
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
 public import AVenhance.Infra.Section5.Integration.BigBound.Grouped
-public import AVenhance.Infra.Section5.SourceErrors
-public import AVenhance.Infra.Section5.HMinusTools
-public import AVenhance.Infra.Section5.Terms.Assembly
-public import AVenhance.Infra.Section5.Terms.Cutoff1Scale
-public import AVenhance.Infra.Section5.Terms.Normie1Scale
-public import AVenhance.Infra.Section5.Terms.Normie2Scale
-public import AVenhance.Infra.Section5.Terms.R46Scale
-public import AVenhance.Infra.Section5.Terms.TinyScale
-public import AVenhance.Infra.Section5.Terms.Twistie1Scale
-public import AVenhance.Infra.Section5.Terms.Twistie3Scale
-public import AVenhance.Infra.Section5.LeftToShow.Matrix
-public import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.Terms.Cutoff1Scale
+import AVenhance.Infra.Section5.Terms.Normie1Scale
+import AVenhance.Infra.Section5.Terms.Normie2Scale
+import AVenhance.Infra.Section5.Terms.R46Scale
+import AVenhance.Infra.Section5.Terms.Twistie3Scale
+import AVenhance.Infra.Section5.LeftToShow.Matrix
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+public import AVenhance.Infra.Section5.Terms.ScaleTools
 
 /-! # Big-bound estimate wiring: `BigBoundStatement` from the explicit §5.2 inputs
 

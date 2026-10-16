@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStatic
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyModes
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStatic
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyModes
+public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
+public import AVenhance.Statements.Roots.IsDivFree
+import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
+import Mathlib.Order.CompletePartialOrder
 
 /-!
 # Divergence-free transport cancellation along a path

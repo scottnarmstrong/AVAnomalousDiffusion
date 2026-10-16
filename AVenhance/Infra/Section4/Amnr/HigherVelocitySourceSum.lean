@@ -3,7 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.HigherStepConstants
+import AVenhance.Infra.Section4.Amnr.HigherStepConstants
+public import AVenhance.Infra.Section4.Amnr.HigherVelocitySourceStep
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.Cutoff
+import AVenhance.Infra.Section4.Amnr.HigherMaterialScaling
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.VelocityFirstSpatialSum
+import AVenhance.Infra.Section4.Amnr.VelocityMaterialSum
+import AVenhance.Infra.Section4.Amnr.ZeroVelocityJets
 
 /-! Actual higher material velocity bounds by source scale summation. -/
 

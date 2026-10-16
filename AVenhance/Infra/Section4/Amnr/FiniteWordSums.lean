@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.AdvectionTerms
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Section4.Amnr.Cutoff
+import AVenhance.Infra.Section4.Amnr.FlowCoefficientBounds
 
 /-! Actual ordered derivatives of finite correction sums. -/
 

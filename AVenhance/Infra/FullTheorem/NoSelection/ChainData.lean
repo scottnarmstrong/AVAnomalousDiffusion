@@ -3,9 +3,21 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.NoSelection.Steps
-public import AVenhance.Infra.FullTheorem.NoSelection.Scales
-public import AVenhance.Infra.FullTheorem.UniformAnalytic.Chain
+import AVenhance.Infra.FullTheorem.NoSelection.Steps
+import AVenhance.Infra.FullTheorem.NoSelection.Scales
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Chain
+public import AVenhance.Infra.Ingredients.EpsilonConsequences
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Section3.PermittedInterval
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Section4.IsThetaAnalytic
+public import AVenhance.Statements.Section4.KappaSeq
+public import AVenhance.Statements.Section4.MTheta0
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.LebronStep.Pieces
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.RelativeError.AssemblyScales
 
 /-! # The telescoped classical chain
 

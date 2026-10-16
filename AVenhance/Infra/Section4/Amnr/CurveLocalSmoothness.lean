@@ -3,15 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowGradientSpatialRates
-public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
+import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
+public import AVenhance.Infra.Section4.Amnr.CurveSmoothness
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+import Mathlib.RingTheory.Finiteness.Prod
 
 /-! Smooth substitution on compact trajectories from local primitive smoothness. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory Set Filter
+open MeasureTheory Set Filter
 open scoped Topology
 namespace AVenhance.Infra.Section4
 

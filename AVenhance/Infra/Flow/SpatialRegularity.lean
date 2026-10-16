@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Flow.SpatialC1
+import AVenhance.Infra.Flow.SpatialC1
 public import Mathlib.Analysis.ODE.Gronwall
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Flow.IsFlow
+import AVenhance.Infra.Flow.Estimates
+import AVenhance.Infra.Flow.FieldTaylor
+import AVenhance.Infra.Flow.SmoothField
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Continuity of the spatial derivative of a smooth periodic flow. -/
 

@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftJacobian.Candidate
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
+public import AVenhance.Infra.Section5.CorrectorDiffusionDivergence
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
 
 /-!: spatial smoothness of the objects regrouped in `Regroup`.
 

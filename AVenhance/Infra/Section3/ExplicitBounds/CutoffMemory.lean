@@ -3,14 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section3.JMNRegularity
-public import AVenhance.Infra.Section3.CorrectorBounds
-public import AVenhance.Infra.Cutoff.DerivativeBounds
-public import AVenhance.Statements.Section3.KMat
-public import AVenhance.Statements.Section3.JHat
-public import Mathlib.Analysis.Matrix.Normed
-public import Mathlib.Analysis.Calculus.ParametricIntegral
-public import Mathlib.MeasureTheory.Group.Integral
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Cutoff.DerivativeBounds
+import Mathlib.Analysis.Calculus.ParametricIntegral
+public import AVenhance.Statements.Section3.JMN
+public import AVenhance.Statements.Section3.LMN
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
 
 /-! Explicit cutoff factors in the Section 3 coefficient estimates.
 
@@ -27,7 +28,6 @@ on the internal-index κ bounds from the diffusivity-recursion estimates.
 
 noncomputable section
 open MeasureTheory Filter Topology
-open scoped Matrix.Norms.Elementwise
 
 namespace AVenhance.Infra.Section3
 open AVenhance

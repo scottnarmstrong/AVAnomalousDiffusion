@@ -4,7 +4,13 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermCenteredDefs
-public import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
+import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Section4.Amnr.StreamMaterial
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularityFlow
 
 /-! # Smoothness and periodicity of the defect matrices at a fixed time
 

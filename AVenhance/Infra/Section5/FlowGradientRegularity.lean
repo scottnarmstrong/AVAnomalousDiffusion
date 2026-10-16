@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.FrozenFlowRegularity
-public import AVenhance.Infra.Section5.Terms
+import AVenhance.Infra.Section5.FrozenFlowRegularity
 public import Mathlib.Analysis.Matrix.Normed
+public import AVenhance.Statements.Section4.FlowGrad
+import Mathlib.Order.CompletePartialOrder
 
 /-! Spatial regularity of the pulled flow-gradient matrices in the
 Section 4 definitions. -/

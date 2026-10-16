@@ -4,11 +4,9 @@
 module
 
 public import AVenhance.Statements.Section4.Amnr
-public import AVenhance.Infra.Section3.ExplicitBounds
-public import AVenhance.Infra.Section4.Params
-public import AVenhance.Statements.FlowDefs.FlowIsFlow
-public import AVenhance.Infra.Flow.Continuity
-public import Mathlib.Analysis.Calculus.FDeriv.Measurable
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import AVenhance.Infra.Flow.Continuity
+public import AVenhance.Statements.Section4.Jcut
 
 /-! Base infrastructure for the AMNR tensors. -/
 

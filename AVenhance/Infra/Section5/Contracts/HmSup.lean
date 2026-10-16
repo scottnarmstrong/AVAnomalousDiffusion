@@ -3,22 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmPerTimeRegularity
-public import AVenhance.Infra.Section4.HmPositivePairingAssembly
-public import AVenhance.Infra.Section4.HmPerTimePairingInputs
-public import AVenhance.Infra.Section4.HmHalfCellGain
-public import AVenhance.Infra.Section4.HmPerTimeAssembly
-public import AVenhance.Infra.Section4.HmTransportedEnergy
-public import AVenhance.Infra.Section4.HmMeasurability
-public import AVenhance.Infra.Section4.HmSourceRatesFlux
-public import AVenhance.Infra.Section4.HmSourceRatesGradient
-public import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+import AVenhance.Infra.Section4.HmPerTimeRegularity
+import AVenhance.Infra.Section4.HmPositivePairingAssembly
+import AVenhance.Infra.Section4.HmPerTimePairingInputs
+import AVenhance.Infra.Section4.HmHalfCellGain
+import AVenhance.Infra.Section4.HmMeasurability
 public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section5.MStar
-public import AVenhance.Infra.Section5.Contracts.HmGradient
-public import AVenhance.Infra.Section5.Contracts.SourceErrorD
+import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Section5.Contracts.HmGradient
+import AVenhance.Infra.Section5.Contracts.SourceErrorD
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import Mathlib.MeasureTheory.Integral.Prod
+public import AVenhance.Infra.Section4.HmSourcePairing
+public import AVenhance.Statements.Section3.LRecurse
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Conditional assembly of the positive-time `H_m` bound
 

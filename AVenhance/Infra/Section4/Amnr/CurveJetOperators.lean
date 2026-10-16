@@ -3,16 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowJetContinuity
+public import AVenhance.Infra.Section4.Amnr.CurveSmoothness
+import Mathlib.Analysis.Calculus.ContDiff.Comp
 
 /-! Actual higher derivatives of primitive fields acting on trajectories. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
-open AVenhance.Infra.Flow
 
 /-- Each actual trajectory-space derivative is the pointwise state
 derivative of the primitive field. There is no additional norm cost from

@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCenteredHessianTransfer
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Section3.KMat
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section4.IteratesC1SpatialContinuity
+import AVenhance.Infra.Section4.IteratesWordRegularity
+import Mathlib.Order.CompletePartialOrder
 
 @[expose] public section
 

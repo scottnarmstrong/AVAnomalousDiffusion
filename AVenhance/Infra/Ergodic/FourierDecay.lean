@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Torus
-public import Mathlib.Analysis.Complex.ExponentialBounds
+import Mathlib.Analysis.Complex.ExponentialBounds
+public import AVenhance.Infra.Torus.FourierCalculus
 
 /-! # Fourier decay from averaged derivative bounds -/
 

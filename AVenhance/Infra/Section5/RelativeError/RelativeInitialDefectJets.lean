@@ -3,7 +3,6 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectCorrector
 public import AVenhance.Infra.Section5.RelativeError.RelativeAnalytic
 
 /-! The positive-jet interface already used by relative_step supplies its

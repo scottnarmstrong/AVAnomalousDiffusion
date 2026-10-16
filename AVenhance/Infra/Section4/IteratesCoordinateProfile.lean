@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesAnalyticWeightOrder
-public import AVenhance.Infra.Section4.IteratesNormComponents
+import AVenhance.Infra.Section4.IteratesNormComponents
+public import AVenhance.Infra.Section4.IteratesHigherEnergyBudget
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

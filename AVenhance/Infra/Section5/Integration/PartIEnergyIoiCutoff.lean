@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.Energy.Estimate
-public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
+public import AVenhance.Infra.Section5.Integration.Energy.Integrated
 
 /-! # Time cutoff reducing the open half-line energy setup to `ForcedSetup`
 

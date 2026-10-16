@@ -3,17 +3,27 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.SourceErrorDBridge
-public import AVenhance.Infra.Section5.Contracts.SourceErrorDMeas
-public import AVenhance.Infra.Section5.Contracts.SourceErrorDScale
-public import AVenhance.Infra.Section5.Contracts.SourceErrorDTail
-public import AVenhance.Infra.Section5.Contracts.SourceErrorDTheta
-public import AVenhance.Infra.Section4.TUpgradeConsumersV
-public import AVenhance.Infra.Section4.TUpgradeConsumersScales
-public import AVenhance.Infra.Section5.Contracts.Produced
-public import AVenhance.Infra.Section5.Contracts.TJets
-public import AVenhance.Infra.Section5.Contracts.ThetaProfile
-public import AVenhance.Infra.Section5.RelativeError.ATensorJets
+import AVenhance.Infra.Section5.Contracts.SourceErrorDBridge
+import AVenhance.Infra.Section5.Contracts.SourceErrorDMeas
+import AVenhance.Infra.Section5.Contracts.SourceErrorDScale
+import AVenhance.Infra.Section5.Contracts.SourceErrorDTail
+import AVenhance.Infra.Section5.Contracts.SourceErrorDTheta
+import AVenhance.Infra.Section4.TUpgradeConsumersV
+import AVenhance.Infra.Section4.TUpgradeConsumersScales
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.Contracts.TJets
+import AVenhance.Infra.Section5.RelativeError.ATensorJets
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
+import AVenhance.Infra.Section4.DmFlowTgrad
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyScale
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.RelativeError.ATensorBound
+import AVenhance.Statements.Construction.StreamRegularity
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `SourceErrorDContract` producers
 

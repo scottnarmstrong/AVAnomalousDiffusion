@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeVectorTriangle
+import AVenhance.Infra.Section5.RelativeError.RelativeVectorTriangle
+public import AVenhance.Statements.Roots.TimeCube
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
 
 /-! # `L²((0,1)×𝕋²)` bookkeeping for the leading-error estimate
 

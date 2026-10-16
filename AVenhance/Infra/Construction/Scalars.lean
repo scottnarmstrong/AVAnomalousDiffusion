@@ -3,10 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Ingredients.EpsilonConsequences
-public import Mathlib.Analysis.SpecificLimits.Normed
-public import Mathlib.Analysis.SpecialFunctions.Log.Basic
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import AVenhance.Infra.Ingredients.EpsilonConsequences
+public import AVenhance.Statements.Ingredients.TauPP
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Analysis.Complex.ExponentialBounds
 
 /-! Scalar bookkeeping for §2.2. The flow and interpolation lemmas below
 are algebraic consequences of scalar estimates, not proofs of PDE/ODE estimates. -/

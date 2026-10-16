@@ -14,8 +14,6 @@ noncomputable section
 
 namespace AVenhance
 
-open Homogenization
-
 /-- `e.lk.def` (1173-1177): `l_k := ⌈(k τ_m + (τ''_m - τ_m)/2) / τ''_m⌉`, `k ∈ ℤ`. -/
 /- Correction: the source (1173) has a ceiling; the floor is required for
 `e.taum.prime.supp` and `e.cutoff.overlaps` (the ceiling gives l₀ = 1). -/

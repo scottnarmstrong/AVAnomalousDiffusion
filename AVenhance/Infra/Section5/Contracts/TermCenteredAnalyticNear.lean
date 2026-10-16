@@ -3,9 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticJets
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticJets
 public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
 public import AVenhance.Infra.Ergodic.HMinusOneErgodicFlow
+public import AVenhance.Statements.Ingredients.XiMK
+import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Construction.Section2FlowRegularityCore
+import AVenhance.Infra.Construction.Section2JointInduction
+import AVenhance.Infra.Construction.Section2Scales
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticWindow
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
 
 /-! # Near-identity of the actual flow slice on `supp ξ_{m,k}`
 

@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FiniteNormalOrderInduction
+import AVenhance.Infra.Section4.Amnr.FiniteNormalOrderInduction
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+import AVenhance.Infra.Section4.Amnr.FiniteSmoothLocalization
+import AVenhance.Infra.Section4.Amnr.SmoothLocalization
 
 /-! Normal ordering on the source's open positive-time domain. -/
 

@@ -4,8 +4,10 @@
 module
 
 public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
-public import AVenhance.Infra.Parabolic.WeakUniqueness.DriftYoung
-public import AVenhance.Infra.Parabolic.WeakUniqueness.Gronwall
+import AVenhance.Infra.Parabolic.WeakUniqueness.DriftYoung
+import AVenhance.Infra.Parabolic.WeakUniqueness.Gronwall
+import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenDrift
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # Zero-data weak energy identity

@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ProductWeakLimitPassage
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
-public import Mathlib.MeasureTheory.Function.LpSeminorm.LpNorm
+import Mathlib.MeasureTheory.Function.LpSeminorm.LpNorm
+public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenDriftProduct
 
 /-!
 # Identifying product and weak-path scalar limits

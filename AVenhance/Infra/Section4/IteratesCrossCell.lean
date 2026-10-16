@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCrossIntegrability
-public import AVenhance.Infra.Section4.IteratesTruncatedCell
+import AVenhance.Infra.Section4.IteratesCrossIntegrability
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.TimeCube
 
 @[expose] public section
 

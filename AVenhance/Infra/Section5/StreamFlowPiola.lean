@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Classical.Drift
-public import AVenhance.Infra.Section5.FlowPiolaDivergence
+import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Section5.FlowPiolaDivergence
+public import AVenhance.Infra.Section5.FlowPiola
+import AVenhance.Infra.Section5.FrozenFlowRegularity
 
 /-! The stream velocity is classically divergence-free, so its
 inverse-flow cofactor Piola identity follows from the source sequence alone. -/

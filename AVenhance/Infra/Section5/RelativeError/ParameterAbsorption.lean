@@ -3,7 +3,6 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.Combination
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 /-!# RelativeError: isolate the small-scale exponential absorption

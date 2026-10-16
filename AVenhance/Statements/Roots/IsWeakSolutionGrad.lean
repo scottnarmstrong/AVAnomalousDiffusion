@@ -4,6 +4,10 @@
 module
 
 public import AVenhance.Statements.Roots.IsTestFunction
+public import AVenhance.Statements.Roots.IsPeriodicH1With
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Roots.TimeCube
 
 /-! Statement file: `IsWeakSolutionGrad` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/

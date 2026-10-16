@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Statements.Roots.IsContinuousIntoHolder
+public import AVenhance.Statements.Roots.IsHolderClass
 
 /-!
 # Lowering the Hölder exponent of a drift

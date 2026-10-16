@@ -10,7 +10,6 @@ public import AVenhance.Infra.Section4.Amnr.TemperatureDiffusionRates
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
 
 end AVenhance.Infra.Section4

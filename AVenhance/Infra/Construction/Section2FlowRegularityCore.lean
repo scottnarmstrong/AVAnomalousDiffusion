@@ -3,14 +3,24 @@
 
 module
 
-public import AVenhance.Infra.Construction.Section2JointInduction
-public import AVenhance.Infra.Construction.Section2FlowIdentities
-public import AVenhance.Infra.Construction.AppB2FieldBounds
-public import AVenhance.Infra.Construction.ExplicitBarNorm
-public import AVenhance.Infra.Flow.JointSmoothFromFixedStart
-public import AVenhance.Infra.Flow.GradientDeviation
-public import AVenhance.Infra.FaaDiBruno.FlowDnInduction
-public import AVenhance.Infra.FaaDiBruno.TransportTimeAnalyticity
+import AVenhance.Infra.Construction.Section2JointInduction
+import AVenhance.Infra.Construction.Section2FlowIdentities
+import AVenhance.Infra.Construction.AppB2FieldBounds
+import AVenhance.Infra.Construction.ExplicitBarNorm
+import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+import AVenhance.Infra.Flow.GradientDeviation
+import AVenhance.Infra.FaaDiBruno.TransportTimeAnalyticity
+public import AVenhance.Infra.Construction.RecursionIncrement
+public import AVenhance.Infra.FaaDiBruno.TransportODEApplications
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FaaDiBruno.FlowDnInduction.SmallTime
+import AVenhance.Infra.FaaDiBruno.TransportSharpEstimate
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 /-! Joint regularity lemmas for the per-scale §2 flow displays. -/
 

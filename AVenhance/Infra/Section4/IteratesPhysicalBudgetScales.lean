@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesStreamPhysical
-public import AVenhance.Infra.Section4.IteratesStreamBudgetScales
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

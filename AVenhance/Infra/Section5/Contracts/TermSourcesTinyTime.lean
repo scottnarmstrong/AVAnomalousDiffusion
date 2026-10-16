@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.HMinusTools
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyTransfer
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 /-! # Time assembly for the `tiny` source contract
 
@@ -16,7 +17,7 @@ part `√‖F‖²` (with `‖F‖² ≤ 2‖d‖² + 2‖e‖²`) and a nondive
 
 @[expose] public section
 
-open MeasureTheory Homogenization
+open MeasureTheory
 
 noncomputable section
 

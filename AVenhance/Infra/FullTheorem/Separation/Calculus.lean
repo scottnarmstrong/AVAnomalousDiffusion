@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaIntegratedEnergy
+public import AVenhance.Infra.Section4.ThetaCommutator
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.UnitCube
+import AVenhance.Infra.Section4.ThetaEnergy
+import AVenhance.Infra.Section4.ThetaTimeEnergy
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Torus calculus for the separation estimates
 

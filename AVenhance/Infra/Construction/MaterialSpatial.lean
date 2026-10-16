@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Construction.MaterialRecursion
-public import AVenhance.Infra.Construction.Section2JointInduction
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Ingredients.Ingredients
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Algebra.Ring.IsFormallyReal
 
 @[expose] public section
 

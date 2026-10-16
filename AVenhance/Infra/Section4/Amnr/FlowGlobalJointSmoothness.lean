@@ -3,7 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowGlobalSpatialSmoothness
+import AVenhance.Infra.Section4.Amnr.FlowGlobalSpatialSmoothness
+public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Flow.InverseC1
+import AVenhance.Infra.Flow.JointC1
+import AVenhance.Infra.Section4.Amnr.FlowGradientSpatialRates
+import AVenhance.Infra.Section4.Amnr.FlowJointPrimitives
+import AVenhance.Infra.Section4.Amnr.FlowSpatialJetRates
+import AVenhance.Infra.Section4.Amnr.SmoothInverse
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Actual globally smooth inverse maps and source flow primitives. -/
 

@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.VelocityNonemptySpatial
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section4.Amnr.Cutoff
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Actual zero-stream base cases for the higher material induction. -/
 

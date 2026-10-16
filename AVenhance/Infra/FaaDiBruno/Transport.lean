@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.FaaDiBruno.Product
-public import AVenhance.Infra.FaaDiBruno.Composition
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import AVenhance.Infra.FaaDiBruno.Product
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 /-!
 # Appendix B.2 transport estimates

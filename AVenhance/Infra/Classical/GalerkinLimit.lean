@@ -4,7 +4,7 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinCauchy
-public import Mathlib.Topology.MetricSpace.Cauchy
+import AVenhance.Infra.Classical.GalerkinResidualBounds
 
 /-! Uniform Cauchy convergence of the scalar torus Galerkin paths. -/
 

@@ -3,9 +3,21 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStream
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyClassical
-public import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStream
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyClassical
+import AVenhance.Infra.Classical.Drift
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section5.ClassicalRegularity
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyBalance
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyModes
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyPeriodic
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStreamReal
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # RelativeError item 12: the stream-difference estimate

@@ -3,9 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedWordCurrent
-public import AVenhance.Infra.Section4.IteratesMatrixContinuity
-public import AVenhance.Infra.Section4.IteratesLaplacianEnergy
+import AVenhance.Infra.Section4.IteratesTruncatedWordCurrent
+import AVenhance.Infra.Section4.IteratesMatrixContinuity
+import AVenhance.Infra.Section4.IteratesLaplacianEnergy
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
 
 /-! Natural integrability for the current oscillatory material pairing. -/
 

@@ -4,10 +4,16 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermCenteredDefs
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
-public import AVenhance.Infra.Section5.SlowFactorBounds
-public import AVenhance.Infra.Section5.Contracts.TermCenteredFluxEntries
-public import AVenhance.Infra.Section5.Contracts.TermCenteredFluxAlg
+import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
+import AVenhance.Infra.Section5.Contracts.TermCenteredFluxEntries
+import AVenhance.Infra.Section5.Contracts.TermCenteredFluxAlg
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Infra.Section5.SlowFactorBoundsSource
+import AVenhance.Infra.Section3.MovingFluxEnergy
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
 
 /-! # Pointwise bounds for the fluxes and slow factors of `twistie4`, `twistie5`
 
@@ -24,7 +30,6 @@ noncomputable section
 namespace AVenhance.Infra.Section5.Contracts
 
 open AVenhance AVenhance.Infra.Section5 AVenhance.Infra.Section5.RelativeError
-  AVenhance.Infra.Section5.Integration
 
 variable {β : ℝ} (I : Ingredients β) {Φ : ℕ → ℝ → Vec 2 → ℝ}
 

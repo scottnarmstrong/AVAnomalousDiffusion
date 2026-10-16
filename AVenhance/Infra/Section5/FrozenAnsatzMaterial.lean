@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.FiniteAnsatzMaterial
+import AVenhance.Infra.Section5.FiniteAnsatzMaterial
 public import AVenhance.Infra.Section5.FrozenAnsatzTime
+import AVenhance.Infra.Section5.AnsatzProduct
 
 /-! The finite material-derivative expansion instantiated on the
 locally finite cutoff ansatz. -/

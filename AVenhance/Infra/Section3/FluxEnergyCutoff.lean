@@ -3,12 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section3.CorrectorBounds
-public import AVenhance.Infra.Section3.ExplicitBounds
-public import AVenhance.Infra.Ingredients.TimeScales
-public import Mathlib.Analysis.Calculus.MeanValue
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
-public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Ingredients.TimeScales
+import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import AVenhance.Statements.Section3.CorrTime
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.CorrTimeRegularity
+import AVenhance.Infra.Section3.ExplicitBounds.CutoffMemory
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Order.CompletePartialOrder
 
 /-! Quantitative slow variation of the Section 3 forcing cutoffs. -/
 

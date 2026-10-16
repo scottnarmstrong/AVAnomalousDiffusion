@@ -4,8 +4,7 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.TransportPairing
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
-public import AVenhance.Infra.Torus.Basic
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
 
 /-! # RelativeError: integrate the parabolic/transport pairing identity from time zero -/
 

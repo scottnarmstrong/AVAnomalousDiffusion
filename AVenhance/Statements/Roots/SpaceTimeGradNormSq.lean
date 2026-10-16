@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.TimeCube
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 
 /-! Statement file: `spaceTimeGradNormSq` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/

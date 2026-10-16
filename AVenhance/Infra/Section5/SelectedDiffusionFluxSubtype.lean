@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.OddSupportTsum
-public import AVenhance.Infra.Section5.SelectedDiffusionFlux
+import AVenhance.Infra.Section5.OddSupportTsum
+import AVenhance.Infra.Section5.SelectedDiffusionFlux
+public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Infra.Section5.Terms
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Selected diffusion flux decomposition on the odd-subtype support. -/
 

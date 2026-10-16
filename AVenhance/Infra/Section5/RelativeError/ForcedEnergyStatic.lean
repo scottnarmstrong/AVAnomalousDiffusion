@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
+public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakProjection
+import AVenhance.Infra.Classical.GalerkinGenerator
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakProjectionConvergence
 
 /-!
 # Static divergence-free cancellation on periodic `H¹`

@@ -4,17 +4,18 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.BigBound
-public import AVenhance.Infra.Section5.IndyStepDownPartI
-public import AVenhance.Infra.Section5.MStar
-public import AVenhance.Infra.Section5.ClassicalRegularity
-public import AVenhance.Infra.Section5.FrozenFlowRegularity
-public import AVenhance.Infra.Section4.LocalFinite
-public import AVenhance.Infra.Section5.Integration.Energy.Estimate
-public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
-public import AVenhance.Infra.Section5.Integration.PartIAnsatzRegularityIoi
-public import AVenhance.Infra.Section5.Integration.PartIEnergyIoi
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
+import AVenhance.Infra.Section5.IndyStepDownPartI
+import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Section5.ClassicalRegularity
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.Integration.PartIAnsatzRegularityIoi
+import AVenhance.Infra.Section5.Integration.PartIEnergyIoi
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.LeftToShow.Matrix
 
 /-! # Step-down part (i) wiring: `IndyStepDownPartIStatement` from the explicit inputs
 

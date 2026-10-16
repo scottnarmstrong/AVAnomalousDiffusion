@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.HMinusMeasurable
-public import AVenhance.Infra.Section5.IndyStepDownPartI
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.IndyStepDownPartI
+public import AVenhance.Statements.Roots.L2NormSq
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `L²(𝕋²)` bookkeeping for the ansatz estimate `e.tildethetam.to.Tm`
 

@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordForcingContinuity
-public import AVenhance.Infra.Section4.IteratesForcingFactorials
+import AVenhance.Infra.Section4.IteratesWordForcingContinuity
+import AVenhance.Infra.Section4.IteratesForcingFactorials
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.VecDiv
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.IteratesWordForcingEnergy
 
 @[expose] public section
 

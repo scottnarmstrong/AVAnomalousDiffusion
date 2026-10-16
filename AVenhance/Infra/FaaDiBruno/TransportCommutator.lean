@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.FaaDiBruno.TransportExpansion
-public import Mathlib.Analysis.Calculus.VectorField
+import AVenhance.Infra.FaaDiBruno.TransportExpansion
+import Mathlib.Analysis.Calculus.VectorField
+public import AVenhance.Infra.FaaDiBruno.DirectionalProduct
+public import AVenhance.Infra.FaaDiBruno.TransportSolution.Definitions
 
 @[expose] public section
 

@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesSourceRadius
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Algebra.Order.Ring.Star
 
 @[expose] public section
 

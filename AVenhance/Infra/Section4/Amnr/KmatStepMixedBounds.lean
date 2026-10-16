@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.KappaStepSourceSize
+public import AVenhance.Infra.Section4.Amnr.Induction
+public import AVenhance.Statements.Section3.KMat
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section4.Amnr.Memory
 
 /-! Kmat jets from the actual one-step diffusivity size comparison. -/
 

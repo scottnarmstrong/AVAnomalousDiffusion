@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesStreamCoefficient
-public import AVenhance.Infra.Section4.IteratesStreamPhysical
+import AVenhance.Infra.Section4.IteratesStreamCoefficient
+import AVenhance.Infra.Section4.IteratesStreamPhysical
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Construction.IsStreamSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Star.Real
 
 /-! The stream-regularity estimates give the actual high stream-matrix analytic profile. -/
 
@@ -12,7 +17,6 @@ public import AVenhance.Infra.Section4.IteratesStreamPhysical
 
 noncomputable section
 open Homogenization
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open AVenhance
 

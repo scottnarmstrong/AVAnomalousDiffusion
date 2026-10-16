@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordTransport
+import AVenhance.Infra.Section4.IteratesWordTransport
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesWordEquation
+import AVenhance.Infra.Section4.IteratesWordFlux
 
 /-! The material error is exactly the ordered velocity-gradient Leibniz error. -/
 

@@ -3,10 +3,14 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.LemmaU.SliceDrift
-public import AVenhance.Infra.FullTheorem.LemmaU.LowHigh
-public import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
-public import AVenhance.Infra.Parabolic.WeakUniqueness.FiniteGalerkinEnergy
+import AVenhance.Infra.FullTheorem.LemmaU.SliceDrift
+import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
+public import AVenhance.Infra.FullTheorem.LemmaU.ModeCoefficients
+public import AVenhance.Infra.FullTheorem.LemmaU.ModeEnergy
+public import AVenhance.Infra.Parabolic.WeakUniqueness.ModePath
+public import AVenhance.Statements.Roots.IsDivFree
+import AVenhance.Infra.FullTheorem.LemmaU.TimeSlices
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # Lemma U: a weak solution is a mode system

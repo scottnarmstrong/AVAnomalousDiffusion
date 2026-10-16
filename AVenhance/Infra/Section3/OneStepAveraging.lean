@@ -3,12 +3,23 @@
 
 module
 
-public import AVenhance.Infra.Section3.Approx
-public import AVenhance.Infra.Section3.JMNPeriodAverage
-public import AVenhance.Infra.Section3.CorrectorBounds
-public import AVenhance.Infra.Ingredients.TimeScales
-public import AVenhance.Infra.Ingredients.TimeScaleArithmetic
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+import AVenhance.Infra.Section3.Approx
+import AVenhance.Infra.Section3.JMNPeriodAverage
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Ingredients.TimeScaleArithmetic
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+public import AVenhance.Statements.Section3.KMat
+public import AVenhance.Statements.Section3.KhomScalar
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.ExplicitBounds.CutoffMemory
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section3.JMNRegularity
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
+import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
 
 /-! Exact zeroth-order cutoff average used in the Section 3 one-step estimate. -/
 

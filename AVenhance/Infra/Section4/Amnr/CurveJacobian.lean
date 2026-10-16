@@ -3,14 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.JacobianJetScaling
+public import AVenhance.Infra.Section4.Amnr.CurveImplicit
+import AVenhance.Infra.Section4.Amnr.CurveJetOperators
+import Mathlib.Analysis.Calculus.ContDiff.Bounds
+import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 /-! The actual linearized Volterra operator and its primitive jets. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
 
 instance CurveJacobian.amnrCurveEndNorm {K E : Type} [TopologicalSpace K] [CompactSpace K]

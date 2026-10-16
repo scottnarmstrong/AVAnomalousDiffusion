@@ -4,9 +4,28 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.ATensorBoundLevels
-public import AVenhance.Infra.Section4.Amnr.TemperatureMixedTopSourceBounds
-public import AVenhance.Infra.Section4.Amnr.SeedMultiplierSourceBounds
-public import AVenhance.Infra.Section4.Amnr.SourceSmallnessThreshold
+public import AVenhance.Infra.Section4.Amnr.KmatStepMixedBounds
+public import AVenhance.Infra.Section4.Amnr.LocalSpatialWords
+public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientIdentity
+public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientTopSourceBounds
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section3.LRecurseTop
+import AVenhance.Infra.Section4.Amnr.CoefficientProductBounds
+import AVenhance.Infra.Section4.Amnr.FlowAverage
+import AVenhance.Infra.Section4.Amnr.FlowAverageSourceBounds
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.FlowMaterial
+import AVenhance.Infra.Section4.Amnr.FlowMixedEstimate
+import AVenhance.Infra.Section4.Amnr.KappaStepSourceSize
+import AVenhance.Infra.Section4.Amnr.Rates
+import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientBounds
+import AVenhance.Infra.Section4.Params
 
 /-! # Uniform primitive coefficient constants for the S-amplitude AMNR Hessian
 

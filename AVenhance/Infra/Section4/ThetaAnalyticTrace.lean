@@ -3,7 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaAnalyticBound
+public import AVenhance.Infra.Section4.ThetaAnalyticProof
+public import AVenhance.Infra.Section4.ThetaAnalyticScale
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.ThetaAnalyticInduction
+import AVenhance.Infra.Section4.ThetaAnalyticRecursion
+import AVenhance.Infra.Section4.ThetaIntegratedEnergy
+import AVenhance.Infra.Section4.ThetaScale
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Analytic estimates under the stream-regularity and diffusivity-recursion estimates, with an explicit initial derivative trace. -/
 

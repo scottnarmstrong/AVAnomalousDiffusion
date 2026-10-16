@@ -4,7 +4,6 @@
 module
 
 public import Mathlib.Analysis.Fourier.AddCircleMulti
-public import Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
 
 /-!
 # Finite symmetric Fourier cutoffs on the two-torus

@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectPositiveTransport
-public import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectPositiveTransport
+import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.TimeCube
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Positive source primitives from genuine spacetime L2 control. Neither
 source traces at zero nor pointwise-in-time source estimates are needed. -/

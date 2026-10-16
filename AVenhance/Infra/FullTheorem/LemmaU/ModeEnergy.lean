@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.LemmaU.ScalarPaths
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Tactic.Positivity.Finset
 
 /-!
 # Lemma U: the abstract mode system

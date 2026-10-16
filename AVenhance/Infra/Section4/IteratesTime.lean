@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMaterial
+import AVenhance.Infra.Section4.IteratesMaterial
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
 
 /-! Time integration of the actual classical energy pairing, including t = 0.
 FTC is applied on the open time interval, so no two-sided derivative at the
@@ -13,7 +18,6 @@ initial boundary is imposed. -/
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

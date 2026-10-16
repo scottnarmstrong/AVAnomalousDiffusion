@@ -3,9 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyBalance
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStreamAux
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStreamReal
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStreamAux
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyModes
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyPeriodic
 
 /-!
 # The stream-difference estimate
@@ -24,8 +28,6 @@ open Homogenization
 open scoped Topology
 
 namespace AVenhance.Infra.Section5.RelativeError
-
-open AVenhance.Infra.Parabolic.WeakUniqueness
 
 local instance streamFiniteUnitCube : IsFiniteMeasure (volume.restrict AVenhance.unitCube) := by
   refine ⟨?_⟩

@@ -3,8 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Flow.HessianJointAll
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import AVenhance.Infra.Flow.HessianJointAll
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+public import AVenhance.Infra.Flow.FirstJet
+public import AVenhance.Infra.Flow.SecondJetContinuity
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import AVenhance.Infra.Flow.JointC1Core
+import AVenhance.Infra.Flow.JointSpatialDerivativeAll
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.SpatialC2
+import AVenhance.Infra.Flow.SpatialRegularity
+import AVenhance.Infra.Flow.VariationalJointC1
+import Mathlib.Analysis.Calculus.ContDiff.FiniteDimension
 
 /-! Initial-time differentiability for augmented jet flows. -/
 

@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.NoSelectionLimit.Sup
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Statements.Construction.LimitFieldRegular
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! # The limit field of a stream sequence, packaged
 

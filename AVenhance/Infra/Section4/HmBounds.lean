@@ -4,11 +4,12 @@
 module
 
 public import AVenhance.Statements.Section4.Hm
-public import AVenhance.Infra.Section4.Params
-public import AVenhance.Infra.Section3.Approx
-public import AVenhance.Infra.Section4.DmBounds
-public import AVenhance.Infra.Flow.FlowIntegral
-public import Mathlib.MeasureTheory.Function.LpSeminorm.TriangleInequality
+import AVenhance.Infra.Section3.Approx
+import AVenhance.Infra.Section4.DmBounds
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.QMNRRecursion
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! Source-scale reduction for the `H̃_m`.  The cutoff is exactly
 `range (Jcut β)`, as fixed by the corrected index conventions.  The analytic term estimates are kept

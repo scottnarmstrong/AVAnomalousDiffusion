@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.SlowFactorBoundsProduct
-public import Mathlib.Data.Nat.Choose.Bounds
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
 
 /-! Fixed derivative shifts in factorial analytic bounds. -/
 
@@ -12,8 +11,8 @@ public import Mathlib.Data.Nat.Choose.Bounds
 
 noncomputable section
 open scoped ContDiff ENNReal
-open MeasureTheory Homogenization AVenhance.FaaDiBruno
-open AVenhance.Infra.Section4 AVenhance.Infra.Ergodic AVenhance.Infra.Torus
+open MeasureTheory Homogenization
+open AVenhance.Infra.Section4
 namespace AVenhance.Infra.Section5
 
 /-- A fixed derivative shift costs a fixed factorial and doubles the rate. -/

@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordForcingGradient
-public import AVenhance.Infra.Section4.IteratesWordFluxSquare
+import AVenhance.Infra.Section4.IteratesWordForcingGradient
+public import AVenhance.Infra.Section4.IteratesWordFlux
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Forcing-gradient energy without pointwise scalar analytic hypotheses. -/
 

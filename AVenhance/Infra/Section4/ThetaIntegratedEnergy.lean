@@ -3,10 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaTimeSpatialTrace
-public import AVenhance.Infra.Section4.ThetaDifferentiatedEnergy
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import AVenhance.Infra.Section4.ThetaTimeSpatialTrace
+import AVenhance.Infra.Section4.ThetaDifferentiatedEnergy
+public import AVenhance.Infra.Section4.ThetaDifferentiated
 
 /-! Time integrated differentiated energy identities and their input bounds. -/
 

@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftJacobian.PiolaFlux
-public import AVenhance.Infra.Section5.LeftJacobian.RegroupSmooth
+import AVenhance.Infra.Section5.LeftJacobian.PiolaFlux
+import AVenhance.Infra.Section5.LeftJacobian.RegroupSmooth
+public import AVenhance.Statements.Ingredients.HatXiML
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
 
 /-! Left-Jacobian form: spatial smoothness of the pulled gap fluxes
 `y ↦ Σ_l ξ̂_l F_lᵀ M F_l ∇T` (constant matrix `M`), which carry the base flux

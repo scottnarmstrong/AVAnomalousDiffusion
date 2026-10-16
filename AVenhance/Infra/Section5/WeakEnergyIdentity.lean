@@ -4,9 +4,10 @@
 module
 
 public import AVenhance.Infra.Section5.H1Reduction
-public import AVenhance.Infra.Section5.A0Facts
-public import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
-public import AVenhance.Statements.Roots.WeakWellposed
+import AVenhance.Infra.Section5.A0Facts
+import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
+import AVenhance.Statements.Roots.WeakWellposed
+public import AVenhance.Statements.Roots.IsDivFree
 
 /-!
 # Divergence-free weak energy identities for §5

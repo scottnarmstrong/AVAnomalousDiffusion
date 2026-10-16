@@ -3,11 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaHonestAnalytic
-public import AVenhance.Infra.Section4.ThetaDifferentiated
-public import AVenhance.Infra.Section4.ThetaCommutatorBounds
-public import AVenhance.Infra.Section4.ThetaAnalyticData
-public import AVenhance.Infra.Section4.ThetaZeroBounds
+import AVenhance.Infra.Section4.ThetaHonestAnalytic
+import AVenhance.Infra.Section4.ThetaCommutatorBounds
+import AVenhance.Infra.Section4.ThetaAnalyticData
+public import AVenhance.Infra.Section4.ThetaFluxEstimates
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Section4.IsThetaAnalytic
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.ThetaIntegratedEnergy
+import AVenhance.Infra.Section4.ThetaScale
+import AVenhance.Infra.Section4.ThetaSpaceTime
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Honest energy recursion and analytic bounds for the classical theta
 solution, conditional only on the stream-regularity and diffusivity-recursion conclusion data. -/

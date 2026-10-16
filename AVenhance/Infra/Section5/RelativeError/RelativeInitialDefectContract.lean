@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectZeroData
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectZeroData
+public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectContractPositive
 
 /-! Exact relative initial-layer contract from the two separately proved
 corrector and positive-time Hm estimates, including zero dissipation amplitude. -/

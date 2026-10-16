@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.TransportLimit.ViscousError
-public import AVenhance.Infra.FullTheorem.TransportLimit.Construction
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.L2NormSq
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.MeasureTheory.Function.L2Space
 
 /-!
 # Passing to the limit in the weak form

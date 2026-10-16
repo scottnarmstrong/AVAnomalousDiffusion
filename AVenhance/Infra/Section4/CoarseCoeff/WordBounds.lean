@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.SpatialWords
+import AVenhance.Infra.Section4.CoarseCoeff.SpatialWords
+public import AVenhance.Infra.Section4.CoarseCoeff.Form
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.CoarseCoeff.Regularity
+import AVenhance.Infra.Section4.IteratesWordCoefficientSplit
 
 @[expose] public section
 

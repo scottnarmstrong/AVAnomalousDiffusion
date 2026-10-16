@@ -3,10 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.WeakGradientPeriodization
-public import AVenhance.Statements.Roots.IsPeriodicH1With
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
-public import Mathlib.MeasureTheory.Function.L2Space
+import AVenhance.Infra.Parabolic.FourierGalerkin.WeakGradientPeriodization
+import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # Linear operations on periodic weak gradients

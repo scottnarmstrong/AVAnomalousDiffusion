@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureMaterialRate
-public import AVenhance.Infra.Section4.Amnr.TemperatureIterateFluxJets
+import AVenhance.Infra.Section4.Amnr.TemperatureMaterialRate
+import AVenhance.Infra.Section4.Amnr.TemperatureIterateFluxJets
+public import AVenhance.Infra.Section4.Amnr.CanonicalJetSamples
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientIdentity
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Section4.Amnr.TemperatureMaterialStepL2
 
 /-! Material induction simultaneously across the actual temperature family. -/
 

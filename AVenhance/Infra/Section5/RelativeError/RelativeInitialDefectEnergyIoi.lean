@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectContinuity
-public import AVenhance.Infra.Section5.Integration.PartIEnergyIoi
-public import AVenhance.Infra.Section5.IndyStepDownPartI
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectContinuity
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Classical.TimeEnergy
 
 /-! The comparison's initial defect is measured from the right against the
 actual datum. No value or regularity of the comparison at zero is consumed. -/
@@ -14,7 +15,7 @@ actual datum. No value or regularity of the comparison at zero is consumed. -/
 
 noncomputable section
 open Homogenization MeasureTheory Set Filter Topology AVenhance
-open AVenhance.Infra.Section5 AVenhance.Infra.Section5.Integration
+open AVenhance.Infra.Section5
 namespace AVenhance.Infra.Section5.RelativeError
 
 /-- A classical solution approaches its actual datum in L2 from the right. -/

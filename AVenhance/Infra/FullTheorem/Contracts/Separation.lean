@@ -4,8 +4,10 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Integration.SeparationContract
-public import AVenhance.Infra.FullTheorem.Separation.EnergyLoss
-public import AVenhance.Infra.FullTheorem.Separation.SqrtStep
+import AVenhance.Infra.FullTheorem.Separation.EnergyLoss
+import AVenhance.Infra.FullTheorem.Separation.SqrtStep
+public import AVenhance.Infra.FullTheorem.Separation.Derivs
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Proof of the separation statement
 

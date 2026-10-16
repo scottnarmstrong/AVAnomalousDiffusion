@@ -5,8 +5,7 @@ module
 
 public import AVenhance.Statements.Roots.LatticeShift
 public import Mathlib.Analysis.Calculus.ContDiff.Defs
-public import Mathlib.Topology.Order.Compact
-public import Mathlib.Algebra.Order.Floor.Ring
+public import Mathlib.Analysis.InnerProductSpace.Basic
 
 /-! Smooth jointly time-space periodic fields have globally bounded derivatives
 of each fixed order. -/

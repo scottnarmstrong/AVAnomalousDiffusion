@@ -3,13 +3,20 @@
 
 module
 
-public import AVenhance.Infra.Section5.ClassicalRegularity
-public import AVenhance.Infra.Section5.FlowGradientRegularity
-public import AVenhance.Infra.Section5.GradientChain
-public import AVenhance.Infra.Section5.MaterialGradient
-public import AVenhance.Infra.Section5.MatrixTransport
-public import AVenhance.Infra.Section5.PulledGradientTransport
-public import AVenhance.Infra.Section5.TEquationRegularity
+import AVenhance.Infra.Section5.ClassicalRegularity
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.MaterialGradient
+import AVenhance.Infra.Section5.MatrixTransport
+import AVenhance.Infra.Section5.PulledGradientTransport
+import AVenhance.Infra.Section5.TEquationRegularity
+public import AVenhance.Infra.Section5.TEquation
+public import AVenhance.Infra.Section5.Terms
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Material transport of the flow-pulled iterate gradient. -/
 

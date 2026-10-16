@@ -4,12 +4,25 @@
 module
 
 public import AVenhance.Infra.Construction.MaterialAuxiliaryWords
-public import AVenhance.Infra.Section4.Amnr.BoundedGradientInduction
-public import AVenhance.Infra.Section4.Amnr.HigherGradientStep
-public import AVenhance.Infra.Section4.Amnr.VelocityHigherStep
-public import AVenhance.Infra.Section4.Amnr.VelocityHigherOrders
-public import AVenhance.Infra.Section4.Amnr.GradientScaleChange
-public import AVenhance.Infra.Section4.Amnr.HigherMaterialScaling
+import AVenhance.Infra.Section4.Amnr.BoundedGradientInduction
+import AVenhance.Infra.Section4.Amnr.HigherGradientStep
+import AVenhance.Infra.Section4.Amnr.VelocityHigherStep
+import AVenhance.Infra.Section4.Amnr.VelocityHigherOrders
+import AVenhance.Infra.Section4.Amnr.GradientScaleChange
+import AVenhance.Infra.Section4.Amnr.HigherMaterialScaling
+public import AVenhance.Infra.Section4.Amnr.CorrectionCardinality
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.Cutoff
+import AVenhance.Infra.Section4.Amnr.FastVelocityMaterial
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
+import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.StreamFirstMaterialSpatial
+import AVenhance.Infra.Section4.Amnr.VelocityFirstSpatialSum
+import AVenhance.Infra.Section4.Amnr.VelocityMaterialSum
+import AVenhance.Infra.Section4.Amnr.ZeroVelocityJets
 
 /-! All-order material jets with a separate auxiliary spatial/word budget. -/
 

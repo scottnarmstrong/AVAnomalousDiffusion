@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredTime
-public import AVenhance.Infra.Section5.Contracts.TermCenteredArith
-public import AVenhance.Infra.Section5.Contracts.TermCenteredErgodic
+import AVenhance.Infra.Section5.Contracts.TermCenteredTime
+import AVenhance.Infra.Section5.Contracts.TermCenteredArith
+public import AVenhance.Infra.Section5.HMinusTools
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 
 /-! # Time integration and scale arithmetic for the centered contracts
 

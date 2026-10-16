@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureForcedEnergy
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Finite actual products in the spatial drift commutator. -/
 

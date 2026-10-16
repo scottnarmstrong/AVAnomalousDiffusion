@@ -3,9 +3,14 @@
 
 module
 
-public import AVenhance.Statements.Roots.IsWeakSolution
-public import AVenhance.Proofs.Roots.AnomalousDissipation
-public import AVenhance.Infra.Drift.HolderUpgrade
+import AVenhance.Proofs.Roots.AnomalousDissipation
+import AVenhance.Infra.Drift.HolderUpgrade
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.IsContinuousIntoHolder
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsHolderClass
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 
 /-! Statement file: `anomalous_dissipation` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/

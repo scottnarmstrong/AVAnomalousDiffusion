@@ -4,8 +4,11 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.BaseEnergyIdentity
-public import AVenhance.Statements.Roots.TimeCube
-public import AVenhance.Statements.Roots.UnitCube
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section5.RelativeError.BaseEnergyRate
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # the energy identity in the carriers
 

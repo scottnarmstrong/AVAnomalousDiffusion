@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Flow.SecondVariationContinuity
+import AVenhance.Infra.Flow.SecondVariationContinuity
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Flow.IsFlow
+import AVenhance.Infra.Flow.SecondSpatial
+import AVenhance.Infra.Flow.SpatialRegularity
+import Mathlib.Analysis.RCLike.Lemmas
 
 /-! Joint forward-time continuity of the second spatial derivative. -/
 

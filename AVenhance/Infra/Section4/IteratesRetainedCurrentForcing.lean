@@ -3,13 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedWordCurrent
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesTruncatedDiffusion
+import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesWordMaterialGradient
 
 @[expose] public section
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

@@ -3,9 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTerminalHighFlux
-public import AVenhance.Infra.Section4.IteratesStreamJetProfile
-public import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
+import AVenhance.Infra.Section4.IteratesTerminalHighFlux
+import AVenhance.Infra.Section4.IteratesStreamJetProfile
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesStreamCoefficient
 
 /-! High stream forcing for the actual finite increments under the stream-regularity estimates. -/
 

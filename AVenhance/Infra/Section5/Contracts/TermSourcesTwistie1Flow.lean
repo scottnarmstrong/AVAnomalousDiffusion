@@ -3,12 +3,26 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
-public import AVenhance.Infra.Section5.RelativeError.ATensorJets
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
+import AVenhance.Infra.Section5.RelativeError.ATensorJets
 public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
-public import AVenhance.Infra.Section4.IteratesFlowBounds
-public import AVenhance.Infra.Section4.IteratesWordSource
-public import AVenhance.Infra.Section5.ErgodicParams
+import AVenhance.Infra.Section4.IteratesWordSource
+public import AVenhance.Infra.Ergodic.HMinusOneErgodicFlow
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Ingredients.XiMK
+import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Construction.Section2FlowHigherDerivative
+import AVenhance.Infra.Construction.Section2FlowRegularityCore
+import AVenhance.Infra.Construction.Section2JointInduction
+import AVenhance.Infra.Construction.Section2Scales
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.IteratesFlowGeometry
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Flow facts on `supp ξ_{m,k}` for the `twistie1` source contract
 

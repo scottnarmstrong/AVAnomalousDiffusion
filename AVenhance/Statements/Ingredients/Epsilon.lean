@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Ingredients.Q
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 /-! Statement file: `epsilon` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -13,8 +14,6 @@ This file contains exactly one declaration of the formalization's public stateme
 noncomputable section
 
 namespace AVenhance
-
-open Homogenization
 
 /-- `e.epm.choice` (1041-1052): `ε_0 := 1`, `ε_m⁻¹ := ⌈Λ^{q^m/(q-1)}⌉` for `m ≥ 1`. -/
 def epsilon (β : ℝ) (Λ : ℕ) (m : ℕ) : ℝ :=

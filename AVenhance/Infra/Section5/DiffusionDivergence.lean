@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.FluxDivergence
+import AVenhance.Infra.Section5.FluxDivergence
 public import AVenhance.Statements.Section3.SpaceLap
 public import AVenhance.Statements.Section3.SigmaMat
+public import AVenhance.Statements.Section4.VecDiv
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+import Mathlib.Order.CompletePartialOrder
 
 /-! Divergence-form expansion of the shear diffusion and its induced drift. -/
 

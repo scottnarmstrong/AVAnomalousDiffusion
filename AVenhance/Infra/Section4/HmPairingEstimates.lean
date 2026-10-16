@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmSourcePairing
-public import Mathlib.MeasureTheory.Integral.MeanInequalities
+public import AVenhance.Infra.Section4.HmTransportedEnergy
+public import AVenhance.Statements.Roots.GradNormSq
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Time-integral Cauchy bounds used for the regular and flux pairings in the
 transported `H_m` estimate. -/

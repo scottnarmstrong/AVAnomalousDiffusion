@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesRadiusInflation
+import AVenhance.Infra.Section4.IteratesRadiusInflation
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Nat.Factorial.Basic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Positivity.Basic
 
 @[expose] public section
 

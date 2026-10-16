@@ -4,13 +4,17 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.StateDerivatives
+public import AVenhance.Infra.Section4.Amnr.CurveOperators
+import AVenhance.Infra.Section4.Amnr.CurveDifferentiability
+import AVenhance.Infra.Section4.Amnr.FieldTaylor
+import Mathlib.Analysis.Calculus.ContDiff.Comp
+import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 /-! Arbitrary smoothness of primitive fields acting on continuous curves. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
 
 universe u

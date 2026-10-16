@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.FaaDiBruno.FlowDnInduction.PositiveTime
+import AVenhance.Infra.FaaDiBruno.FlowDnInduction.PositiveTime
+public import AVenhance.Infra.FaaDiBruno.TransportODEApplications
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Shift
 
 @[expose] public section
 

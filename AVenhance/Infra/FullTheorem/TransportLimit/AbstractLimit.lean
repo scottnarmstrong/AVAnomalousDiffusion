@@ -3,9 +3,9 @@
 
 module
 
-public import Mathlib.MeasureTheory.Function.LpSpace.Complete
-public import Mathlib.MeasureTheory.Function.L2Space
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Algebra.Order.Ring.Star
 
 /-!
 # Abstract `L²` limits along a fast subsequence

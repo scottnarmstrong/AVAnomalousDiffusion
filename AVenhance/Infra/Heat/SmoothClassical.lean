@@ -5,9 +5,8 @@ module
 
 public import AVenhance.Infra.Heat.Smooth
 public import AVenhance.Infra.Torus.FourierCalculus
-public import Mathlib.Analysis.Fourier.FourierTransformDeriv
-public import Mathlib.Analysis.Calculus.ContDiff.Bounds
-public import Mathlib.Analysis.Calculus.SmoothSeries
+import Mathlib.Analysis.Fourier.FourierTransformDeriv
+import AVenhance.Infra.Heat.Analytic
 
 @[expose] public section
 

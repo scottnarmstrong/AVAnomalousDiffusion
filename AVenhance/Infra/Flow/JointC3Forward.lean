@@ -3,8 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Flow.HessianJointC1
-public import AVenhance.Infra.Flow.VariationalJointC1
+import AVenhance.Infra.Flow.HessianJointC1
+import AVenhance.Infra.Flow.VariationalJointC1
+public import AVenhance.Infra.Flow.SecondJetContinuity
+public import AVenhance.Infra.Flow.VariationalEquation
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import AVenhance.Infra.Flow.JointC1
+import AVenhance.Infra.Flow.JointC1Core
+import AVenhance.Infra.Flow.JointSpatialDerivativeAll
+import AVenhance.Infra.Flow.SpatialC2
+import Mathlib.Analysis.Calculus.ContDiff.FiniteDimension
 
 /-! C² regularity of the Jacobian and C³ regularity of the flow on forward strips. -/
 

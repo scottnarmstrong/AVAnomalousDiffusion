@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Profile
-public import AVenhance.Infra.Section4.IteratesCoefficientWords
-public import AVenhance.Infra.Section4.IteratesForcingCoefficients
-public import AVenhance.Infra.Section4.IteratesRadiusInflation
+import AVenhance.Infra.Section4.CoarseCoeff.Profile
+import AVenhance.Infra.Section4.IteratesForcingCoefficients
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Section4.SMat
+public import Mathlib.Analysis.Matrix.Normed
 
 @[expose] public section
 

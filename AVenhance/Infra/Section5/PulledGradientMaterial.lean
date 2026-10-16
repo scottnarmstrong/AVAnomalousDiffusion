@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.PulledGradientIdentity
-public import AVenhance.Infra.Section5.MaterialGradient
+import AVenhance.Infra.Section5.PulledGradientIdentity
+import AVenhance.Infra.Section5.MaterialGradient
+public import AVenhance.Infra.Section5.TEquation
+public import AVenhance.Infra.Section5.Terms
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Section5.MatrixTransport
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Fixed-point material form of the pulled-gradient transport identity. -/
 

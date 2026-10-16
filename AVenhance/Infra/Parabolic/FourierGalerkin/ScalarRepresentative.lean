@@ -4,8 +4,6 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.ProductGradientRepresentative
-public import AVenhance.Statements.Roots.L2NormSq
-public import Mathlib.MeasureTheory.Measure.Prod
 
 /-!
 # A pointwise scalar representative of the synchronized limit

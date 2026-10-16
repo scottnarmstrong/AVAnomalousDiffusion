@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectTransport
+public import AVenhance.Statements.Roots.L2NormSq
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-! Initial-time L2 norm continuity from joint continuity on the closed
 half-line. This includes time zero, unlike an interior-time FTC interface. -/

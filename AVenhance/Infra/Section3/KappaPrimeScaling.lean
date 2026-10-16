@@ -4,9 +4,12 @@
 module
 
 public import AVenhance.Infra.Section3.KappaPrime
-public import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.Parameters
 public import AVenhance.Infra.Ingredients.EpsilonConsequences
-public import AVenhance.Statements.Section3.PermittedInterval
+public import AVenhance.Statements.Ingredients.Gamma
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Normalized coordinates for the auxiliary diffusivity recurrence. -/
 

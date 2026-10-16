@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FiniteWordSums
+import AVenhance.Infra.Section4.Amnr.FiniteWordSums
+public import AVenhance.Infra.Section4.Amnr.AdvectionTerms
+import AVenhance.Infra.Section4.Amnr.FlowCoefficientBounds
+import AVenhance.Infra.Section4.Amnr.MaterialPowerChange
 
 /-! Actual differentiated correction monomials for changing material velocity. -/
 

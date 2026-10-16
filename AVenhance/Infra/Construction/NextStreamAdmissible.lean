@@ -4,16 +4,16 @@
 module
 
 public import AVenhance.Statements.Construction.NextStream
-public import AVenhance.Infra.Construction.NextStreamFinite
-public import AVenhance.Infra.Construction.StreamAdmissible
-public import AVenhance.Infra.Flow.JointSmoothFromFixedStart
-public import AVenhance.Infra.Flow.Laws
-public import AVenhance.Infra.Ingredients.TimeScaleArithmetic
-public import AVenhance.Infra.Ingredients.TimeScales
-public import AVenhance.Statements.FlowDefs.FlowIsFlow
-public import Mathlib.Algebra.Order.Floor.Ring
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Ingredients.TimeScaleArithmetic
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+public import AVenhance.Infra.Flow.PeriodicSmooth
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Flow.CurveUniqueness
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Ingredients.LIdxConsequences
 
 /-! Provider proofs for the §2 construction recursion. -/
 

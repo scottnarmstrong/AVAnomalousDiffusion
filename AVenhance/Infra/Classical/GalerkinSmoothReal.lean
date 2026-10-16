@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinSmoothTime
+public import AVenhance.Infra.Classical.GalerkinSmoothFourier
 
 /-! The smooth Fourier representative is real-valued, as inherited from the real Galerkin paths. -/
 

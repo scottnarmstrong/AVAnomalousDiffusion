@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TransportPiola
-public import AVenhance.Infra.Flow.JointC3All
-public import AVenhance.Infra.Construction.Section2FlowIdentities
+import AVenhance.Infra.Section5.RelativeError.TransportPiola
+import AVenhance.Infra.Flow.JointC3All
+import AVenhance.Infra.Construction.Section2FlowIdentities
+public import AVenhance.Infra.FaaDiBruno.TransportODEApplications
+public import AVenhance.Statements.Section4.VecDiv
 
 /-! # RelativeError: Piola data for the inverse flow -/
 

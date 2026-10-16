@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesOscillatory
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Section4.IsClassicalSol
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
 
 /-! Spatial derivative transfer for the current material diffusion term. -/
 
@@ -11,7 +14,6 @@ public import AVenhance.Infra.Section4.IteratesOscillatory
 
 noncomputable section
 open Homogenization
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

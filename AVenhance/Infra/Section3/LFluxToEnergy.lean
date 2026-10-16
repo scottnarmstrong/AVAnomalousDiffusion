@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section3.MovingEnergyReduction
+import AVenhance.Infra.Section3.MovingEnergyReduction
 public import AVenhance.Infra.Section3.MovingFluxEnergyComplete
 
 /-! The pointwise Section 3 flux-energy estimate in the finite-support form

@@ -3,12 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section3.CorrTimeRegularity
-public import AVenhance.Infra.Section3.CorrectorBounds
-public import AVenhance.Infra.Section3.CorrectorGradient
-public import AVenhance.Infra.Section3.ShearFormula
+import AVenhance.Infra.Section3.CorrTimeRegularity
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section3.CorrectorGradient
+import AVenhance.Infra.Section3.ShearFormula
 public import AVenhance.Statements.Section3.IsCorrectorSol
-public import Mathlib.Analysis.Calculus.FDeriv.Prod
+public import AVenhance.Statements.Section3.ChiMK
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
 
 /-! The explicit one-mode corrector solves its parabolic equation. -/
 

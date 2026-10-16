@@ -3,10 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Classical.PeriodicCalculus
-public import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Classical.TimeEnergy
 public import AVenhance.Infra.Torus.Basic
-public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Section4.VecDiv
 
 /-! # RelativeError: periodic integration by parts for the Piola vector -/
 

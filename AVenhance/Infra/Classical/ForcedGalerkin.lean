@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ConcreteData
-public import AVenhance.Infra.Parabolic.FourierGalerkin.Energy
-public import AVenhance.Infra.ODE.Linear.Energy
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import AVenhance.Infra.Parabolic.FourierGalerkin.Energy
+import AVenhance.Infra.ODE.Linear.Energy
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ODE
+import AVenhance.Infra.ODE.Linear.Gronwall
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.DerivIntegrable
 
 /-! Energy data for finite Galerkin ODEs with an integrable forcing. -/
 

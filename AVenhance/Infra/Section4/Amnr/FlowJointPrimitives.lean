@@ -3,7 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.SmoothInverse
+import AVenhance.Infra.Section4.Amnr.SmoothInverse
+public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Infra.Section4.Amnr.StateDerivatives
+public import AVenhance.Statements.Section3.GradMatrix
+import AVenhance.Infra.Flow.JointC1
+import AVenhance.Infra.Flow.SpatialRegularity
+import AVenhance.Infra.Section4.Amnr.FlowGradientSpatialRates
+import AVenhance.Infra.Section4.Amnr.FlowJointSmoothness
 
 /-! Actual jointly smooth spatial Jacobians and inverse-flow compositions. -/
 

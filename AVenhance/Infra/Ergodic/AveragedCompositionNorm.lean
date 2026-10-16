@@ -4,8 +4,7 @@
 module
 
 public import AVenhance.Infra.Ergodic.AveragedCompositionCalculus
-public import Mathlib.MeasureTheory.Function.LpSeminorm.TriangleInequality
-public import Mathlib.MeasureTheory.Function.LpSeminorm.SMul
+public import AVenhance.Infra.Ergodic.Flow
 
 /-! Averaged norms of the finite coordinate chain-rule terms. -/
 
@@ -13,7 +12,7 @@ public import Mathlib.MeasureTheory.Function.LpSeminorm.SMul
 
 noncomputable section
 open scoped ContDiff ENNReal
-open MeasureTheory Homogenization AVenhance.FaaDiBruno AVenhance.Infra.Torus
+open MeasureTheory Homogenization AVenhance.Infra.Torus
 namespace AVenhance.Infra.Ergodic
 
 /-- Smooth functions have every finite Lp norm on the bounded unit cell. -/

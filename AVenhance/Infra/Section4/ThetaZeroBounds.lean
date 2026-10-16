@@ -4,7 +4,10 @@
 module
 
 public import AVenhance.Infra.Section4.ThetaEnergyLevels
-public import AVenhance.Infra.Section4.ThetaDifferentiatedEnergy
+import AVenhance.Infra.Section4.ThetaDifferentiatedEnergy
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Section4.IsClassicalSol
 
 /-! The zero-amplitude branch, before any normalization by `‖θ₀‖₂`. -/
 

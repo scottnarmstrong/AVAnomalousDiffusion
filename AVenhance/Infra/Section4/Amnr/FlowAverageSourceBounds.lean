@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowMixedSourceBounds
-public import AVenhance.Infra.Section4.Amnr.FlowAverage
+import AVenhance.Infra.Section4.Amnr.FlowAverage
+public import AVenhance.Infra.Section4.Amnr.Induction
+public import AVenhance.Statements.Ingredients.Gamma
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.Seed
 
 /-! Actual mixed flow-average bounds for the temperature forcing coefficient. -/
 

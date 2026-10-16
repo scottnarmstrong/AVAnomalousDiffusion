@@ -3,7 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordFactorials
+import AVenhance.Infra.Section4.IteratesWordFactorials
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Nat.Choose.Basic
+import Mathlib.Algebra.BigOperators.Ring.Finset
+import Mathlib.Algebra.Order.Archimedean.Real.Basic
+import Mathlib.Algebra.Order.BigOperators.Group.Finset
+import Mathlib.Tactic.Positivity.Finset
 
 /-! Exact analytic weights in the linear material commutator recurrence. -/
 

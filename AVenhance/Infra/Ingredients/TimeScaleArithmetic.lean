@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Ingredients.TimeScaleBounds
+public import AVenhance.Infra.Ingredients.TimeScales
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
 
 /-! Integer-ratio consequences for the time scales. -/
 

@@ -3,14 +3,14 @@
 
 module
 
-public import Homogenization.Sobolev.H1.Definitions
+public import Homogenization.Ambient.Basic
 
 /-! Statement file: `latticeShift` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/
 
 @[expose] public section
 
-open MeasureTheory Filter Topology Homogenization
+open Homogenization
 
 namespace AVenhance
 

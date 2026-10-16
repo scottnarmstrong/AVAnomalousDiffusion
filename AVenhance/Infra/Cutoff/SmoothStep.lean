@@ -4,9 +4,6 @@
 module
 
 public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
-public import Mathlib.Analysis.Calculus.ContDiff.Basic
-public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
-public import Mathlib.Analysis.Calculus.Deriv.Support
 
 /-! Reusable one-dimensional smooth step and plateau cutoffs. -/
 

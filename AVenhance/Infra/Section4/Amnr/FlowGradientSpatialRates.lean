@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.SpatialCompositionRates
+import AVenhance.Infra.Section4.Amnr.SpatialCompositionRates
+public import AVenhance.Infra.Section4.Amnr.FlowSpatialSourceRates
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.FlowSpatialSmoothness
+import Mathlib.Analysis.Calculus.ContDiff.Bounds
 
 /-! The actual pulled flow Jacobian has every source spatial derivative rate. -/
 

@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedFilteredFlux
-public import AVenhance.Infra.Section4.IteratesHighStreamFactorials
+import AVenhance.Infra.Section4.IteratesTruncatedFilteredFlux
+import AVenhance.Infra.Section4.IteratesHighStreamFactorials
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 
 /-! Actual high coefficient-order flux with the quadratic norm kernel. -/
 

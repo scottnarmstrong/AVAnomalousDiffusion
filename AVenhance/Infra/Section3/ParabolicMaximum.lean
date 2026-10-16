@@ -3,11 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section3.LocalMaximumSecondDerivative
-public import AVenhance.Statements.Roots.SpaceGrad
+import AVenhance.Infra.Section3.LocalMaximumSecondDerivative
 public import AVenhance.Statements.Section3.SpaceLap
-public import Mathlib.Analysis.Calculus.FDeriv.Prod
-public import Mathlib.Analysis.SpecialFunctions.ExpDeriv
+import Mathlib.Order.CompletePartialOrder
 
 /-! Spatial second derivatives at a local maximum and the barrier maximum
 principle for bounded solutions on the whole plane. -/

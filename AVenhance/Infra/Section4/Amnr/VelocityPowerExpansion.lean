@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.ZeroVelocityJets
+public import AVenhance.Infra.Section4.Amnr.ChangedMaterialExpansion
+import AVenhance.Infra.Section4.Amnr.VelocityFirstSpatialSum
 
 /-! Exact scale differences of actual velocity material powers. -/
 

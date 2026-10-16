@@ -4,8 +4,13 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.FlowSecondContinuity
-public import AVenhance.Infra.Flow.JointC1
-public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import AVenhance.Infra.Flow.VariationalEquation
+public import Homogenization.Sobolev.WeakDerivatives
+import AVenhance.Infra.Flow.JointSpatialDerivativeAll
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.SpatialC1
+import AVenhance.Infra.Flow.SpatialC2
+import Mathlib.Analysis.Calculus.FDeriv.Partial
 
 /-! Joint first-order regularity of the actual spatial flow Jacobian. -/
 

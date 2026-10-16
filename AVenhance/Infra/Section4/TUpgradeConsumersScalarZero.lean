@@ -3,9 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTScalarZeroUpgrade
-public import AVenhance.Infra.Section4.IteratesDiffusivityComparison
-public import AVenhance.Infra.Section4.IteratesTThetaUpgrade
+import AVenhance.Infra.Section4.IteratesTScalarZeroUpgrade
+import AVenhance.Infra.Section4.IteratesDiffusivityComparison
+public import AVenhance.Infra.Section4.IteratesTDischarge
+public import AVenhance.Statements.Construction.BarNorm
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.IteratesFlowBounds
+import AVenhance.Infra.Section4.IteratesFlowClose
+import AVenhance.Infra.Section4.IteratesFlowGeometry
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
 
 @[expose] public section
 

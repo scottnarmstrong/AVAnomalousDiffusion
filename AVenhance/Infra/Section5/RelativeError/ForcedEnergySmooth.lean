@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
-public import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
+import AVenhance.Infra.Classical.PeriodicCalculus
 public import AVenhance.Statements.Roots.IsPeriodicH1With
+public import AVenhance.Statements.Roots.SpaceGrad
 
 /-!
 # Smooth periodic functions are periodic `H¹`

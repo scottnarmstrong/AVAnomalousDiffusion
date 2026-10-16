@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesL2FiniteTriangle
-public import AVenhance.Infra.Section4.IteratesActualCoordinateInduction
+import AVenhance.Infra.Section4.IteratesL2FiniteTriangle
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesMatrixIntegralSum
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
 
 @[expose] public section
 

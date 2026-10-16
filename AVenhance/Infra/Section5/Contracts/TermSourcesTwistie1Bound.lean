@@ -3,9 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Jets
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Time
-public import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Jets
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Time
+public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyTransfer
+public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Term
+public import AVenhance.Infra.Section5.HMinusTools
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Pointwise
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section5.RelativeError.ATensorJets
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The time bound for `twistie1` in terms of the space-time gradients of `T`
 

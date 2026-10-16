@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureMaterialStepL2
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Positivity.Basic
 
 /-! Abstract real normalization of the material gradient PDE estimate. -/
 

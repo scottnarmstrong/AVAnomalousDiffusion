@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Construction.MaterialComposition
+public import AVenhance.Infra.Construction.MaterialGoalSource
 
 @[expose] public section
 

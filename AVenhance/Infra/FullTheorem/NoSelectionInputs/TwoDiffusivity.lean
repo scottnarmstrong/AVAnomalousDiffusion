@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.NoSelectionInputs.DiffEnergy
+import AVenhance.Infra.FullTheorem.NoSelectionInputs.DiffEnergy
+public import AVenhance.Infra.FullTheorem.Integration.NoSelectionInputs
+public import AVenhance.Infra.FullTheorem.Separation.WordEnergy
+import AVenhance.Infra.FullTheorem.Separation.Derivs
+import AVenhance.Infra.Section4.ThetaTimeEnergy
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `TwoDiffusivityContract`
 

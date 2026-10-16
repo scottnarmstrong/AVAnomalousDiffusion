@@ -3,10 +3,20 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Term
-public import AVenhance.Infra.Section4.Amnr.TemperatureSpatialWords
-public import AVenhance.Infra.Section5.SMatRegularity
-public import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+import AVenhance.Infra.Section5.SMatRegularity
+import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Torus.Basic
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section4.SMat
+import AVenhance.Infra.Section4.Amnr.SpatialOperatorBounds
+import AVenhance.Infra.Section4.IteratesFlowGeometry
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Flow
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section5.RelativeError.ATensorJets
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Jets of the coefficient and of `T` in the form used by the `twistie1` estimate
 

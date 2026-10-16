@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Numeric.Exponents
+import AVenhance.Infra.Numeric.Exponents
+public import AVenhance.Statements.Ingredients.Delta
+public import AVenhance.Statements.Ingredients.Gamma
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-! # Scale arithmetic for `e.tildethetam.to.Tm.A`
 

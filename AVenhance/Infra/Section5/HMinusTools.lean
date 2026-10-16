@@ -5,10 +5,12 @@ module
 
 public import AVenhance.Statements.Section4.HMinusOneNorm
 public import AVenhance.Infra.Ergodic.HMinusOne
-public import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
-public import Mathlib.MeasureTheory.Integral.MeanInequalities
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
+public import AVenhance.Statements.Roots.L2NormSq
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Torus.FrozenBridge
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.CStarAlgebra.Classes
 
 /-! Tools for the extended-valued homogeneous negative norm. The
 mean-zero bridge retains the distinction between all periodic tests and the

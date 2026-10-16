@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordGrouping
-public import AVenhance.Infra.Section4.IteratesYoungWeights
+import AVenhance.Infra.Section4.IteratesWordGrouping
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
 
 /-! Exact binomial grouping of positive velocity and stream coefficient jets. -/
 

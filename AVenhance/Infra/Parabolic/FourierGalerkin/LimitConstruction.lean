@@ -3,7 +3,6 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.LimitRepresentation
 public import AVenhance.Infra.Parabolic.FourierGalerkin.ProductCompactness
 
 /-!

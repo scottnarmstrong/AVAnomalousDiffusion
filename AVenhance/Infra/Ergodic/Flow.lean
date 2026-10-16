@@ -5,8 +5,6 @@ module
 
 public import AVenhance.Infra.Ergodic.Periodic
 public import Mathlib.Algebra.Module.ZLattice.Basic
-public import Mathlib.MeasureTheory.Group.FundamentalDomain
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
 
 /-! # Periodic volume-preserving diffeomorphisms -/
 

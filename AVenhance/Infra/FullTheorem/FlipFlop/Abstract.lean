@@ -3,7 +3,6 @@
 
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Log.Basic
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 /-! # Abstract real lemmas for the flip-flop

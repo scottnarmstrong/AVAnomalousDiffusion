@@ -5,10 +5,22 @@ module
 
 public import AVenhance.Infra.Section5.RelativeError.ATensorBoundCoeff
 public import AVenhance.Infra.Section5.RelativeError.MaterialAmnrAdapters
-public import AVenhance.Infra.Section4.Amnr.HmAdapter
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Statements.Section3.LRecurse
-public import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Infra.Section4.Amnr.HmAdapter
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Statements.Section3.LRecurse
+import AVenhance.Statements.Construction.StreamRegularity
+public import AVenhance.Infra.Section4.HmBounds
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.Amnr.Rates
+import AVenhance.Infra.Section4.Amnr.SourceSmallnessThreshold
+import AVenhance.Infra.Section4.Amnr.TemperatureDiffusionRates
+import AVenhance.Infra.Section4.Amnr.TemporalPairing
+import AVenhance.Infra.Section4.Amnr.TensorNorm
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The `S`-amplitude AMNR Hessian tensor from per-iterate jets
 
@@ -23,7 +35,6 @@ primitive coefficient, velocity-gradient and seed constants are the `I`-uniform 
 noncomputable section
 
 open MeasureTheory Homogenization Set
-open scoped Matrix.Norms.Elementwise
 
 namespace AVenhance.Infra.Section5.RelativeError
 

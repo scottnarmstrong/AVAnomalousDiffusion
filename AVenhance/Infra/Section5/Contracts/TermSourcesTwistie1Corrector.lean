@@ -3,11 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.BracketFF
-public import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
-public import AVenhance.Infra.Section3.CorrectorBounds
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsScales
+import AVenhance.Infra.Section5.LeftToShow.BracketFF
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsScales
 public import AVenhance.Infra.Section5.ErgodicParams
+public import AVenhance.Infra.Ergodic.Periodic
+public import AVenhance.Statements.Section3.ChiMK
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.SpaceAverages
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
 
 /-! # The corrector `χ_{m,k}` as the fast factor of the `twistie1` ergodic estimate
 

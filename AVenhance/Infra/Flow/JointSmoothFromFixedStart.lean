@@ -3,11 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Flow.JointSmoothBootstrap
-public import AVenhance.Infra.Flow.FiniteSpatialJetSmooth
-public import AVenhance.Infra.Flow.Laws
-public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff
-public import Mathlib.Topology.Algebra.Module.FiniteDimension
+import AVenhance.Infra.Flow.FiniteSpatialJetSmooth
+import AVenhance.Infra.Flow.Laws
+import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Flow.IsFlow
+import AVenhance.Infra.Flow.JointC1
+import AVenhance.Infra.Flow.SmoothField
 
 /-! Joint smoothness from fixed-start smoothness and the global flow law. -/
 

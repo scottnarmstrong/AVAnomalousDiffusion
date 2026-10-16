@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.SlowFactorBoundsSums
-public import AVenhance.Infra.Section5.ErgodicParams
+public import AVenhance.Infra.Ergodic.AveragedCompositionCalculus
+public import AVenhance.Infra.Ergodic.AveragesL2
+public import AVenhance.Infra.Ergodic.Flow
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
+import AVenhance.Infra.Ergodic.AveragedComposition
+import AVenhance.Infra.Section5.SlowFactorBoundsProduct
+import Mathlib.Analysis.CStarAlgebra.Classes
 
 /-! From the actual Amnr spatial word calculus to the Appendix C predicates. -/
 

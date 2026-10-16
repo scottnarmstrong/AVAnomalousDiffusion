@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesGradientMaterialCross
-public import AVenhance.Infra.Section4.IteratesMatrixContinuity
+import AVenhance.Infra.Section4.IteratesGradientMaterialCross
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
 
 @[expose] public section
 

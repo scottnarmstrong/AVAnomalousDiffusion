@@ -3,16 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.VelocitySpatialLipschitz
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Analysis.Normed.Operator.NormedSpace
 
 /-! Quantitative actual third spatial flow operators. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
+open Homogenization
 namespace AVenhance.Infra.Section4
-open AVenhance.Infra.Flow
 
 instance FlowThirdVariationRates.amnrBilinearNorm :
     NormedAddCommGroup (Vec 2 →L[ℝ] Vec 2 →L[ℝ] Vec 2) := inferInstance

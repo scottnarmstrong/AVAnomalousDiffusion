@@ -4,11 +4,11 @@
 module
 
 public import Homogenization.Ambient.Basic
-public import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
-public import Mathlib.Analysis.Calculus.ContDiff.Basic
-public import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Basic
+import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
 public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
-public import Mathlib.Analysis.Normed.Lp.PiLp
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.MeasureTheory.Function.LpSeminorm.Defs
 
 /-!
 # Appendix B derivative seminorms

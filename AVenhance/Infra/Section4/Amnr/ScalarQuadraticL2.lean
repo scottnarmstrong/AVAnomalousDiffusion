@@ -3,15 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureSpatialEnergyStep
-public import Mathlib.MeasureTheory.Function.L2Space
+import Mathlib.MeasureTheory.Function.L2Space
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 /-! Exact conversion between scalar quadratic energy and the L2 norm. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
+open MeasureTheory
 namespace AVenhance.Infra.Section4
 
 theorem amnr_scalar_eLpNorm_two_eq_sqrt {α : Type*} [MeasurableSpace α]

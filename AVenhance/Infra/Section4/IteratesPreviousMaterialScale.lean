@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualPreviousMaterial
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Nat.Factorial.Basic
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

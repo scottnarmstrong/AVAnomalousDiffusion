@@ -3,11 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectContract
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectCorrectorDelta
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectHmJets
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectContract
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectCorrectorDelta
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectHmJets
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.MStar
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! Uniform assembly of the exact relative initial-layer contract from the
 genuine gradient trace and iterate spatial jets. No Hm estimate is assumed. -/

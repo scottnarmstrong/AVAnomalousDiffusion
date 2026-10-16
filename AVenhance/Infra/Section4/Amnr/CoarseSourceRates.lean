@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.GradientScaleChange
+import AVenhance.Infra.Section4.Amnr.GradientScaleChange
+public import AVenhance.Infra.Section4.Amnr.SourceJetLevels
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.HigherMaterialScaling
 
 /-! Actual lower source levels expressed at the current fine scale. -/
 

@@ -3,9 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmSourceRatesGradientCore
-public import AVenhance.Infra.Section5.LeftJacobian.PulledFluxSmooth
-public import AVenhance.Infra.Section5.LeftJacobian.Transport
+import AVenhance.Infra.Section5.LeftJacobian.PulledFluxSmooth
+import AVenhance.Infra.Section5.LeftJacobian.Transport
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section5.LeftJacobian.PiolaFlux
+import AVenhance.Infra.Section5.LeftJacobian.RegroupSmooth
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
 
 /-! # Pointwise calculus for the LeftJacobian Piola source
 

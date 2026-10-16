@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.AnsatzProduct
-public import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.AnsatzProduct
+import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Infra.Section5.Terms
 
 /-! Local-finiteness and time differentiation for the ansatz cutoff sum. -/
 

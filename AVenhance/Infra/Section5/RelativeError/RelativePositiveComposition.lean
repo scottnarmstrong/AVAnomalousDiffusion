@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativePositiveProduct
-public import AVenhance.Infra.Section5.AnalyticBridge.FlowSnorm
+import AVenhance.Infra.Section5.RelativeError.RelativePositiveProduct
+import AVenhance.Infra.Section5.AnalyticBridge.FlowSnorm
+public import AVenhance.Infra.Section5.AnalyticBridge.Defs
+public import AVenhance.Infra.Section5.AnalyticBridge.Sobolev
+import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Infra.Section5.AnalyticBridge.GradSnorm
 
 /-! Positive-order temperature jets and arbitrary amplitude; no zeroth-order
 temperature supremum. Existing Sobolev, product and composition engines are reused. -/

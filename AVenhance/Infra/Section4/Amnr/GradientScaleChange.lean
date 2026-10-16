@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.SourceJetLevels
+public import AVenhance.Statements.Ingredients.Ingredients
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.StreamFirstMaterialSpatial
 
 /-! Coarse-to-fine rate conversion for actual lower gradient levels. -/
 

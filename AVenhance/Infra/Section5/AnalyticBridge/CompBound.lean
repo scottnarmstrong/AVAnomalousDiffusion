@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.AnalyticBridge.FlowSnorm
+import AVenhance.Infra.Section5.AnalyticBridge.FlowSnorm
+public import AVenhance.Infra.Section5.AnalyticBridge.Defs
+public import AVenhance.Infra.Section5.AnalyticBridge.Sobolev
+import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Infra.Section5.AnalyticBridge.GradSnorm
 
 /-! # Step 4b: pointwise derivative bounds for `(∂_i T ∂_j T) ∘ X`
 

@@ -4,8 +4,7 @@
 module
 
 public import AVenhance.Infra.FaaDiBruno.Seminorm
-public import Mathlib.Analysis.Calculus.ContDiff.Bounds
-public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+import Mathlib.Analysis.Calculus.ContDiff.Bounds
 
 /-!
 # Product estimates for the Appendix B seminorm

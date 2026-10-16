@@ -4,6 +4,13 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.TransportProfileJets
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.StreamGradientMaterial
+import AVenhance.Infra.Section4.Amnr.StreamMaterial
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! Exact mixed jets of the actual transported stream summands. -/
 

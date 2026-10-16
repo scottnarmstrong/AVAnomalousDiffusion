@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.NormalOrderInduction
+import AVenhance.Infra.Section4.Amnr.NormalOrderInduction
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+import AVenhance.Infra.Section4.Amnr.FlowCoefficientBounds
+import AVenhance.Infra.Section4.Amnr.VelocityFirstSpatialSum
 
 /-! Ordering estimates without an artificial velocity zero-order bound. -/
 

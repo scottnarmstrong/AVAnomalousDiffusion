@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.Integration.Statements
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Roots.IsWeakSolution
 
 /-! # Separation persists for the two `θ₀`-independent vanishing-viscosity families
 

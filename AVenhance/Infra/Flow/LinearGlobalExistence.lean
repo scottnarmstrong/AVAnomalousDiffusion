@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Flow.GlobalExistence
-public import Mathlib.Analysis.ODE.ExistUnique
+import AVenhance.Infra.Flow.GlobalExistence
+import Mathlib.Analysis.ODE.ExistUnique
+public import AVenhance.Infra.Flow.FlowOn
 
 /-! Global solutions of continuous linear ODEs with coefficients bounded on
 each compact time interval. -/

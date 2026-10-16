@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.FaaDiBruno.TransportSolution.GradientEstimates
+public import AVenhance.Infra.FaaDiBruno.Seminorm
+import AVenhance.Infra.FaaDiBruno.Composition
+import Mathlib.Analysis.Calculus.ContDiff.Comp
 
 @[expose] public section
 

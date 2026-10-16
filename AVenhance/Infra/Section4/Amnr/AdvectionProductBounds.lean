@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CorrectionCardinality
+public import AVenhance.Infra.Section4.Amnr.AdvectionTermCounts
 
 /-! Quantitative finite-product estimates for actual correction monomials. -/
 

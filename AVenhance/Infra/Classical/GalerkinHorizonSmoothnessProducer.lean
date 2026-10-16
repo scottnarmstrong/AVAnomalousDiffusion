@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinHorizonSmoothnessBoundary
-public import AVenhance.Infra.Classical.GalerkinHorizonConsistency
+public import AVenhance.Infra.Classical.GalerkinSmoothWordEquation
 
 /-! Joint smoothness of the closed unit-slab Galerkin limit from its spatial word family. -/
 

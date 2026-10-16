@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.BigBound
+public import AVenhance.Infra.Section5.Integration.BigBound.Grouped
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
 
 /-! Relative residual assembly. The ten named quantitative leaves remain
 explicit inputs; continuity supplies measurability and slice L2 membership.

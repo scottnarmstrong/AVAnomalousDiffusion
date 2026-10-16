@@ -9,6 +9,8 @@ public import AVenhance.Infra.Flow.MeasurePreservation
 public import AVenhance.Infra.Flow.Laws
 public import AVenhance.Infra.Construction.Section2FlowIdentities
 public import AVenhance.Infra.Torus.Basic
+public import AVenhance.Infra.Flow.InverseC1
+public import AVenhance.Infra.Flow.SmoothField
 
 /-! # RelativeError: inverse-flow change of variables on the periodic cell -/
 

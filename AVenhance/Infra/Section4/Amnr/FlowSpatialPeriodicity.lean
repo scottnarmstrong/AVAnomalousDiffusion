@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureFluxEvolution
-public import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.Laws
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Spatial periodicity of the actual pulled flow Jacobian. -/
 

@@ -4,15 +4,14 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.FrozenBridge
-public import AVenhance.Infra.Section4.Amnr.FlowAverage
-public import AVenhance.Infra.Section4.Amnr.Seed
-public import AVenhance.Infra.Section4.Amnr.SpatialCommutator
-public import AVenhance.Infra.Section4.Amnr.TemperatureGradientDiffusion
-public import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
-public import AVenhance.Infra.Section4.TIterateSmooth
-public import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
-public import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
-public import AVenhance.Infra.Section5.ResidualDataRegularity
+import AVenhance.Infra.Section4.Amnr.FlowAverage
+import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.TemperatureGradientDiffusion
+import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
+import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
 
 /-! # Part I: joint `C^∞` regularity of `Amnr` and `H̃_m` on the open half space
 

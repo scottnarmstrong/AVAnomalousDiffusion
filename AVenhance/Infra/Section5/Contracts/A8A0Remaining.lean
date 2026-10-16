@@ -3,11 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.A7DatumClosure
-public import AVenhance.Infra.Section5.Contracts.A0Assembly
-public import AVenhance.Infra.Section5.Contracts.InitialLayer
-public import AVenhance.Infra.Section5.Contracts.TJets
-public import AVenhance.Infra.Section5.Integration.PartIAnsatz
+import AVenhance.Infra.Section5.Contracts.A7DatumClosure
+import AVenhance.Infra.Section5.Contracts.InitialLayer
+import AVenhance.Infra.Section5.Contracts.TJets
+import AVenhance.Infra.Section5.Integration.PartIAnsatz
+public import AVenhance.Infra.Section5.Contracts.A8Assembly
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.Contracts.MeanZero
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.Contracts.TJetsR46Closed
+import AVenhance.Infra.Section5.Contracts.TJetsSourceClosure
+import AVenhance.Infra.Section5.Contracts.TermContinuity
+import AVenhance.Infra.Section5.Contracts.TermFluxes
+import AVenhance.Infra.Section5.MStar
 
 /-! # Step-down and main theorem from exactly the remaining contracts
 

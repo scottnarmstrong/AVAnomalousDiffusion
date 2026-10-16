@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordMaterialGradient
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesWordSolution
 
 /-! The actual material-gradient equation with its full drift error. -/
 

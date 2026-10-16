@@ -5,11 +5,13 @@ module
 
 public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyClassicalExt
 public import AVenhance.Statements.Roots.IsWeakSolutionGrad
-public import AVenhance.Statements.Roots.IsTestFunction
-public import AVenhance.Infra.Classical.PeriodicCalculus
-public import AVenhance.Statements.Section3.SpaceLap
-public import AVenhance.Statements.Section4.AdvDiffOp
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
+import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
+import AVenhance.Infra.Section5.ClassicalRegularity
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyModes
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
 
 /-!
 # A classical solution is a weak solution

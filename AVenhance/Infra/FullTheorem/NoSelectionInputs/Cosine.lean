@@ -3,10 +3,14 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.NoSelectionInputs.CosineDeriv
-public import AVenhance.Infra.FullTheorem.NoSelectionInputs.VelGrad
+import AVenhance.Infra.FullTheorem.NoSelectionInputs.CosineDeriv
+import AVenhance.Infra.FullTheorem.NoSelectionInputs.VelGrad
 public import AVenhance.Infra.FullTheorem.Integration.NoSelectionInputs
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
+import AVenhance.Infra.FullTheorem.NoSelectionInputs.CosineIntegral
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
 
 /-! # `CosineDatumContract` -/
 

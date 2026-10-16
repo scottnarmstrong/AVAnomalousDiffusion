@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Statements.FlowDefs.FlowIsFlow
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+public import AVenhance.Statements.FlowDefs.Flow
 
 /-! Statement file: `flow_unique` (FlowDefs).
 This file contains exactly one declaration of the formalization's public statement surface. -/

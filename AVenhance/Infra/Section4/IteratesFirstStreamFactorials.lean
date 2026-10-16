@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesLinearFactorials
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Nat.Factorial.Basic
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Data.Int.Star
 
 /-! Absorb the exact first-stream multiplicity into analytic weights. -/
 

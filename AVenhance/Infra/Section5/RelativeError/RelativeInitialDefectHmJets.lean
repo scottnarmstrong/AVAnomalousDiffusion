@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectHmUniform
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpointJets
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectHmUniform
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpointJets
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.Hm
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
 
 /-! Relative Hm initial-layer control from gradient-only iterate spatial jets.
 The endpoint recursion checks the mixed budget through terminal Jcut. -/

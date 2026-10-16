@@ -3,9 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticWindow
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticWindow
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
 public import AVenhance.Infra.Section4.Amnr.SpatialWords
+public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
+public import AVenhance.Statements.Ingredients.XiMK
+import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Construction.Section2FlowInverseBounds
+import AVenhance.Infra.Construction.Section2FlowRegularityCore
+import AVenhance.Infra.Construction.Section2JointInduction
+import AVenhance.Infra.Construction.Section2Scales
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # All-order word bounds for the matrix entries `Q`, `A`, `Y'` of the slow factors
 

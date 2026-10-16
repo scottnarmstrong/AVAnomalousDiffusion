@@ -3,10 +3,15 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.NoSelectionLimit.Chain
-public import AVenhance.Infra.FullTheorem.NoSelectionLimit.Real
-public import AVenhance.Infra.FullTheorem.Contracts.NoSelectionInputs
-public import AVenhance.Infra.FullTheorem.Contracts.FlipFlop
+import AVenhance.Infra.FullTheorem.NoSelectionLimit.Real
+import AVenhance.Infra.FullTheorem.Contracts.NoSelectionInputs
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Section5.IndyStepDownPartI
 
 /-! # The middle term: same drift, two diffusivities; the two vanishing-viscosity families -/
 

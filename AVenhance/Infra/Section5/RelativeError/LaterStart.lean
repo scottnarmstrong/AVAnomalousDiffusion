@@ -3,9 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section5.A0Facts
-public import AVenhance.Statements.Section4.MTheta0IsLeast
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.A0Facts
+import AVenhance.Statements.Section4.MTheta0IsLeast
+public import AVenhance.Statements.Ingredients.Delta
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Section4.IsThetaAnalytic
+public import AVenhance.Statements.Section4.MTheta0
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # the later start `m₊(R)` and the exponent `p₊` (2), §4, §6 item 11.  The relative induction
 of starts at `m₊(R) = 1 + min {j ≥ 1 : ε_j^{1+γ/2-δ} ≤ R}`; here `laterStart β Λ R` is the

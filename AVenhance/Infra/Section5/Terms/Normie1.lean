@@ -4,7 +4,8 @@
 module
 
 public import AVenhance.Infra.Section5.Terms
-public import AVenhance.Infra.Section5.Terms.DivergenceTools
+import AVenhance.Infra.Section5.Terms.DivergenceTools
+public import AVenhance.Infra.Section5.HMinusTools
 
 /-! Ḣ⁻¹ duality estimate for the divergence-form term `normie1`. -/
 

@@ -3,18 +3,9 @@
 
 module
 
-public import AVenhance.Statements.FlowDefs.FlowInv
-public import AVenhance.Statements.Section3.SigmaMat
-public import AVenhance.Statements.Ingredients.HatZetaML
-public import AVenhance.Statements.Ingredients.ZetaMK
-public import AVenhance.Statements.Ingredients.Psi
-public import AVenhance.Statements.Ingredients.LIdx
-public import AVenhance.Statements.Roots.IsHolderClass
-public import AVenhance.Statements.Roots.IsDivFree
-public import AVenhance.Infra.Flow.SmoothField
-public import AVenhance.Infra.Ingredients.LIdxConsequences
-public import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
 public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Construction.IsAdmissibleStream
 
 /-! Infrastructure for the §2 construction. -/
 

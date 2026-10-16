@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.SlowFactorBoundsAnalytic
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
+import AVenhance.Infra.Section5.SlowFactorBoundsProduct
+import AVenhance.Infra.Section5.SlowFactorBoundsShifts
+import AVenhance.Infra.Section5.SlowFactorBoundsSums
 
 /-! Concrete differentiated coefficient-gradient products in the four slow
 factors. Matrix rows are derivative coordinates, as in the gradMatrix. -/
@@ -13,7 +16,7 @@ factors. Matrix rows are derivative coordinates, as in the gradMatrix. -/
 noncomputable section
 open scoped ContDiff ENNReal
 open MeasureTheory Homogenization AVenhance.FaaDiBruno
-open AVenhance.Infra.Section4 AVenhance.Infra.Ergodic AVenhance.Infra.Torus
+open AVenhance.Infra.Section4
 namespace AVenhance.Infra.Section5
 
 /-- Component of Q grad T, with the derivative-row matrix convention. -/

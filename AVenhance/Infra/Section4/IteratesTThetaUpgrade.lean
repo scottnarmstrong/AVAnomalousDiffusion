@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesFlowClose
+import AVenhance.Infra.Section4.IteratesFlowClose
 public import AVenhance.Infra.Section4.IteratesTDischarge
+import AVenhance.Infra.Section4.IteratesFlowBounds
+import AVenhance.Infra.Section4.IteratesFlowGeometry
 
 @[expose] public section
 

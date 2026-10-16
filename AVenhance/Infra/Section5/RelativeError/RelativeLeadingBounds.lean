@@ -4,11 +4,20 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.RelativeAnalytic
-public import AVenhance.Infra.Section5.RelativeError.RelativeLeading
-public import AVenhance.Infra.Section5.LeftToShow.Assembly
-public import AVenhance.Infra.Section5.AnalyticBridge.Bridge
-public import AVenhance.Infra.Section5.AnalyticBridge.Monotone
-public import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Section5.RelativeError.RelativeLeading
+import AVenhance.Infra.Section5.AnalyticBridge.Monotone
+import AVenhance.Infra.Classical.TimeEnergy
+public import AVenhance.Infra.Section5.LeftToShow.Defs
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Amplitude-generic leading-energy estimates on the actual datum and T iterates.
 The quadratic error has amplitude S squared; the base consumes only integrated gradients. -/

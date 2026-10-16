@@ -3,9 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMaterialGradientEnergy
-public import AVenhance.Infra.Section4.IteratesAnalyticErrorGradient
-public import AVenhance.Infra.Section4.IteratesHomogeneousAnalyticMaterial
+import AVenhance.Infra.Section4.IteratesMaterialGradientEnergy
+import AVenhance.Infra.Section4.IteratesAnalyticErrorGradient
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesLaplacianEnergy
+import AVenhance.Infra.Section4.IteratesWordTimeEnergy
 
 @[expose] public section
 

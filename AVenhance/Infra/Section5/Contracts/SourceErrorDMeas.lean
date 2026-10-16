@@ -4,16 +4,18 @@
 module
 
 public import AVenhance.Infra.Section4.DmBounds
-public import AVenhance.Infra.Section4.DmPulledGradient
-public import AVenhance.Infra.Section4.HmDmScales
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraContinuity
-public import AVenhance.Infra.Section5.LeftToShow.JhatFacts
-public import AVenhance.Infra.Section3.FluxTimeRegularity
-public import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
-public import AVenhance.Infra.Section4.Amnr.HmAdapter
-public import AVenhance.Infra.Section4.HmPairingAssembly
-public import AVenhance.Infra.Section4.DmFlowTgrad
-public import AVenhance.Infra.Section3.QMNRRecursion
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraContinuity
+import AVenhance.Infra.Section5.LeftToShow.JhatFacts
+import AVenhance.Infra.Section3.FluxTimeRegularity
+import AVenhance.Infra.Section4.Amnr.HmAdapter
+import AVenhance.Infra.Section4.HmPairingAssembly
+import AVenhance.Infra.Section4.DmFlowTgrad
+import AVenhance.Infra.Section3.QMNRRecursion
+public import AVenhance.Infra.Section4.HmSourcePairing
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.IteratesBasic
+import Mathlib.Topology.Separation.CompletelyRegular
 
 /-! # `SourceErrorDContract`: open-time regularity and measurability inputs
 

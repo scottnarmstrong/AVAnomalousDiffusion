@@ -5,6 +5,7 @@ module
 
 public import AVenhance.Infra.Heat.WeakBridge
 public import AVenhance.Infra.Heat.PeriodicCutoff
+import Homogenization.Sobolev.CubeEmbedding.FaceReflectionLines
 
 /-! Fourier coefficients of periodic weak gradients. -/
 

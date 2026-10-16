@@ -3,12 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.Energy.Regularity
-public import AVenhance.Infra.Section5.Integration.Energy.ParamIntegral
-public import AVenhance.Infra.Section5.Integration.Energy.Duality
-public import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Section5.Integration.Energy.Regularity
 public import AVenhance.Statements.Section4.IsClassicalSol
 public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Infra.Classical.TimeEnergy
+public import AVenhance.Statements.Construction.StreamVel
+import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Section5.Integration.Energy.TimeDerivative
+import Mathlib.Order.CompletePartialOrder
 
 /-! # The differential energy identity and inequality for `w = u - v`
 

@@ -3,7 +3,8 @@
 
 module
 
-public import Mathlib
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Tactic.Linarith.Frontend
 
 @[expose] public section
 

@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.Calculus
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Order.CompletePartialOrder
 
 /-! Induction infrastructure for the AMNR tensors. -/
 

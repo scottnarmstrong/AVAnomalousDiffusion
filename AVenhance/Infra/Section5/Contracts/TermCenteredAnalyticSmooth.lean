@@ -3,10 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.SlowFactorBounds
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticJets
-public import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
-public import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticJets
+import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+public import AVenhance.Infra.Ergodic.Periodic
+public import AVenhance.Infra.Section5.SlowFactorBoundsSource
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
 
 /-! # Smoothness and `ℤ²`-periodicity of the slow factors
 

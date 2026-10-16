@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTime
+import AVenhance.Infra.Section4.IteratesTime
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section4.IteratesMaterial
 
 /-! Transported primitive contraction cancellation for the first increment. -/
 

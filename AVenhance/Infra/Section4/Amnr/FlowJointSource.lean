@@ -3,7 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowJointPrimitives
+import AVenhance.Infra.Section4.Amnr.FlowJointPrimitives
+public import AVenhance.Infra.Construction.LimitFieldBounds
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.Rates
+import AVenhance.Infra.Section4.Amnr.VelocitySecondRates
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Actual all-order joint source regularity on an open cutoff neighborhood. -/
 

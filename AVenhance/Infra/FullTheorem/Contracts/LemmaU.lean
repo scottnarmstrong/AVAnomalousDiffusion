@@ -4,7 +4,7 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Integration.LemmaUContract
-public import AVenhance.Infra.FullTheorem.LemmaU.Assembly
+import AVenhance.Infra.FullTheorem.LemmaU.Assembly
 
 /-!
 # Lemma U (uniform time-Hölder bound in `L²`), proved

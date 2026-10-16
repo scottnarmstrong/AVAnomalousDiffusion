@@ -4,7 +4,8 @@
 module
 
 public import AVenhance.Statements.Section3.IsCorrectorSol
-public import AVenhance.Proofs.Section3.ChiMKIsUniqueSolution
+import AVenhance.Proofs.Section3.ChiMKIsUniqueSolution
+public import AVenhance.Statements.Section3.ChiMK
 
 /-! Statement file: `chiMK_isUniqueSolution` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/

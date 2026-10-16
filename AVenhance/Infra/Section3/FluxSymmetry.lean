@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section3.FluxMatrix
-public import AVenhance.Infra.Section3.TimeMemorySymmetry
+import AVenhance.Infra.Section3.FluxMatrix
+import AVenhance.Infra.Section3.TimeMemorySymmetry
+public import AVenhance.Infra.Ingredients.TimeScales
+public import AVenhance.Statements.Section3.Flux
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Section3.CutoffSymmetry
 
 /-! The time shift by two large cells exchanges the active flux direction. -/
 

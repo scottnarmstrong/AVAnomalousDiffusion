@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.HatXiML
-public import AVenhance.Proofs.Ingredients.Nonempty
+import AVenhance.Proofs.Ingredients.Nonempty
+public import AVenhance.Statements.Ingredients.Ingredients
 
 /-! Statement file: `nonempty` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -15,7 +15,6 @@ noncomputable section
 
 namespace AVenhance
 
-open Homogenization
 namespace Ingredients
 
 /-- statement `Ingredients.nonempty`: for every `β ∈ (1, 4/3)` there is a constant

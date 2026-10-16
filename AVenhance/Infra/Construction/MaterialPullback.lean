@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Construction.MaterialTransition
-public import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+public import AVenhance.Infra.Construction.MaterialGoalSource
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Pulling material derivatives back along a flow turns them into ordinary
 time derivatives. This is the all-order chain-rule interface for material

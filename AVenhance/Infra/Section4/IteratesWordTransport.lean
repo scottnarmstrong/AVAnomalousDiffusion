@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordBridge
-public import AVenhance.Infra.Section4.IteratesWordFlux
+import AVenhance.Infra.Section4.IteratesWordBridge
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
 
 /-! Slice material calculus without assuming an evolution equation. -/
 

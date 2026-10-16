@@ -4,9 +4,9 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.ProductWeakGradient
-public import Mathlib.MeasureTheory.Integral.Prod
-public import Mathlib.MeasureTheory.Function.AEEqOfIntegral
-public import Mathlib.MeasureTheory.Measure.SeparableMeasure
+import AVenhance.Infra.Parabolic.FourierGalerkin.ProductPathIdentification
+import Homogenization.Ambient.HilbertFinite
+import Mathlib.MeasureTheory.Function.LpSeminorm.LpNorm
 
 /-!
 # Almost-every-time weak derivative slices

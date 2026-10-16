@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.FaaDiBruno.TransportSolution
 public import AVenhance.Infra.FaaDiBruno.DirectionalProduct
-public import Mathlib.Data.List.OfFn
+public import AVenhance.Infra.FaaDiBruno.TransportSolution.Definitions
+import Mathlib.Analysis.Calculus.ContDiff.Comp
 
 @[expose] public section
 

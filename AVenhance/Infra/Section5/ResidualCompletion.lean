@@ -3,11 +3,6 @@
 
 module
 
-public import AVenhance.Infra.Section5.ResidualMaterialBridge
-public import AVenhance.Infra.Section5.NamedDiffusionExpansion
-public import AVenhance.Infra.Section5.ResidualAssembly
-public import AVenhance.Infra.Section5.ResidualR46
-public import AVenhance.Infra.Section5.DivergenceLinearity
 public import AVenhance.Infra.Section5.LeftJacobian.Residual
 
 /-! Source-specific completion of the Section 5.1 ansatz residual (corrected form).

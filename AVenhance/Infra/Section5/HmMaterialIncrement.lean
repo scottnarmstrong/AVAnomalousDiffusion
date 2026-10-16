@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.AmnrPairDivergenceStep
-public import AVenhance.Statements.Section4.Hmr
+public import AVenhance.Infra.Section5.AmnrMaterialStep
 
 /-! Finite `A`/`q` aggregation for the `H_{m,r}` material step. -/
 

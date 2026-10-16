@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Statements.Roots.TimeCube
+public import AVenhance.Statements.Roots.UnitCube
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 
 /-! Statement file: `l2NormSq` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/

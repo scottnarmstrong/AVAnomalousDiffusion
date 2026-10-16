@@ -4,7 +4,12 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesVelocityYoung
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 /-! Natural regularity and periodicity of the explicit velocity terms. -/
 
@@ -12,7 +17,6 @@ public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
 
 noncomputable section
 open Homogenization
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

@@ -4,8 +4,7 @@
 module
 
 public import AVenhance.Infra.Flow.FiniteSpatialJetC1
-public import AVenhance.Infra.Flow.SpatialJetIdentification
-public import Mathlib.Analysis.Calculus.ContDiff.FiniteDimension
+import AVenhance.Infra.Flow.SpatialJetIdentification
 
 /-! All finite recursive jet flows are smooth at each fixed start time. -/
 

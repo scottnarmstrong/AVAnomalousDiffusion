@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.TUpgradeConsumersProfile
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Infra.Section4.ThetaCommutator
 
 @[expose] public section
 

@@ -3,15 +3,10 @@
 
 module
 
-public import AVenhance.Statements.Flow.IsFlow
-public import AVenhance.Infra.FaaDiBruno.Composition
-public import AVenhance.Infra.Flow.Laws
-public import Mathlib.Analysis.Calculus.ContDiff.Basic
-public import Mathlib.Analysis.Calculus.Deriv.Prod
-public import Mathlib.Analysis.Calculus.MeanValue
-public import Mathlib.Analysis.Calculus.VectorField
-public import Mathlib.Analysis.ODE.Gronwall
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import AVenhance.Infra.FaaDiBruno.Composition
+import Mathlib.Analysis.Calculus.VectorField
+public import AVenhance.Infra.FaaDiBruno.Seminorm
+import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
 
 /-! Characteristic identities for smooth solutions of the transport equation. -/
 

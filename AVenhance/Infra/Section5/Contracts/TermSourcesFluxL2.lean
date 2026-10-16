@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Space-time `L²` transfer for the flux source contracts
 

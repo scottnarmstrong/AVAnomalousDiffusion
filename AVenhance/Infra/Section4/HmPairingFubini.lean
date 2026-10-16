@@ -3,10 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmPairingPrefix
-public import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorHEuclid
-public import Mathlib.MeasureTheory.Integral.Prod
+import AVenhance.Infra.Section4.HmPairingPrefix
+import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorHEuclid
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.TimeCube
 
 /-! Fubini converts a spacetime scalar L² bound into the time-L² datum of
 the spatial slice norm used by the pairing prefix estimates. -/

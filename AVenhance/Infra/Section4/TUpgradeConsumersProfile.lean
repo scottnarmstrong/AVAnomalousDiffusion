@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.TUpgradeConsumersAmplitude
-public import AVenhance.Infra.Section4.ThetaProfileDischarge
+import AVenhance.Infra.Section4.TUpgradeConsumersAmplitude
+import AVenhance.Infra.Section4.ThetaProfileDischarge
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+public import AVenhance.Infra.Section4.ThetaAnalyticScale
+public import AVenhance.Statements.Section4.KappaSeq
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

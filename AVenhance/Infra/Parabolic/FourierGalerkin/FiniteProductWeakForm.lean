@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.WeakLimitEquation
+import AVenhance.Infra.Parabolic.FourierGalerkin.WeakLimitEquation
+public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenDriftProduct
+import AVenhance.Infra.Parabolic.FourierGalerkin.FiniteWeakForm
 
 /-!
 # Finite Galerkin weak form in product-space pairings

@@ -3,12 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebra
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorScales
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsScales
-public import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
-public import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
+public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
 
 /-! # Pointwise bounds for the remainder fields of `e.grad.tildetheta.again`
 

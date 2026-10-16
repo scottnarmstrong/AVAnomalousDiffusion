@@ -3,11 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsAssembly
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section5.ClassicalRegularity
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
-public import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsAssembly
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.ClassicalRegularity
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Ingredients.Parameters
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Infra.Section5.LeftToShow.Defs
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.Ansatz
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsScales
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorScales
 
 /-! # The relative leading-gradient error `e.leadingord`
 

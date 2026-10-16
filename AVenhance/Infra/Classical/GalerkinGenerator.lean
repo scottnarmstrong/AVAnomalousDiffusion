@@ -3,10 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Classical.PeriodicCalculus
 public import AVenhance.Infra.Classical.GalerkinModeCalculus
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ConcreteData
-public import Mathlib.Analysis.Calculus.FDeriv.Mul
+import AVenhance.Infra.Parabolic.FourierGalerkin.ConcreteData
+public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenMatrix
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarSpace
+public import AVenhance.Statements.Section3.SpaceLap
 
 /-! Finite Fourier generator identities used in the classical Galerkin estimates. -/
 

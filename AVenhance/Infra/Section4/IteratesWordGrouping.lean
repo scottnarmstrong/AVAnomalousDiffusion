@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+import AVenhance.Infra.Section4.IteratesWordMultiplicity
 
 /-! Group the actual Leibniz terms by their coefficient derivative order. -/
 

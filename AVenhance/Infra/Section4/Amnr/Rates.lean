@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.MaterialCalculus
+public import AVenhance.Infra.Section4.Amnr.Calculus
+public import AVenhance.Statements.Ingredients.Gamma
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section4.Params
 
 /-! Physical spatial and material rates used by the mixed AMNR estimates. -/
 

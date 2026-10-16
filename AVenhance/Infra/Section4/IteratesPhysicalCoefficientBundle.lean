@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesPhysicalKernelGains
+import AVenhance.Infra.Section4.IteratesPhysicalKernelGains
 public import AVenhance.Infra.Section4.IteratesBudgetConstantChoice
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import AVenhance.Infra.Section4.IteratesPhysicalBudgetScales
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

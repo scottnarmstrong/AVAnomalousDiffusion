@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowMaterial
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Higher material differentiation of the actual pulled-back Jacobian.
 The coefficients below are derived from its evolution equation. -/

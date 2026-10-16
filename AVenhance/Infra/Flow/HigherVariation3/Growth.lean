@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Flow.HigherVariation3.Multilinear
+import AVenhance.Infra.Flow.HigherVariation3.Multilinear
+public import AVenhance.Infra.Flow.HigherVariation3.Existence
+import AVenhance.Infra.Flow.Estimates
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 @[expose] public section
 

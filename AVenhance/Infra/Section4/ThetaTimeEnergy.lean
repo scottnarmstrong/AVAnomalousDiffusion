@@ -3,9 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaEnergy
-public import Mathlib.Analysis.Calculus.ParametricIntegral
-public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+import Mathlib.Analysis.Calculus.ParametricIntegral
+public import AVenhance.Statements.Roots.UnitCube
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.Analysis.Calculus.ContDiff.Comp
+import Mathlib.Analysis.Calculus.Deriv.Pow
+import Mathlib.Analysis.Calculus.Deriv.Prod
 
 /-! Time differentiation of the periodic quadratic energy. -/
 
@@ -15,7 +21,6 @@ noncomputable section
 
 open MeasureTheory Set Filter
 open Homogenization
-open AVenhance.Infra.Torus
 open scoped Topology
 
 namespace AVenhance.Infra.Section4

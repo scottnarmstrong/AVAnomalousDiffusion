@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.NoSelectionLimit.Limit
+public import AVenhance.Infra.FullTheorem.UniformAnalytic.Defs
+import AVenhance.Infra.Construction.LimitSeries
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Chain
+import AVenhance.Infra.Section5.Integration.PartIAnsatzL2
+import AVenhance.Statements.Section4.MTheta0IsLeast
 
 /-! # Classical chains, telescoping in sup-`L²`, and the tail of the `ε`-series -/
 

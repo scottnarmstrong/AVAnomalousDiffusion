@@ -4,7 +4,7 @@
 module
 
 public import AVenhance.Infra.Section5.Terms
-public import AVenhance.Infra.Section3.FluxStructure
+import AVenhance.Infra.Section3.FluxStructure
 
 /-! Cutoff localization of the shear coefficient on a selected mode. -/
 

@@ -3,9 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.PartIHmExtensionAmnr
-public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
-public import AVenhance.Infra.Section5.Integration.Energy.Regularity
+import AVenhance.Infra.Section5.Integration.PartIHmExtensionAmnr
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section5.Integration.Energy.Regularity
+public import AVenhance.Statements.Section4.Ansatz
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Integration.PartIHmRegularity
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+import AVenhance.Infra.Section5.ResidualDataRegularity
+import Mathlib.Order.CompletePartialOrder
 
 /-! # Part I: continuous extension of the actual `H̃_m` and of `∇(ansatz)` to `t ≥ 0`
 

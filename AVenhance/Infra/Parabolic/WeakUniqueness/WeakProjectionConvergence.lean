@@ -4,9 +4,11 @@
 module
 
 public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakProjection
-public import AVenhance.Infra.Heat.WeakBridge
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ConcreteData
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import AVenhance.Infra.Parabolic.FourierGalerkin.ConcreteData
+public import AVenhance.Infra.Parabolic.FourierGalerkin.Density
+public import AVenhance.Infra.Parabolic.WeakUniqueness.FiniteGalerkinEnergy
+public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # Strong convergence of weak Fourier cutoffs

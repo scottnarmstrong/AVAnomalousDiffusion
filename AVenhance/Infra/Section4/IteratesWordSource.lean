@@ -3,10 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordEnergy
-public import AVenhance.Infra.Section4.ThetaScale
-public import Mathlib.MeasureTheory.Measure.OpenPos
-public import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
+import AVenhance.Infra.Section4.ThetaScale
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Construction.BarNorm
+import AVenhance.Infra.Section4.ThetaEnergy
 
 /-! Ordered spatial words connect to the stream-regularity barNorm carrier. -/
 

@@ -5,6 +5,7 @@ module
 
 public import AVenhance.Infra.Section5.Integration.BigBound.Centered
 public import AVenhance.Infra.Section5.Terms.Assembly
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
 
 /-! # Grouped mean-zero assembly: the centered ten-term family
 

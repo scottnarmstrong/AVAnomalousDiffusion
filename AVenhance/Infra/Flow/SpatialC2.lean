@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Flow.SecondSpatial
-public import AVenhance.Infra.Flow.SpatialRegularity
+import AVenhance.Infra.Flow.SecondSpatial
+import AVenhance.Infra.Flow.SpatialRegularity
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Flow.IsFlow
+import AVenhance.Infra.Flow.FieldTaylor
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.SpatialC1
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Spatial C² regularity of a smooth periodic flow. -/
 

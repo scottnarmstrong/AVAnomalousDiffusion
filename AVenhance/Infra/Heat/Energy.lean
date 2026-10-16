@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Heat.Semigroup
+public import AVenhance.Infra.Torus.FrozenBridge
 
 /-! Spectral energy identity and the quantitative heat-flow deficit estimate. -/
 

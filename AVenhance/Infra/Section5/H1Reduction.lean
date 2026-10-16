@@ -3,12 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Heat.FrozenEstimates
-public import AVenhance.Infra.Section5.Crunch
-public import AVenhance.Infra.Numeric.Exponents
+import AVenhance.Infra.Heat.FrozenEstimates
 public import AVenhance.Statements.Section4.IsThetaAnalytic
 public import AVenhance.Statements.Roots.IsWeakSolution
-public import Mathlib.Topology.Algebra.Order.LiminfLimsup
+public import AVenhance.Infra.Heat.SmoothClassical
+public import AVenhance.Infra.Heat.WeakBridge
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Topology.Separation.CompletelyRegular
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Topology.Algebra.ProperAction.Basic
 
 /-! Conditional H1-to-analytic reduction. Analytic dissipation and weak-solution
 energy are inputs, not assertions that the corresponding PDE gates are proved. -/

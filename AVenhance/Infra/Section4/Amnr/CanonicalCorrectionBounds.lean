@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CorrectionSumBounds
+import AVenhance.Infra.Section4.Amnr.CorrectionSumBounds
+public import AVenhance.Infra.Section4.Amnr.CorrectionCardinality
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+import AVenhance.Infra.Section4.Amnr.CenteredJets
+import AVenhance.Infra.Section4.Amnr.NormalOrderInduction
 
 /-! Ordered correction estimates from canonical lower-level jets. -/
 

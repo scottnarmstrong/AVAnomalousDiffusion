@@ -3,9 +3,7 @@
 
 module
 
-public import Mathlib
 public import AVenhance.Infra.Section5.RelativeError.RelativeAnalytic
-public import AVenhance.Infra.Section5.Integration.OpenInputs
 
 /-! # Monotonicity of the jet inputs and real-variable scale facts -/
 

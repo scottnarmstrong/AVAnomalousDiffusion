@@ -3,8 +3,20 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedCurrentRegularity
-public import AVenhance.Infra.Section4.IteratesMaterialGradientRegularity
+import AVenhance.Infra.Section4.IteratesMaterialGradientRegularity
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesErrorRegularity
+import AVenhance.Infra.Section4.IteratesLaplacianEnergy
+import AVenhance.Infra.Section4.IteratesMatrixContinuity
+import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesVelocitySmooth
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordMaterialGradient
+import AVenhance.Infra.Section4.IteratesWordSolution
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Exact current material pairing with its retained drift commutator. -/
 

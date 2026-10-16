@@ -3,9 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesFilteredFluxEnergy
-public import AVenhance.Infra.Section4.IteratesVelocitySmooth
-public import AVenhance.Infra.Section4.IteratesComponentEnergy
+import AVenhance.Infra.Section4.IteratesFilteredFluxEnergy
+import AVenhance.Infra.Section4.IteratesComponentEnergy
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesVelocityLower
+import AVenhance.Infra.Section4.IteratesVelocityRegularity
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordRegularity
+import Mathlib.Algebra.Order.Star.Real
+import Std.Tactic.BVDecide.Normalize.Bool
 
 /-! Actual material-error energy from positive velocity jets and scalar energies. -/
 
@@ -13,7 +22,6 @@ public import AVenhance.Infra.Section4.IteratesComponentEnergy
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

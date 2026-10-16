@@ -3,8 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectRightAssembly
-public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectRightAssembly
+public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Section5.IndyStepDownPartI
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEnergyIoi
+import AVenhance.Infra.Section5.RelativeError.RelativeSecondLast
 
 /-! Exact right-limit initial error at positive abstract amplitude. The zero
 amplitude branch is handled separately using actual zero-data solutions. -/

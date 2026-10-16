@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Bounds
-public import AVenhance.Infra.Section4.Amnr.KmatMixedSourceBounds
-public import AVenhance.Infra.Section4.Amnr.FlowAverage
+public import AVenhance.Infra.Section4.Amnr.Seed
+public import AVenhance.Statements.Section4.SMat
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Section4.CoarseCoeff.Form
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! Exact flow-average form of the actual temperature forcing coefficient. -/
 

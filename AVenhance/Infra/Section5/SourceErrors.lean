@@ -5,7 +5,7 @@ module
 
 public import AVenhance.Infra.Section5.TEquation
 public import AVenhance.Statements.Section3.JHat
-public import AVenhance.Statements.Section4.Amnr
+public import AVenhance.Infra.Section5.Terms
 
 /-! The two source error fields appearing in the Section 5.1 residual. -/
 

@@ -4,6 +4,9 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinEvolution
+public import Mathlib.Algebra.Order.Star.Real
+public import Mathlib.Tactic.Monotonicity.Lemmas
+import Mathlib.MeasureTheory.SpecificCodomains.WithLp
 
 /-! Energy estimates for a finite family of coupled derivative paths. -/
 

@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.TransportCalculus
-public import AVenhance.Infra.Section5.Terms
-public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+import AVenhance.Infra.Section5.TransportCalculus
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+public import AVenhance.Statements.Flow.IsFlow
+public import AVenhance.Statements.Roots.SpaceGrad
+import Mathlib.Order.CompletePartialOrder
 
 /-! Material differentiation of the spatial gradient of a smooth scalar field. -/
 

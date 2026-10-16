@@ -3,7 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmPositivePairingAssembly
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Ingredients.Ingredients
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section4.Params
 
 /-! A positive half-cell endpoint can be chosen separately for each positive
 time.  The resulting interval has refresh-scale length, and the source-rate

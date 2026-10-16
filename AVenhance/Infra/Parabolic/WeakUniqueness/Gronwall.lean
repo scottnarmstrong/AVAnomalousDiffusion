@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.ODE.Linear.Gronwall
+import AVenhance.Infra.ODE.Linear.Gronwall
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 /-!
 # Scalar Grönwall closure for weak energy estimates

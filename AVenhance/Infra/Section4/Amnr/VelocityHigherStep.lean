@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.VelocityPowerExpansion
+import AVenhance.Infra.Section4.Amnr.VelocityPowerExpansion
+public import AVenhance.Infra.Section4.Amnr.CorrectionCardinality
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+import AVenhance.Infra.Section4.Amnr.CanonicalCorrectionBounds
+import AVenhance.Infra.Section4.Amnr.FlowCoefficientBounds
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Higher material scale steps with strictly lower canonical inputs. -/
 

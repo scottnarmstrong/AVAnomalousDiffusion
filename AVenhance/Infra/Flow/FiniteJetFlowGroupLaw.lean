@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Flow.FiniteSpatialJetGlobal
+public import AVenhance.Infra.Flow.FiniteSpatialJet
+import Mathlib.Analysis.ODE.ExistUnique
 
 /-! The recursively constructed jet flows obey the composition and inverse
 identities of a genuine global flow. -/

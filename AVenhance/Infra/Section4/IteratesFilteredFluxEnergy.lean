@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
-public import AVenhance.Infra.Section4.IteratesFilteredGrouping
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesFilteredGrouping
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesWeightedSpaceTime
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Actual selected flux square from scalar gradient energies. -/
 
@@ -12,7 +18,6 @@ public import AVenhance.Infra.Section4.IteratesFilteredGrouping
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

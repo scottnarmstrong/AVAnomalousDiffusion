@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.FrozenAnsatzSpatial
+import AVenhance.Infra.Section5.FrozenAnsatzSpatial
+public import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Infra.Section5.Terms
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! The exact selected-flow spatial gradient of the line-2 ansatz. -/
 

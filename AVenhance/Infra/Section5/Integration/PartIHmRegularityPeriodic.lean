@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularity
 public import AVenhance.Statements.Section4.Hm
-public import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
 
 /-! # Part I: spatial periodicity of `Amnr` and `H̃_m` for positive times
 

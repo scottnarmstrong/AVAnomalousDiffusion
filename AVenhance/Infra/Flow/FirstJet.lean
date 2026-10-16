@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Flow.SpatialC3
 public import AVenhance.Infra.Flow.FlowOn
+public import AVenhance.Infra.Flow.VariationalEquation
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.SpatialC1
+import AVenhance.Infra.Flow.SpatialC2
+import AVenhance.Infra.Flow.SpatialRegularity
+import Mathlib.Analysis.Calculus.Deriv.Prod
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! The first spatial jet of a smooth flow is itself a characterized flow on
 the product of position and two direction columns. -/

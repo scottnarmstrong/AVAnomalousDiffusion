@@ -3,10 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Construction.MaterialFlowTime
-public import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Infra.FaaDiBruno.Composition
 public import AVenhance.Infra.FaaDiBruno.Seminorm
-public import AVenhance.Infra.FaaDiBruno.BarNormBridge
+import AVenhance.Infra.FaaDiBruno.BarNormBridge
+public import AVenhance.Infra.Construction.MaterialPullback
+import AVenhance.Infra.Construction.MaterialFlowBounds
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Faà di Bruno transfer of material-Jacobian bounds through the flow map. -/
 

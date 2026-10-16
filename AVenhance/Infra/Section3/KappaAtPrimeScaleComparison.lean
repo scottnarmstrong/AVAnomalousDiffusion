@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Infra.Section3.KappaAtPrimeBootstrap
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
 
 /-! Uniform comparison of the κ chain with κ′.  The high scales use
 the summable averaging loss; only the finitely many lower scales use the

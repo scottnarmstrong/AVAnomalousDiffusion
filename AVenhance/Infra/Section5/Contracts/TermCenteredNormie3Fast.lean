@@ -3,13 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredFast
+import AVenhance.Infra.Section5.Contracts.TermCenteredFast
 public import AVenhance.Infra.Section5.LeftJacobian.CellMean
-public import AVenhance.Infra.Section5.LeftJacobian.CellMeanPull
-public import AVenhance.Infra.Section3.FluxMatrix
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
-public import AVenhance.Infra.Section5.Contracts.TermCenteredFluxEntries
+import AVenhance.Infra.Section3.FluxMatrix
+import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+import AVenhance.Infra.Section5.Contracts.TermCenteredFluxEntries
+public import AVenhance.Infra.Ergodic.Periodic
+public import AVenhance.Infra.Section5.ErgodicParams
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section4.Amnr.StreamMaterial
+import AVenhance.Infra.Section4.Amnr.StreamMaterialRates
+import AVenhance.Infra.Section5.LeftToShow.BracketFF
+import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
 
 /-! # Fast factor of `normie3`
 

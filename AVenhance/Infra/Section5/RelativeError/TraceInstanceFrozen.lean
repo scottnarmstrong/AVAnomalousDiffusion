@@ -4,12 +4,22 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.TraceInstanceCutoff
-public import AVenhance.Infra.Section4.ThetaProfileDischarge
-public import AVenhance.Infra.Section4.IteratesVelocityProfile
-public import AVenhance.Infra.Section4.Amnr.VelocitySpatial
-public import AVenhance.Infra.Section4.ThetaScale
-public import AVenhance.Infra.Section5.RelativeError.ParameterAbsorption
-public import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Section4.IteratesVelocityProfile
+import AVenhance.Infra.Section4.ThetaScale
+import AVenhance.Infra.Section5.RelativeError.ParameterAbsorption
+import AVenhance.Infra.Flow.SmoothField
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-! # Stream-function and diffusivity bounds parameter instance -/
 

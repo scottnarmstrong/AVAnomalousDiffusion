@@ -4,6 +4,9 @@
 module
 
 public import AVenhance.Infra.FullTheorem.LemmaU.ModeCoefficients
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakProjectionConvergence
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-!
 # Lemma U: Parseval as a limit, and the low/high eigenvalue thresholds

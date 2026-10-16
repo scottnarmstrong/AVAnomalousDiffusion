@@ -3,10 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.WeakUniqueness.ScalarPath
-public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
-public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes
-public import Mathlib.MeasureTheory.Integral.Prod
+import AVenhance.Infra.Parabolic.WeakUniqueness.ScalarPath
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
 
 /-!
 # Integral paths for weak Fourier coefficients

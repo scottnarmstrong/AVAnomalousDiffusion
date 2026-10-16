@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesForcingFactorials
+import AVenhance.Infra.Section4.IteratesForcingFactorials
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Nat.Choose.Basic
+import AVenhance.Infra.Section4.IteratesRecursion
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Tactic.Positivity.Finset
 
 /-! Positive velocity orders in actual squared material-error energies. -/
 

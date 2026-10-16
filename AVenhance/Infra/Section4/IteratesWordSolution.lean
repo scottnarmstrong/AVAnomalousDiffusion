@@ -3,9 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordBridge
-public import AVenhance.Infra.Section4.IteratesWordRegularity
-public import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesWordBridge
+import AVenhance.Infra.Section4.IteratesWordRegularity
+import AVenhance.Infra.Section4.IteratesWordEnergy
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesOscillatory
 
 /-! Actual differentiated classical solutions, including the initial boundary. -/
 
@@ -13,7 +18,6 @@ public import AVenhance.Infra.Section4.IteratesWordEnergy
 
 noncomputable section
 open Homogenization
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

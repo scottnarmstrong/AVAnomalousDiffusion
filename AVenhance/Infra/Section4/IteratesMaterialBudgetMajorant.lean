@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesHigherEnergyBudget
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Positivity.Basic
 
 @[expose] public section
 

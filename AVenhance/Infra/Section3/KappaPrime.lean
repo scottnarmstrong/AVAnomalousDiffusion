@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Cutoff.TimeScaleFacts
-public import AVenhance.Statements.Section3.KappaAt
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+public import AVenhance.Statements.Ingredients.A
 
 /-! A positive auxiliary diffusivity sequence for the §3.3 recurrence. -/
 

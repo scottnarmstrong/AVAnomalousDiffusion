@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarFourierDerivative
 public import AVenhance.Infra.Section5.TestDensity
+public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Projection
+import AVenhance.Infra.Parabolic.FourierGalerkin.ProjectionCoefficients
+import AVenhance.Infra.Torus.FrozenBridge
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.CStarAlgebra.Classes
+import Mathlib.Topology.Separation.CompletelyRegular
 
 /-!
 # Smooth periodic spatial tests from the real Fourier identities

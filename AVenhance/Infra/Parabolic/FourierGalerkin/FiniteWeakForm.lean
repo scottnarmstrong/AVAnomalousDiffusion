@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.PositiveCutoff
-public import AVenhance.Infra.Parabolic.FourierGalerkin.LimitPassage
-public import Mathlib.Analysis.InnerProductSpace.LinearMap
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun
+import AVenhance.Infra.Parabolic.FourierGalerkin.LimitPassage
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun
+public import AVenhance.Infra.Parabolic.FourierGalerkin.BilinearForms
+public import AVenhance.Infra.Parabolic.FourierGalerkin.GalerkinSequence
+import Homogenization.Ambient.HilbertFinite
 
 /-!
 # Time-tested finite Galerkin equation

@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyFinite
+public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
 
 /-!
 # Space-time pairing of the finite Fourier projection with forcing

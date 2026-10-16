@@ -4,12 +4,8 @@
 module
 
 public import Mathlib.Analysis.Calculus.ContDiff.FaaDiBruno
-public import Mathlib.Analysis.Calculus.ContDiff.Comp
-public import Mathlib.Analysis.Calculus.ContDiff.Bounds
-public import Mathlib.Analysis.Analytic.Binomial
-public import Mathlib.Data.Fintype.Perm
-public import Mathlib.Data.Nat.Choose.Multinomial
-public import AVenhance.Infra.FaaDiBruno.Seminorm
+import Mathlib.Analysis.Calculus.ContDiff.Comp
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
 
 /-!
 # The finite-dimensional multivariate Faà di Bruno formula
@@ -159,8 +155,6 @@ noncomputable instance instFintype {d s : ℕ} {β α : PaperMultiIndex d} :
     Fintype (p_s (d := d) (s := s) β α) := Fintype.ofFinite _
 
 end PaperPartitionData
-
-open Homogenization
 
 end AVenhance.FaaDiBruno
 

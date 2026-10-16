@@ -3,16 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.A7Assembly
-public import AVenhance.Infra.Section5.Contracts.TJetsSourceClosure
-public import AVenhance.Infra.Section5.Contracts.TJetsR46Closed
-public import AVenhance.Infra.Section5.Contracts.TermSourcesAll
-public import AVenhance.Infra.Section5.Contracts.HmGradient
-public import AVenhance.Infra.Section5.Contracts.SourceErrorD
-public import AVenhance.Infra.Section5.Contracts.MeanZero
-public import AVenhance.Infra.Section5.Contracts.TermFluxes
-public import AVenhance.Infra.Section5.Contracts.TermContinuity
-public import AVenhance.Infra.Section5.Contracts.TermCentered
+import AVenhance.Infra.Section5.Contracts.A7Assembly
+import AVenhance.Infra.Section5.Contracts.TJetsSourceClosure
+import AVenhance.Infra.Section5.Contracts.TJetsR46Closed
+import AVenhance.Infra.Section5.Contracts.HmGradient
+import AVenhance.Infra.Section5.Contracts.SourceErrorD
+import AVenhance.Infra.Section5.Contracts.MeanZero
+import AVenhance.Infra.Section5.Contracts.TermFluxes
+import AVenhance.Infra.Section5.Contracts.TermContinuity
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.TUpgradeConsumersScales
+import AVenhance.Infra.Section4.TUpgradeConsumersV
+import AVenhance.Infra.Section5.Contracts.HmGradientTheta
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.Contracts.TermSourcesFlux
+import AVenhance.Infra.Section5.Contracts.TermSourcesTiny
 
 /-! # Big-bound estimate at the datum amplitude: the last closures and `bigbound_of_remaining`
 

@@ -3,11 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Construction.MaterialGoalAllOrders
 public import AVenhance.Infra.Construction.MaterialFlowBounds
-public import AVenhance.Infra.Section4.Amnr.FlowMixedEstimate
+import AVenhance.Infra.Section4.Amnr.FlowMixedEstimate
 public import AVenhance.Infra.Section4.Amnr.FlowJacobianC1
-public import AVenhance.Infra.Section5.MatrixTransport
+import AVenhance.Infra.Section5.MatrixTransport
+public import AVenhance.Infra.Construction.MaterialAuxiliaryInduction
+public import AVenhance.Infra.Construction.MaterialPullback
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
+import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.SpatialOperatorBounds
+import AVenhance.Statements.FlowDefs.FlowInvRightInverse
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! The material Jacobian field follows from the all-order velocity-gradient
 jets and the spatial flow displays. -/

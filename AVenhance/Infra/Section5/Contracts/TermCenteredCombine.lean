@@ -3,10 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredNd
-public import AVenhance.Infra.Section5.Terms.DivergenceTools
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
-public import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section5.Terms.DivergenceTools
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import AVenhance.Infra.Section4.IteratesDiffusion
+public import AVenhance.Infra.Section5.Integration.BigBound.Centered
+public import AVenhance.Statements.Section4.HMinusOneNorm
+public import AVenhance.Statements.Section4.VecDiv
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Splitting a centered term into its nondivergence part and a divergence -/
 

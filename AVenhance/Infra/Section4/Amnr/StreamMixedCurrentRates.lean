@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TransportedGradientInduction
+public import AVenhance.Infra.Section4.Amnr.FineMaterialRates
+public import AVenhance.Infra.Section4.Amnr.StreamFirstMaterialSpatial
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.StreamMixedSum
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! Actual mixed stream rates on the current material-amplitude scale. -/
 

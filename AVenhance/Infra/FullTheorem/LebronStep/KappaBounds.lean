@@ -3,11 +3,16 @@
 
 module
 
-public import AVenhance.Statements.Section3.LRecurse
+import AVenhance.Statements.Section3.LRecurse
 public import AVenhance.Statements.Section4.KappaSeq
-public import AVenhance.Infra.Ingredients.EpsilonConsequences
-public import AVenhance.Infra.Ingredients.Parameters
-public import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Ingredients.EpsilonConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Construction.Scalars
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Section3.PermissibleSet
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Two-sided diffusivity bounds at levels `m-1` and `m` (Lemma r.LeBron, step (c))
 

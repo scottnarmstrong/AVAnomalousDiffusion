@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Flow.HigherVariation3
-public import AVenhance.Infra.Flow.SecondVariationContinuity
+public import AVenhance.Infra.Flow.HigherVariation3.Growth
+public import AVenhance.Infra.Flow.SecondSpatial
+import AVenhance.Infra.Flow.Estimates
+import AVenhance.Infra.Flow.FieldTaylor
+import AVenhance.Infra.Flow.SmoothField
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Uniform base-point continuity estimates for the third variation. -/
 

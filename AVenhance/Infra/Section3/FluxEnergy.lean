@@ -3,11 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section3.ActiveModeFlux
-public import AVenhance.Infra.Section3.CorrTimeRegularity
-public import AVenhance.Infra.Section3.CorrectorBounds
-public import AVenhance.Infra.Section3.FluxEnergyCutoff
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+import AVenhance.Infra.Section3.ActiveModeFlux
+import AVenhance.Infra.Section3.CorrTimeRegularity
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section3.FluxEnergyCutoff
+public import AVenhance.Statements.Ingredients.Psi
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Section3.ChiMK
+public import AVenhance.Statements.Section3.SpaceAvg
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! A modewise flux-energy identity from the exact memory ODE. -/
 

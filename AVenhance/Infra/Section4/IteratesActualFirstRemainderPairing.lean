@@ -3,10 +3,23 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualMeanCorrectionEnergy
-public import AVenhance.Infra.Section4.IteratesCancellation
-public import AVenhance.Infra.Section4.IteratesFirstForcingGain
-public import AVenhance.Infra.Section4.IteratesTerminalTransposePairing
+import AVenhance.Infra.Section4.IteratesActualMeanCorrectionEnergy
+import AVenhance.Infra.Section4.IteratesCancellation
+import AVenhance.Infra.Section4.IteratesFirstForcingGain
+import AVenhance.Infra.Section4.IteratesTerminalTransposePairing
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.SMat
+public import AVenhance.Statements.Section4.VecDiv
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
+import AVenhance.Infra.Section4.IteratesMeanCorrectionRegularity
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordForcingContinuity
+import AVenhance.Infra.Section5.SMatRegularity
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesStreamFlux
-public import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesStreamFlux
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.UnitCube
+public import AVenhance.Statements.Section3.SigmaMat
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesEnergy
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Skew integration by parts for the first coefficient derivative in the drift error. -/
 

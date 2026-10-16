@@ -5,12 +5,13 @@ module
 
 public import AVenhance.Infra.Section5.Contracts.TMaterialSpatialStep
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section5.RelativeError.MaterialMixedJets
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorHEuclid
-public import AVenhance.Infra.Section5.MStar
-public import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Derivative
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorHEuclid
+import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Derivative
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.Rates
 
 /-! Exact `TMaterialContract` adapter retaining the small material rate. -/
 

@@ -3,14 +3,27 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualIndependentNorms
-public import AVenhance.Infra.Section4.IteratesForcingProfilesFromFlow
-public import AVenhance.Infra.Section4.IteratesPhysicalCoefficientBundle
-public import AVenhance.Infra.Section4.IteratesInflatedRadiusScale
-public import AVenhance.Infra.Section4.IteratesVelocityPhysicalBounds
-public import AVenhance.Infra.Section4.IteratesThetaSourceProfile
-public import AVenhance.Infra.Section4.IteratesSourceRadius
-public import AVenhance.Infra.Section4.Params
+import AVenhance.Infra.Section4.IteratesActualIndependentNorms
+import AVenhance.Infra.Section4.IteratesForcingProfilesFromFlow
+import AVenhance.Infra.Section4.IteratesPhysicalCoefficientBundle
+import AVenhance.Infra.Section4.IteratesInflatedRadiusScale
+import AVenhance.Infra.Section4.IteratesVelocityPhysicalBounds
+import AVenhance.Infra.Section4.IteratesSourceRadius
+import AVenhance.Infra.Section4.Params
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesAmplitude
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesBudgetConstantChoice
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Ingredients.Gamma
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.IteratesPhysicalBudgetScales
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

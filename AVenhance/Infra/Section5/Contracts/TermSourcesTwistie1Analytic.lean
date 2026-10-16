@@ -3,11 +3,21 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Flow
-public import AVenhance.Infra.Section5.SlowFactorBounds
-public import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
-public import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
-public import AVenhance.Infra.Section3.MovingFluxEnergy
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Flow
+import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Ergodic.AveragedCompositionCalculus
+public import AVenhance.Infra.Ergodic.AveragesL2
+public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
+public import AVenhance.Infra.Section5.SlowFactorBoundsChoices
+public import AVenhance.Statements.Ingredients.XiMK
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.TemperatureSpatialWords
+import AVenhance.Infra.Section4.IteratesFlowGeometry
+import AVenhance.Infra.Section5.SlowFactorBoundsComposition
+import AVenhance.Infra.Section5.SlowFactorBoundsProduct
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Composed analyticity of the `twistie1` slow factor
 

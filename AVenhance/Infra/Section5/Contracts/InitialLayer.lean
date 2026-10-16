@@ -3,13 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.RelativeInitialProduced
-public import AVenhance.Infra.Section5.Contracts.RelativeInitialT1h
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section5.Integration.PartIInitial
-public import AVenhance.Infra.Section5.RelativeError.LaterStart
-public import AVenhance.Infra.Section5.MStar
-public import AVenhance.Statements.Section3.LRecurse
+import AVenhance.Infra.Section5.Integration.PartIInitial
+import AVenhance.Infra.Section5.RelativeError.LaterStart
+import AVenhance.Infra.Section5.MStar
+import AVenhance.Statements.Section3.LRecurse
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
 
 /-! # Conditional assembly of the step-down estimate initial-layer contract from the Hm bound -/
 

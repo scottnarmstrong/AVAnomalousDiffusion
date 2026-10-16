@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureTimeEnergy
-public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
+public import AVenhance.Infra.Section4.Amnr.Calculus
 
 /-! Smooth localization on the actual positive-time domain. -/
 

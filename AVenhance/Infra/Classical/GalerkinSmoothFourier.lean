@@ -4,8 +4,12 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinSmoothLimit
-public import AVenhance.Infra.Heat.SmoothClassical
-public import Mathlib.Analysis.PSeries
+import AVenhance.Infra.Heat.SmoothClassical
+import Mathlib.Analysis.PSeries
+public import Mathlib.Topology.Separation.CompletelyRegular
+import Mathlib.Analysis.Real.Pi.Bounds
+import Mathlib.Topology.Algebra.ProperAction.Basic
+import Mathlib.Topology.Compactness.CompactlyGeneratedSpace
 
 /-! Fourier coefficient bounds for the all-order Galerkin limits. -/
 

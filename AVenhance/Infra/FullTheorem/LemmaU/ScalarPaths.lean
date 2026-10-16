@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.WeakUniqueness.FiniteEnergy
-public import AVenhance.Infra.ODE.Linear.Basic
+import AVenhance.Infra.Parabolic.WeakUniqueness.FiniteEnergy
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 /-!

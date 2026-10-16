@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section3.SpaceLap
+public import AVenhance.Statements.Section3.UShear
+public import AVenhance.Statements.Section3.ZetaProd
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 /-! Statement file: `IsCorrectorSol` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/

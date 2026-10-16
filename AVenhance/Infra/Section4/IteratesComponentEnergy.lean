@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Component energies are controlled by the actual vector gradient energy. -/
 

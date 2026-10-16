@@ -3,8 +3,20 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualMaterialGradient
-public import AVenhance.Infra.Section4.IteratesTerminalPreviousMaterial
+import AVenhance.Infra.Section4.IteratesActualMaterialGradient
+import AVenhance.Infra.Section4.IteratesTerminalPreviousMaterial
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.IteratesForcing
+import AVenhance.Infra.Section4.IteratesForcingCoefficients
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
+import AVenhance.Infra.Section4.IteratesWordForcingContinuity
+import AVenhance.Infra.Section5.SMatRegularity
 
 @[expose] public section
 

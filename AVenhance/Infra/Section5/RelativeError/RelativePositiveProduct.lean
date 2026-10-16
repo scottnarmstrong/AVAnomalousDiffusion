@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativePositiveSup
-public import AVenhance.Infra.Section5.AnalyticBridge.GradSnorm
+import AVenhance.Infra.Section5.RelativeError.RelativePositiveSup
+import AVenhance.Infra.Section5.AnalyticBridge.GradSnorm
+public import AVenhance.Infra.FaaDiBruno.Product
+public import AVenhance.Infra.Section5.AnalyticBridge.Sobolev
+import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Infra.Section5.AnalyticBridge.Derivs
 
 @[expose] public section
 

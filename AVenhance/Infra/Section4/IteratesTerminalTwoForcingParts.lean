@@ -3,8 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTerminalForcingParts
-public import AVenhance.Infra.Section4.IteratesMeanCorrectionRegularity
+import AVenhance.Infra.Section4.IteratesMeanCorrectionRegularity
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Section4.SMat
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section4.IteratesFluxPairingContinuity
+import AVenhance.Infra.Section4.IteratesForcingFluxParts
+import AVenhance.Infra.Section4.IteratesMatrixContinuity
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordCoefficientSplit
+import AVenhance.Infra.Section5.SMatRegularity
 
 @[expose] public section
 

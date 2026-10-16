@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.UniformAnalytic.Chain
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Chain
+public import AVenhance.Infra.FullTheorem.LebronStep.VelocityBounds
+public import AVenhance.Infra.FullTheorem.UniformAnalytic.Defs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.LebronStep.Interpolation
+import AVenhance.Infra.FullTheorem.LebronStep.Pieces
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Holder
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Statements.Section4.MTheta0IsLeast
 
 /-! # Hölder bound of the top iterate `θ_M` (analytic case of `r.LeBron.2`)
 

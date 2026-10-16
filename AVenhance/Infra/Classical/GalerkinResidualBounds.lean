@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinResidual
-public import AVenhance.Infra.Classical.GalerkinExistence
+import AVenhance.Infra.Classical.GalerkinResidual
+import AVenhance.Infra.Classical.GalerkinExistence
+public import AVenhance.Infra.Classical.GalerkinProblem
+public import AVenhance.Statements.Roots.GradNormSq
+import AVenhance.Infra.Classical.GalerkinGenerator
+import AVenhance.Infra.Classical.PeriodicCalculus
 
 /-! Uniform coefficient bounds for the residual-tail argument. -/
 

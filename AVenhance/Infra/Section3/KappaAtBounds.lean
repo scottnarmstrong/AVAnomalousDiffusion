@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section3.FluxTimeRegularity
-public import AVenhance.Infra.Section3.KhomSymmetry
+import AVenhance.Infra.Section3.FluxTimeRegularity
+import AVenhance.Infra.Section3.KhomSymmetry
 public import AVenhance.Statements.Section3.KappaAt
+import AVenhance.Infra.Section3.FluxMatrix
 
 /-! Elementary positivity and monotonicity facts for the diffusivity chain. -/
 

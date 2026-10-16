@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesPhysicalBudgetScales
+import AVenhance.Infra.Section4.IteratesPhysicalBudgetScales
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import AVenhance.Infra.Section4.IteratesStreamBudgetScales
 
 @[expose] public section
 

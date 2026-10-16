@@ -4,7 +4,12 @@
 module
 
 public import AVenhance.Infra.Section5.Terms
-public import AVenhance.Infra.Section5.Terms.TinyDivergence
+import AVenhance.Infra.Section5.Terms.TinyDivergence
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section4.HMinusOneNorm
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Section5.HMinusTools
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! The exact algebraic split and Ḣ⁻¹ estimate for `tiny`.
 

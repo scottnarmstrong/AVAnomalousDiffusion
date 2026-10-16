@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.TransportLimit.Cancellation
-public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
-public import AVenhance.Statements.FullTheorem.IsTransportWeakSolution
+import AVenhance.Infra.FullTheorem.TransportLimit.Cancellation
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsTestFunction
+public import AVenhance.Statements.Roots.TimeCube
 
 /-!
 # Measurability and bounds for the transport pairing against a test function

@@ -4,7 +4,7 @@
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Analysis.Real.Pi.Bounds
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-! # Abstract-real scale arithmetic for the leading-error estimate
 

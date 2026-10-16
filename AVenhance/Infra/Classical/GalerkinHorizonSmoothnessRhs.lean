@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinHorizonSmoothnessProducer
+import AVenhance.Infra.Classical.TimeEnergy
 
 /-! Finite Leibniz regularity for the word-indexed Galerkin equation. -/
 

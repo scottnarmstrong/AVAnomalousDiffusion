@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.GradientChain
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Prod
+import Mathlib.Analysis.InnerProductSpace.Basic
 
 /-! Product-rule lemmas for the transport identity of the finite cutoff ansatz. -/
 

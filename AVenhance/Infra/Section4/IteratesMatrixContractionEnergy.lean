@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesHessianFactor
-public import AVenhance.Infra.Section4.IteratesStreamPairing
+import AVenhance.Infra.Section4.IteratesHessianFactor
+import AVenhance.Infra.Section4.IteratesStreamPairing
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Scalar matrix-contraction energies with exact four-component accounting. -/
 

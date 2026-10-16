@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.WeakUniqueness.ZeroDataEnergy
-public import AVenhance.Infra.Parabolic.WeakUniqueness.FiniteGalerkinEnergy
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
 
 /-!
 # Forced Fourier mode calculus on the space-time cell

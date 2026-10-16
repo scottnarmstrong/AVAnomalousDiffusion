@@ -4,6 +4,9 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+public import AVenhance.Infra.Section4.IteratesAmplitude
+import AVenhance.Infra.Section4.IteratesNormComponents
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

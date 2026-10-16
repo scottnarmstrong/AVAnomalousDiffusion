@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section3.JMNRegularity
-public import AVenhance.Infra.Ingredients.TimeScaleArithmetic
+import AVenhance.Infra.Section3.JMNRegularity
+import AVenhance.Infra.Ingredients.TimeScaleArithmetic
+public import AVenhance.Statements.Section3.JMN
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Section3.JMNPeriodicity
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
 
 /-! The unit-time average is also the average over an integer number of `4τ_m` periods. -/
 

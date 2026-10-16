@@ -3,13 +3,23 @@
 
 module
 
-public import AVenhance.Infra.Section5.SlowFactorBounds
 public import AVenhance.Infra.Section5.RelativeError.RelativeAnalytic
-public import AVenhance.Infra.Section5.AnalyticBridge.FlowForErgodicBound
-public import AVenhance.Infra.Section5.AnalyticBridge.CompBound
-public import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
-public import AVenhance.Infra.Ergodic.AveragesL2
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticJets
+import AVenhance.Infra.Section5.AnalyticBridge.FlowForErgodicBound
+import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+import AVenhance.Infra.Ergodic.AveragesL2
+public import AVenhance.Infra.Ergodic.AveragedCompositionCalculus
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
+public import AVenhance.Statements.Ingredients.XiMK
+import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Construction.Section2JointInduction
+import AVenhance.Infra.Construction.Section2Scales
+import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.AnalyticBridge.FlowSnorm
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticWindow
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
+import AVenhance.Infra.Section5.SlowFactorBoundsProduct
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Temperature, flow and cutoff inputs of the composed slow-factor bounds
 

@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.Separation.OdeCompare
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 /-! # Abstract short-time chain for the gradient energy
 

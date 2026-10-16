@@ -3,10 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section3.SpaceAverages
 public import AVenhance.Statements.Section3.ChiM
 public import AVenhance.Statements.Section3.PsiM
-public import AVenhance.Statements.Section3.Flux
+import AVenhance.Infra.Ingredients.LIdxConsequences
 
 /-! The cutoff separation that reduces the spatial flux to one active shear. -/
 

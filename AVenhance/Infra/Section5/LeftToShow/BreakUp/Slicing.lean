@@ -3,10 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.Defs
-public import AVenhance.Infra.Classical.TimeEnergy
-public import AVenhance.Infra.Torus.Basic
 public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Roots.SpaceGrad
 
 /-! # Time slicing and continuity of spatial integrals (for `e.ergodic.break.up`)
 

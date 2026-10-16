@@ -4,7 +4,11 @@
 module
 
 public import AVenhance.Infra.Section5.CorrectorFlux
-public import AVenhance.Infra.Section5.FlowPiolaIdentity
+import AVenhance.Infra.Section5.FlowPiolaIdentity
+public import AVenhance.Infra.Section5.FlowPiola
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Section5.FluxDivergence
+import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 /-! Corrected inverse-flow push-forward decomposition for divergence, followed
 by its corrector specialization. -/

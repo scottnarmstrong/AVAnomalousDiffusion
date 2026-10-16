@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.Integration.Statements
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.FullTheorem.HolderTimeL2Le
+public import AVenhance.Statements.FullTheorem.IsTransportWeakSolution
+public import AVenhance.Statements.Roots.IsWeakSolution
 
 /-! # The no-selection argument
 

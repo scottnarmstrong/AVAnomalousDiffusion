@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowSize
-public import AVenhance.Infra.Construction.ExplicitBarNorm
+import AVenhance.Infra.Construction.ExplicitBarNorm
 public import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! Extraction of pointwise primitive spatial bounds from the source seminorm. -/
 

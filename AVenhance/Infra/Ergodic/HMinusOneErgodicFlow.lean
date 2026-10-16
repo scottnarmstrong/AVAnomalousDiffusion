@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Ergodic.HMinusOneErgodic
-public import Mathlib.Analysis.Calculus.FDeriv.Comp
-public import Mathlib.Analysis.Normed.Operator.Basic
+public import AVenhance.Infra.Ergodic.HMinusOne
+import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
 
 /-! # The flow version of the spectral homogeneous H⁻¹ estimate -/
 

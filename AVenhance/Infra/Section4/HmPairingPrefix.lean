@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmPairingL2Family
+public import AVenhance.Infra.Section4.HmTransportedEnergy
+public import AVenhance.Statements.Roots.GradNormSq
+import AVenhance.Infra.Section4.HmPairingEstimates
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Full-cell time-L² data restrict to every prefix, so the scalar and flux
 pairing Cauchy estimates can be applied uniformly to moving half-cell base points. -/

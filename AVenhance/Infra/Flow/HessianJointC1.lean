@@ -3,8 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Flow.ThirdSpatialDerivativeJoint
-public import AVenhance.Infra.Flow.VariationalJointC1
+import AVenhance.Infra.Flow.ThirdSpatialDerivativeJoint
+public import AVenhance.Infra.Flow.HigherVariation
+public import AVenhance.Infra.Flow.SecondJetContinuity
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+import AVenhance.Infra.Flow.JointC1Core
+import AVenhance.Infra.Flow.JointSpatialDerivativeAll
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.SpatialC1
+import AVenhance.Infra.Flow.SpatialC3
+import Mathlib.Analysis.RCLike.Lemmas
 
 /-! The spatial Hessian is C¹ in target time and position on forward strips. -/
 

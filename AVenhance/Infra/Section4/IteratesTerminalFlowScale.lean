@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTerminalFlowPairing
+import AVenhance.Infra.Section4.IteratesTerminalFlowPairing
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.GradMatrix
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

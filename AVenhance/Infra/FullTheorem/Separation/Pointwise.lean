@@ -3,8 +3,12 @@
 
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Tactic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Fintype.Basic
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Algebra.Order.Archimedean.Real.Basic
+import Mathlib.Tactic.Positivity.Finset
 
 /-! # Pointwise real inequalities for the commutator pairings
 

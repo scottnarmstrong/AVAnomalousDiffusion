@@ -3,11 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.Matrix
-public import AVenhance.Infra.Section5.FrozenFlowRegularity
-public import AVenhance.Infra.Section3.CorrTimeRegularity
-public import AVenhance.Infra.Section4.LocalFinite
-public import Mathlib.Topology.Instances.Matrix
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section3.CorrTimeRegularity
+import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Infra.Section5.LeftToShow.Defs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.CorrectorGradient
 
 /-! # Joint continuity of the leading matrix `F`
 

@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.TLemmasNorm
-public import AVenhance.Infra.Section5.H1Reduction
+import AVenhance.Infra.Section4.TLemmasNorm
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.IsPeriodicH1With
+public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Heat.FrozenEstimates
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Helpers for the `H¹` case of `r.LeBron.2`
 

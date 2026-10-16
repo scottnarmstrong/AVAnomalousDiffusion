@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Form
-public import Mathlib.Analysis.Calculus.FDeriv.Measurable
-public import Mathlib.Analysis.Calculus.ContDiff.Operations
+public import AVenhance.Statements.Roots.SpaceGrad
+import Mathlib.Order.CompletePartialOrder
 
 /-! Tensor-independent directional calculus for LeftJacobian iterates.
 The operators and proofs are the generic calculus in Amnr/Calculus, isolated

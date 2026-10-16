@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.ClassicalSeed
+public import AVenhance.Infra.Section4.Amnr.Calculus
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
+import AVenhance.Infra.Section4.Amnr.TemperatureCalculus
 
 /-! The diffusion and forcing terms of the actual temperature equation. -/
 

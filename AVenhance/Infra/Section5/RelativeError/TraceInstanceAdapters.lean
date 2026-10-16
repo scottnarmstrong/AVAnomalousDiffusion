@@ -3,11 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TraceInstanceInterface
-public import AVenhance.Infra.Section5.RelativeError.TraceInstanceContract
+import AVenhance.Infra.Section5.RelativeError.TraceInstanceContract
 public import AVenhance.Infra.Section5.Contracts.ThetaProfile
-public import AVenhance.Infra.Section5.Contracts.RelativeInitialT1h
-public import AVenhance.Infra.Section5.Contracts.TMaterialTrace
 
 /-! # Compatibility of the uniform producer with the step-down part (ii) adapters -/
 

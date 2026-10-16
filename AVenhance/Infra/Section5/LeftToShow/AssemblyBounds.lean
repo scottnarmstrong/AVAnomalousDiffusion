@@ -3,10 +3,21 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.Assembly
-public import AVenhance.Infra.Section5.AnalyticBridge.Bridge
-public import AVenhance.Infra.Section5.AnalyticBridge.Monotone
-public import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Section5.LeftToShow.Assembly
+import AVenhance.Infra.Section5.AnalyticBridge.Bridge
+import AVenhance.Infra.Section5.AnalyticBridge.Monotone
+import AVenhance.Infra.Classical.TimeEnergy
+public import AVenhance.Infra.Section5.AnalyticBridge.Defs
+public import AVenhance.Infra.Section5.LeftToShow.Defs
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
 
 /-! # `e.left.to.show` with the composed-analyticity hypothesis discharged (route A)
 

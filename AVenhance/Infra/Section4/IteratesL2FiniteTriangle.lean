@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesIntegralCauchy
-public import AVenhance.Infra.Section4.IteratesMatrixIntegralSum
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Tactic.Monotonicity.Lemmas
+import Mathlib.Tactic.Positivity.Finset
 
 @[expose] public section
 

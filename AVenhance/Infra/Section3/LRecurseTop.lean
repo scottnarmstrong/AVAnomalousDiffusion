@@ -4,9 +4,10 @@
 module
 
 public import AVenhance.Infra.Section3.KappaAtPrimeBootstrap
-public import AVenhance.Infra.Section3.KappaPrimeScaling
-public import AVenhance.Infra.Numeric.Exponents
-public import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.TimeScaleBounds
 
 /-! One-sided permitted-interval bounds at the top scale. -/
 

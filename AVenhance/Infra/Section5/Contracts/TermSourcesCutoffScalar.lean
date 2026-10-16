@@ -3,7 +3,8 @@
 
 module
 
-public import Mathlib
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Abstract-real facts for the `cutoff1` source contract
 

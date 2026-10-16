@@ -3,14 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CurveLocalSmoothness
+import AVenhance.Infra.Section4.Amnr.CurveLocalSmoothness
+public import AVenhance.Infra.Section4.Amnr.CurveJacobian
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+import Mathlib.Topology.Metrizable.ContinuousMap
 
 /-! Smooth parameter dependence from the actual local Volterra equation. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory Filter
+open Filter
 namespace AVenhance.Infra.Section4
 
 /-- The substitution derivative is the actual pointwise primitive state

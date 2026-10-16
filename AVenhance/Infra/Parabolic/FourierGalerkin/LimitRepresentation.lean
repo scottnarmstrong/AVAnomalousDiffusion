@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.SpacetimeCompactness
 public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Infra.Parabolic.FourierGalerkin.GalerkinSequence
 
 /-!
 # Physical representatives of weak scalar paths

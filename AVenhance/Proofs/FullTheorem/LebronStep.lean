@@ -3,8 +3,16 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.Integration.LebronStepAssembly
-public import AVenhance.Infra.FullTheorem.Contracts.LemmaU
+import AVenhance.Infra.FullTheorem.Integration.LebronStepAssembly
+import AVenhance.Infra.FullTheorem.Contracts.LemmaU
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.FullTheorem.HolderTimeL2Le
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Section4.IsThetaAnalytic
+public import AVenhance.Statements.Section4.KappaSeq
+public import AVenhance.Statements.Section4.MTheta0
 
 /-!
 # Lemma r.LeBron proof

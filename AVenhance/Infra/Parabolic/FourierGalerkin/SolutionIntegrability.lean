@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarRepresentative
-public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenDriftProduct
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ProductGradientRepresentative
 
 /-!
 # Integrability of the drift pairing at the synchronized limit

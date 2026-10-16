@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffPointwise
-public import AVenhance.Infra.Section5.Terms.R46FluxEstimate
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffPointwise
+public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Slicewise `L²` bound of `cutoff1`
 

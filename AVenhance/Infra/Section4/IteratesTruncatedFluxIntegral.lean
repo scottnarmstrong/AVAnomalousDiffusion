@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMatrixContinuity
+import AVenhance.Infra.Section4.IteratesMatrixContinuity
 public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Exact integration of the actual finite Leibniz flux. -/
 

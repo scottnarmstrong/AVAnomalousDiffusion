@@ -4,7 +4,9 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.A8A0Remaining
-public import AVenhance.Infra.Section5.Contracts.A8LeavesTerms
+import AVenhance.Infra.Section5.Contracts.A8LeavesTerms
+public import AVenhance.Infra.Section5.Contracts.ThetaProfile
+import AVenhance.Infra.Section5.Contracts.TJetsSourceClosure
 
 /-! # Step-down and main theorem from the five leaves
 

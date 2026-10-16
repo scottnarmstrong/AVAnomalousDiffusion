@@ -4,9 +4,7 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.Basis
-public import AVenhance.Infra.ODE.Linear
-public import Mathlib.Analysis.InnerProductSpace.PiL2
-public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import AVenhance.Infra.ODE.Linear.Existence
 
 /-!
 # Finite real Galerkin systems for the weak form

@@ -3,11 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section3.OneStepAveraging
-public import AVenhance.Infra.Section3.KappaAtBounds
-public import AVenhance.Infra.Ingredients.TimeScaleArithmetic
-public import AVenhance.Infra.Construction.Scalars
-public import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.OneStepAveraging
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Ingredients.Parameters
+public import AVenhance.Statements.Section3.KhomScalar
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.TimeScales
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-! The one-step averaged-flux estimate with both source errors retained. -/
 

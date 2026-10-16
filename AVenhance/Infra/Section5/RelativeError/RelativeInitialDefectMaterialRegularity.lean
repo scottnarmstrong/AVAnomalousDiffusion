@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpointPhysical
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
+public import AVenhance.Infra.Section5.FrozenHmTelescope
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Section5.Integration.PartIHmRegularity
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+import AVenhance.Infra.Section5.ResidualDataRegularity
 
 /-! Actual endpoint regularity on positive times. No closed-time regularity
 of the two-sided Amnr recursion is required. -/

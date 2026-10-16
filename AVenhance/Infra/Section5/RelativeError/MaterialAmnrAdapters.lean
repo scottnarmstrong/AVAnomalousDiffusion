@@ -4,12 +4,15 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.FrozenBridge
-public import AVenhance.Infra.Section4.Amnr.Seed
-public import AVenhance.Infra.Section4.Amnr.SpatialCommutator
-public import AVenhance.Infra.Section4.Amnr.SeedMultiplierSourceBounds
-public import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
-public import AVenhance.Infra.Section4.Amnr.TemperatureCalculus
-public import AVenhance.Infra.Section5.RelativeError.MaterialMixedJets
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.SeedMultiplierSourceBounds
+import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
+import AVenhance.Infra.Section4.Amnr.TemperatureCalculus
+import AVenhance.Infra.Section5.RelativeError.MaterialMixedJets
+public import AVenhance.Infra.Section4.Amnr.CanonicalJetSamples
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientIdentity
+public import AVenhance.Statements.Section4.IsTIterates
 
 /-! Amplitude-generic adapter for the correction tensor recursion.
 

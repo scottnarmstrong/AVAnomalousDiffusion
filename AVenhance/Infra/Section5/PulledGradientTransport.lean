@@ -3,11 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Flow.SpatialC1
-public import AVenhance.Infra.Section5.FrozenFlowRegularity
-public import AVenhance.Infra.Section5.GradientChain
-public import AVenhance.Infra.Section5.Terms
-public import AVenhance.Statements.FlowDefs.FlowInv
+import AVenhance.Infra.Flow.SpatialC1
+public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.SpatialRegularity
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Target-time differentiation of the pulled gradient along its
 characteristic. -/

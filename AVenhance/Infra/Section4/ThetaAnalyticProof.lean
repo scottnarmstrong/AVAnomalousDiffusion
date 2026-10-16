@@ -4,9 +4,10 @@
 module
 
 public import AVenhance.Infra.Section4.ThetaAnalyticEstimate
-public import AVenhance.Infra.Section4.ThetaZeroBounds
-public import AVenhance.Statements.Section4.MTheta0IsLeast
-public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.ThetaScale
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Algebra.Ring.IsFormallyReal
 
 /-! The q=1 integration-by-parts contribution and the higher-order energy
 convolution, assembled into the normalized analytic estimate. -/

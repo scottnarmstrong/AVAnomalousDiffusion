@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaIntegratedEnergy
 public import AVenhance.Statements.Roots.TimeCube
-public import Mathlib.MeasureTheory.Integral.MeanInequalities
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import AVenhance.Infra.Section4.ThetaTimeEnergy
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.MeasureTheory.Integral.Prod
 
 /-! L² estimates on the closed time-space cell used by the differentiated
 energy recursion. -/

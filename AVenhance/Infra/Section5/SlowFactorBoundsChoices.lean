@@ -4,6 +4,9 @@
 module
 
 public import AVenhance.Infra.Section5.SlowFactorBoundsJets
+import AVenhance.Infra.Section5.SlowFactorBoundsProduct
+import AVenhance.Infra.Section5.SlowFactorBoundsShifts
+import AVenhance.Infra.Section5.SlowFactorBoundsSums
 
 /-! Component estimates for the four Appendix C slow factors, including order
 zero. The matrix contractions follow the derivative-row convention. -/
@@ -13,7 +16,7 @@ zero. The matrix contractions follow the derivative-row convention. -/
 noncomputable section
 open scoped ContDiff ENNReal
 open MeasureTheory Homogenization AVenhance.FaaDiBruno
-open AVenhance.Infra.Section4 AVenhance.Infra.Ergodic AVenhance.Infra.Torus
+open AVenhance.Infra.Section4
 namespace AVenhance.Infra.Section5
 
 def slowFactorChoice1 (ξ : ℝ) (Q B : Vec 2 → Matrix (Fin 2) (Fin 2) ℝ)

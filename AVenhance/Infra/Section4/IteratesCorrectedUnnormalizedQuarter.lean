@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCorrectedQuarterBudget
+import AVenhance.Infra.Section4.IteratesCorrectedQuarterBudget
+public import AVenhance.Infra.Section4.IteratesAmplitude
+import AVenhance.Infra.Section4.IteratesCorrectedRecursion
 
 @[expose] public section
 

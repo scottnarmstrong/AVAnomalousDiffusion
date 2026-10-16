@@ -4,7 +4,10 @@
 module
 
 public import AVenhance.Infra.FullTheorem.TransportLimit.DriftData
-public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
+import AVenhance.Infra.FullTheorem.TransportLimit.Cancellation
+import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
 
 /-!
 # Weak solutions satisfy the divergence-form transport identity up to the viscous term

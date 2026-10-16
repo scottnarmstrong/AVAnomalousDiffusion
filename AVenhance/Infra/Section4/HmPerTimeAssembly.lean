@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmPositivePairingAssembly
-public import AVenhance.Infra.Section4.HmHalfCellGain
+public import AVenhance.Infra.Section4.HmSourcePairing
+public import AVenhance.Infra.Section4.HmTransportedEnergy
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section4.HmBounds
+import Mathlib.Tactic.NormNum.RealSqrt
 
 /-! Positive-time `H_m` assembly when the half-cell base point may vary with time.
 The regular pairing retains its raw source coefficient; the scalar energy

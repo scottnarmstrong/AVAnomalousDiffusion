@@ -5,6 +5,7 @@ module
 
 public import AVenhance.Infra.Section5.HmMaterialIncrement
 public import AVenhance.Infra.Section5.FrozenHmTelescope
+import AVenhance.Infra.Section5.MaterialGradient
 
 /-! Source indexing bridges between the finite `A`/`q` sums and 
 `H_{m,r}` and endpoint definitions. -/

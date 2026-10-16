@@ -3,11 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.TIterateSmooth
-public import AVenhance.Infra.Section4.IteratesDiffusion
-public import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
-public import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
-public import AVenhance.Infra.Section5.Terms.R46FluxEstimate
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+public import AVenhance.Infra.Section5.Terms.R46
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Section3.MovingFluxEnergy
+import AVenhance.Infra.Section5.HmBaseFluxIdentity
 
 /-! Regularity of the `R46` flux when its temperature is an actual T iterate.
 

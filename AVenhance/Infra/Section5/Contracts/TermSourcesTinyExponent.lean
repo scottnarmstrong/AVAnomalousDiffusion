@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Ingredients.Parameters
-public import AVenhance.Infra.Numeric.Exponents
+import AVenhance.Infra.Ingredients.Parameters
+public import AVenhance.Statements.Ingredients.Nstar
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Exponent budget for the `tiny` source contract
 
@@ -13,8 +14,6 @@ public import AVenhance.Infra.Numeric.Exponents
 estimate of `e.monster.est.tiny` (`enhance.tex` 7848-7930). -/
 
 @[expose] public section
-
-open Homogenization
 
 noncomputable section
 

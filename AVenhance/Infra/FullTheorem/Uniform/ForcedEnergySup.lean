@@ -3,9 +3,23 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStreamDiff
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyBalance
-public import AVenhance.Infra.FullTheorem.Uniform.ForcedSupReal
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStreamDiff
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyBalance
+import AVenhance.Infra.FullTheorem.Uniform.ForcedSupReal
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Section5.ClassicalRegularity
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyClassical
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyModes
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyPeriodic
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStream
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStreamReal
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # Sup-in-time `L²` stream-difference estimate

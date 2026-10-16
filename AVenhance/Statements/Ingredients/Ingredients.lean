@@ -4,6 +4,12 @@
 module
 
 public import AVenhance.Statements.Ingredients.ShiftCutoff
+public import AVenhance.Statements.Ingredients.IndIcc
+public import AVenhance.Statements.Ingredients.Nstar
+public import AVenhance.Statements.Ingredients.TauP
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 
 /-! Statement file: `Ingredients` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -13,8 +19,6 @@ This file contains exactly one declaration of the formalization's public stateme
 noncomputable section
 
 namespace AVenhance
-
-open Homogenization
 
 /-- The exact list of ingredients of Section 2.1 (source lines 967-1396). -/
 structure Ingredients (β : ℝ) where

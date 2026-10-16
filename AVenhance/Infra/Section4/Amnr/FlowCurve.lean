@@ -4,7 +4,12 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.CurveImplicit
-public import AVenhance.Infra.Flow.FlowIntegral
+import AVenhance.Infra.Flow.FlowIntegral
+public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Infra.Section4.Amnr.CurveIntegral
+import AVenhance.Infra.Flow.Estimates
+import AVenhance.Infra.Flow.SmoothField
+import Mathlib.Analysis.Calculus.ContDiff.Comp
 
 /-! The characterized flow as an actual compact-time solution curve. -/
 

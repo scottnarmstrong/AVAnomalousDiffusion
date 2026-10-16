@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Statements.Section3.Flux
+public import AVenhance.Statements.Section3.TimeAvgMat
 
 /-! Statement file: `Khom` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/

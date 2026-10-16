@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TJets
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.TUpgradeConsumersNonneg
+import AVenhance.Infra.Section4.TUpgradeConsumersPackaging
+import AVenhance.Infra.Section4.TUpgradeConsumersScales
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The integrated second-order T jet (`e.nabm2`, n = 2)
 

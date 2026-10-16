@@ -3,13 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmTransportedEnergy
-public import AVenhance.Infra.Section5.HmBaseFluxIdentity
-public import AVenhance.Infra.Section5.FrozenHmSourceIdentity
 public import AVenhance.Infra.Section5.SourceErrors
-public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
-public import AVenhance.Infra.Section5.LeftJacobian.BaseFlux
-public import AVenhance.Infra.Section5.LeftJacobian.PulledFluxSmooth
+import AVenhance.Infra.Section5.LeftJacobian.BaseFlux
+import AVenhance.Infra.Section5.LeftJacobian.PulledFluxSmooth
+public import AVenhance.Infra.Section5.FrozenHmTelescope
+import AVenhance.Infra.Section5.LeftJacobian.PiolaFlux
 
 /-! The endpoint difference uses the left-Jacobian Piola base flux and the
 `d_m` vector source. -/

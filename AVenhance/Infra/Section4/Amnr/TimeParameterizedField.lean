@@ -3,14 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CurveLocalImplicit
+public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Infra.Section4.Amnr.StateDerivatives
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Encode target-time variation as an actual constant state parameter. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
+open Homogenization
 namespace AVenhance.Infra.Section4
 open AVenhance.Infra.Flow
 

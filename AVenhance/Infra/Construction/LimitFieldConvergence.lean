@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Construction.LimitSeries
+import AVenhance.Infra.Construction.LimitSeries
+public import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! Pointwise construction of the limit stream from the explicit stream-regularity
 increment estimate, with the tail bound used in §5.4. -/

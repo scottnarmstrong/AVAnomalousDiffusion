@@ -3,10 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectContractPositive
-public import AVenhance.Infra.Section4.ThetaClassicalUniqueness
-public import AVenhance.Infra.Classical.Uniqueness
-public import AVenhance.Infra.Section5.RelativeError.BaseEnergyClassical
+import AVenhance.Infra.Section4.ThetaClassicalUniqueness
+import AVenhance.Infra.Classical.Uniqueness
+import AVenhance.Infra.Section5.RelativeError.BaseEnergyClassical
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.Ansatz
+public import AVenhance.Statements.Section4.IsTIterates
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Classical.TimeEnergy
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Exact zero-amplitude initial layer. Homogeneous classical uniqueness and
 the actual T forcing recursion are used, independently of negative times. -/
@@ -15,7 +21,7 @@ the actual T forcing recursion are used, independently of negative times. -/
 
 noncomputable section
 open MeasureTheory Filter Topology Homogenization AVenhance
-open AVenhance.Infra.Section5 AVenhance.Infra.Section5.Integration
+open AVenhance.Infra.Section5
 namespace AVenhance.Infra.Section5.RelativeError
 
 theorem RelativeInitialDefectZeroData.relative_zero_data_classical_solution

@@ -4,9 +4,11 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.Density
-public import AVenhance.Infra.Parabolic.FourierGalerkin.BilinearForms
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeHolder
-public import AVenhance.Infra.Parabolic.FourierGalerkin.CutoffNesting
+import AVenhance.Infra.Parabolic.FourierGalerkin.BilinearForms
+import AVenhance.Infra.Parabolic.FourierGalerkin.TimeHolder
+import AVenhance.Infra.Parabolic.FourierGalerkin.CutoffNesting
+public import AVenhance.Infra.Parabolic.FourierGalerkin.GalerkinSequence
+import Homogenization.Ambient.HilbertFinite
 
 /-!
 # Equation-derived weak time moduli

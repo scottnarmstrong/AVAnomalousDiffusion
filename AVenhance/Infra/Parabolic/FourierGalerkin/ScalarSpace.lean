@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ProjectionCoefficients
-public import Mathlib.MeasureTheory.Function.L2Space
+public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Projection
+import Homogenization.Ambient.HilbertFinite
 
 /-!
 # Scalar spatial `L²` synthesis for the real Fourier frame

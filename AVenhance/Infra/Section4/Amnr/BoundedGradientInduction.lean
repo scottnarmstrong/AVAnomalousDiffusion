@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.VelocityHigherStep
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section4.Amnr.MaterialGradientEstimate
+import AVenhance.Infra.Section4.Amnr.MixedSubwordBudget
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Bounded material induction for derivatives of actual velocity components. -/
 

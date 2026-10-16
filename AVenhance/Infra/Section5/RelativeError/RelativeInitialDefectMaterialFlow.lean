@@ -3,9 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectMaterialEquation
-public import AVenhance.Infra.Section5.TransportCalculus
-public import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectMaterialEquation
+import AVenhance.Infra.Section5.TransportCalculus
+import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+public import AVenhance.Infra.Section5.AmnrMaterialStep
+public import AVenhance.Infra.Section5.FrozenHmTelescope
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! The actual Hm material source along any flow of the previous velocity.
 Only positive-time joint regularity is used. -/
@@ -13,7 +19,7 @@ Only positive-time joint regularity is used. -/
 @[expose] public section
 
 noncomputable section
-open Filter Topology Homogenization AVenhance AVenhance.Infra.Section4
+open Filter Topology Homogenization AVenhance
 open AVenhance.Infra.Section5 AVenhance.Infra.Section5.Integration
 namespace AVenhance.Infra.Section5.RelativeError
 

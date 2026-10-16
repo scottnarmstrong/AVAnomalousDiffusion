@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Statements.Section3.IsCorrectorSol
-public import AVenhance.Proofs.Section3.LRecurse
+import AVenhance.Proofs.Section3.LRecurse
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Section3.KappaAt
+public import AVenhance.Statements.Section3.PermissibleSet
 
 /-! Statement file: `l_recurse` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/

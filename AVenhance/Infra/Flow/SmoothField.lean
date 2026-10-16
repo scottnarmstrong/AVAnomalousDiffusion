@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Flow.GlobalExistence
+import AVenhance.Infra.Flow.GlobalExistence
 public import AVenhance.Infra.Flow.PeriodicSmooth
-public import AVenhance.Infra.Flow.Continuity
-public import Mathlib.Analysis.Calculus.MeanValue
+import AVenhance.Infra.Flow.Continuity
+import Mathlib.Analysis.Calculus.MeanValue
+public import AVenhance.Statements.Flow.IsFlow
 
 /-! Consequences of compact-cell derivative bounds for smooth periodic fields. -/
 

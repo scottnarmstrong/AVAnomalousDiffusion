@@ -4,6 +4,9 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyModes
+public import AVenhance.Infra.Parabolic.WeakUniqueness.FiniteGalerkinEnergy
+import AVenhance.Infra.Parabolic.WeakUniqueness.FiniteEnergy
+import Mathlib.Algebra.Order.Archimedean.Real.Hom
 
 /-!
 # Finite Fourier energy balance for a forced weak path

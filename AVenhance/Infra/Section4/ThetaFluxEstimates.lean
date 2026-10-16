@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaCommutatorBounds
-public import AVenhance.Infra.Section4.ThetaSpaceTime
-public import AVenhance.Infra.Section4.ThetaIntegratedEnergy
 public import AVenhance.Infra.Section4.ThetaEnergyLevels
+public import AVenhance.Statements.Construction.StreamVel
+import AVenhance.Infra.Section4.ThetaTimeEnergy
+import AVenhance.Infra.Section4.ThetaTimeSpatialTrace
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Space-time estimates for individual stream-form commutator terms. -/
 

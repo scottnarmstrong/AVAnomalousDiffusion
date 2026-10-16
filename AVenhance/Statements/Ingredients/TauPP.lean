@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Statements.Ingredients.A
+public import AVenhance.Statements.Ingredients.Delta
 
 /-! Statement file: `tauPP` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -13,8 +14,6 @@ This file contains exactly one declaration of the formalization's public stateme
 noncomputable section
 
 namespace AVenhance
-
-open Homogenization
 
 /-- `e.taum.primeprime.def` (1130-1136), for `m ≥ 1`:
 `τ''_m := 2⁻²⁵ ⌈a_{m-1} / ε_{m-1}^{2δ}⌉⁻¹`. The value at `m = 0` is unused. -/

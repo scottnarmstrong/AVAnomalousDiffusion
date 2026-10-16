@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.Produced
-public import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
 
 /-! # Flux contracts of the divergence-form terms
 

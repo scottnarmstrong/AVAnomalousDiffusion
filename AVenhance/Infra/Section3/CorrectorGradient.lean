@@ -3,10 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section3.FluxStructure
-public import Mathlib.Analysis.Calculus.FDeriv.Prod
-public import Mathlib.Analysis.Calculus.FDeriv.Mul
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Section3.ChiMK
+import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 /-! Explicit spatial derivatives of the single-mode correctors. -/
 

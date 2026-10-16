@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.LemmaU.ModeCoefficients
-public import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.MeasureTheory.Integral.Prod
+public import AVenhance.Statements.Roots.TimeCube
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 /-!
 # Lemma U: time slices of space-time integrable functions

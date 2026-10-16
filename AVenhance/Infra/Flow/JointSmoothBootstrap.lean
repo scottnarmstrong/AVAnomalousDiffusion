@@ -3,14 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Flow.JointC3All
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! An all-orders joint-flow bootstrap from regularity of the spatial jet. -/
 
 @[expose] public section
 
 open Homogenization
-open scoped ContDiff Topology
+open scoped Topology
 
 namespace AVenhance.Infra.Flow
 

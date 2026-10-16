@@ -3,10 +3,26 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms.R46FluxFlow
-public import AVenhance.Infra.Section3.MovingEnergyReduction
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section5.Terms.R46FluxFlow
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
 public import AVenhance.Infra.Section5.Terms.R46FluxScale
+public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
+public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Infra.Section5.Terms.R46
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.HmBaseFluxIdentity
+import AVenhance.Infra.Section5.Terms.R46FluxSupport
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Finite convex-combination bounds for the transition flux. -/
 

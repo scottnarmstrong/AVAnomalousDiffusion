@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.AssemblyReal
-public import AVenhance.Infra.Section5.RelativeError.LaterStart
+import AVenhance.Infra.Section5.RelativeError.AssemblyReal
+public import AVenhance.Infra.Ingredients.EpsilonConsequences
+public import AVenhance.Statements.Ingredients.Delta
+public import AVenhance.Statements.Section3.PermissibleSet
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Tactic.Positivity.Finset
 
 /-! # scale facts for the main-theorem assembly  The choice of the threshold `Λ₀` making
 `∑ C ε_j^δ ≤ 1/2`, the centre `κ^{(M)} = ε_M^{2β/(q+1)}` of the `M`-th permitted interval, its
@@ -19,7 +26,7 @@ open Filter Topology
 
 namespace AVenhance.Infra.Section5.RelativeError
 
-open AVenhance Homogenization
+open AVenhance
 
 section Epsilon
 

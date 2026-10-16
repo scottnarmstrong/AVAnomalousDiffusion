@@ -4,8 +4,10 @@
 module
 
 public import AVenhance.Statements.Section4.IsThetaAnalytic
-public import AVenhance.Infra.Section5.RelativeError.AnalyticTail
-public import Mathlib.Data.Nat.Choose.Bounds
+public import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+import Homogenization.Sobolev.CubeEmbedding.FaceReflectionLines
 
 /-! # analytic tails after arbitrary ordered derivatives
 

@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.SpatialOperatorBounds
+public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
 
 /-! Arbitrary-order actual velocity-Jacobian operator rates from the stream-regularity estimates. -/
 

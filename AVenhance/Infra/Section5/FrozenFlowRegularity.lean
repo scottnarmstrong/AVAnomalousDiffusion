@@ -3,14 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Construction.StreamAdmissible
-public import AVenhance.Infra.Flow.JointC1
-public import AVenhance.Infra.Flow.InverseC1
-public import AVenhance.Infra.Flow.SpatialC2
-public import AVenhance.Infra.Flow.SpatialC3
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Flow.JointC1
+import AVenhance.Infra.Flow.SpatialC2
+import AVenhance.Infra.Flow.SpatialC3
 public import AVenhance.Statements.Section4.XFlow
 public import AVenhance.Statements.Section4.XFlowInv
-public import AVenhance.Statements.FlowDefs.FlowIsFlow
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+public import AVenhance.Infra.Flow.PeriodicSmooth
 
 /-! Joint first-order regularity for the §4 flow slices. -/
 

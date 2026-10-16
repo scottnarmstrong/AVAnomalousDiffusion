@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.FaaDiBruno.TransportSharpEstimate
-public import AVenhance.Infra.FaaDiBruno.TransportExpansion
-public import AVenhance.Infra.FaaDiBruno.DirectionalProduct
+import AVenhance.Infra.FaaDiBruno.TransportExpansion
+public import AVenhance.Infra.FaaDiBruno.TransportCommutator
+import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Infra.FaaDiBruno.Transport
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 @[expose] public section
 

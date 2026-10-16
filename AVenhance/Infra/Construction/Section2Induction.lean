@@ -3,10 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Construction.ExplicitBarNorm
+import AVenhance.Infra.Construction.ExplicitBarNorm
 public import AVenhance.Infra.Construction.LimitFieldBounds
-public import AVenhance.Infra.Construction.Scalars
-public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.EpsilonConsequences
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Algebra.Ring.IsFormallyReal
 
 /-! The telescoping part of the Section 2 stream induction. -/
 

@@ -3,13 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Representation
-public import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Ingredients.CutoffConsequences
+public import AVenhance.Statements.Ingredients.HatXiML
+import AVenhance.Infra.Section4.LocalFinite
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
+open MeasureTheory
 namespace AVenhance.Infra.Section4
 
 /-- Convexity of the large-cutoff average, including its actual finite support. -/

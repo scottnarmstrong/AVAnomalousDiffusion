@@ -4,8 +4,25 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Decomp
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Pointwise
-public import AVenhance.Infra.Section5.SlowFactorBoundsCentered
+import AVenhance.Infra.Section5.SlowFactorBoundsCentered
+public import AVenhance.Infra.Ergodic.CenteredSpectralMean
+public import AVenhance.Infra.Ergodic.HMinusOneErgodic
+public import AVenhance.Infra.Section5.ErgodicParams
+public import AVenhance.Statements.Section4.HMinusOneNorm
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.IteratesFlowGeometry
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyPointwise
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Analytic
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Corrector
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Flow
+import AVenhance.Infra.Section5.LeftToShow.BracketFF
+import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
+import AVenhance.Infra.Section5.SlowFactorBoundsComposition
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! # One term of the `twistie1` ergodic estimate
 

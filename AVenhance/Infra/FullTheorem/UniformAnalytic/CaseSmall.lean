@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.UniformAnalytic.TailHolder
-public import AVenhance.Infra.Section5.RelativeError.LaterStart
+import AVenhance.Infra.Section5.RelativeError.LaterStart
+public import AVenhance.Infra.FullTheorem.UniformAnalytic.Defs
+public import AVenhance.Statements.Roots.IsWeakSolution
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.LebronStep.Interpolation
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Scales
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
 
 /-! # Case `M ≤ m₀ − 1` of the analytic case of `r.LeBron.2`
 

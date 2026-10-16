@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesScalarMaterialEnergy
+import AVenhance.Infra.Section4.IteratesScalarMaterialEnergy
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Scalar diffusion energies from actual one-higher gradient energies. -/
 

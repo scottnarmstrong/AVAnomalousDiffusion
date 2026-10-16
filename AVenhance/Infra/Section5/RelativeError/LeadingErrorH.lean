@@ -3,9 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorHGradient
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Statements.Section3.LRecurse
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorHGradient
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Statements.Section3.LRecurse
+public import AVenhance.Infra.Section4.HmBounds
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.Params
 
 /-! # The `S`-normalised `H̃_m` gradient bound from the AMNR tensor estimate
 
@@ -21,7 +30,6 @@ conclusion is the `hHgrad` input shape of the leading-error assembly:
 noncomputable section
 
 open MeasureTheory Homogenization
-open scoped Matrix.Norms.Elementwise
 
 namespace AVenhance.Infra.Section5.RelativeError
 

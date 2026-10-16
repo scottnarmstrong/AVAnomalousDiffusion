@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinSmoothEquation
-public import AVenhance.Infra.Ergodic.AveragesL1
-public import AVenhance.Infra.Torus.FourierCalculus
+import AVenhance.Infra.Ergodic.AveragesL1
+public import AVenhance.Infra.Classical.GalerkinSmoothLimit
+import Mathlib.Topology.Separation.CompletelyRegular
 
 /-! Continuous `L²` tests for the transport part of the limiting Fourier ODE. -/
 

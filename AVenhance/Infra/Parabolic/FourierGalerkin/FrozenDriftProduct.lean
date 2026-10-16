@@ -4,7 +4,8 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.ProductCompactness
-public import AVenhance.Infra.Torus.Basic
+public import AVenhance.Infra.Parabolic.FourierGalerkin.BilinearForms
+import Homogenization.Ambient.HilbertFinite
 
 /-!
 # Product-space realization of the drift

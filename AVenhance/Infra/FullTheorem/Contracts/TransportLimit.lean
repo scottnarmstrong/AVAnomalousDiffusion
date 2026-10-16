@@ -4,7 +4,9 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Integration.TransportLimitContract
-public import AVenhance.Infra.FullTheorem.TransportLimit.LimitWeakForm
+import AVenhance.Infra.FullTheorem.TransportLimit.LimitWeakForm
+import AVenhance.Infra.FullTheorem.TransportLimit.Construction
+import AVenhance.Infra.FullTheorem.TransportLimit.Passage
 
 /-! # Proof of the transport-limit statement
 

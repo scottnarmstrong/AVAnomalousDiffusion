@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.MaterialGradientEstimate
+import AVenhance.Infra.Section4.Amnr.MaterialGradientEstimate
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section4.Amnr.MixedSubwordBudget
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Strong material induction for spatial derivatives of transported scalars. -/
 

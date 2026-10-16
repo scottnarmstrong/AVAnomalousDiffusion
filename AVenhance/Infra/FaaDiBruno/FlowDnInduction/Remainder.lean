@@ -5,7 +5,8 @@ module
 
 public import AVenhance.Infra.FaaDiBruno.TransportODEApplications
 public import AVenhance.Infra.FaaDiBruno.Composition
-public import AVenhance.Infra.ODE.Linear.Gronwall
+import AVenhance.Infra.FaaDiBruno.Formula
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-!
 # The lower-order Faà di Bruno term in the flow induction

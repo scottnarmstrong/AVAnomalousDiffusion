@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.NormalOrderStep
+import AVenhance.Infra.Section4.Amnr.NormalOrderStep
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+public import AVenhance.Infra.Section4.Amnr.NormalOrderFields
+import AVenhance.Infra.Section4.Amnr.Seed
 
 /-! Quantitative ordering by weighted budget and finite inversion count. -/
 

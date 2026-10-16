@@ -3,10 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Heat.WeakFourier
-public import AVenhance.Infra.Parabolic.FourierGalerkin.Density
+import AVenhance.Infra.Heat.WeakFourier
 public import AVenhance.Infra.Classical.GalerkinModeCalculus
-public import AVenhance.Infra.Parabolic.WeakUniqueness.FiniteGalerkinEnergy
+public import AVenhance.Infra.Heat.WeakBridge
+import AVenhance.Infra.Parabolic.FourierGalerkin.ProjectionCoefficients
 
 /-!
 # Fourier projection of periodic weak gradients

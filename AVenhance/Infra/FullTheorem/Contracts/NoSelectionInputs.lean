@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.NoSelectionInputs.TwoDiffusivity
-public import AVenhance.Infra.FullTheorem.NoSelectionInputs.Cosine
-public import AVenhance.Infra.FullTheorem.NoSelectionInputs.VelGrad
-public import AVenhance.Infra.FullTheorem.NoSelectionInputs.A0Core
+import AVenhance.Infra.FullTheorem.NoSelectionInputs.TwoDiffusivity
+import AVenhance.Infra.FullTheorem.NoSelectionInputs.Cosine
+import AVenhance.Infra.FullTheorem.NoSelectionInputs.VelGrad
+import AVenhance.Infra.FullTheorem.NoSelectionInputs.A0Core
+public import AVenhance.Infra.FullTheorem.Integration.NoSelectionInputs
 
 /-! # Small inputs of the no-selection argument, proved
 

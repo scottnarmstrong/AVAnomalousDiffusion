@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentTestAdmissibility
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentCutoffProduct
-public import Mathlib.MeasureTheory.Integral.Prod
+import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentCutoffProduct
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarRepresentative
+public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
+import Homogenization.Ambient.HilbertFinite
+import Mathlib.Algebra.Order.Archimedean.Real.Hom
 
 /-!
 # Physical weak equation for smooth Fourier cutoffs

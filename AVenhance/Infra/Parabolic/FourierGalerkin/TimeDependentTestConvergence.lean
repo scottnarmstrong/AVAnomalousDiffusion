@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentWeakEquation
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ProductCompactness
+public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
+import AVenhance.Infra.Parabolic.FourierGalerkin.TestDensityBridge
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # Spacetime convergence of the smooth-test Fourier cutoffs

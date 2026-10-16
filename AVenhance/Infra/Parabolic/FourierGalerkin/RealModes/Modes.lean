@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Frequency
+public import AVenhance.Infra.Torus.FourierCalculus
+public import AVenhance.Statements.Roots.SpaceGrad
 
 @[expose] public section
 

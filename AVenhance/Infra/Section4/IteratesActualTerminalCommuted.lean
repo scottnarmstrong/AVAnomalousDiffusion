@@ -3,9 +3,26 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualTerminalCurrent
-public import AVenhance.Infra.Section4.IteratesTerminalCurrentSplit
-public import AVenhance.Infra.Section4.IteratesTerminalTransferredMaterial
+import AVenhance.Infra.Section4.IteratesActualTerminalCurrent
+import AVenhance.Infra.Section4.IteratesTerminalCurrentSplit
+import AVenhance.Infra.Section4.IteratesTerminalTransferredMaterial
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesForcing
+import AVenhance.Infra.Section4.IteratesForcingCoefficients
+import AVenhance.Infra.Section4.IteratesVelocityProfile
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
+import AVenhance.Infra.Section4.IteratesWordForcingContinuity
+import AVenhance.Infra.Section4.IteratesWordRegularity
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+import AVenhance.Infra.Section5.SMatRegularity
 
 /-! The full actual current material term with corrected remainder. -/
 

@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesFlowGeometry
-public import AVenhance.Infra.Section4.IteratesWordSource
+import AVenhance.Infra.Section4.IteratesFlowGeometry
+import AVenhance.Infra.Section4.IteratesWordSource
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Ingredients.HatXiML
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

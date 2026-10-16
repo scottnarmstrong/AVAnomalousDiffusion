@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowMixedSourceBounds
-public import AVenhance.Infra.Section4.Amnr.FlowAverageSourceBounds
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section3.ExplicitBounds.CutoffMemory
+import AVenhance.Infra.Section4.Amnr.FlowAverage
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.Seed
+import Mathlib.Order.CompletePartialOrder
 
 /-! Full actual mixed seed-multiplier bounds from source ingredients. -/
 

@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesStreamBudgetKernel
+public import Mathlib.Analysis.Real.Sqrt
 
 @[expose] public section
 

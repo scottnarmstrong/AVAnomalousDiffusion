@@ -4,8 +4,12 @@
 module
 
 public import AVenhance.Infra.FaaDiBruno.TransportCommutator
-public import AVenhance.Infra.FaaDiBruno.TransportSolution
-public import AVenhance.Infra.Flow.Laws
+public import AVenhance.Statements.Flow.IsFlow
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Infra.FaaDiBruno.TransportExpansion
+import AVenhance.Infra.FaaDiBruno.TransportSolution.Characteristics
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 @[expose] public section
 

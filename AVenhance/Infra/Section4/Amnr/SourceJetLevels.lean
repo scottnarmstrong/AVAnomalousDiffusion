@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.HigherGradientStep
+public import AVenhance.Infra.Section4.Amnr.VelocitySpatialRates
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.VelocityNonemptySpatial
+import AVenhance.Infra.Section4.Amnr.ZeroVelocityJets
 
 /-! Actual finite-level source jets and their proved spatial base case. -/
 

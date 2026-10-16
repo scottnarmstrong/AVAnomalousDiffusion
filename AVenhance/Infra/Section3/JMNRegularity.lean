@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section3.JMNPeriodicity
-public import AVenhance.Infra.Section4.LocalFinite
-public import Mathlib.Topology.Algebra.InfiniteSum.Real
+public import AVenhance.Statements.Section3.JMN
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-! Local finiteness and continuity of the explicit `j_{m,n}` coefficient. -/
 

@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesDischargeDiffusivity
 public import AVenhance.Infra.Section4.IteratesMean
+public import AVenhance.Infra.Section4.IteratesDischargeScalars
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

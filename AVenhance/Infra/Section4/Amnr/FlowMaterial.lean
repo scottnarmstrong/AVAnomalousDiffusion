@@ -3,11 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.VelocitySpatialRates
-public import AVenhance.Infra.Section4.Amnr.FlowJacobianC1
-public import AVenhance.Infra.Section5.PulledGradientTransport
-public import AVenhance.Infra.Section5.MatrixTransport
-public import AVenhance.Statements.FlowDefs.FlowInvRightInverse
+import AVenhance.Infra.Section4.Amnr.FlowJacobianC1
+import AVenhance.Infra.Section5.PulledGradientTransport
+import AVenhance.Infra.Section5.MatrixTransport
+import AVenhance.Statements.FlowDefs.FlowInvRightInverse
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Actual Eulerian material differentiation of the pulled-back flow gradient. -/
 

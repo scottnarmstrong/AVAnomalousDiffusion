@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTerminalBoundaryCoercivity
+import AVenhance.Infra.Section4.IteratesTerminalBoundaryCoercivity
+public import Mathlib.Analysis.Real.Sqrt
 
 @[expose] public section
 

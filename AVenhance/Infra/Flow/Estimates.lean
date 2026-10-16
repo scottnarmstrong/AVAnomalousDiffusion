@@ -4,9 +4,10 @@
 module
 
 public import AVenhance.Statements.Flow.IsFlow
-public import AVenhance.Infra.Flow.CurveUniqueness
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.DistLEIntegral
-public import Mathlib.Analysis.ODE.Gronwall
+import Mathlib.Analysis.ODE.Gronwall
+public import Mathlib.Analysis.Complex.Exponential
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Grönwall and displacement estimates for characterized global flows. -/
 

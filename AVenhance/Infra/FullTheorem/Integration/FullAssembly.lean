@@ -5,13 +5,14 @@ module
 
 public import AVenhance.Infra.FullTheorem.Integration.FullStatement
 public import AVenhance.Infra.FullTheorem.Integration.NoSelectionContract
-public import AVenhance.Infra.FullTheorem.Integration.UniformHolderContract
-public import AVenhance.Infra.FullTheorem.Contracts.NoSelectionInputs
-public import AVenhance.Infra.FullTheorem.Contracts.UniformHolder
-public import AVenhance.Infra.FullTheorem.Full.Scales
-public import AVenhance.Statements.Ingredients.Nonempty
-public import AVenhance.Statements.Construction.ExistsIsStreamSeq
-public import AVenhance.Statements.Construction.LimitFieldRegular
+import AVenhance.Infra.FullTheorem.Contracts.NoSelectionInputs
+import AVenhance.Infra.FullTheorem.Contracts.UniformHolder
+import AVenhance.Infra.FullTheorem.Full.Scales
+import AVenhance.Statements.Ingredients.Nonempty
+import AVenhance.Statements.Construction.ExistsIsStreamSeq
+import AVenhance.Statements.Construction.LimitFieldRegular
+import AVenhance.Infra.Construction.LimitSeries
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! # The combined main theorem from the no-selection statement
 

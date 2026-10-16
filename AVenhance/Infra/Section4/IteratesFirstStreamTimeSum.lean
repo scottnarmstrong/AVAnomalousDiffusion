@@ -3,18 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesFirstStreamTime
-public import AVenhance.Infra.Section4.IteratesWordGrouping
+public import Mathlib.Basic.Real.Basic
 
 /-! The actual first stream coefficient sum over the time cell. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
-open IterateCalculus
 open AVenhance
 
 theorem IteratesFirstStreamTimeSum.first_stream_time_abs_sum {α : Type*} (P : List α) (f : α → ℝ) :

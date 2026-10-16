@@ -3,13 +3,12 @@
 
 module
 
-public import AVenhance.Statements.Section3.PermittedInterval
-public import AVenhance.Statements.Section3.PermissibleSet
 public import AVenhance.Statements.Construction.BarNorm
-public import AVenhance.Statements.Construction.IsAdmissibleStream
 public import AVenhance.Statements.Construction.IsStreamSeq
-public import AVenhance.Infra.Cutoff.TimeScaleFacts
-public import Mathlib.MeasureTheory.Measure.OpenPos
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+public import AVenhance.Statements.Ingredients.Gamma
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Scale bookkeeping for conditional uses of the stream-function and diffusivity bounds conclusions.
 

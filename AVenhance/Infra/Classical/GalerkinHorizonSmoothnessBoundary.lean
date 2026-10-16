@@ -4,6 +4,12 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinHorizonSmoothness
+public import AVenhance.Infra.Classical.GalerkinSmoothWordEquation
+import AVenhance.Infra.Classical.PeriodicCalculus
+import Mathlib.Analysis.Calculus.FDeriv.Partial
+import Mathlib.Topology.Algebra.ProperAction.Basic
+import Mathlib.Topology.ContinuousMap.SecondCountableSpace
+import Mathlib.Topology.Metrizable.ContinuousMap
 
 @[expose] public section
 

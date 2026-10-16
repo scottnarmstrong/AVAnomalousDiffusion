@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Ergodic.AveragedCompositionEstimate
+import AVenhance.Infra.Ergodic.AveragedCompositionEstimate
+public import AVenhance.Infra.Ergodic.AveragedCompositionCalculus
+public import AVenhance.Infra.Ergodic.AveragesL2
+public import AVenhance.Infra.Ergodic.Flow
+import AVenhance.Infra.Ergodic.AveragedCompositionNorm
 
 /-! Appendix C composition in L1 and L2, retaining the same averaged norm.
 Only the L2 input includes order zero. -/
@@ -12,7 +16,7 @@ Only the L2 input includes order zero. -/
 
 noncomputable section
 open scoped ContDiff ENNReal
-open MeasureTheory Homogenization AVenhance.FaaDiBruno AVenhance.Infra.Torus
+open MeasureTheory Homogenization AVenhance.Infra.Torus
 namespace AVenhance.Infra.Ergodic
 
 theorem spatialJet_eLpNorm_two_eq {d n : ℕ} {f : Vec d → ℂ}

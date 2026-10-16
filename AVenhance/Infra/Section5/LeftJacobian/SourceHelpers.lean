@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.SourceErrors
-public import AVenhance.Infra.Section5.TEquationRegularity
-public import AVenhance.Infra.Section5.FrozenHmSourceTelescope
+public import AVenhance.Infra.Section5.AmnrMaterialStep
+public import AVenhance.Statements.Section4.Jcut
+public import AVenhance.Statements.Section4.VecDiv
+import AVenhance.Infra.Section5.MaterialGradient
 
 /-!: calculus helpers for the source material equation (local copies of the
 private lemmas of `SourceMaterialEquation`). -/

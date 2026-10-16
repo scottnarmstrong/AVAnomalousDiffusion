@@ -3,13 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesNormComponents
-public import AVenhance.Infra.Section4.IteratesComponentEnergy
+import AVenhance.Infra.Section4.IteratesNormComponents
+public import Mathlib.Analysis.Real.Sqrt
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
 
 /-- Component energies can be extracted without taking a supremum or

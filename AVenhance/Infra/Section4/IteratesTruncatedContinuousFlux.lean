@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedWeighted
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesTruncatedWeighted
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 
 /-! Natural integrability for every terminal selected coefficient flux. -/
 
@@ -12,7 +15,6 @@ public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

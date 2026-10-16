@@ -3,7 +3,6 @@
 
 module
 
-public import Homogenization.Ambient.Basic
 public import AVenhance.Statements.Roots.IsZ2Periodic
 public import Mathlib.Analysis.Fourier.AddCircleMulti
 

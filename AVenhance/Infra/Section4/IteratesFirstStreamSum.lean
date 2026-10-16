@@ -3,16 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesStreamPairing
-public import AVenhance.Infra.Section4.IteratesWordGrouping
+public import Mathlib.Basic.Real.Basic
 
 /-! The full first-coefficient-order stream contribution. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open AVenhance
 

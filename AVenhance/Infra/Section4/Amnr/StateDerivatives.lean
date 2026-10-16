@@ -3,14 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FieldTaylor
+public import Mathlib.Algebra.Order.Archimedean.Real.Hom
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Bounds
 
 /-! Spatial restriction of joint derivatives, preserving all primitive bounds. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
 
 variable {E F : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]

@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Statements.Section3.CorrTime
+public import AVenhance.Statements.Section3.UShear
 
 /-! Statement file: `chiMK` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/

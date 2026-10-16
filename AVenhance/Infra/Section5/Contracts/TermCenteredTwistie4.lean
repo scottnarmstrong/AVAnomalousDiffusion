@@ -3,10 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredTwistie
-public import AVenhance.Infra.Section5.Contracts.TermCenteredFlux
-public import AVenhance.Infra.Section5.Contracts.TermCenteredTime
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFlux
+import AVenhance.Infra.Section5.Contracts.TermCenteredTwistie
+import AVenhance.Infra.Section5.Contracts.TermCenteredFlux
+import AVenhance.Infra.Section5.Contracts.TermCenteredTime
+import AVenhance.Infra.Section5.Contracts.TermSourcesFlux
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `Twistie4CenteredSourceContract`
 

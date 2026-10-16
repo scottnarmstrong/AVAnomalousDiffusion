@@ -3,13 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyBound
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyScale
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyExponent
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyCoeff
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section4.IteratesAmplitude
-public import AVenhance.Infra.Section4.IteratesHigherEnergyBudget
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyBound
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyScale
+public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyTransfer
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Numeric.Exponents
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsScales
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `TinyHMinusSourceContract` producer: scalar bookkeeping
 

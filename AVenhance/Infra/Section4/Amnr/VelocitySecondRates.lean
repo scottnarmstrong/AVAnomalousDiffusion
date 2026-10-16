@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowSecondRates
+public import AVenhance.Infra.Construction.LimitFieldBounds
+public import AVenhance.Infra.Flow.VariationalEquation
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.VelocitySpatial
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Source bounds for the second spatial derivative of the actual velocity. -/
 

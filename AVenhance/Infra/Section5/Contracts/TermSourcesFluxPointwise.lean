@@ -3,12 +3,23 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFluxL2
-public import AVenhance.Infra.Section5.Integration.PartIAnsatzPointwise
-public import AVenhance.Infra.Section5.CorrectorLocalization
-public import AVenhance.Infra.Section4.Amnr.StreamMaterialRates
+import AVenhance.Infra.Section5.CorrectorLocalization
+import AVenhance.Infra.Section4.Amnr.StreamMaterialRates
 public import AVenhance.Infra.Section4.IteratesWordDiffusion
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
+public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
+public import AVenhance.Infra.Section5.Terms.Normie1
+public import AVenhance.Infra.Section5.Terms.Normie2
+public import AVenhance.Infra.Section5.Terms.Twistie3
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section3.MovingEnergyReduction
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsError
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsScales
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Pointwise bounds for the `twistie3`, `normie1`, `normie2` fluxes
 
@@ -34,7 +45,6 @@ noncomputable section
 namespace AVenhance.Infra.Section5.Contracts
 
 open AVenhance AVenhance.Infra.Section5 AVenhance.Infra.Section5.RelativeError
-  AVenhance.Infra.Section5.Integration
 
 theorem sa_vecNormSq_eq (v : Vec 2) : vecNormSq v = v 0 * v 0 + v 1 * v 1 := by
   simp [vecNormSq, vecDot, Fin.sum_univ_two]

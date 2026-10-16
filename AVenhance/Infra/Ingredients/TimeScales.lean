@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Cutoff.TimeScaleFacts
-public import AVenhance.Infra.Ingredients.Parameters
+public import AVenhance.Statements.Ingredients.Tau
+public import AVenhance.Statements.Ingredients.TauP
 
 /-! Exact scale ratios and elementary bounds for the time scales. -/
 

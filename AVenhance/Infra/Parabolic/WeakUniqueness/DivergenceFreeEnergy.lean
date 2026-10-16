@@ -3,11 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.WeakUniqueness.ZeroDataEnergy
+import AVenhance.Infra.Parabolic.WeakUniqueness.ZeroDataEnergy
 public import AVenhance.Infra.Heat.PeriodicCutoff
-public import AVenhance.Infra.Classical.PeriodicCalculus
-public import AVenhance.Infra.Classical.GalerkinGenerator
+import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Classical.GalerkinGenerator
 public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakEnergyPassage
+import Mathlib.Order.CompletePartialOrder
 
 /-!
 # Divergence-free transport cancellation and the weak energy identity

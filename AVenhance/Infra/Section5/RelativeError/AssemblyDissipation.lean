@@ -3,9 +3,20 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.AssemblyTelescope
+import AVenhance.Infra.Section5.RelativeError.AssemblyTelescope
 public import AVenhance.Infra.Section5.H1Reduction
-public import AVenhance.Infra.Section5.WeakEnergyIdentity
+import AVenhance.Infra.Section5.WeakEnergyIdentity
+public import AVenhance.Infra.Section5.Integration.Statements
+public import AVenhance.Infra.Section5.RelativeError.IteratesExist
+public import AVenhance.Infra.Section5.RelativeError.LaterStart
+public import AVenhance.Statements.Roots.IsDivFree
+import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Infra.Section5.RelativeError.AssemblyGradient
+import AVenhance.Infra.Section5.RelativeError.AssemblyReal
+import AVenhance.Infra.Section5.RelativeError.AssemblyScales
+import AVenhance.Infra.Section5.RelativeError.BaseEnergy
+import AVenhance.Infra.Section5.RelativeError.RelativeSecondLast
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Smooth analytic limit dissipation
 Combines the base energy at the later start (`later_base_energy`), the telescoping chain

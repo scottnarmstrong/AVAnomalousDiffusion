@@ -3,10 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenDriftProduct
-public import AVenhance.Infra.Parabolic.FourierGalerkin.CutoffNesting
-public import AVenhance.Infra.Parabolic.FourierGalerkin.FiniteWeakForm
-public import AVenhance.Infra.Parabolic.FourierGalerkin.LimitConstruction
+public import AVenhance.Infra.Parabolic.FourierGalerkin.GalerkinSequence
 
 /-!
 # Product-space weak equation on finite Fourier tests

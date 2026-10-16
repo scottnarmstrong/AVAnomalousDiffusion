@@ -4,8 +4,15 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermCenteredDefs
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
-public import AVenhance.Infra.Section5.SlowFactorBounds
+import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
+public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section4.Amnr.StreamMaterialRates
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
 
 /-! # Entrywise bounds for the defect matrices and `∇G`
 

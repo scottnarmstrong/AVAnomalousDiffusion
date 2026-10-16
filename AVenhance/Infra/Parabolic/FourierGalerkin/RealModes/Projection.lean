@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Modes
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ODE
 
 @[expose] public section
 

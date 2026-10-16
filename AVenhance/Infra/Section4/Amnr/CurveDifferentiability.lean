@@ -4,13 +4,15 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.CurveOperators
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+import Mathlib.Analysis.Calculus.FDeriv.Basic
 
 /-! Differentiation of an actual field acting on continuous trajectories. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory Filter Asymptotics
+open Filter Asymptotics
 open scoped Topology
 namespace AVenhance.Infra.Section4
 

@@ -4,11 +4,16 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.TraceInstanceRecombination
-public import AVenhance.Infra.Section5.RelativeError.TraceProjectionTrace
-public import AVenhance.Infra.Section5.RelativeError.AnalyticDerivativeTail
-public import AVenhance.Infra.Section5.RelativeError.MeanZeroEstimate
-public import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Section5.RelativeError.TraceProjectionTrace
+import AVenhance.Infra.Section5.RelativeError.MeanZeroEstimate
+import AVenhance.Infra.Classical.Drift
 public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Infra.Section5.RelativeError.ClassicalEnergy
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Section5.RelativeError.TraceInstanceSpectrum
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # RelativeError: actual low cutoff plus analytic high tail -/
 

@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Statements.Section3.GradMatrix
+public import AVenhance.Statements.Roots.SpaceGrad
 
 /-! Statement file: `spaceLap` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/

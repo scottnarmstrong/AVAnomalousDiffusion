@@ -4,7 +4,12 @@
 module
 
 public import AVenhance.Infra.Construction.RecursionIncrement
-public import AVenhance.Infra.Construction.FlowTransport
+public import AVenhance.Infra.Construction.Section2Induction
+import AVenhance.Infra.Construction.ExplicitBarNorm
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-! The analytic induction behind the first stream-regularity increment estimate. -/
 

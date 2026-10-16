@@ -3,10 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesThetaSourceBound
+import AVenhance.Infra.Section4.IteratesThetaSourceBound
 public import AVenhance.Infra.Section4.IteratesCoordinateProfile
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
-public import AVenhance.Infra.Section4.IteratesAnalyticRadiusDoubling
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesAnalyticRadiusDoubling
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

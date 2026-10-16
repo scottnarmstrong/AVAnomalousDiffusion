@@ -10,9 +10,8 @@ public import AVenhance.Infra.Section4.Amnr.FlowThirdVariationRates
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
+open Homogenization
 namespace AVenhance.Infra.Section4
-open AVenhance.Infra.Flow
 
 instance FlowThirdPrimitive.amnrBilinearNorm :
     NormedAddCommGroup (Vec 2 →L[ℝ] Vec 2 →L[ℝ] Vec 2) := inferInstance

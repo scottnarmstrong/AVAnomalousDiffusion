@@ -4,6 +4,11 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.SpatialWords
+public import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! Primitive spatial jets of the actual velocity, extracted from the stream-regularity estimates. -/
 

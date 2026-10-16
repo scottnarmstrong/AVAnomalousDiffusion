@@ -3,10 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Analytic
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Corrector
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffPointwise
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffPointwise
 public import AVenhance.Infra.Section5.SlowFactorBoundsSource
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Ergodic.AveragesL2
 
 /-! # Finite decomposition of `twistie1`
 

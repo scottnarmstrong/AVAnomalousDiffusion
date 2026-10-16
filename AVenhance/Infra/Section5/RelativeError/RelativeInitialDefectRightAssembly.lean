@@ -3,11 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEnergyIoi
-public import AVenhance.Infra.Section5.RelativeError.RelativeSecondLast
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEnergyIoi
+import AVenhance.Infra.Section5.RelativeError.RelativeSecondLast
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
 public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Section5.IndyStepDownPartI
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectContinuity
 
 /-! The oscillatory corrector has a legitimate right trace. Combining this
 trace with a positive-time Hm bound supplies the relative initial leaf. -/

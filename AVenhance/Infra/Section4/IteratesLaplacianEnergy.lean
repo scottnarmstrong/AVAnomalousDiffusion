@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesComponentEnergy
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesWordFlux
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Actual differentiated diffusion energy from two higher scalar gradients. -/
 

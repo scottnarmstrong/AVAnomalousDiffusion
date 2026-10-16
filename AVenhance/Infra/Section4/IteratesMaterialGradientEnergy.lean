@@ -3,8 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMaterialGradientRegularity
-public import AVenhance.Infra.Section4.IteratesVectorSquares
+import AVenhance.Infra.Section4.IteratesMaterialGradientRegularity
+import AVenhance.Infra.Section4.IteratesVectorSquares
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesCommutedMaterialGradient
+import AVenhance.Infra.Section4.IteratesErrorRegularity
+import AVenhance.Infra.Section4.IteratesLaplacianEnergy
+import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Actual all-order material-gradient energy from its equation. -/
 

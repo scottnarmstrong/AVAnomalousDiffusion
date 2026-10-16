@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Statements.Section3.FluxIntegrand
+public import AVenhance.Statements.Section3.SpaceAvgMat
 
 /-! Statement file: `flux` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/

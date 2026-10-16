@@ -3,15 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.Produced
-public import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFluxL2
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFluxScale
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsAssembly
-public import AVenhance.Infra.Section5.Integration.PartIHmExtension
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
-public import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
+import AVenhance.Infra.Section5.Contracts.TermSourcesFluxL2
+import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
+import AVenhance.Infra.Section5.Contracts.TermSourcesFluxScale
+import AVenhance.Infra.Section5.Integration.PartIHmExtension
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
+import AVenhance.Infra.Section5.LeftToShow.Scales
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraContinuity
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2
 
 /-! # Source contracts of the divergence-form terms `twistie3`, `normie1`, `normie2`
 

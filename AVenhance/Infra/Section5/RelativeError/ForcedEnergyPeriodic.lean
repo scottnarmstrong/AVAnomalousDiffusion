@@ -3,14 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Torus.Calculus
-public import AVenhance.Infra.Classical.TimeEnergy
-public import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Classical.PeriodicCalculus
 public import AVenhance.Statements.Section3.SigmaMat
 public import AVenhance.Statements.Roots.IsZ2Periodic
 public import AVenhance.Statements.Roots.SpaceGrad
 public import AVenhance.Statements.Roots.UnitCube
-public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Torus.Slicing
+import Homogenization.Sobolev.CubeEmbedding.FaceReflectionLines
+import Mathlib.Order.CompletePartialOrder
 
 /-!
 # Periodic integration by parts against a Lipschitz periodic function

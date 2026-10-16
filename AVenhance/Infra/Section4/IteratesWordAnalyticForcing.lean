@@ -3,9 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesForcingCoefficients
-public import AVenhance.Infra.Section4.IteratesWordActualForcingEnergy
-public import AVenhance.Infra.Section4.IteratesForcingFactorials
+import AVenhance.Infra.Section4.IteratesWordActualForcingEnergy
+import AVenhance.Infra.Section4.IteratesForcingFactorials
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.Analysis.Matrix.Normed
 
 /-! Actual all-order material forcing energy for the increments. -/
 

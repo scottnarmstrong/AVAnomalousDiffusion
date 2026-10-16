@@ -3,10 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTerms
+import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTerms
 public import AVenhance.Infra.Section5.SourceErrors
-public import AVenhance.Infra.Section5.LeftJacobian.PiolaFlux
-public import AVenhance.Infra.Section5.LeftToShow.JhatFacts
+import AVenhance.Infra.Section5.LeftJacobian.PiolaFlux
+import AVenhance.Infra.Section5.LeftToShow.JhatFacts
+public import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTools
+import AVenhance.Infra.Section3.FluxTimeRegularity
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Integration.PartIHmRegularity
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
+import AVenhance.Infra.Section5.ResidualDataRegularity
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! # Joint continuity of `tiny` for the actual iterates
 

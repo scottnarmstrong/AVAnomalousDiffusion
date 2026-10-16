@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmPairingFTC
 public import AVenhance.Infra.Section4.DmBounds
+public import AVenhance.Infra.Section4.HmSourcePairing
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Hm flux identities and source bridges used by the positive-time
 pairing assembler. -/
@@ -14,7 +15,7 @@ pairing assembler. -/
 noncomputable section
 
 open MeasureTheory Set Homogenization
-open AVenhance.Infra.Ergodic AVenhance.Infra.Section5
+open AVenhance.Infra.Section5
 
 namespace AVenhance.Infra.Section4
 

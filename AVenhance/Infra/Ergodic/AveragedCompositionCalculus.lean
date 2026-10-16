@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Infra.FaaDiBruno.Formula
-public import AVenhance.Infra.FaaDiBruno.Resummation
-public import AVenhance.Infra.Ergodic.FlowAverages
+import AVenhance.Infra.FaaDiBruno.Formula
+public import AVenhance.Infra.Ergodic.FourierDecay
 
 /-! Coordinate expansions for averaged Faà di Bruno estimates. Positions are
 labelled even when coordinate directions repeat. -/

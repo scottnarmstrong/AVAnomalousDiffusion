@@ -3,12 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TransportFlowCellIntegral
-public import AVenhance.Infra.Section5.RelativeError.TransportVectorBounds
-public import AVenhance.Infra.Classical.PeriodicCalculus
-public import AVenhance.Infra.Classical.TimeEnergy
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
-public import AVenhance.Statements.Roots.SpaceGrad
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.Normed.Ring.Lemmas
+public import Mathlib.Analysis.Real.Sqrt
 
 /-! # RelativeError: the transported Piola vector has controlled cell L² norm -/
 
@@ -17,14 +14,10 @@ public import AVenhance.Statements.Roots.SpaceGrad
 noncomputable section
 
 open Homogenization
-open MeasureTheory
-open scoped ContDiff
 
 namespace AVenhance.Infra.Section5.RelativeError
 
 open AVenhance
-open AVenhance.Infra.Classical
-open AVenhance.Infra.Torus
 
 theorem TransportPiolaCellBound.vecNorm_le_sqrt_vecNormSq (v : Vec 2) :
     ‖v‖ ≤ Real.sqrt (vecNormSq v) := by

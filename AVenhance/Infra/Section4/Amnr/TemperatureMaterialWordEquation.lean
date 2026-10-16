@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.WordLinearCalculus
+import AVenhance.Infra.Section4.Amnr.WordLinearCalculus
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Applying a finite outer word to the primitive gradient PDE. -/
 

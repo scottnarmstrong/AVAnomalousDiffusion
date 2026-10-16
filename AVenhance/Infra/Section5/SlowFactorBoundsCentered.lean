@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.TestDensity
+import AVenhance.Infra.Section5.TestDensity
 public import AVenhance.Infra.Ergodic.CenteredSpectralMean
+public import AVenhance.Infra.Ergodic.HMinusOneErgodic
+public import AVenhance.Infra.Ergodic.HMinusOneErgodicFlow
+public import AVenhance.Statements.Section4.HMinusOneNorm
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Ergodic.CenteredSpectralFlow
 
 /-! Centered Appendix C estimates in the smooth-test norm. Only the fast
 factor is required to have zero mean; the actual product is centered explicitly. -/

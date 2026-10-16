@@ -3,7 +3,23 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualCoordinateInduction
+import AVenhance.Infra.Section4.IteratesActualCoordinateInduction
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesAmplitude
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+public import AVenhance.Infra.Section4.IteratesFirstMaterialBudget
+public import AVenhance.Infra.Section4.IteratesMaterialBudgetConstant
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Construction.BarNorm
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesActualFirstNormRecurrence
+import AVenhance.Infra.Section4.IteratesActualHigherNormRecurrence
+import AVenhance.Infra.Section4.IteratesCorrectedRecursion
+import AVenhance.Infra.Section4.IteratesFirstBudgetSmall
+import AVenhance.Infra.Section4.IteratesHigherBudgetSmall
 
 @[expose] public section
 

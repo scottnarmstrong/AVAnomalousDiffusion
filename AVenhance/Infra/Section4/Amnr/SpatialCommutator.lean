@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureLaplacian
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
 
 /-! Explicit spatial/material commutators used in the temperature cascade. -/
 

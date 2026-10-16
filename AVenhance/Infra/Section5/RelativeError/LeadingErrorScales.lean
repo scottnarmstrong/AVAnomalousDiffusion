@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.Q
 public import AVenhance.Statements.Ingredients.Delta
 public import AVenhance.Statements.Ingredients.Gamma
+import Mathlib.Algebra.Order.Archimedean.Real.Basic
 
 /-! # Exponent lemmas for the leading-error estimate (`e.leadingord`)
 

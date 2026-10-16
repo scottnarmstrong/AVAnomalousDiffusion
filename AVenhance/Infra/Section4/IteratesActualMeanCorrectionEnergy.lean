@@ -3,9 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMeanCorrectionRegularity
-public import AVenhance.Infra.Section4.IteratesAnalyticMatrixForcing
-public import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
+import AVenhance.Infra.Section4.IteratesMeanCorrectionRegularity
+import AVenhance.Infra.Section4.IteratesAnalyticMatrixForcing
+import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.SMat
+public import AVenhance.Statements.Section4.VecDiv
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section5.SMatRegularity
 
 @[expose] public section
 

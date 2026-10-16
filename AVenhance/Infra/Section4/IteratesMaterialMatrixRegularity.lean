@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMaterialSquareRegularity
-public import AVenhance.Infra.Section4.IteratesHessianFactor
+import AVenhance.Infra.Section4.IteratesMaterialSquareRegularity
+import AVenhance.Infra.Section4.IteratesHessianFactor
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Order.CompletePartialOrder
 
 /-! Initial-time representatives of actual material matrix contractions. -/
 

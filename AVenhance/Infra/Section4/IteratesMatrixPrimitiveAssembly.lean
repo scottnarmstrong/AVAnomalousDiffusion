@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMatrixIntegralSum
+import AVenhance.Infra.Section4.IteratesMatrixIntegralSum
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 
 @[expose] public section
 

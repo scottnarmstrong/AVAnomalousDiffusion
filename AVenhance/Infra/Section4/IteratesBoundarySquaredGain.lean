@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMatrixIntegralSum
-public import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesMatrixIntegralSum
+import AVenhance.Infra.Section4.IteratesWordEnergy
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Section4.IteratesEnergy
 
 @[expose] public section
 

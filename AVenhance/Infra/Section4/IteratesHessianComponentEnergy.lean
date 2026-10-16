@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesComponentEnergy
+import AVenhance.Infra.Section4.IteratesComponentEnergy
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 
 @[expose] public section
 

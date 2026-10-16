@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
+public import AVenhance.Statements.Ingredients.XiMK
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.LocalExtr.Basic
 
 /-! # The derivative of the transition cutoff `ξ_{m,k}`
 
@@ -11,8 +17,6 @@ public import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
 derivative), and `|ξ_{m,k}'| ≤ C_ξ / τ_m`. -/
 
 @[expose] public section
-
-open Homogenization
 
 noncomputable section
 

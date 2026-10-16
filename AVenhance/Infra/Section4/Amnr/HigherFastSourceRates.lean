@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CoarseSourceRates
+import AVenhance.Infra.Section4.Amnr.CoarseSourceRates
+public import AVenhance.Infra.Section4.Amnr.SourceJetLevels
+public import AVenhance.Infra.Section4.Amnr.StreamMixedCurrentRates
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.FastVelocityMixedInduction
 
 /-! Actual transported fast jets with a uniform finite-budget constant. -/
 

@@ -3,10 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section3.JMNPeriodAverage
+import AVenhance.Infra.Section3.JMNPeriodAverage
 public import AVenhance.Statements.Section3.QMNR
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Section3.JMNPeriodicity
+import AVenhance.Infra.Section3.JMNRegularity
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
 
 /-! Regularity and period primitives for the explicit `qMNR` recursion. -/
 

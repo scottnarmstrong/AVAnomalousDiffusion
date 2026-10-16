@@ -4,8 +4,8 @@
 module
 
 public import AVenhance.Infra.ODE.Linear.Existence
-public import Mathlib.Analysis.InnerProductSpace.Calculus
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun
+import Mathlib.Analysis.InnerProductSpace.Calculus
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun
 
 /-!
 # Energy identities for absolutely continuous curves

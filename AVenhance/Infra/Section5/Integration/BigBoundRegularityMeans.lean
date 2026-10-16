@@ -3,25 +3,30 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Representation
-public import AVenhance.Infra.Section5.Integration.BigBound
-public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
-public import AVenhance.Infra.Section4.IteratesEnergy
-public import AVenhance.Infra.Section4.IteratesDiffusion
-public import AVenhance.Infra.Section4.TIterateSmooth
-public import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
-public import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
-public import AVenhance.Infra.Section3.ChiMKCorrector
-public import AVenhance.Infra.Section5.StreamFlowPiola
-public import AVenhance.Infra.Section5.FlowPiolaIdentity
-public import AVenhance.Infra.Section5.DivergenceLinearity
-public import AVenhance.Infra.Section5.GradientChain
-public import AVenhance.Infra.Section5.FrozenAnsatzTime
-public import AVenhance.Infra.Section5.SMatRegularity
-public import AVenhance.Infra.Section5.ResidualPointwiseConstructor
-public import AVenhance.Infra.Section5.CorrectorFluxGradient
-public import AVenhance.Infra.Section5.MatrixFluxProduct
+import AVenhance.Infra.Section4.CoarseCoeff.Representation
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section4.IteratesEnergy
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section5.StreamFlowPiola
+import AVenhance.Infra.Section5.FlowPiolaIdentity
+import AVenhance.Infra.Section5.DivergenceLinearity
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.FrozenAnsatzTime
+import AVenhance.Infra.Section5.SMatRegularity
 public import Mathlib.Analysis.Matrix.Normed
+public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Section3.ShearFormula
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section5.OddSupportTsum
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Mean-zero identities for the Section 5 residual terms. -/
 

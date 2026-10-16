@@ -4,7 +4,11 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.TemperatureFluxBounds
-public import AVenhance.Infra.Section4.Amnr.TemperatureSpatialWords
+public import AVenhance.Statements.Section4.TForcing
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
+import AVenhance.Infra.Section4.Amnr.TemperatureCalculus
+import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientBounds
 
 /-! The actual forcing in the ordered flux calculus. -/
 

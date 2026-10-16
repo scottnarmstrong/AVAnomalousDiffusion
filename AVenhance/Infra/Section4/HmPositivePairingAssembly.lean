@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmPairingAssembly
 public import AVenhance.Infra.Section4.HmTransportedEnergy
-public import AVenhance.Infra.Section4.HmDmScales
-public import AVenhance.Infra.Section4.DmFlowTgrad
+public import AVenhance.Infra.Section4.HmSourcePairing
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section4.HmBounds
+import Mathlib.Tactic.NormNum.RealSqrt
 
 /-! Positive-time `H_m` assembly from a positive half-cell base point. The
 extension-dependent value `H_m(0)` is never used. -/
@@ -17,7 +18,6 @@ noncomputable section
 
 open MeasureTheory Set Homogenization
 open AVenhance.Infra.Ergodic AVenhance.Infra.Section5
-open scoped Matrix.Norms.Elementwise
 
 namespace AVenhance.Infra.Section4
 

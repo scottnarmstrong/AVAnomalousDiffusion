@@ -3,16 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesFirstStreamFlux
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Tactic.Ring.RingNF
 
 /-! Exact principal, first, and high stream orders in the integrated flux. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
-open IterateCalculus
 open AVenhance
 
 /-- Split a finite sum into its zero, first, and high coefficient orders. -/

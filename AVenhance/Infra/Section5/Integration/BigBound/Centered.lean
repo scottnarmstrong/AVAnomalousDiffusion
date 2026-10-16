@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+public import AVenhance.Statements.Roots.L2NormSq
+public import Homogenization.Sobolev.H1.Definitions
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Centering on the unit cube
 

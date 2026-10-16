@@ -3,7 +3,6 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesRecursion
 public import AVenhance.Infra.Section4.IteratesAmplitude
 
 /-! Corrected scalar closure of l.V, retaining the corrected C/C0 remainder.

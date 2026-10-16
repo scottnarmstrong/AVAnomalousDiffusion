@@ -3,9 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TraceInstanceFrozen
+import AVenhance.Infra.Section5.RelativeError.TraceInstanceFrozen
 public import AVenhance.Infra.Section5.RelativeError.TraceInstanceInterface
-public import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Section5.MStar
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.EpsilonConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.ThetaScale
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
 
 /-! # Uniform producer -/
 

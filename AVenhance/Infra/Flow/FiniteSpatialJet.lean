@@ -3,11 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Flow.JointSmoothBootstrap
 public import AVenhance.Infra.Flow.FirstJet
-public import Mathlib.Analysis.Calculus.MeanValue
-public import Mathlib.Analysis.ODE.ExistUnique
-public import Mathlib.Topology.MetricSpace.ProperSpace
+import Mathlib.Analysis.ODE.ExistUnique
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
 
 /-! Recursive finite spatial-jet state spaces and their smooth augmented ODE fields. -/
 

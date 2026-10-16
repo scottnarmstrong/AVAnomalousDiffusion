@@ -3,8 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.StreamMaterial
-public import AVenhance.Infra.Cutoff.DerivativeBounds
+import AVenhance.Infra.Cutoff.DerivativeBounds
+public import AVenhance.Statements.Ingredients.HatZetaML
+public import AVenhance.Statements.Ingredients.Psi
+public import AVenhance.Statements.Ingredients.ZetaMK
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.Params
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Order.CompletePartialOrder
 
 /-! Quantitative material estimates for the actual transported stream summands. -/
 

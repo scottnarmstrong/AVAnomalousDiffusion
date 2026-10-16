@@ -4,6 +4,10 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesOscillatory
 
 /-! All-order differentiated material equations for the actual increments. -/
 
@@ -11,7 +15,6 @@ public import AVenhance.Infra.Section4.IteratesWordDiffusion
 
 noncomputable section
 open Homogenization
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

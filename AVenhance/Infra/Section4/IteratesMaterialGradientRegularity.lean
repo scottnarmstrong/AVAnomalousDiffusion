@@ -3,9 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCommutedMaterialGradient
-public import AVenhance.Infra.Section4.IteratesErrorRegularity
-public import AVenhance.Infra.Section4.IteratesLaplacianEnergy
+import AVenhance.Infra.Section4.IteratesCommutedMaterialGradient
+import AVenhance.Infra.Section4.IteratesErrorRegularity
+import AVenhance.Infra.Section4.IteratesLaplacianEnergy
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesVelocityYoung
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.TimeCube
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesVelocitySmooth
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
 
 /-! Initial-time integrable representative of the actual commuted material gradient. -/
 

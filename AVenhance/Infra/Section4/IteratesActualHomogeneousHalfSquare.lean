@@ -3,16 +3,23 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualHalfSquareBound
-public import AVenhance.Infra.Section4.IteratesHomogeneousHessianMaterial
-public import AVenhance.Infra.Section4.IteratesHessianComponentEnergy
-public import AVenhance.Infra.Section4.IteratesHalfSquareScale
+import AVenhance.Infra.Section4.IteratesActualHalfSquareBound
+import AVenhance.Infra.Section4.IteratesHomogeneousHessianMaterial
+import AVenhance.Infra.Section4.IteratesHessianComponentEnergy
+import AVenhance.Infra.Section4.IteratesHalfSquareScale
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
 
 @[expose] public section
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

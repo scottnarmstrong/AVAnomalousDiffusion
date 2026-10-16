@@ -3,13 +3,19 @@
 
 module
 
-public import AVenhance.Infra.FaaDiBruno.TransportTimeAnalyticityEstimate
-public import AVenhance.Infra.Flow.InverseC1
+import AVenhance.Infra.Flow.InverseC1
 public import AVenhance.Infra.Flow.Liouville
-public import AVenhance.Infra.Flow.GradientDeviation
-public import AVenhance.Infra.Flow.FieldTaylor
-public import AVenhance.Infra.Flow.Laws
-public import AVenhance.Infra.FaaDiBruno.TransportSharpEstimate
+import AVenhance.Infra.Flow.GradientDeviation
+import AVenhance.Infra.Flow.Laws
+public import AVenhance.Infra.FaaDiBruno.TransportSolution.Definitions
+public import AVenhance.Infra.FaaDiBruno.TransportSolution.GradientMatrix
+public import Mathlib.RingTheory.Binomial
+import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Infra.FaaDiBruno.TransportCharacteristicJets
+import AVenhance.Infra.FaaDiBruno.TransportExpansion
+import AVenhance.Infra.Flow.SmoothField
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Shift
 
 @[expose] public section
 

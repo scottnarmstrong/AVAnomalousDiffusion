@@ -7,6 +7,7 @@ public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Abstract
 public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Derivative
 public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.EntryBound
 public import AVenhance.Infra.Section5.LeftToShow.BreakUp
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
 
 /-! # The third term of `e.ergodic.break.up`: integration by parts in time
 

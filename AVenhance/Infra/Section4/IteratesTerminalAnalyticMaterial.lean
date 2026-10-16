@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedVelocityEnergy
-public import AVenhance.Infra.Section4.IteratesLinearFactorials
+import AVenhance.Infra.Section4.IteratesTruncatedVelocityEnergy
+import AVenhance.Infra.Section4.IteratesLinearFactorials
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 
 /-! The actual material commutator in analytic norm weights. -/
 

@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMaterialGradientCommutator
-public import AVenhance.Infra.Section4.IteratesCrossCell
+import AVenhance.Infra.Section4.IteratesMaterialGradientCommutator
+import AVenhance.Infra.Section4.IteratesCrossCell
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.TimeCube
+public import AVenhance.Statements.Section3.GradMatrix
+import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 @[expose] public section
 

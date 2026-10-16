@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.PartIEnergyIoiBound
+import AVenhance.Infra.Section5.Integration.PartIEnergyIoiBound
+public import AVenhance.Infra.Section5.Integration.PartIEnergyIoiCutoff
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section5.Integration.Energy.Duality
+import AVenhance.Infra.Section5.Integration.Energy.Estimate
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The forced energy estimate on the open time half-line
 

@@ -3,10 +3,9 @@
 
 module
 
-public import AVenhance.Statements.Construction.StreamVel
 public import AVenhance.Statements.Construction.IsStreamSeq
-public import AVenhance.Infra.Ingredients.EpsilonConsequences
-public import Mathlib.MeasureTheory.Measure.OpenPos
+public import AVenhance.Statements.Construction.BarNorm
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! Conditional hypotheses for the limit-field argument in §2.
 

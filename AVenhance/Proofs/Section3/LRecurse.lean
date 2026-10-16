@@ -3,7 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section3.KappaAtPrimeScaleComparison
+import AVenhance.Infra.Section3.KappaAtPrimeScaleComparison
+public import AVenhance.Infra.Section3.KappaPrimeUniform
+public import AVenhance.Statements.Section3.KappaAt
+public import AVenhance.Statements.Section3.PermissibleSet
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section3.KappaPrimeExprat
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Proof of the statement for the corrected of `l_recurse`. -/
 

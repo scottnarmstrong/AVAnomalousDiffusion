@@ -3,8 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.TUpgradeConsumersNonneg
-public import AVenhance.Infra.Section4.TUpgradeConsumersProfile
+import AVenhance.Infra.Section4.TUpgradeConsumersNonneg
+import AVenhance.Infra.Section4.TUpgradeConsumersProfile
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Infra.Section4.ThetaCommutator
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermittedInterval
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
 
 @[expose] public section
 

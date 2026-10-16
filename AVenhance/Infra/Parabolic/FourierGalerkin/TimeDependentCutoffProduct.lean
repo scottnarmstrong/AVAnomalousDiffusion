@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentTestConvergence
-public import AVenhance.Infra.Parabolic.FourierGalerkin.WeakGradientAssembly
-public import AVenhance.Infra.Parabolic.FourierGalerkin.LimitRepresentation
+public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentWeakEquation
+import Homogenization.Ambient.HilbertFinite
+import Mathlib.Algebra.Order.Archimedean.Real.Hom
 
 /-!
 # Product-space identities for time-dependent Fourier cutoffs

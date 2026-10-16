@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Statements.Section4.IsClassicalSol
+import Mathlib.Algebra.Order.Floor.Semifield
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! Glue compatible smooth Galerkin limits on increasing integer horizons. -/
 

@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.TUpgradeConsumersAmplitude
+import AVenhance.Infra.Section4.TUpgradeConsumersAmplitude
+public import AVenhance.Infra.Section4.IteratesTDischarge
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesTThetaUpgrade
 
 @[expose] public section
 

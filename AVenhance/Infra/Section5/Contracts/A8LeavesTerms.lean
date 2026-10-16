@@ -5,11 +5,17 @@ module
 
 public import AVenhance.Infra.Section5.Contracts.A8LeavesFields
 public import AVenhance.Infra.Section5.Contracts.RelativeTerms
-public import AVenhance.Infra.Section5.Contracts.TermSourcesAll
-public import AVenhance.Infra.Section5.Contracts.TermCentered
-public import AVenhance.Infra.Section5.Contracts.MeanZero
-public import AVenhance.Infra.Section5.Contracts.HmGradient
-public import AVenhance.Infra.Section5.Contracts.SourceErrorD
+import AVenhance.Infra.Section5.Contracts.MeanZero
+import AVenhance.Infra.Section5.Contracts.HmGradient
+import AVenhance.Infra.Section5.Contracts.SourceErrorD
+import AVenhance.Infra.Section5.Contracts.A8LeavesCore
+import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3Contract
+import AVenhance.Infra.Section5.Contracts.TermCenteredTwistie4
+import AVenhance.Infra.Section5.Contracts.TermCenteredTwistie5
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoff
+import AVenhance.Infra.Section5.Contracts.TermSourcesFlux
+import AVenhance.Infra.Section5.Contracts.TermSourcesTiny
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1
 
 /-! # The relative `terms` field from the trace leaf and normie3 at `S`
 

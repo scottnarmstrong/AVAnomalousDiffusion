@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.StreamMixedSum
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
 
 /-! Exact noncommuting material-power differences for the velocity induction. -/
 

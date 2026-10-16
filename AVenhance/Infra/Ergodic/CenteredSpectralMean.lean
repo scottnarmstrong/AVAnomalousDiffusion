@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Ergodic.CenteredSpectralFlow
+public import AVenhance.Infra.Ergodic.HMinusOne
+import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
 
 /-! Centering preserves the homogeneous dual seminorm. Finite sums are repaired
 using the mean of the actual total, rather than individual product means. -/

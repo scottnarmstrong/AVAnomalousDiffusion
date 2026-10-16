@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesVelocitySmooth
+import AVenhance.Infra.Section4.IteratesVelocitySmooth
+public import AVenhance.Infra.Section4.IteratesVelocityYoung
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesVelocityLower
+import AVenhance.Infra.Section4.IteratesVelocityRegularity
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
 
 /-! Integrable representatives of actual material errors and their gradients. -/
 

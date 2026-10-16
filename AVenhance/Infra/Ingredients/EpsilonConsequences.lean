@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Ingredients.TimeScaleBounds
+public import AVenhance.Statements.Ingredients.Epsilon
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Complex.ExponentialBounds
 
 /-! Decay and separation consequences of the length scales. -/
 

@@ -3,8 +3,7 @@
 
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Tactic
+public import Mathlib.Analysis.Real.Sqrt
 
 /-! # From an energy gap to a norm gap
 

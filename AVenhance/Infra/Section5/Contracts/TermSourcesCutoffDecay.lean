@@ -3,9 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section3.CorrectorBounds
-public import AVenhance.Infra.Section3.ChiMKCorrector
-public import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Statements.Section3.CorrTime
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
 
 /-! # Corrector decay after its forcing support (`e.corrbounds.Chi.decay`)
 

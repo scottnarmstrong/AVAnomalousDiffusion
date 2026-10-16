@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesPrimitive
-public import AVenhance.Infra.Section4.IteratesCoefficient
-public import AVenhance.Infra.Section3.KhomSymmetry
+import AVenhance.Infra.Section3.KhomSymmetry
+public import AVenhance.Statements.Section3.KMat
+public import AVenhance.Statements.Section3.KappaAt
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section3.Approx
+import AVenhance.Infra.Section3.FluxTimeRegularity
 
 /-! The mean forcing coefficient in the actual diffusivity chain. -/
 

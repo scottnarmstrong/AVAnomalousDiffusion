@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMaterialPrimitive
-public import AVenhance.Infra.Section4.IteratesCrossIntegrability
+import AVenhance.Infra.Section4.IteratesMaterialPrimitive
+import AVenhance.Infra.Section4.IteratesCrossIntegrability
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.UnitCube
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.IteratesEnergyIntegrability
 
 /-! Material integration by parts for the actual time primitive. -/
 

@@ -3,12 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Regularity
-public import AVenhance.Infra.Section5.ClassicalRegularity
-public import AVenhance.Infra.Section5.FlowGradientRegularity
+import AVenhance.Infra.Section4.CoarseCoeff.Regularity
+import AVenhance.Infra.Section5.ClassicalRegularity
+import AVenhance.Infra.Section5.FlowGradientRegularity
 public import AVenhance.Infra.Section5.TEquation
-public import AVenhance.Infra.Section4.LocalFinite
 public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Ingredients.Parameters
 
 /-! Discharge the pointwise spatial differentiability inputs to the
 last-iterate transport equation. -/

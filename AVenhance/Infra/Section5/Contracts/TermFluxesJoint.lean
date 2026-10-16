@@ -4,13 +4,16 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermFluxesTools
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
-public import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
+import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
 public import AVenhance.Infra.Section5.Terms.Twistie3
 public import AVenhance.Infra.Section5.Terms.Normie1
 public import AVenhance.Infra.Section5.Terms.Normie2
-public import AVenhance.Infra.Section5.Terms.R46
-public import AVenhance.Infra.Section3.FluxTimeRegularity
+import AVenhance.Infra.Section3.FluxTimeRegularity
+import AVenhance.Infra.Section3.CorrTimeRegularity
+import AVenhance.Infra.Section4.Amnr.StreamMaterial
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularityFlow
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! # Joint regularity of the flux ingredients on the open half space
 

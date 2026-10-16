@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaPeriodicity
-public import AVenhance.Infra.Torus
+public import AVenhance.Infra.Torus.FrozenBridge
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Section3.SpaceLap
+public import AVenhance.Statements.Section4.VecDiv
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Ordered spatial derivatives at adjacent orders.
 

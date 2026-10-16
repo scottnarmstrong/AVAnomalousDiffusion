@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.AnalyticBridge.GradSnorm
+public import AVenhance.Infra.Section5.AnalyticBridge.Defs
+import AVenhance.Infra.FaaDiBruno.Composition
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! # Step 4: analytic `snorm` bounds for the flow slice
 

@@ -3,10 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftJacobian.BaseFlux
-public import AVenhance.Infra.Section5.LeftJacobian.HatXiWindow
-public import AVenhance.Infra.Section5.OddSupportTsum
+import AVenhance.Infra.Section5.LeftJacobian.HatXiWindow
+import AVenhance.Infra.Section5.OddSupportTsum
 public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Section5.LeftJacobian.Candidate
+public import AVenhance.Infra.Section5.Terms.R46
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.HmBaseFluxIdentity
+import AVenhance.Infra.Section5.LeftJacobian.PiolaFlux
+import AVenhance.Infra.Section5.Terms.R46FluxSupport
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! LeftJacobian the left-Jacobian form: the coarse transport flux `V_tr` (LeftJacobian-variantA (34)), its
 decomposition against `K + s⁺` and the base flux, and the exact transition dichotomy

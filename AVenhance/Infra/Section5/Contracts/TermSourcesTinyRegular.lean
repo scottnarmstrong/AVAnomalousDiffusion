@@ -3,14 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTiny
+import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTiny
 public import AVenhance.Infra.Section5.Terms.Tiny
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
-public import AVenhance.Infra.Section4.Amnr.TemperatureFluxPeriodicity
-public import AVenhance.Infra.Section4.TIterateSmooth
-public import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section4.IteratesDiffusion
+public import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTools
+public import AVenhance.Infra.Section5.SourceErrors
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
 
 /-! # Slice regularity of the `tiny` pieces
 

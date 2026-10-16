@@ -3,14 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedMatrix
-public import AVenhance.Infra.Section4.IteratesMatrixContinuity
+import AVenhance.Infra.Section4.IteratesTruncatedMatrix
+import AVenhance.Infra.Section4.IteratesMatrixContinuity
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
 
 @[expose] public section
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

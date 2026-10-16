@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Continuity
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
-public import AVenhance.Infra.Section4.IteratesCoefficientWords
+import AVenhance.Infra.Section4.CoarseCoeff.Continuity
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Section4.SMat
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! Joint continuity of the actual sMat spatial jets from conditional flow jets.
 The time cutoff sum is represented locally by a fixed finite sum. -/

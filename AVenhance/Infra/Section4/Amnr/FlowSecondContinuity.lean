@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Flow.SecondVariationContinuity
-public import AVenhance.Infra.Flow.SpatialC2
-public import AVenhance.Infra.Flow.JointSpatialDerivativeAll
+import AVenhance.Infra.Flow.SecondVariationContinuity
+public import AVenhance.Infra.Flow.SpatialRegularity
+import AVenhance.Infra.Flow.SecondSpatial
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Joint continuity of the actual second flow derivative, with a fixed start.
 This is the regularity needed to admit the primitive material flow jet. -/

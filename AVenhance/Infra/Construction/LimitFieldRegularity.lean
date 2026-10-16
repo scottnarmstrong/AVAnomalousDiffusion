@@ -3,14 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Construction.LimitFieldConvergence
-public import AVenhance.Infra.Construction.StreamAdmissible
-public import Mathlib.Analysis.Calculus.UniformLimitsDeriv
-public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
-public import Mathlib.Analysis.Normed.Group.Constructions
-public import Mathlib.MeasureTheory.Integral.CompactlySupported
-public import Mathlib.Analysis.Calculus.MeanValue
-public import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
+import AVenhance.Infra.Construction.LimitFieldConvergence
+import AVenhance.Infra.Construction.StreamAdmissible
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+public import AVenhance.Infra.Construction.LimitFieldBounds
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsHolderClass
+public import Mathlib.Topology.Compactness.DeltaGeneratedSpace
+import AVenhance.Infra.Construction.LimitSeries
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! Spatial differentiability and velocity estimates for the limit stream. -/
 

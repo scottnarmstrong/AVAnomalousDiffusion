@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Section3.SigmaMat
 
 /-! Orthogonality of gradients of functions sharing one scalar coordinate. -/
 

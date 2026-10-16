@@ -4,7 +4,6 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinSmoothHorizon
-public import AVenhance.Infra.Classical.GalerkinSmoothCoefficients
 public import AVenhance.Infra.Classical.LimitRegularity
 
 /-! Finite Galerkin time-change identities for nested physical horizons. -/

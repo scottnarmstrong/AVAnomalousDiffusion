@@ -4,9 +4,13 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesBasic
-public import AVenhance.Infra.Section4.TLemmasAmplitude
-public import AVenhance.Infra.Section4.TLemmasNorm
-public import AVenhance.Infra.Ergodic.AveragesL2
+import AVenhance.Infra.Section4.TLemmasAmplitude
+import AVenhance.Infra.Section4.TLemmasNorm
+import AVenhance.Infra.Ergodic.AveragesL2
+public import AVenhance.Infra.Section4.IteratesAmplitude
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Homogenization.Sobolev.H1.Definitions
 
 /-! The zeroth spatial-derivative consequence of `l.V.m-1.reg.upgrade`:
 the actual iterates telescope to `T_{m-1} - θ_{m-1}`, and their

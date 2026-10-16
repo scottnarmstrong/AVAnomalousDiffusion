@@ -5,6 +5,7 @@ module
 
 public import AVenhance.Infra.Section5.HMinusTools
 public import AVenhance.Infra.Section5.Terms
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! test duality for the additional divergence-form residual.
 

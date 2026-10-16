@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesStreamPhysical
+import AVenhance.Infra.Section4.IteratesStreamPhysical
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Construction.IsStreamSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Stream-regularity velocity jets in the factorial profile of the linear recurrence. -/
 

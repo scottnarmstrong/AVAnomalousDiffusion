@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section3.KappaAtBounds
 public import AVenhance.Statements.Section4.KappaSeq
 
 @[expose] public section

@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.MixedSubwordBudget
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section4.Amnr.FlowAverage
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.VelocityFirstSpatialSum
 
 /-! Quantitative material/spatial commutation for arbitrary outer words. -/
 

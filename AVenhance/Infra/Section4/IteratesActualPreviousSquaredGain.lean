@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesPreviousMaterialScale
+import AVenhance.Infra.Section4.IteratesPreviousMaterialScale
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesActualPreviousMaterial
 
 @[expose] public section
 

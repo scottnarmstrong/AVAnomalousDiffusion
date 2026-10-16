@@ -10,8 +10,7 @@ public import AVenhance.Infra.Section4.Amnr.VelocityMaterialSum
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
+open MeasureTheory
 namespace AVenhance.Infra.Section4
-open AVenhance.Infra.Flow
 
 end AVenhance.Infra.Section4

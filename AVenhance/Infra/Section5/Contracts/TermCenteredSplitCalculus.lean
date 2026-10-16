@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredDefs
+public import AVenhance.Infra.Section5.Terms
 
 /-! # Product rule for matrix-vector fluxes
 

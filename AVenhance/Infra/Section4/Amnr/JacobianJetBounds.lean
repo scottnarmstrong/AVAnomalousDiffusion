@@ -3,14 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.VelocityHigherOrders
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Analysis.Calculus.ContDiff.Bounds
 
 /-! Quantitative all-order differentiation of a small linear fixed equation. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
 
 /-- Constants for successive derivatives of a Jacobian fixed equation.

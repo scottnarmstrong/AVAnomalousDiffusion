@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.FaaDiBruno.Formula
 public import Mathlib.Algebra.Polynomial.Derivative
+public import Mathlib.Analysis.Calculus.ContDiff.FaaDiBruno
+public import Mathlib.RingTheory.Binomial
+import Mathlib.Tactic.NormNum.NatFactorial
 
 /-!
 # Ordered-finpartition resummations

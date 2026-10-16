@@ -3,12 +3,21 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.A7Assembly
-public import AVenhance.Infra.Section5.Contracts.MeanZero
-public import AVenhance.Infra.Section5.Contracts.TermFluxes
-public import AVenhance.Infra.Section5.Contracts.TermContinuity
-public import AVenhance.Infra.Section5.Contracts.Produced
-public import AVenhance.Infra.Section5.Contracts.R46Source
+import AVenhance.Infra.Section5.Contracts.A7Assembly
+import AVenhance.Infra.Section5.Contracts.MeanZero
+import AVenhance.Infra.Section5.Contracts.TermFluxes
+import AVenhance.Infra.Section5.Contracts.TermContinuity
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.Contracts.R46Source
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+public import AVenhance.Infra.Section5.Terms.R46FluxScale
+import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.Terms.R46IteratesRegularity
+import AVenhance.Proofs.Construction.StreamRegularity
 
 /-! # Centered relative term bounds from the exact source contracts
 

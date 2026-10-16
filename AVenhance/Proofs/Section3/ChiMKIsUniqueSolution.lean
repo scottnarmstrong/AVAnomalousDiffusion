@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section3.BoundedParabolicUniqueness
-public import AVenhance.Infra.Section3.ChiMKCorrector
-public import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section3.BoundedParabolicUniqueness
+import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section3.CorrectorBounds
 public import AVenhance.Statements.Section3.IsCorrectorSol
+public import AVenhance.Statements.Section3.ChiMK
 
 /-! Proof of the Section 3 corrector existence and uniqueness statement. -/
 

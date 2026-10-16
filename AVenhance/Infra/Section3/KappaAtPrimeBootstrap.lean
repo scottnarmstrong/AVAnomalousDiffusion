@@ -3,11 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section3.KappaPrimeExprat
+import AVenhance.Infra.Section3.KappaPrimeExprat
 public import AVenhance.Infra.Section3.OneStepAveragingUnconditional
-public import AVenhance.Infra.Section3.KappaPrimeComparison
-public import AVenhance.Infra.Ingredients.EpsilonConsequences
-public import AVenhance.Infra.Ingredients.TimeScaleBounds
+import AVenhance.Infra.Section3.KappaPrimeComparison
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+public import AVenhance.Infra.Section3.KappaPrimeUniform
+public import AVenhance.Statements.Section3.KappaAt
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Bootstrap estimates comparing the diffusivity recursion with κ′.
 

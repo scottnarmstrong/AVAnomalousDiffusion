@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Section4.LocalFinite
 
 /-! Reindex finite sums between the odd-integer support and its odd subtype,
 and identify the corresponding locally finite `tsum`. -/

@@ -5,8 +5,11 @@ module
 
 public import AVenhance.Infra.Section5.LeftToShow.Assembly.SpaceKill
 public import AVenhance.Infra.Section5.LeftToShow.Assembly.SecondLast
-public import AVenhance.Infra.Section3.FluxTimeRegularity
-public import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.FluxTimeRegularity
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.LeftToShow.Matrix
 
 /-! # `e.left.to.show`: assembly
 

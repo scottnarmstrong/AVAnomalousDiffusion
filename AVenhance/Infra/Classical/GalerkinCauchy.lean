@@ -3,9 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinResidualBounds
-public import AVenhance.Infra.Classical.GalerkinEvolution
-public import AVenhance.Infra.Parabolic.FourierGalerkin.GalerkinSequence
+public import AVenhance.Infra.Classical.GalerkinProblem
+public import AVenhance.Infra.Parabolic.FourierGalerkin.CutoffNesting
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Section3.SpaceLap
+import AVenhance.Infra.Classical.GalerkinBounds
+import AVenhance.Infra.Classical.GalerkinGenerator
+import AVenhance.Infra.Classical.GalerkinResidual
+import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Parabolic.FourierGalerkin.ProjectionCoefficients
 
 /-! Strong Cauchy convergence of nested smooth Fourier Galerkin paths. -/
 

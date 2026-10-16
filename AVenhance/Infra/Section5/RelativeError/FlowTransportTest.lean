@@ -3,11 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Flow.JointC3All
-public import AVenhance.Infra.Flow.Laws
-public import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.JointC3All
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.SmoothField
 public import AVenhance.Infra.Section5.RelativeError.TransportPairing
-public import AVenhance.Infra.Section5.TransportCalculus
+import AVenhance.Infra.Section5.TransportCalculus
+public import AVenhance.Statements.Flow.IsFlow
+import Mathlib.Order.CompletePartialOrder
 
 /-! # RelativeError: the transported scalar test along a smooth flow
 

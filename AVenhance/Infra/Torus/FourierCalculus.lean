@@ -5,7 +5,7 @@ module
 
 public import AVenhance.Infra.Torus.Calculus
 public import AVenhance.Infra.Torus.Fourier
-public import Mathlib.Analysis.Fourier.AddCircle
+import Homogenization.Sobolev.CubeEmbedding.FaceReflectionLines
 
 /-! Fourier coefficients of smooth periodic functions and their derivatives. -/
 

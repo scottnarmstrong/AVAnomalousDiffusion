@@ -4,12 +4,14 @@
 module
 
 public import AVenhance.Statements.Construction.BarNorm
-public import AVenhance.Statements.Ingredients.HatXiML
-public import AVenhance.Infra.FaaDiBruno.Product
-public import AVenhance.Infra.Cutoff.DerivativeBounds
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
-public import Mathlib.MeasureTheory.Measure.OpenPos
-public import Mathlib.MeasureTheory.Function.LpSeminorm.TriangleInequality
+import AVenhance.Infra.Cutoff.DerivativeBounds
+public import AVenhance.Infra.FaaDiBruno.Seminorm
+public import AVenhance.Statements.Ingredients.HatZetaML
+public import AVenhance.Statements.Ingredients.Psi
+public import AVenhance.Statements.Ingredients.ZetaMK
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Explicit estimates for the construction seminorm and time cutoffs. -/
 

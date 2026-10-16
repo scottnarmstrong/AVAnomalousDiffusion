@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientIdentity
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Section4.Amnr.FlowCoefficientBounds
+import AVenhance.Infra.Section4.Amnr.Seed
 
 /-! Quantitative mixed jets for a two-dimensional matrix product. -/
 

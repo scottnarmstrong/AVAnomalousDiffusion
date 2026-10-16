@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesFlowBounds
+public import AVenhance.Statements.Ingredients.HatXiML
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Construction.Section2FlowRegularityCore
+import AVenhance.Infra.Construction.Section2JointInduction
+import AVenhance.Infra.Construction.Section2Scales
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesFlowGeometry
+import AVenhance.Infra.Section4.IteratesFlowSupport
 
 @[expose] public section
 

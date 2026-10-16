@@ -5,8 +5,7 @@ module
 
 public import AVenhance.Statements.Section4.IsTIterates
 public import AVenhance.Statements.Section4.Jcut
-public import AVenhance.Infra.Section4.ThetaPeriodicity
-public import AVenhance.Infra.Section3.ParabolicMaximum
+import AVenhance.Infra.Section3.ParabolicMaximum
 
 /-! Actual iterates: periodicity, increment equations and telescoping.
 These are structural prerequisites, not the quantitative V estimates. -/

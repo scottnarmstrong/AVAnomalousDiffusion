@@ -3,9 +3,21 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectActualSource
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectSourceScales
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectGradientUniform
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectActualSource
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectSourceScales
+public import AVenhance.Infra.Section4.HmBounds
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section4.Params
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorH
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpointPhysical
+import AVenhance.Statements.Section3.LRecurse
 
 /-! Uniform relative Hm bound on the first positive half-cell. The actual
 endpoint estimates use the one-letter mixed budget through terminal Jcut. -/

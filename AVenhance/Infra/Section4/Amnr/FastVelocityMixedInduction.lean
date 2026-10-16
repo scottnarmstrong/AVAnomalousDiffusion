@@ -4,6 +4,11 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.StreamMixedCurrentRates
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.FastVelocityMaterial
+import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.Amnr.TransportedGradientInduction
 
 /-! Actual higher fast-velocity jets from strictly lower coarse gradient levels. -/
 

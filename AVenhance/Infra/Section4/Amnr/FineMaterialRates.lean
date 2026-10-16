@@ -3,14 +3,21 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FastVelocityMaterial
+public import AVenhance.Infra.Ingredients.EpsilonConsequences
+public import AVenhance.Statements.Ingredients.Ingredients
+public import AVenhance.Statements.Ingredients.Tau
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+import AVenhance.Infra.Numeric.Exponents
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! Fine material rate comparisons with the corrected supergeometric factor. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization
 namespace AVenhance.Infra.Section4
 open AVenhance.Infra.Ingredients
 

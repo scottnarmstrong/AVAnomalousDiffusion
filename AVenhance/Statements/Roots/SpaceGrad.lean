@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Statements.Roots.IsPeriodicH1
+public import Homogenization.Sobolev.WeakDerivatives
 
 /-! Statement file: `spaceGrad` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/

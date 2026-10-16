@@ -3,10 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section3.CorrTimeRegularity
-public import AVenhance.Infra.Ingredients.CutoffConsequences
-public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+import AVenhance.Infra.Section3.CorrTimeRegularity
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import AVenhance.Statements.Section3.ChiMK
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Uniform bounds for the single-mode corrector ingredients. -/
 

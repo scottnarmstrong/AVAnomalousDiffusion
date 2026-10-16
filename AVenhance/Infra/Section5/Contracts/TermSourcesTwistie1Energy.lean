@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Bound
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyContract
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyContract
+public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyPointwise
 
 /-! # The word energies of `T` in the `twistie1` bound
 

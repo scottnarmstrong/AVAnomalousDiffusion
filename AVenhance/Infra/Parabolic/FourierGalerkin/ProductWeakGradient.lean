@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ProductPathIdentification
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TorusBridge
-public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Parabolic.FourierGalerkin.ProductPathIdentification
+public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenDriftProduct
+public import AVenhance.Infra.Parabolic.FourierGalerkin.LimitRepresentation
+public import AVenhance.Infra.Torus.FrozenBridge
 
 /-!
 # Spatial derivative tests for the synchronized Galerkin limit

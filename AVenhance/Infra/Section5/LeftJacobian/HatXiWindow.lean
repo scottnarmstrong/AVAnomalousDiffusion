@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms.R46FluxSupport
+public import AVenhance.Statements.Ingredients.HatXiML
+public import AVenhance.Statements.Ingredients.HatZetaML
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! LeftJacobian the left-Jacobian form: on an active refresh window the large-scale cutoff `ξ̂_l` is the
 indicator of that window (local re-proof of the private lemmas of

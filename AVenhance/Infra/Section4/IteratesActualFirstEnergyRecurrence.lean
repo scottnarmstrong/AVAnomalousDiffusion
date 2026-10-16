@@ -3,9 +3,29 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualHigherEnergyRecurrence
-public import AVenhance.Infra.Section4.IteratesActualFirstCommutedCurrent
-public import AVenhance.Infra.Section4.IteratesHomogeneousPreviousMaterial
+import AVenhance.Infra.Section4.IteratesActualFirstCommutedCurrent
+import AVenhance.Infra.Section4.IteratesHomogeneousPreviousMaterial
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesHigherEnergyBudget
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.IteratesActualAllWordStream
+import AVenhance.Infra.Section4.IteratesActualSevenFluxEnergy
+import AVenhance.Infra.Section4.IteratesActualSmallRemainderFlux
+import AVenhance.Infra.Section4.IteratesBoundarySquaredGain
+import AVenhance.Infra.Section4.IteratesCancellation
+import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
+import AVenhance.Infra.Section4.IteratesGradientMaterialCross
+import AVenhance.Infra.Section4.IteratesTerminalFlowRegularity
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
 
 @[expose] public section
 

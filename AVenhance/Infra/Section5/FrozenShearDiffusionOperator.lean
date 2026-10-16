@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.ShearDiffusionOperator
-public import AVenhance.Infra.Section5.StreamVelocityIncrement
+import AVenhance.Infra.Section5.ShearDiffusionOperator
+import AVenhance.Infra.Section5.StreamVelocityIncrement
+public import AVenhance.Infra.Section5.Terms
 
 /-! The divergence-form diffusion split for the actual stream velocity. -/
 

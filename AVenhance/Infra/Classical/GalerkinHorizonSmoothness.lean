@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinSmoothWordEquation
-public import Mathlib.Analysis.Calculus.ContDiff.Deriv
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Slope
 
 /-! Closed-slab smoothness criteria for mixed time/spatial derivative families. -/
 

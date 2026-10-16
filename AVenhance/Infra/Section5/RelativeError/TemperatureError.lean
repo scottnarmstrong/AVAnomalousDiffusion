@@ -4,14 +4,23 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesBasic
-public import AVenhance.Infra.Section4.IteratesNormComponents
-public import AVenhance.Infra.Section4.IteratesVAbstractAmplitude
-public import AVenhance.Infra.Section4.IteratesFiniteAnalyticSum
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
-public import AVenhance.Infra.Section5.Integration.IndyStepDownV2
-public import AVenhance.Infra.Section4.Amnr.Seed
-public import Mathlib.Analysis.Normed.Lp.PiLp
-public import Mathlib.MeasureTheory.Function.L2Space
+import AVenhance.Infra.Section4.IteratesVAbstractAmplitude
+import AVenhance.Infra.Section4.IteratesFiniteAnalyticSum
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section4.Amnr.Seed
+import Mathlib.MeasureTheory.Function.L2Space
+public import AVenhance.Infra.Section4.Amnr.Calculus
+public import AVenhance.Infra.Section4.IteratesAmplitude
+public import AVenhance.Infra.Section4.IteratesBudgetConstantChoice
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Ingredients.Gamma
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.ParabolicMaximum
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The S-normalised temperature error
 

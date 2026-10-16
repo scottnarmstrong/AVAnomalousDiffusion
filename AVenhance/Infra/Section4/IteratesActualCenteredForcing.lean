@@ -3,14 +3,20 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCenteredHessianTransfer
-public import AVenhance.Infra.Section4.IteratesActualHomogeneousHalfSquare
+import AVenhance.Infra.Section4.IteratesCenteredHessianTransfer
+import AVenhance.Infra.Section4.IteratesActualHomogeneousHalfSquare
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
 
 @[expose] public section
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

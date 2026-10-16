@@ -3,11 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaEnergy
-public import AVenhance.Infra.FaaDiBruno.Product
-public import Mathlib.Analysis.Calculus.FDeriv.Mul
-public import Mathlib.Analysis.Calculus.FDeriv.Add
-public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+import AVenhance.Infra.Section4.ThetaEnergy
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+public import AVenhance.Statements.Roots.SpaceGrad
 
 /-! First-order transport commutator identities for smooth Euclidean fields. -/
 

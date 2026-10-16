@@ -3,11 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section3.CorrectorGradient
-public import AVenhance.Infra.Section3.SpaceAverages
-public import AVenhance.Infra.Ingredients.CutoffConsequences
-public import AVenhance.Infra.Cutoff.TimeScaleFacts
-public import AVenhance.Statements.Section3.CorrTime
+import AVenhance.Infra.Section3.CorrectorGradient
+import AVenhance.Infra.Section3.SpaceAverages
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+public import AVenhance.Statements.Ingredients.Psi
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Section3.ChiMK
+public import AVenhance.Statements.Section3.SpaceAvg
+import AVenhance.Infra.Section3.ShearFormula
 
 /-! The exact averaged diagonal contribution of a single active shear mode. -/
 

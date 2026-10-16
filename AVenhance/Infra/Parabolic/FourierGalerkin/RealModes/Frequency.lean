@@ -4,10 +4,6 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.Basis
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ODE
-public import AVenhance.Infra.Torus.FourierCalculus
-public import AVenhance.Statements.Roots.SpaceGrad
-public import Mathlib.MeasureTheory.Function.L2Space
 
 /-!
 # Real sine/cosine modes for symmetric Fourier cutoffs

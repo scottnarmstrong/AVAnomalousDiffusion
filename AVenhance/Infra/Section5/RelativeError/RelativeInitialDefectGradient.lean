@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorHGradient
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectGradientPositive
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectGradientPositive
+public import AVenhance.Infra.Section4.HmBounds
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorHEuclid
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorHScalars
+import Mathlib.Algebra.Order.Star.Real
 
 /-! The previous-diffusivity normalization retained in the Hm gradient
 calculation. This conditional source-scale helper sharpens the public
@@ -14,7 +21,6 @@ sqrt(kappa_m) conclusion to sqrt(kappa_{m-1}), for signed flux pairing. -/
 
 noncomputable section
 open MeasureTheory Homogenization AVenhance AVenhance.Infra.Section4
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section5.RelativeError
 
 /-- The source-scale calculation supports the previous diffusivity in front

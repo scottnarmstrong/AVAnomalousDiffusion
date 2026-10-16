@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectPositiveTransport
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectPositiveTransport
+public import AVenhance.Infra.Ergodic.Flow
+public import AVenhance.Statements.Roots.L2NormSq
 
 /-! Positive-time transport estimates ignore the arbitrary extension at
 nonpositive times, including its value at zero. -/

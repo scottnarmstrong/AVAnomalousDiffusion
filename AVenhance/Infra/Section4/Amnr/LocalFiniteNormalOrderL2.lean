@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FiniteCanonicalEnvelopeL2
+import AVenhance.Infra.Section4.Amnr.FiniteCanonicalEnvelopeL2
+public import AVenhance.Infra.Section4.Amnr.CanonicalJetSamples
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+import AVenhance.Infra.Section4.Amnr.LocalFiniteNormalOrder
 
 /-! Quantitative L2 normal ordering with exact finite jet budgets. -/
 

@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.StreamProfileJets
-public import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.StreamProfileJets
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+public import AVenhance.Infra.Section4.Amnr.FlowSpatialSourceRates
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.EpsilonConsequences
+import AVenhance.Infra.Section4.Amnr.SpatialCompositionRates
+import AVenhance.Infra.Section4.Amnr.StreamMaterial
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-! All spatial jets of actual transported shear profiles. -/
 

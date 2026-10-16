@@ -10,7 +10,7 @@ This file contains exactly one declaration of the formalization's public stateme
 
 @[expose] public section
 
-open MeasureTheory Filter Topology Homogenization
+open Homogenization
 
 namespace AVenhance
 

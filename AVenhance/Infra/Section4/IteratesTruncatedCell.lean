@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTimeRescale
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section4.IteratesEnergyIntegrability
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Terminal-time cells and monotonicity of actual nonnegative energies. -/
 

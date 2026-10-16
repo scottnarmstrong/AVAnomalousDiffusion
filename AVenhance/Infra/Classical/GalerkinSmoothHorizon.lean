@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinSmoothPDE
+import AVenhance.Infra.Classical.GalerkinSmoothPDE
+public import AVenhance.Infra.Classical.GalerkinSmoothJointEquation
+public import AVenhance.Statements.Section4.AdvDiffOp
+import AVenhance.Infra.Classical.GalerkinSmoothInitialPointwise
+import AVenhance.Infra.Classical.GalerkinSmoothWordEquation
 
 /-! Integer-horizon rescaling for the smooth unit-slab Galerkin limit. -/
 

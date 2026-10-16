@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Statements.Ingredients.Delta
+public import Mathlib.Algebra.Order.Archimedean.Real.Basic
 
 /-! Statement file: `Nstar` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -13,8 +14,6 @@ This file contains exactly one declaration of the formalization's public stateme
 noncomputable section
 
 namespace AVenhance
-
-open Homogenization
 
 /-- `e.N` (1018), corrected form: the source's
 `N_* := ⌈1/δ² + 500/δ⌉` is enlarged so that every lower bound on `N_*` claimed in

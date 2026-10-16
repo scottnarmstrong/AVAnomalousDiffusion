@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.LimitArbitraryTest
-public import AVenhance.Infra.Parabolic.FourierGalerkin.WeakGradientAssembly
+import AVenhance.Infra.Parabolic.FourierGalerkin.LimitArbitraryTest
+import AVenhance.Infra.Parabolic.FourierGalerkin.WeakGradientAssembly
+public import AVenhance.Infra.Parabolic.FourierGalerkin.GalerkinSequence
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
+import AVenhance.Infra.Parabolic.FourierGalerkin.LimitConstruction
+import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarFourierDerivative
+import AVenhance.Infra.Parabolic.FourierGalerkin.SolutionIntegrability
 
 /-!
 # weak-solution existence from the synchronized Galerkin limit

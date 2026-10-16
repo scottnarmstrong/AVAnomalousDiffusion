@@ -3,13 +3,8 @@
 
 module
 
-public import AVenhance.Statements.Roots.IsWeakSolution
 public import AVenhance.Statements.Roots.IsDivFree
-public import AVenhance.Statements.Roots.IsPeriodicH1With
-public import AVenhance.Statements.Roots.TimeCube
-public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 public import AVenhance.Statements.Section4.IsClassicalSol
-public import AVenhance.Statements.Section4.IsThetaAnalytic
 public import AVenhance.Statements.Construction.IsAdmissibleStream
 public import AVenhance.Statements.Construction.StreamVel
 public import AVenhance.Infra.Section5.H1Reduction

@@ -5,7 +5,7 @@ module
 
 public import AVenhance.Statements.Roots.IsWeakSolutionGrad
 public import AVenhance.Statements.Roots.IsDivFree
-public import AVenhance.Statements.Roots.IsPeriodicH1With
+public import AVenhance.Statements.Roots.GradNormSq
 
 /-! # Lemma U (uniform time-Hölder bound in `L²`)
 

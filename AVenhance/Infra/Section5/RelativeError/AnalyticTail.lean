@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Statements.Section4.IsThetaAnalytic
-public import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
 public import AVenhance.Infra.Torus.FrozenBridge
+public import AVenhance.Infra.Ergodic.FourierDecay
 
 /-! # bridge analyticity to Fourier derivative bounds
 

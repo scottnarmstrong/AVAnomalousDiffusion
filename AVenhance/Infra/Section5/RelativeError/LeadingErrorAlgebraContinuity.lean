@@ -4,7 +4,7 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
-public import AVenhance.Infra.Section3.CorrTimeRegularity
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularityFlow
 
 /-! # Joint continuity of the three remainder fields of `e.grad.tildetheta.again`
 

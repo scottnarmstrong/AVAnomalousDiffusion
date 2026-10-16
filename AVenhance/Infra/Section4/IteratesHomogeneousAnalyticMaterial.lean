@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesScalarLaplacianEnergy
-public import AVenhance.Infra.Section4.IteratesAnalyticErrorEnergy
+import AVenhance.Infra.Section4.IteratesScalarLaplacianEnergy
+import AVenhance.Infra.Section4.IteratesAnalyticErrorEnergy
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesScalarMaterialEnergy
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Homogeneous material derivatives from actual analytic scalar energies. -/
 

@@ -3,9 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Heat.FrozenEstimates
 public import AVenhance.Statements.Section4.IsThetaAnalytic
-public import Mathlib.Topology.Algebra.Order.LiminfLimsup
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Torus.FrozenBridge
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Scalar assembly facts for the main theorem. Energy is an explicit input, not a claim that
 weak-solution energy has been . Nonzero energy is distinguished from

@@ -4,12 +4,17 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermCenteredDefs
-public import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
-public import AVenhance.Infra.Section4.Amnr.StreamMaterialRates
-public import AVenhance.Infra.Section4.Amnr.StreamMaterial
-public import AVenhance.Infra.Section3.SpaceAverages
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
+import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
+import AVenhance.Infra.Section4.Amnr.StreamMaterialRates
+import AVenhance.Infra.Section4.Amnr.StreamMaterial
+import AVenhance.Infra.Section3.SpaceAverages
+import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
+public import AVenhance.Infra.Ergodic.Periodic
+public import AVenhance.Infra.Section5.ErgodicParams
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section5.LeftToShow.BracketFF
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Fast factors of the nondivergence parts of `twistie4`, `twistie5`
 

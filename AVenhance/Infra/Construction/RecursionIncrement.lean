@@ -3,10 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Construction.Section2Induction
-public import AVenhance.Infra.Construction.TimeIncrement.Recursion
-public import AVenhance.Infra.FaaDiBruno.Composition
-public import Mathlib.Analysis.Real.Pi.Bounds
+import AVenhance.Infra.Construction.Section2Induction
+import AVenhance.Infra.FaaDiBruno.Composition
+import Mathlib.Analysis.Real.Pi.Bounds
+public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
+public import AVenhance.Infra.FaaDiBruno.Seminorm
+import AVenhance.Infra.Construction.ExplicitBarNorm
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! The first stream-regularity increment estimate from the finite-overlap stream recursion.
 

@@ -3,9 +3,6 @@
 
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
-public import Mathlib.Analysis.Calculus.ContDiff.Basic
-public import AVenhance.Statements.Roots.IsZ2Periodic
 public import AVenhance.Infra.FaaDiBruno.Seminorm
 public import AVenhance.Infra.Ergodic.FourierDecay
 

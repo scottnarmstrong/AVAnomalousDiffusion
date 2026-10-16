@@ -3,8 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesErrorRegularity
-public import AVenhance.Infra.Section4.IteratesWordTimeEnergy
+import AVenhance.Infra.Section4.IteratesErrorRegularity
+import AVenhance.Infra.Section4.IteratesWordTimeEnergy
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.TimeCube
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesVelocityRegularity
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordSolution
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Actual homogeneous scalar material energy at every spatial order. -/
 

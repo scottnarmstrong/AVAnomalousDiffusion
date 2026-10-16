@@ -6,10 +6,10 @@ module
 public import AVenhance.Infra.Section5.LeftToShow.BreakUp
 public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
 public import AVenhance.Infra.Section3.LFluxToEnergy
-public import AVenhance.Infra.Section3.FluxTimeRegularity
-public import AVenhance.Infra.Section3.SpaceAverages
-public import AVenhance.Infra.Section3.CorrectorGradient
-public import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
+import AVenhance.Infra.Section3.SpaceAverages
+import AVenhance.Infra.Section3.CorrectorGradient
+import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
+import AVenhance.Infra.Section5.LeftToShow.Matrix
 
 /-! # `e.bracket.FF` and `e.ergodic.break.up.second`
 

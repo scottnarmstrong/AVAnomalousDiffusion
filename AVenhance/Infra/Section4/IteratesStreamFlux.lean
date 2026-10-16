@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesDriftExpansion
-public import AVenhance.Infra.Section4.IteratesForcingGradient
+import AVenhance.Infra.Section4.IteratesDriftExpansion
+import AVenhance.Infra.Section4.IteratesForcingGradient
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.IteratesDiffusion
 
 /-! Exact stream-function divergence flux used in the differentiated energy equation. -/
 

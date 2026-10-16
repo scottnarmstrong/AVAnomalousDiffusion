@@ -3,7 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyContract
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyContract
+public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyPointwise
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyBound
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyCoeff
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyExponent
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyScale
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `TinyHMinusSourceContract` producer (`e.monster.est.tiny`, `enhance.tex` 7848–7930)
 

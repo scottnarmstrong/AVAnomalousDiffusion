@@ -3,9 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesDischargeScalars
-public import AVenhance.Infra.Section3.LRecurseTop
-public import AVenhance.Infra.Section3.ExplicitBounds
+import AVenhance.Infra.Section3.LRecurseTop
+public import AVenhance.Infra.Section3.KappaAtPrimeBootstrap
+public import AVenhance.Statements.Section3.KMat
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.LocalFinite
 
 @[expose] public section
 

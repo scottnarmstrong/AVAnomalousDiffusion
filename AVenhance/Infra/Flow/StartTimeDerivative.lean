@@ -3,10 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Flow.SpatialRegularity
-public import AVenhance.Infra.Flow.FlowIntegral
-public import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.SpatialRegularity
+import AVenhance.Infra.Flow.FlowIntegral
+import AVenhance.Infra.Flow.Laws
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Flow.IsFlow
+import AVenhance.Infra.Flow.SmoothField
 
 /-! Differentiability of a flow with respect to its initial-time parameter. -/
 

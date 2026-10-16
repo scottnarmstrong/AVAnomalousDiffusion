@@ -5,7 +5,10 @@ module
 
 public import AVenhance.Infra.FullTheorem.Integration.NoSelectionContract
 public import AVenhance.Infra.FullTheorem.Integration.SeparatedChainsContract
-public import AVenhance.Infra.FullTheorem.NoSelectionLimit.Family
+import AVenhance.Infra.FullTheorem.NoSelectionLimit.Family
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.NoSelectionLimit.Upgrade
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The no-selection statement, conditional on the separated chains
 

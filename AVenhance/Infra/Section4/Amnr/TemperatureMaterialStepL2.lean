@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureMaterialWordEquation
-public import AVenhance.Infra.Section4.Amnr.NormalOrderUniformCutoff
+import AVenhance.Infra.Section4.Amnr.TemperatureMaterialWordEquation
+import AVenhance.Infra.Section4.Amnr.NormalOrderUniformCutoff
+public import AVenhance.Infra.Section4.Amnr.CanonicalJetSamples
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+import AVenhance.Infra.Section4.Amnr.MixedSubwordBudget
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.TemperatureFluxEvolution
 
 /-! One material level from lower canonical gradient and flux jets. -/
 

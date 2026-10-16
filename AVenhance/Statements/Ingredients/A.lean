@@ -14,8 +14,6 @@ noncomputable section
 
 namespace AVenhance
 
-open Homogenization
-
 /-- `e.am.def` (1094): `a_m := ε_m^{β-2}`. -/
 def a (β : ℝ) (Λ : ℕ) (m : ℕ) : ℝ := epsilon β Λ m ^ (β - 2)
 

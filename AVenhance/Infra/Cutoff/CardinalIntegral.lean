@@ -4,7 +4,6 @@
 module
 
 public import AVenhance.Infra.Cutoff.CardinalZeta
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 /-! Exact quadratic mass of the cardinal small cutoff. -/
 

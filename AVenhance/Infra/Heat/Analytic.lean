@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Heat.Energy
-public import Mathlib.Analysis.Complex.Exponential
+public import AVenhance.Infra.Heat.Semigroup
 
 /-! Explicit Gaussian bounds for the Fourier heat multiplier. -/
 

@@ -3,16 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Flow.FiniteSpatialJetTaylor
+import AVenhance.Infra.Flow.FiniteSpatialJetTaylor
 public import AVenhance.Infra.Flow.FiniteSpatialJetGlobal
-public import AVenhance.Infra.Flow.FiniteSpatialJetContinuity
-public import AVenhance.Infra.Flow.LinearFlowCLM
-public import AVenhance.Infra.Flow.VariationalRemainderOnWindow
-public import AVenhance.Infra.Flow.LinearGlobalExistence
-public import AVenhance.Infra.Flow.FiniteJetFlowGroupLaw
+import AVenhance.Infra.Flow.FiniteSpatialJetContinuity
+import AVenhance.Infra.Flow.LinearFlowCLM
+import AVenhance.Infra.Flow.VariationalRemainderOnWindow
 public import AVenhance.Infra.Flow.SpatialRegularity
-public import AVenhance.Infra.Flow.JointC1Core
+import AVenhance.Infra.Flow.JointC1Core
 public import Mathlib.Topology.Algebra.Module.FiniteDimension
+import AVenhance.Infra.Flow.FiniteSpatialJetBounds
+import Mathlib.Analysis.Calculus.FDeriv.Partial
+import Mathlib.Analysis.ODE.ExistUnique
 
 /-! Fixed-start C¹ smooth dependence for each finite recursive jet flow. -/
 

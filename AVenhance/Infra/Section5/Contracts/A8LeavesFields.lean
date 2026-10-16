@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.A8LeavesCore
+import AVenhance.Infra.Section5.Contracts.A8LeavesCore
+public import AVenhance.Infra.Section5.Contracts.ThetaProfile
+import AVenhance.Infra.Section5.Contracts.RelativeInitialProfile
+import AVenhance.Infra.Section5.Contracts.TMaterialFamily
+import AVenhance.Infra.Section5.Contracts.TemperatureError
+import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Section5.RelativeError.ATensor
 
 /-! # Six relative fields of `A8Remaining` from the trace leaf
 

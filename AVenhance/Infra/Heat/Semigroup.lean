@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Torus
-public import Mathlib.Analysis.Fourier.AddCircleMulti
+public import AVenhance.Infra.Torus.Fourier
 
 /-! Fourier definition of the periodic heat semigroup on the two dimensional torus. -/
 

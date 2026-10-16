@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Heat.SmoothClassical
 public import AVenhance.Infra.Heat.Analytic
-public import Mathlib.Analysis.Fourier.AddCircle
+public import AVenhance.Infra.Torus.FourierCalculus
+import AVenhance.Infra.Heat.Smooth
+import Mathlib.LinearAlgebra.Complex.FiniteDimensional
 
 @[expose] public section
 

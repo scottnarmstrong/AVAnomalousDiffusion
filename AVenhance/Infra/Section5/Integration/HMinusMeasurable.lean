@@ -3,10 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.HMinusTools
-public import AVenhance.Infra.Section5.Integration.Statements
-public import Mathlib.MeasureTheory.Measure.SeparableMeasure
+import Mathlib.MeasureTheory.Measure.SeparableMeasure
 public import Mathlib.MeasureTheory.Function.L2Space
+public import AVenhance.Statements.Section4.HMinusOneNorm
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Ergodic.AveragesL2
+import Mathlib.Algebra.Order.Archimedean.Real.Hom
+import Mathlib.Topology.Separation.CompletelyRegular
 
 /-! # Measurability of `t ↦ ‖F t‖_{Ḣ⁻¹}` via a countable family of tests
 

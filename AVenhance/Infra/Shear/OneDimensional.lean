@@ -3,9 +3,8 @@
 
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
-public import Mathlib.LinearAlgebra.Matrix.Notation
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 /-!
 Explicit one-dimensional calculations for a sinusoidal shear.  The variable `x`

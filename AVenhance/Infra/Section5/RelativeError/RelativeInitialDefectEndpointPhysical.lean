@@ -3,9 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpointScales
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpointJets
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpointScales
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+public import AVenhance.Infra.Section4.HmBounds
+public import AVenhance.Infra.Section5.FrozenHmTelescope
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.HmAdapter
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.Integration.PartIHmRegularity
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpoint
 
 /-! The actual positive-time endpoint source at the physical amplitude scale.
 All regularity is proved from the T iterates. The quantitative gradient profile

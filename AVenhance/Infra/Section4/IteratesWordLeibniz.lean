@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordEquation
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
 
 /-! Exact ordered spatial Leibniz expansions for coefficient-gradient products. -/
 

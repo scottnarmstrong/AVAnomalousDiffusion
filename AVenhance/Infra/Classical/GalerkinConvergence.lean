@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinExistence
-public import AVenhance.Infra.Parabolic.FourierGalerkin.CutoffNesting
+public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Projection
 
 /-! Nested-cutoff coefficient maps for the classical Galerkin sequence. -/
 

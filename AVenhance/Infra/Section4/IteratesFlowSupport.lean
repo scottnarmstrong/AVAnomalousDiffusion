@@ -3,15 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Ingredients.TimeScaleBounds
-public import AVenhance.Infra.Ingredients.TimeScales
-public import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+import AVenhance.Infra.Ingredients.TimeScales
+import AVenhance.Infra.Construction.Scalars
 public import AVenhance.Statements.Ingredients.HatXiML
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
 
 @[expose] public section
 
 noncomputable section
-open Homogenization
 namespace AVenhance.Infra.Section4
 open AVenhance
 

@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCoefficientWords
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Section3.SigmaMat
+import AVenhance.Infra.Section4.CoarseCoeff.SpatialWords
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 /-! Exact actual stream-matrix coefficient words and their continuity. -/
 

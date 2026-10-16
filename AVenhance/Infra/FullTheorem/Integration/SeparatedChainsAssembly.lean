@@ -5,15 +5,23 @@ module
 
 public import AVenhance.Infra.FullTheorem.Integration.SeparatedChainsContract
 public import AVenhance.Infra.FullTheorem.Integration.NoSelectionInputs
-public import AVenhance.Infra.FullTheorem.Contracts.Separation
-public import AVenhance.Infra.FullTheorem.NoSelection.Scales
-public import AVenhance.Infra.FullTheorem.NoSelection.Steps
-public import AVenhance.Infra.FullTheorem.NoSelection.TailSup
-public import AVenhance.Infra.FullTheorem.NoSelection.FlipFacts
-public import AVenhance.Infra.FullTheorem.NoSelection.LevelSep
-public import AVenhance.Infra.FullTheorem.NoSelection.ChainData
-public import AVenhance.Infra.FullTheorem.NoSelection.LimitData
-public import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.FullTheorem.Contracts.Separation
+import AVenhance.Infra.FullTheorem.NoSelection.Scales
+import AVenhance.Infra.FullTheorem.NoSelection.Steps
+import AVenhance.Infra.FullTheorem.NoSelection.TailSup
+import AVenhance.Infra.FullTheorem.NoSelection.FlipFacts
+import AVenhance.Infra.FullTheorem.NoSelection.LevelSep
+import AVenhance.Infra.FullTheorem.NoSelection.ChainData
+import AVenhance.Infra.FullTheorem.NoSelection.LimitData
+import AVenhance.Infra.Ingredients.Parameters
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.LebronStep.Pieces
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Scales
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Statements.Section4.MTheta0IsLeast
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Separation persists for the two vanishing-viscosity families
 

@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Flow.SpatialC3
-public import AVenhance.Infra.Flow.SecondSpatial
+import AVenhance.Infra.Flow.SecondSpatial
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Flow.IsFlow
+public import Mathlib.Analysis.RCLike.Lemmas
 
 /-! Joint continuity in target time and base point of the spatial derivative. -/
 

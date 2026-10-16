@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+public import AVenhance.Statements.Ingredients.Delta
+public import AVenhance.Statements.Ingredients.Gamma
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 /-! Algebraic scale conversion for the corrected `4δ` exponent in the diffusivity-recursion estimate. -/
 

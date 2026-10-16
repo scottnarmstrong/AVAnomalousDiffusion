@@ -3,9 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesVelocityProfile
-public import AVenhance.Infra.Section4.IteratesVelocityRadiusExtension
-public import AVenhance.Infra.Section4.IteratesPhysicalBudgetScales
+import AVenhance.Infra.Section4.IteratesVelocityProfile
+import AVenhance.Infra.Section4.IteratesVelocityRadiusExtension
+import AVenhance.Infra.Section4.IteratesPhysicalBudgetScales
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Section3.GradMatrix
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 @[expose] public section
 

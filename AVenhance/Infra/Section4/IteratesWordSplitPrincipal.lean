@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordMultiplicity
 public import AVenhance.Infra.Section4.IteratesWordFlux
+import Std.Tactic.BVDecide.Normalize.Bool
 
 /-! Principal and lower-order terms in the ordered Leibniz expansion. -/
 

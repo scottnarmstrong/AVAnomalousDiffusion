@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Statements.Roots.IsWeakSolution
-public import AVenhance.Proofs.Roots.IsPeriodicH1WithExistsH1Function
+import AVenhance.Proofs.Roots.IsPeriodicH1WithExistsH1Function
+public import AVenhance.Statements.Roots.IsPeriodicH1With
 
 /-! Statement file: `IsPeriodicH1With.exists_h1Function` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/

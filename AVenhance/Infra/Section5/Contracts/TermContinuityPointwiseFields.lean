@@ -4,6 +4,14 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTools
+import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.StreamMaterial
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularityFlow
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
+import Mathlib.Order.CompletePartialOrder
 
 /-! # Joint regularity of the building blocks of the pointwise §5.1 terms
 

@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.Rates
-public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
 
 /-! The actual classical temperature equation in the ordered mixed calculus. -/
 

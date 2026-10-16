@@ -3,12 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3
-public import AVenhance.Infra.Section5.Contracts.TJetsDatum
-public import AVenhance.Infra.Section5.Contracts.TermSourcesAll
-public import AVenhance.Infra.Section5.Contracts.TermCentered
-public import AVenhance.Infra.Section5.Contracts.MeanZero
-public import AVenhance.Infra.Section5.Contracts.R46Source
+import AVenhance.Infra.Section5.Contracts.TJetsDatum
+import AVenhance.Infra.Section5.Contracts.MeanZero
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3Contract
+import AVenhance.Infra.Section5.Contracts.TermCenteredTwistie4
+import AVenhance.Infra.Section5.Contracts.TermCenteredTwistie5
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoff
+import AVenhance.Infra.Section5.Contracts.TermSourcesFlux
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1
 
 /-! # Closing datum source producers with the proved T jets -/
 

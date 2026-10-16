@@ -4,13 +4,13 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.JacobianJetBounds
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-! Preserve the exact spatial radius in the all-order fixed-equation induction. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
 
 /-- Normalize the initial and trajectory states by the same positive radius.

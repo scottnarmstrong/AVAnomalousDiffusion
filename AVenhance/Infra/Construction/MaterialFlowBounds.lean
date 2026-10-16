@@ -3,9 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Construction.MaterialSpatial
-public import AVenhance.Infra.Construction.Section2FlowIdentities
-public import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+import AVenhance.Infra.Construction.Section2FlowIdentities
+import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+public import AVenhance.Infra.Construction.MaterialGoalSource
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Flow.InverseC1
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

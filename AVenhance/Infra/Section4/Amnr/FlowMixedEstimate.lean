@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.HigherGradientSourceBounds
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section4.Amnr.FlowAverage
+import AVenhance.Infra.Section4.Amnr.FlowCoefficientBounds
 
 /-! Higher mixed flow bounds from actual transport and primitive jets. -/
 

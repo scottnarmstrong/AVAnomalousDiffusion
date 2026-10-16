@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesForcingScalarParts
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Section4.TForcing
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesDivergenceAdd
+import AVenhance.Infra.Section4.IteratesWordCoefficientSplit
+import AVenhance.Infra.Section4.IteratesWordFluxPairing
 
 @[expose] public section
 

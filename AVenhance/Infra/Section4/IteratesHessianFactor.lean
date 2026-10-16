@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesComponentEnergy
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Actual preceding Hessian contraction for the transferred drift error. -/
 
@@ -12,7 +15,6 @@ public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

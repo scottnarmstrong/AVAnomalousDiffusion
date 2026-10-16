@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.ODE.Linear.Energy
+import AVenhance.Infra.ODE.Linear.Energy
+public import AVenhance.Infra.ODE.Linear.Basic
 
 /-!
 # Energy identity for finite-dimensional integral paths

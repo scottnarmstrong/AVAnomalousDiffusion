@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesIntegralCauchy
+import AVenhance.Infra.Section4.IteratesIntegralCauchy
 public import AVenhance.Infra.Section4.IteratesTruncatedCell
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Linear L2 pairing estimates for actual commutator coefficient terms. -/
 

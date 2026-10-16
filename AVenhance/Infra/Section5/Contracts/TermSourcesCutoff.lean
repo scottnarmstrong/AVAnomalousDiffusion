@@ -3,12 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffSlice
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffScalar
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffL2
-public import AVenhance.Infra.Section5.Contracts.Produced
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffSlice
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffScalar
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffL2
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section4.TIterateSmooth
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `Cutoff1SourceContract` producer (`e.monster.est.3`, `enhance.tex` 7329–7364)
 

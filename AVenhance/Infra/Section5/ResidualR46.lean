@@ -3,10 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.MatrixFluxProduct
 public import AVenhance.Infra.Section5.Terms
-public import AVenhance.Infra.Section5.PulledGradientTransport
-public import AVenhance.Infra.Section3.MovingFluxEnergy
 
 /-! The divergence remainder as a weighted gradient contraction. -/
 

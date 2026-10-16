@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesEnergy
+import AVenhance.Infra.Section4.IteratesEnergy
+public import Homogenization.Ambient.Basic
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Quadratic vector algebra for actual material forcing energies. -/
 

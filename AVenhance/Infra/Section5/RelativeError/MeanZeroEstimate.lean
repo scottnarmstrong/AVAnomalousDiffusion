@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.MeanZeroEnergy
+import AVenhance.Infra.Section5.RelativeError.MeanZeroEnergy
+public import AVenhance.Infra.Section5.RelativeError.ClassicalEnergy
+public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Torus.FrozenBridge
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-!# RelativeError: mean-zero data are controlled by total dissipation
 

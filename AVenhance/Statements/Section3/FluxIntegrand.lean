@@ -4,6 +4,9 @@
 module
 
 public import AVenhance.Statements.Section3.PsiM
+public import AVenhance.Statements.Section3.ChiM
+public import AVenhance.Statements.Section3.GradMatrix
+public import AVenhance.Statements.Section3.SigmaMat
 
 /-! Statement file: `fluxIntegrand` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/

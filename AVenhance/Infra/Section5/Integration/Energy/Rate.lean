@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.Energy.Pointwise
+import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Classical.PeriodicCalculus
 
 /-! # The energy rate identity for `w = u - v`
 

@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Infra.Section4.Params
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

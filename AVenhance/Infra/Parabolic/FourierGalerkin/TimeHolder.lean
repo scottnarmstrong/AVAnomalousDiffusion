@@ -3,9 +3,8 @@
 
 module
 
-public import Mathlib.MeasureTheory.Integral.Bochner.Basic
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-public import Mathlib.MeasureTheory.Function.L2Space
+import Mathlib.MeasureTheory.Function.L2Space
 
 /-!
 # The time Cauchy estimate

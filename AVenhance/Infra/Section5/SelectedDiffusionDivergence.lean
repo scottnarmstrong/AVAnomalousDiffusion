@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.DivergenceLinearity
-public import AVenhance.Infra.Section5.MatrixFluxDerivative
-public import AVenhance.Infra.Section5.SelectedCorrectorDivergence
+import AVenhance.Infra.Section5.DivergenceLinearity
+import AVenhance.Infra.Section5.MatrixFluxDerivative
+import AVenhance.Infra.Section5.SelectedCorrectorDivergence
+public import AVenhance.Infra.Section5.CorrectorDiffusionDivergence
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Divergence expansion for the four selected pieces of the ansatz flux. -/
 

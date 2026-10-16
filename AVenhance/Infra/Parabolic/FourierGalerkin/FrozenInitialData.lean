@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.GradientSpace
-public import AVenhance.Statements.Roots.UnitCube
-public import Mathlib.Analysis.Fourier.AddCircleMulti
+public import AVenhance.Infra.Parabolic.FourierGalerkin.Basis
+public import AVenhance.Infra.Torus.Basic
+public import Homogenization.Sobolev.H1.Definitions
 
 /-!
 # Transfer of initial data to the unit torus

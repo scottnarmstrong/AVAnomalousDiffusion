@@ -3,9 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualPrimitive
-public import AVenhance.Infra.Section4.IteratesCrossCell
-public import AVenhance.Infra.Section4.IteratesMatrixIntegralSum
+import AVenhance.Infra.Section4.IteratesActualPrimitive
+import AVenhance.Infra.Section4.IteratesCrossCell
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section4.IteratesCancellation
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 @[expose] public section
 

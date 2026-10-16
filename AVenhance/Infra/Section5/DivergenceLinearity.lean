@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Statements.Section4.VecDiv
 
 /-! Differentiability-based linearity of the classical divergence. -/
 

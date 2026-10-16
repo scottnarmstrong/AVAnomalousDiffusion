@@ -3,8 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.A8Provider
-public import AVenhance.Infra.Section5.Contracts.HmPiolaRate
+import AVenhance.Infra.Section5.Contracts.A8Provider
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.Ansatz
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.IsThetaAnalytic
+public import AVenhance.Statements.Section4.KappaSeq
+public import AVenhance.Statements.Section4.MTheta0
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Section5.Contracts.HmPiolaRateFamily
 
 /-! Proof of the step-down estimate (`AVenhance.indystepdown`).
 

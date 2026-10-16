@@ -3,14 +3,15 @@
 
 module
 
-public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 /-! Statement file: `IsHolderClass` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/
 
 @[expose] public section
 
-open MeasureTheory Filter Topology Homogenization
+open Filter Topology Homogenization
 
 namespace AVenhance
 

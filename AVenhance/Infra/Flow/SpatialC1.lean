@@ -3,11 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Flow.FieldTaylor
-public import AVenhance.Infra.Flow.Estimates
-public import AVenhance.Infra.Flow.FlowIntegral
+import AVenhance.Infra.Flow.FieldTaylor
+import AVenhance.Infra.Flow.Estimates
 public import AVenhance.Infra.Flow.VariationalEquation
 public import Mathlib.Analysis.ODE.Gronwall
+import AVenhance.Infra.Flow.SmoothField
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Spatial differentiability of a characterized smooth periodic flow. -/
 

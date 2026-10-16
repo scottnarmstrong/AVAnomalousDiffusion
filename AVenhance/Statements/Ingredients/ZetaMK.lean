@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Statements.Ingredients.Ingredients
+public import AVenhance.Statements.Ingredients.ScaledCutoff
+public import AVenhance.Statements.Ingredients.Tau
 
 /-! Statement file: `zetaMK` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -14,7 +16,6 @@ noncomputable section
 
 namespace AVenhance
 
-open Homogenization
 namespace Ingredients
 variable {β : ℝ} (I : Ingredients β)
 

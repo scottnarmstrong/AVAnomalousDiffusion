@@ -8,7 +8,6 @@ public import AVenhance.Statements.Section3.ChiMK
 public import AVenhance.Statements.Section3.GradMatrix
 public import AVenhance.Statements.Section3.SpaceAvgMat
 public import AVenhance.Statements.Ingredients.XiMK
-public import AVenhance.Statements.Ingredients.LIdx
 public import AVenhance.Infra.Section5.MaterialGradient
 
 /-! # Objects of the §5.3 additive energy estimate `e.left.to.show`

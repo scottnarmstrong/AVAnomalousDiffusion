@@ -3,10 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.Produced
-public import AVenhance.Infra.Section5.Integration.BigBoundRegularityMeans
-public import AVenhance.Infra.Section5.Integration.BigBoundMeanZeroGroup
-public import AVenhance.Infra.Section5.Integration.BigBoundMeanZeroData
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.Integration.BigBoundRegularityMeans
+import AVenhance.Infra.Section5.Integration.BigBoundMeanZeroGroup
+import AVenhance.Infra.Section5.Integration.BigBoundMeanZeroData
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Section4.TIterateSmooth
 
 /-! Producers for the four mean-zero contracts consumed by big-bound estimate and step-down part (ii). -/
 

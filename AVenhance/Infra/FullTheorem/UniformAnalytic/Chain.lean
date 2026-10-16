@@ -4,14 +4,14 @@
 module
 
 public import AVenhance.Infra.FullTheorem.UniformAnalytic.Defs
-public import AVenhance.Infra.FullTheorem.UniformAnalytic.Holder
-public import AVenhance.Infra.FullTheorem.UniformAnalytic.Scales
-public import AVenhance.Infra.FullTheorem.LebronStep.Interpolation
 public import AVenhance.Infra.FullTheorem.LebronStep.VelocityBounds
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyClassical
-public import AVenhance.Statements.Section4.ClassicalWellposed
-public import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyClassical
+import AVenhance.Statements.Section4.ClassicalWellposed
+import AVenhance.Infra.Construction.LimitSeries
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.LebronStep.DivFree
 
 /-! # The classical chain `θ_{m₀-1}, …, θ_M` and the Hölder bound of `θ_M`
 

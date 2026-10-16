@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.LebronStep.KappaBounds
-public import AVenhance.Statements.Section4.MTheta0IsLeast
-public import AVenhance.Infra.Section5.RelativeError.AssemblyScales
+import AVenhance.Infra.FullTheorem.LebronStep.KappaBounds
+import AVenhance.Statements.Section4.MTheta0IsLeast
+public import AVenhance.Statements.Section3.PermittedInterval
+public import AVenhance.Statements.Section4.MTheta0
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
 
 /-! # Scale facts for the analytic case of `r.LeBron.2`
 

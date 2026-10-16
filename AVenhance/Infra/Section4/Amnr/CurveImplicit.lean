@@ -3,14 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CurveIntegral
+public import AVenhance.Infra.Section4.Amnr.CurveSmoothness
+import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff
+import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+import Mathlib.Topology.Metrizable.ContinuousMap
 
 /-! Local smoothness of actual solution curves from their integral equation. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory Filter
+open Filter
 open scoped Topology
 namespace AVenhance.Infra.Section4
 

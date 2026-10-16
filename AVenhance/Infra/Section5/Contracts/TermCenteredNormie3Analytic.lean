@@ -4,8 +4,19 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3Slow
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticCompose
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalytic
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticCompose
+public import AVenhance.Infra.Ergodic.AveragesL2
+public import AVenhance.Infra.Section5.RelativeError.RelativeAnalytic
+public import AVenhance.Infra.Section5.SlowFactorBoundsChoices
+public import AVenhance.Statements.Ingredients.Gamma
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.AnalyticBridge.GradSnorm
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticInputs
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticJets
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticWindow
+import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
+import AVenhance.Infra.Section5.SlowFactorBoundsComposition
+import AVenhance.Infra.Section5.SlowFactorBoundsSource
 
 /-! # Composed analyticity of the slow factor of `normie3`
 

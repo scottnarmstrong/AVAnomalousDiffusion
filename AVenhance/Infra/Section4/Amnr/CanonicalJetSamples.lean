@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.LocalNormalOrder
+public import AVenhance.Infra.Section4.Amnr.Induction
 
 /-! A finite, exhaustive index set for the bounded canonical jet budget. -/
 

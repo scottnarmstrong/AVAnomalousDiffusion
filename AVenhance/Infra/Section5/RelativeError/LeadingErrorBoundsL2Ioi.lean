@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section5.RelativeError.RelativeVectorTriangle
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.MeasureTheory.Integral.IntegrableOn
+import Mathlib.Order.CompletePartialOrder
 
 /-! # `L²((0,1)×𝕋²)` bookkeeping with regularity only on the open half space
 

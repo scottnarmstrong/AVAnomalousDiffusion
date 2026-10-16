@@ -5,10 +5,8 @@ module
 
 public import AVenhance.Infra.ODE.Linear.Basic
 public import Mathlib.Topology.MetricSpace.Contracting
-public import Mathlib.MeasureTheory.Integral.IntegrableOn
-public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Lemmas
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.Topology.Algebra.Order.Floor
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+import Mathlib.Topology.Algebra.Order.Floor
 
 /-!
 # Volterra operator for bounded measurable linear coefficients

@@ -4,9 +4,7 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinProblem
-public import AVenhance.Infra.Classical.GalerkinSmoothTime
-public import AVenhance.Infra.Parabolic.FourierGalerkin.MatrixOperator
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
+import AVenhance.Infra.Classical.GalerkinSmoothTime
 
 /-! Continuity of the finite smooth Galerkin operators on the physical time slab. -/
 

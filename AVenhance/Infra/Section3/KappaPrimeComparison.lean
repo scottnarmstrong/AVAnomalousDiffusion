@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section3.KappaPrimeUniform
-public import AVenhance.Infra.Section3.KappaAtBounds
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Tactic.Bound
 
 /-! Conditional comparison of the diffusivity chain with its auxiliary
 κ′ chain.  The explicit one-step relative error is kept as a hypothesis; the

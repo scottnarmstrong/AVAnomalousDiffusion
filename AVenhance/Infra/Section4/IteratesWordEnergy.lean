@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordEquation
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Section4.IteratesDiffusion
 
 /-! Exact spatial energy identities before expansion of drift commutators. -/
 
@@ -11,7 +13,6 @@ public import AVenhance.Infra.Section4.IteratesWordEquation
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

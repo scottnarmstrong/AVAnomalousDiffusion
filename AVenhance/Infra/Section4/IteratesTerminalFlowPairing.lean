@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedMatrix
+import AVenhance.Infra.Section4.IteratesTruncatedMatrix
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.GradMatrix
+import AVenhance.Infra.Section4.IteratesOscillatory
 
 @[expose] public section
 

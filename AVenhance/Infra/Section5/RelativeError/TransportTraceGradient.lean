@@ -3,11 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TransportTracePairing
-public import AVenhance.Infra.Section5.RelativeError.TransportFlowCellIntegral
-public import AVenhance.Infra.Section5.GradientChain
-public import AVenhance.Infra.Section5.PulledGradientTransport
-public import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.PulledGradientTransport
+public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Infra.Section5.RelativeError.FlowTransportTest
+import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+import AVenhance.Infra.Section5.RelativeError.TransportFlowBounds
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # RelativeError: control the gradient of the transported test -/
 

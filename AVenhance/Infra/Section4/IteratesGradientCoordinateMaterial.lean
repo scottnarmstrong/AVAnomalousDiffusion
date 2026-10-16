@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesGradientMaterialCross
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section4.IteratesCrossCell
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 @[expose] public section
 

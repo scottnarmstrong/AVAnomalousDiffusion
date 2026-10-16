@@ -3,14 +3,12 @@
 
 module
 
-public import AVenhance.Statements.Section3.KappaAt
+public import AVenhance.Statements.Ingredients.Epsilon
 
 /-! Statement file: `permittedInterval` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/
 
 @[expose] public section
-
-open MeasureTheory Homogenization
 
 noncomputable section
 

@@ -3,11 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.TUpgradeConsumersT1g
-public import AVenhance.Infra.Section4.TUpgradeConsumersScales
-public import AVenhance.Infra.Section4.TUpgradeConsumersV
-public import AVenhance.Infra.Section4.TUpgradeConsumersContracts
+import AVenhance.Infra.Section4.TUpgradeConsumersScales
+import AVenhance.Infra.Section4.TUpgradeConsumersV
+import AVenhance.Infra.Section4.TUpgradeConsumersContracts
 public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesTSourceScale
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section4.TUpgradeConsumersJets
+import AVenhance.Infra.Section4.TUpgradeConsumersNonneg
+import AVenhance.Infra.Section4.TUpgradeConsumersPackaging
 
 @[expose] public section
 

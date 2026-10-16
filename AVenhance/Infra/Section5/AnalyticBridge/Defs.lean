@@ -5,6 +5,7 @@ module
 
 public import AVenhance.Statements.Roots.L2NormSq
 public import AVenhance.Infra.FaaDiBruno.Seminorm
+public import Homogenization.Sobolev.WeakDerivatives
 
 /-! # Source hypotheses of the `L²_x → L¹` analyticity bridge
 

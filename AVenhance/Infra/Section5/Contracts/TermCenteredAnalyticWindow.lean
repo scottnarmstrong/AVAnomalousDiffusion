@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
+public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
+public import AVenhance.Statements.Ingredients.XiMK
+public import AVenhance.Statements.Section4.XFlow
+public import AVenhance.Statements.Section4.XFlowInv
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.TimeScaleBounds
 
 /-! # Flow-slice identification and time window on `supp ξ_{m,k}`
 

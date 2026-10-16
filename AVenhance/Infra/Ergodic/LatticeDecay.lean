@@ -4,9 +4,6 @@
 module
 
 public import AVenhance.Infra.Ergodic.BasicL1
-public import Mathlib.Analysis.PSeries
-public import Mathlib.Analysis.SpecialFunctions.Exp
-public import Mathlib.Topology.Algebra.InfiniteSum.Real
 
 /-! # Exponential sums on integer frequency lattices -/
 

@@ -3,11 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffXi
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffDecay
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffXi
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffDecay
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
+public import AVenhance.Infra.Section5.Terms
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
 
 /-! # Pointwise bound of `cutoff1` (`e.monster.est.3`)
 

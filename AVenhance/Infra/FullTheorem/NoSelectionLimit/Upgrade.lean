@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.NoSelectionLimit.Middle
+import AVenhance.Infra.FullTheorem.NoSelectionLimit.Middle
+public import AVenhance.Statements.FullTheorem.HolderTimeL2Le
+import AVenhance.Infra.FullTheorem.NoSelectionLimit.Real
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Holder
+import AVenhance.Infra.Section5.IndyStepDownPartI
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Hölder upgrade by interpolation
 

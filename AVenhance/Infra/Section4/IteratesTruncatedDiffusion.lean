@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedMatrix
+import AVenhance.Infra.Section4.IteratesTruncatedMatrix
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.SpaceLap
+import AVenhance.Infra.Section4.IteratesEnergy
 
 /-! Exact current diffusion transfer at every actual terminal time. -/
 
@@ -11,7 +16,6 @@ public import AVenhance.Infra.Section4.IteratesTruncatedMatrix
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open AVenhance
 

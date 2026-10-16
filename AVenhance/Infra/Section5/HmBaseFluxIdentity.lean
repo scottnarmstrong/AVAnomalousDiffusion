@@ -3,11 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.FrozenHmSourceIdentity
-public import AVenhance.Infra.Section5.GradientChain
-public import AVenhance.Infra.Section5.FrozenFlowRegularity
 public import AVenhance.Infra.Section4.LocalFinite
-public import AVenhance.Statements.Section3.KMat
+public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Statements.Section3.JHat
 
 /-! The order-zero `A/q` endpoint is the homogenized flux defect applied to
 the flow-averaged pulled gradient. -/

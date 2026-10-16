@@ -3,17 +3,34 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.BigBound
-public import AVenhance.Infra.Section5.Terms.R46IteratesRegularity
-public import AVenhance.Infra.Section5.ResidualPointwiseConstructor
-public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
-public import AVenhance.Infra.Section4.IteratesEnergy
-public import AVenhance.Infra.Section4.Amnr.HmAdapter
-public import AVenhance.Infra.Section4.Amnr.FlowAverage
-public import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
-public import AVenhance.Infra.Section5.HmBaseFluxIdentity
-public import AVenhance.Infra.Section5.CorrectorLocalization
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section4.IteratesEnergy
+import AVenhance.Infra.Section4.Amnr.FlowAverage
+import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
+import AVenhance.Infra.Section5.CorrectorLocalization
 public import Mathlib.Analysis.Matrix.Normed
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section5.Terms.Normie1
+public import AVenhance.Infra.Section5.Terms.Normie2
+public import AVenhance.Infra.Section5.Terms.Twistie3
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section3.ShearFormula
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.TemperatureCalculus
+import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.DivergenceLinearity
+import AVenhance.Infra.Section5.FlowPiolaIdentity
+import AVenhance.Infra.Section5.OddSupportTsum
+import AVenhance.Infra.Section5.StreamFlowPiola
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Regularity fields for one big-bound estimate instance, excluding the scalar mean fields. -/
 

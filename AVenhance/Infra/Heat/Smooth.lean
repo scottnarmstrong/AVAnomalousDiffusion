@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Heat.Analytic
-public import Mathlib.NumberTheory.ModularForms.JacobiTheta.TwoVariable
+import Mathlib.NumberTheory.ModularForms.JacobiTheta.TwoVariable
+public import AVenhance.Infra.Heat.Semigroup
 
 @[expose] public section
 

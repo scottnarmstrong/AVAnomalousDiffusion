@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section3.LRecurseTop
-public import AVenhance.Infra.Section4.Amnr.TemperatureMixedSourceBounds
+public import AVenhance.Infra.Section3.OneStepAveragingUnconditional
+public import AVenhance.Statements.Section3.KappaAt
 
 /-! The actual diffusivity step controls Kmat also at the terminal scale. -/
 

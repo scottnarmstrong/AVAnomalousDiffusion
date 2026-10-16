@@ -3,8 +3,26 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ATensorBound
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpointMixed
+import AVenhance.Infra.Section5.RelativeError.ATensorBound
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpointMixed
+public import AVenhance.Infra.Section4.HmBounds
+public import AVenhance.Infra.Section5.RelativeError.ATensorBoundCoeff
+public import AVenhance.Infra.Section5.RelativeError.MaterialAmnrAdapters
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.Amnr.HmAdapter
+import AVenhance.Infra.Section4.Amnr.Rates
+import AVenhance.Infra.Section4.Amnr.SourceSmallnessThreshold
+import AVenhance.Infra.Section4.Amnr.TemperatureDiffusionRates
+import AVenhance.Infra.Section4.Amnr.TemporalPairing
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpoint
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
+import Mathlib.Algebra.Order.Star.Real
 
 /-! The positive-time endpoint source from S-normalized gradient jets.
 One spatial letter is consumed at every r ≤ Jcut, including the terminal
@@ -14,7 +32,6 @@ level. Physical seed, coefficient and velocity estimates come from ATensor. -/
 
 noncomputable section
 open MeasureTheory Homogenization Set
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section5.RelativeError
 open AVenhance AVenhance.Infra.Section4 AVenhance.Infra.Section5.LeftToShow
 

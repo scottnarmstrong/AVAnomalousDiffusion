@@ -4,10 +4,13 @@
 module
 
 public import AVenhance.Infra.Section5.LeftToShow.Defs
-public import AVenhance.Infra.Section3.MovingEnergyReduction
-public import AVenhance.Infra.Section3.KappaAtBounds
-public import AVenhance.Statements.Section3.KhomEqScalar
-public import AVenhance.Statements.Section4.KappaSeqPred
+import AVenhance.Infra.Section3.MovingEnergyReduction
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Statements.Section3.KhomEqScalar
+import AVenhance.Statements.Section4.KappaSeqPred
+public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Statements.Section4.KappaSeq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Matrix algebra of `e.left.to.show`
 

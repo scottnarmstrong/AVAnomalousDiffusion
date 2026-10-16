@@ -3,9 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.LocalFinite
 public import AVenhance.Statements.Section4.SMat
-public import Mathlib.Analysis.Matrix.Normed
 
 /-! # Structural coarse-coefficient interface for 
 
@@ -18,7 +16,6 @@ Infra candidate belong to this family; no analytic estimate is assumed.
 
 noncomputable section
 open Homogenization
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open AVenhance
 

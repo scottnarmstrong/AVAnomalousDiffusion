@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualTerminalEnergy
+import AVenhance.Infra.Section4.IteratesActualTerminalEnergy
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Roots.L2NormSq
 
 @[expose] public section
 

@@ -3,11 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.BracketFF
+import AVenhance.Infra.Section5.LeftToShow.BracketFF
 public import AVenhance.Infra.Section5.ErgodicParams
-public import AVenhance.Infra.Ergodic.FlowAverages
+import AVenhance.Infra.Ergodic.FlowAverages
 public import AVenhance.Infra.Ergodic.FourierDecay
-public import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section3.CorrectorBounds
+public import AVenhance.Infra.Ergodic.Periodic
+public import AVenhance.Infra.Section5.LeftToShow.BreakUp
+public import AVenhance.Statements.Section4.XFlow
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.CorrectorGradient
+import AVenhance.Infra.Section3.MovingEnergyReduction
+import AVenhance.Infra.Section5.LeftToShow.Matrix
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `e.ergodic.space.kill` at a fixed time
 

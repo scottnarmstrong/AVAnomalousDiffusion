@@ -3,10 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3Analytic
-public import AVenhance.Infra.Section5.Contracts.TermCenteredNd
-public import AVenhance.Infra.Section5.Contracts.TermCenteredPT
-public import AVenhance.Infra.Section5.Contracts.TermCenteredCombine
+import AVenhance.Infra.Section5.Contracts.TermCenteredNd
+import AVenhance.Infra.Section5.Contracts.TermCenteredPT
+import AVenhance.Infra.Section5.Contracts.TermCenteredCombine
+public import AVenhance.Infra.Section5.Contracts.TermCenteredErgodic
+public import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3Slow
+public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
+import AVenhance.Infra.Section5.Contracts.TermCenteredFluxEntries
+import AVenhance.Infra.Section5.Contracts.TermSourcesFluxL2
 
 /-! # Per-time centered bound for `normie3`
 

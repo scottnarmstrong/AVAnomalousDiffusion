@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.UniformAnalytic.TailHolder
-public import AVenhance.Statements.Construction.LimitFieldRegular
+import AVenhance.Statements.Construction.LimitFieldRegular
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Construction.LimitFieldBounds
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! # Regularity data of the limit field
 

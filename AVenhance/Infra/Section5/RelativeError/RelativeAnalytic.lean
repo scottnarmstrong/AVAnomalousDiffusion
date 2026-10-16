@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativePositiveComposition
-public import AVenhance.Infra.Section5.AnalyticBridge.Bridge
+import AVenhance.Infra.Section5.RelativeError.RelativePositiveComposition
+import AVenhance.Infra.Section5.AnalyticBridge.Bridge
+public import AVenhance.Infra.Ergodic.FourierDecay
+public import AVenhance.Infra.Section5.AnalyticBridge.Defs
+public import AVenhance.Statements.Roots.SpaceGrad
+import AVenhance.Infra.Section5.AnalyticBridge.Derivs
+import AVenhance.Infra.Section5.AnalyticBridge.GradSnorm
+import AVenhance.Infra.Section5.RelativeError.RelativePositiveSup
 
 /-! Positive-temperature-jet quadratic bridge. No zeroth temperature norm is used. -/
 

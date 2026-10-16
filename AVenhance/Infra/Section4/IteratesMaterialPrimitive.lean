@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTimeProduct
+import AVenhance.Infra.Section4.IteratesTimeProduct
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.UnitCube
+import AVenhance.Infra.Section4.IteratesMaterial
 
 /-! Material integration by parts for the actual time primitive. -/
 

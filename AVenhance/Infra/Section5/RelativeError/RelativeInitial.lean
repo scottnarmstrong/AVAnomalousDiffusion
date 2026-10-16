@@ -3,11 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.GradientChain
-public import AVenhance.Infra.Section5.LeftToShow.Assembly.SecondLast
-public import AVenhance.Infra.Section5.IndyStepDownPartI
-public import AVenhance.Infra.Section5.Integration.IndyStepDownPartI
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.Integration.IndyStepDownPartI
+public import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section4.ChiTilde
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
+import Mathlib.Algebra.Order.Star.Real
 
 /-! with the actual initial corrector. The active flow derivative bound,
 corrector size and positive initial gradient trace are separate named inputs.

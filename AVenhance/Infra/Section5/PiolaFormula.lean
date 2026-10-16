@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.FluxDivergence
+import AVenhance.Infra.Section5.FluxDivergence
+public import AVenhance.Statements.Section4.VecDiv
 
 /-! Coordinate Piola formula for a corrected push-forward matrix. -/
 

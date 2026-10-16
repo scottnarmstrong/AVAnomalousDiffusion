@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesDiffusion
+public import AVenhance.Statements.Section4.VecDiv
+public import Mathlib.Analysis.Matrix.Normed
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Explicit spatial Leibniz expansions for the actual increment forcing.
 The differentiated forcing is computed rather than supplied as an equation. -/

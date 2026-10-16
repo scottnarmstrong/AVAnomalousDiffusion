@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Torus.Slicing
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
-public import Homogenization.Sobolev.CubeEmbedding.FaceReflectionLines
+import AVenhance.Infra.Torus.Slicing
+import Homogenization.Sobolev.CubeEmbedding.FaceReflectionLines
+public import AVenhance.Infra.Torus.Basic
+public import Homogenization.Sobolev.WeakDerivatives
 
 /-! Smooth periodic integration by parts on half-open fundamental cells. -/
 

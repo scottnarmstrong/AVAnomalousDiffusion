@@ -3,9 +3,6 @@
 
 module
 
-public import AVenhance.Infra.Section5.ClassicalRegularity
-public import AVenhance.Infra.Classical.TimeEnergy
-public import AVenhance.Statements.Section4.IsClassicalSol
 public import AVenhance.Statements.Roots.SpaceGrad
 
 /-!

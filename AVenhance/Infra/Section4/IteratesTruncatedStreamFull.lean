@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedStream
+import AVenhance.Infra.Section4.IteratesTruncatedStream
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.SigmaMat
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Full nonnegative energies control each actual terminal stream pairing. -/
 

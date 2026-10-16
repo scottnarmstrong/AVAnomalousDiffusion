@@ -4,6 +4,22 @@
 module
 
 public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsHolderClass
+import AVenhance.Infra.Construction.ExplicitBarNorm
+import AVenhance.Infra.Construction.LimitFieldRegularity
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.SpatialRegularity
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 @[expose] public section
 

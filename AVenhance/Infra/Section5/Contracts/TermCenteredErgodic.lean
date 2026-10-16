@@ -3,9 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.SlowFactorBounds
-public import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
+import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
 public import AVenhance.Infra.Section5.Integration.BigBound.Centered
+public import AVenhance.Infra.Ergodic.CenteredSpectralMean
+public import AVenhance.Infra.Ergodic.HMinusOneErgodic
+public import AVenhance.Infra.Ergodic.HMinusOneErgodicFlow
+public import AVenhance.Statements.Section4.HMinusOneNorm
+import AVenhance.Infra.Section5.LeftToShow.BracketFF
+import AVenhance.Infra.Section5.SlowFactorBoundsCentered
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # One centered ergodic component
 

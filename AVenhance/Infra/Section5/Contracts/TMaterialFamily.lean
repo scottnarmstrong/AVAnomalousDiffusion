@@ -3,11 +3,23 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TMaterialProfiles
-public import AVenhance.Infra.Section5.Contracts.TMaterialSpatialCoefficient
-public import AVenhance.Infra.Section5.Contracts.TJets
-public import AVenhance.Infra.Section4.Amnr.SourceJetLevels
-public import AVenhance.Infra.Section4.Amnr.TemperatureDiffusionRates
+import AVenhance.Infra.Section5.Contracts.TMaterialProfiles
+import AVenhance.Infra.Section5.Contracts.TMaterialSpatialCoefficient
+import AVenhance.Infra.Section4.Amnr.SourceJetLevels
+import AVenhance.Infra.Section4.Amnr.TemperatureDiffusionRates
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.Amnr.HmAdapter
+import AVenhance.Infra.Section4.Amnr.Rates
+import AVenhance.Infra.Section4.IteratesDiffusivityComparison
+import AVenhance.Infra.Section4.TUpgradeConsumersScales
+import AVenhance.Infra.Section4.TUpgradeConsumersV
+import AVenhance.Infra.Section5.RelativeError.ATensorJets
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Uniform minimal material estimate from the abstract-amplitude theta profile. -/
 

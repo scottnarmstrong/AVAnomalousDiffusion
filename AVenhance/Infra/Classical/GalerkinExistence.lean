@@ -5,7 +5,10 @@ module
 
 public import AVenhance.Infra.Classical.GalerkinProblem
 public import AVenhance.Infra.Classical.GalerkinBounds
-public import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Classical.TimeEnergy
+public import AVenhance.Infra.Classical.GalerkinDerivative
+import AVenhance.Infra.Classical.GalerkinGenerator
+import AVenhance.Infra.Classical.PeriodicCalculus
 
 /-! All-order forced Galerkin estimates and classical-limit construction. -/
 

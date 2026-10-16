@@ -3,7 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTSourceUpgrade
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesBudgetConstantChoice
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Section4.IsTIterates
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesFiniteAnalyticSum
+import AVenhance.Infra.Section4.IteratesProfileNorms
+import AVenhance.Infra.Section4.IteratesTFiniteNorm
+import AVenhance.Infra.Section4.IteratesTSourceScale
+import AVenhance.Infra.Section4.IteratesVAbstractAmplitude
 
 /-! Scalar zeroth-order T estimate, independent of actual-flow discharge. -/
 

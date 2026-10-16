@@ -4,7 +4,11 @@
 module
 
 public import AVenhance.Infra.Section4.HmBounds
-public import AVenhance.Infra.Section4.Params
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.Approx
+import AVenhance.Infra.Section3.QMNRRecursion
+import AVenhance.Infra.Section4.DmBounds
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! # Open-time `H̃_m` gradient: componentwise estimates
 

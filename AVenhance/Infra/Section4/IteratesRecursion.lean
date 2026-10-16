@@ -3,8 +3,9 @@
 
 module
 
-public import Mathlib.Analysis.SpecificLimits.Basic
-public import Mathlib.Tactic
+import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Real.Basic
 
 /-! Scalar closure of the normalized all-order recurrence in l.V.
 This module is algebraic: application to the actual iterates additionally

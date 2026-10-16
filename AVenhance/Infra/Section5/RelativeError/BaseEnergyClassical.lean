@@ -3,8 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.BaseEnergyFrozen
-public import AVenhance.Infra.Section5.RelativeError.BaseEnergyScalar
+import AVenhance.Infra.Section5.RelativeError.BaseEnergyFrozen
+import AVenhance.Infra.Section5.RelativeError.BaseEnergyScalar
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Torus.FrozenBridge
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # dissipation lower bound for classical solutions
 

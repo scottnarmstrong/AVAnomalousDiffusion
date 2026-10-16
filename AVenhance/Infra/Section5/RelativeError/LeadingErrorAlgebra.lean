@@ -4,10 +4,13 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraContinuity
-public import AVenhance.Infra.Section5.LeftToShow.Matrix
-public import AVenhance.Infra.Section5.OddSupportTsum
-public import AVenhance.Infra.Section5.AnsatzGradient
+import AVenhance.Infra.Section5.LeftToShow.Matrix
+import AVenhance.Infra.Section5.OddSupportTsum
+import AVenhance.Infra.Section5.AnsatzGradient
+public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Section5.LeftToShow.Defs
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
 
 /-! # Exact decomposition of `∇θ̃_m - F ∇T_{m-1}` (`e.grad.tildetheta.again`, 8112–8143)
 

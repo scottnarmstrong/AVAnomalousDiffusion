@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.FluxDivergence
-public import AVenhance.Infra.Section5.TransportIdentities
+import AVenhance.Infra.Section5.FluxDivergence
+public import AVenhance.Infra.Section5.Terms
 
 /-! Matrix-vector divergence with column divergence and row Jacobians. -/
 

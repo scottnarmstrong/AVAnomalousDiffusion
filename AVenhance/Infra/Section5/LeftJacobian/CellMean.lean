@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftJacobian.Candidate
-public import AVenhance.Infra.Section3.FluxMatrix
-public import AVenhance.Infra.Section5.LeftToShow.BracketFF
+import AVenhance.Infra.Section3.FluxMatrix
+import AVenhance.Infra.Section5.LeftToShow.BracketFF
+public import AVenhance.Statements.Section3.Flux
+import AVenhance.Infra.Section3.FluxStructure
 
 /-!: the zero cell mean of the fast factor of `normie3⁺`.
 

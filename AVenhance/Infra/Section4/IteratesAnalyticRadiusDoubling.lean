@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesAnalyticWeightOrder
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Tactic.NormNum.Ineq
+import Mathlib.Tactic.Positivity.Basic
 
 @[expose] public section
 

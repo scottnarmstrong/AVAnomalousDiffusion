@@ -4,7 +4,10 @@
 module
 
 public import AVenhance.Infra.FaaDiBruno.Resummation
-public import Mathlib.MeasureTheory.Measure.Support
+import Mathlib.MeasureTheory.Measure.Support
+public import AVenhance.Infra.FaaDiBruno.Seminorm
+import AVenhance.Infra.FaaDiBruno.Formula
+import Mathlib.Analysis.Calculus.ContDiff.Comp
 
 /-!
 # Sharp composition bounds

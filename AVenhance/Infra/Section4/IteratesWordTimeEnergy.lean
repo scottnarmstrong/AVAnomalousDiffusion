@@ -3,9 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordSolution
-public import AVenhance.Infra.Section4.IteratesTime
-public import AVenhance.Infra.Section4.IteratesEnergyIntegrability
+import AVenhance.Infra.Section4.IteratesWordSolution
+import AVenhance.Infra.Section4.IteratesTime
+import AVenhance.Infra.Section4.IteratesEnergyIntegrability
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.IteratesEnergy
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 /-! Exact terminal-time energy of actual differentiated increments.
 The drift commutator and differentiated forcing retain their signed pairings. -/
@@ -14,7 +23,6 @@ The drift commutator and differentiated forcing retain their signed pairings. -/
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

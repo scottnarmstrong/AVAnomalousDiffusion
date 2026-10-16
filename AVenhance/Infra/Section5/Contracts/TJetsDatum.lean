@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TJetsSecondOrder
+import AVenhance.Infra.Section5.Contracts.TJetsSecondOrder
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesTSourceScale
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section4.TUpgradeConsumersFinal
+import AVenhance.Infra.Section4.TUpgradeConsumersJets
+import AVenhance.Infra.Section4.TUpgradeConsumersPackaging
+import AVenhance.Infra.Section4.TUpgradeConsumersScales
 
 /-! # Joint datum jets with one uniform coefficient -/
 

@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesHigherEnergyBudget
-public import Mathlib.Tactic.FieldSimp
-public import Mathlib.Tactic.Ring
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Algebra.Order.Archimedean.Real.Basic
 
 @[expose] public section
 

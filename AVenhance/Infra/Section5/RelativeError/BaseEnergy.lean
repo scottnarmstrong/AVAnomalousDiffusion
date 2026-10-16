@@ -4,8 +4,19 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.LaterStart
-public import AVenhance.Infra.Section5.RelativeError.BaseEnergyClassical
-public import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Infra.Section5.RelativeError.BaseEnergyClassical
+import AVenhance.Infra.Construction.LimitFieldBounds
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Statements.Section3.LRecurse
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-! # base energy at the later start("The coarse diffusivity satisfies ...",
 "Poincaré at 9166–9190 gives ...") and §6 item 11.  For `j = laterStart β Λ R < M`:

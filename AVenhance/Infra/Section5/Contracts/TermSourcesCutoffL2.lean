@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms.R46FluxEstimate
-public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Section5.Terms.R46FluxEstimate
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `L²_{t,x}` transfer for the `cutoff1` source contract
 

@@ -4,8 +4,11 @@
 module
 
 public import AVenhance.Infra.Section4.HmBounds
-public import AVenhance.Infra.Section5.FrozenHmSourceIdentity
-public import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.Parameters
+public import AVenhance.Infra.Section5.FrozenHmTelescope
+import AVenhance.Infra.Section3.Approx
+import AVenhance.Infra.Section3.QMNRRecursion
+import AVenhance.Infra.Section4.DmBounds
 
 /-! L2 estimate for the actual endpoint source in the Hm material telescope.
 Unlike Hmr, this endpoint uses q_r (not q_{r+1}); the terminal r=Jcut needs

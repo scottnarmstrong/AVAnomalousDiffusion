@@ -3,15 +3,13 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.HatXiML
-public import AVenhance.Statements.Roots.SpaceGrad
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.LinearAlgebra.Matrix.Notation
 
 /-! Statement file: `sigmaMat` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/
 
 @[expose] public section
-
-open MeasureTheory Homogenization
 
 noncomputable section
 

@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.HmPiolaRateQ
+import AVenhance.Infra.Section5.Contracts.HmPiolaRateQ
 public import AVenhance.Infra.Section5.Contracts.HmSup
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.HmMeasurability
+import AVenhance.Infra.Section4.HmSourceRatesFlux
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2
 
 /-! # Family producer for the Piola source rate
 

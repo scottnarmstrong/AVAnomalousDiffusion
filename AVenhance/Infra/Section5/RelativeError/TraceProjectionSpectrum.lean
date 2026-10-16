@@ -3,9 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TraceClassical
 public import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
 public import AVenhance.Infra.Torus.FrozenBridge
+public import AVenhance.Statements.Section3.SpaceLap
+public import Mathlib.Analysis.CStarAlgebra.Classes
+import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Section5.RelativeError.TransportTracePairing
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Order.CompletePartialOrder
 
 /-! # Fourier spectral facts for the finite radial cutoff -/
 

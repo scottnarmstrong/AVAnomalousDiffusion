@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
 
 /-! # Part I: the one-sided recursion `amnrWithin` and its `C^∞` extension to `t ≥ 0`
 

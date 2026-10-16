@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTerminalSmallAnalyticFlux
-public import AVenhance.Infra.Section4.IteratesMeanCorrectionRegularity
+import AVenhance.Infra.Section4.IteratesTerminalSmallAnalyticFlux
+import AVenhance.Infra.Section4.IteratesMeanCorrectionRegularity
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.SMat
 
 @[expose] public section
 

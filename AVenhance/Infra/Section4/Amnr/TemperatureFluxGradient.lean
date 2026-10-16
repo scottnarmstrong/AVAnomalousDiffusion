@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureGradientMaterialEquation
+public import AVenhance.Infra.Section4.Amnr.TemperatureFluxBounds
+public import AVenhance.Statements.Section4.TForcing
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
+import AVenhance.Infra.Section4.Amnr.TemperatureFluxIdentity
+import Mathlib.Order.CompletePartialOrder
 
 /-! Differentiating the actual forcing flux within its finite source order. -/
 

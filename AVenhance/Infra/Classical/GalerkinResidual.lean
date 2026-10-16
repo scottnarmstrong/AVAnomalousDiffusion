@@ -3,12 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinResidualTail
-public import AVenhance.Infra.Classical.GalerkinGenerator
-public import AVenhance.Infra.Classical.GalerkinDerivative
-public import AVenhance.Infra.Classical.Commutator
-public import AVenhance.Infra.Torus.FourierCalculus
-public import AVenhance.Infra.Torus.FrozenBridge
+import AVenhance.Infra.Classical.GalerkinResidualTail
+import AVenhance.Infra.Classical.GalerkinGenerator
+public import AVenhance.Infra.Classical.GalerkinModeCalculus
+public import AVenhance.Infra.Parabolic.FourierGalerkin.CutoffNesting
+public import AVenhance.Infra.Parabolic.FourierGalerkin.Density
+public import AVenhance.Statements.Roots.GradNormSq
+import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Parabolic.FourierGalerkin.ConcreteData
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Cutoff tails of smooth real periodic residuals. -/
 

@@ -3,10 +3,10 @@
 
 module
 
-public import AVenhance.Infra.ODE.Linear
 public import AVenhance.Infra.Parabolic.FourierGalerkin.ODE
-public import Mathlib.Analysis.InnerProductSpace.Basic
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.DerivIntegrable
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.DerivIntegrable
+import AVenhance.Infra.ODE.Linear.Energy
+import AVenhance.Infra.ODE.Linear.Gronwall
 
 /-!
 # Energy estimate for a finite Galerkin system

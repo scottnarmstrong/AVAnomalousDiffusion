@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularityFlow
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularityFlow
 public import AVenhance.Statements.Section4.Ansatz
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Section3.CorrTimeRegularity
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
 
 /-! # Regularity and periodicity of the ansatz `θ̃_m`
 

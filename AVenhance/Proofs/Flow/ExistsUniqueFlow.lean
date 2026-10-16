@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Flow.GlobalExistence
+import AVenhance.Infra.Flow.GlobalExistence
+public import AVenhance.Statements.Flow.IsFlow
 
 @[expose] public section
 

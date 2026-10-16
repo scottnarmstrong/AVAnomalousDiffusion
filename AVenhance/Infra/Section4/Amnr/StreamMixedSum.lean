@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.StreamMixedJets
+import AVenhance.Infra.Section4.Amnr.StreamMixedJets
+public import AVenhance.Infra.Section4.Amnr.TransportProfileJets
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.StreamMaterialSum
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! Locally finite sums of all actual mixed stream jets. -/
 

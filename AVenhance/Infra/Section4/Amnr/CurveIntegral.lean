@@ -3,14 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CurveSmoothness
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
 
 /-! The actual Volterra integral as a bounded operator on compact-time curves. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory Set
+open MeasureTheory Set
 namespace AVenhance.Infra.Section4
 
 variable {E : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E] [CompleteSpace E]

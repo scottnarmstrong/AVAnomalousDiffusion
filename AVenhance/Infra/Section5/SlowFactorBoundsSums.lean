@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.SlowFactorBoundsShifts
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
+import AVenhance.Infra.Section5.SlowFactorBoundsProduct
 
 /-! Finite coordinate contractions and cutoff scalars preserve the averaged
 analytic envelope. -/
@@ -13,7 +14,7 @@ analytic envelope. -/
 noncomputable section
 open scoped ContDiff ENNReal
 open MeasureTheory Homogenization AVenhance.FaaDiBruno
-open AVenhance.Infra.Section4 AVenhance.Infra.Ergodic AVenhance.Infra.Torus
+open AVenhance.Infra.Section4
 namespace AVenhance.Infra.Section5
 
 theorem slowWord_sum {ι : Type*} (s : Finset ι) (f : ι → Vec 2 → ℝ)

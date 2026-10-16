@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedContinuousFlux
-public import AVenhance.Infra.Section4.IteratesFilteredGrouping
+import AVenhance.Infra.Section4.IteratesTruncatedContinuousFlux
+import AVenhance.Infra.Section4.IteratesFilteredGrouping
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Uniform dissipation allocation for actual selected coefficient orders. -/
 

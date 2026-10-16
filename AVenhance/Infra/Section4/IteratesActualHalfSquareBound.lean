@@ -3,8 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesHalfSquareBound
-public import AVenhance.Infra.Section4.IteratesActualHessianCancellation
+import AVenhance.Infra.Section4.IteratesHalfSquareBound
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section4.IteratesCancellation
+import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 @[expose] public section
 

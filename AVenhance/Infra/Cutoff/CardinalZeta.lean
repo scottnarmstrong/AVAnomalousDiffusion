@@ -5,7 +5,8 @@ module
 
 public import AVenhance.Infra.Cutoff.CardinalMass
 public import AVenhance.Infra.Cutoff.ShiftPartition
-public import AVenhance.Statements.Ingredients.Ingredients
+public import AVenhance.Statements.Ingredients.IndIcc
+import Mathlib.Topology.UniformSpace.Uniformizable
 
 /-! The smooth, compactly supported part of the small time partition. -/
 

@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.UniformH1.Algebra
+import AVenhance.Infra.FullTheorem.UniformH1.Algebra
 public import AVenhance.Infra.FullTheorem.Integration.UniformContracts
-public import AVenhance.Infra.FullTheorem.Integration.Statements
+public import AVenhance.Statements.FullTheorem.HolderTimeL2Le
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `H¹` case of `r.LeBron.2`: the approximation argument
 

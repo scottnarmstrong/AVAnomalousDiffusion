@@ -3,8 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Construction.Section2FlowRegularityCore
-public import AVenhance.Infra.FaaDiBruno.TransportSharpEstimate
+import AVenhance.Infra.Construction.Section2FlowRegularityCore
+import AVenhance.Infra.FaaDiBruno.TransportSharpEstimate
+public import AVenhance.Infra.Construction.RecursionIncrement
+public import AVenhance.Infra.FaaDiBruno.TransportSolution.GradientMatrix
+import AVenhance.Infra.Construction.AppB2FieldBounds
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Construction.Section2JointInduction
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Quantitative regularity of the inverse flow in the §2 time window. -/
 

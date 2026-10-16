@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaCommutatorBounds
 public import AVenhance.Statements.Section4.IsThetaAnalytic
+public import AVenhance.Infra.Section4.ThetaCommutator
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.ThetaTimeEnergy
 
 /-! Initial-data bounds in the ordered-word convention used by the energy
 recursion. -/

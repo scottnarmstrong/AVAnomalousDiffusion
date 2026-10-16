@@ -3,9 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Construction.FlowTransport
 public import AVenhance.Infra.Construction.MaterialGoalSource
-public import AVenhance.Infra.FaaDiBruno.Composition
 
 /-! Material transport commutes with composition by an inverse-flow
 coordinate. -/

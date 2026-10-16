@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.WeakUniqueness.ZeroDataEnergy
-public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
-public import AVenhance.Statements.Roots.IsWeakSolution
+import AVenhance.Infra.Parabolic.WeakUniqueness.ZeroDataEnergy
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Algebra.Ring.IsFormallyReal
 
 /-!
 # Uniqueness in the weak-solution class

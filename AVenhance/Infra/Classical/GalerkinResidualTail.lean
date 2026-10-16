@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinConvergence
 public import AVenhance.Infra.Heat.Energy
 public import AVenhance.Infra.Parabolic.FourierGalerkin.Density
-public import AVenhance.Infra.Parabolic.FourierGalerkin.FourierLimit
+public import AVenhance.Infra.Parabolic.FourierGalerkin.CutoffNesting
+public import Mathlib.Analysis.CStarAlgebra.Classes
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Fourier coefficient identities for differences of nested Galerkin cutoffs. -/
 

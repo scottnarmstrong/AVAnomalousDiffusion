@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Classical.Drift
 public import AVenhance.Statements.Roots.IsDivFree
-public import AVenhance.Statements.Construction.StreamVelContinuous
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Section4.VecDiv
 
 /-! # Divergence-freeness of finite stream velocities (Lemma r.LeBron, step (b))
 

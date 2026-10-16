@@ -3,10 +3,9 @@
 
 module
 
-public import Mathlib.Analysis.Calculus.ContDiff.Deriv
-public import Mathlib.Analysis.Calculus.Deriv.MeanValue
-public import Mathlib.Analysis.Calculus.LocalExtr.Basic
-public import Mathlib.Topology.MetricSpace.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Deriv
+import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
 
 @[expose] public section
 

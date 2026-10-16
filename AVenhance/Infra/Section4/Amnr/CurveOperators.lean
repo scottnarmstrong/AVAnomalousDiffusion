@@ -3,16 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowThirdPrimitive
 public import Mathlib.Topology.ContinuousMap.Compact
-public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff
+public import Mathlib.Algebra.Order.Archimedean.Real.Hom
+public import Mathlib.Analysis.Normed.Operator.BoundedLinearMaps
 
 /-! Curve-space operators for higher flow dependence on the initial point. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 open scoped NNReal
 namespace AVenhance.Infra.Section4
 

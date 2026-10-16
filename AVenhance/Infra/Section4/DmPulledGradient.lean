@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.DmBounds
-public import AVenhance.Infra.Flow.GradientDeviation
-public import AVenhance.Infra.Flow.SpatialRegularity
+public import AVenhance.Statements.Ingredients.HatXiML
+public import AVenhance.Statements.Section3.GradMatrix
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! Source estimate for the actual flow-pulled gradient in the first `d_m` term. -/
 

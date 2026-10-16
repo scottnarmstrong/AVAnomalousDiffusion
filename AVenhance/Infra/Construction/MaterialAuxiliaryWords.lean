@@ -3,9 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Construction.MaterialAuxiliaryProfile
-public import AVenhance.Infra.Section4.Amnr.StreamMixedSum
-public import AVenhance.Infra.Section4.Amnr.StreamMixedCurrentRates
+import AVenhance.Infra.Construction.MaterialAuxiliaryProfile
+import AVenhance.Infra.Section4.Amnr.StreamMixedSum
+import AVenhance.Infra.Section4.Amnr.StreamMixedCurrentRates
+public import AVenhance.Infra.Section4.Amnr.FineMaterialRates
+public import AVenhance.Infra.Section4.Amnr.TransportProfileJets
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.StreamGradientMaterial
+import AVenhance.Infra.Section4.Amnr.StreamMaterial
+import AVenhance.Infra.Section4.Amnr.StreamMixedJets
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! Source increment bounds with independent spatial and material cutoffs.
 The spatial stream-regularity and inverse-flow bounds hold at every order; only cutoff-time

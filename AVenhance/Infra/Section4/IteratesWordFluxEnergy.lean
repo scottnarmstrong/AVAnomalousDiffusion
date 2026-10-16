@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
-public import AVenhance.Infra.Section4.IteratesWeightedGrouping
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWeightedGrouping
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesWeightedSpaceTime
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Integrated word flux square from preceding scalar gradient energies. -/
 

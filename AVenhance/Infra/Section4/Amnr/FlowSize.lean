@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureCalculus
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Flow.Estimates
+import AVenhance.Infra.Section4.Amnr.Rates
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Primitive zero-order bounds for the actual pulled-back flow gradient. -/
 

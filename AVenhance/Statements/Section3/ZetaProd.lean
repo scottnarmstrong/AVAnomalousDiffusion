@@ -3,14 +3,16 @@
 
 module
 
-public import AVenhance.Statements.Section3.UShear
+public import AVenhance.Statements.Ingredients.HatZetaML
+public import AVenhance.Statements.Ingredients.LIdx
+public import AVenhance.Statements.Ingredients.ZetaMK
 
 /-! Statement file: `zetaProd` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/
 
 @[expose] public section
 
-open MeasureTheory Homogenization
+open MeasureTheory
 
 noncomputable section
 

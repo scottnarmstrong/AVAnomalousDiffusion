@@ -3,10 +3,20 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedStreamFull
-public import AVenhance.Infra.Section4.IteratesFirstStreamSum
-public import AVenhance.Infra.Section4.IteratesFirstStreamFactorials
-public import AVenhance.Infra.Section4.IteratesWordGrouping
+import AVenhance.Infra.Section4.IteratesTruncatedStreamFull
+import AVenhance.Infra.Section4.IteratesFirstStreamFactorials
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.SigmaMat
+import AVenhance.Infra.Section4.IteratesStreamPairing
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesWordMultiplicity
+import AVenhance.Infra.Section4.IteratesWordRegularity
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Exact first stream multiplicity and analytic radius gain at every terminal time. -/
 

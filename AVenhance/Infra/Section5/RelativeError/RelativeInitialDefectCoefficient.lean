@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectCutoffs
-public import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectCutoffs
+import AVenhance.Infra.Section3.CorrectorBounds
+public import AVenhance.Statements.Ingredients.XiMK
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section4.ChiTilde
+public import AVenhance.Statements.Section4.XFlow
+import AVenhance.Infra.Section5.RelativeError.RelativeInitial
 
 /-! Physical coefficient bound for the twisted initial corrector. -/
 

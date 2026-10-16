@@ -4,8 +4,6 @@
 module
 
 public import AVenhance.Infra.Torus.Basic
-public import Mathlib.Analysis.Calculus.ParametricIntegral
-public import Mathlib.MeasureTheory.Integral.Prod
 
 /-! # Continuity in time of unit-cell integrals of jointly continuous integrands on `(0,∞)` -/
 

@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Statements.Section4.HMinusOneNorm
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Ḣ⁻¹ duality for a smooth periodic test function
 

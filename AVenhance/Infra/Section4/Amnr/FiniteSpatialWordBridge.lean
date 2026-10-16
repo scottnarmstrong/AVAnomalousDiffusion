@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Exact finite-order spatial slice bridges for the actual flux. -/
 

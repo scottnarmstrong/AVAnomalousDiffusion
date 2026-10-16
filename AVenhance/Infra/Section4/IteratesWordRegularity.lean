@@ -4,8 +4,8 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesWordDiffusion
-public import Mathlib.Analysis.Calculus.TangentCone.Real
-public import Mathlib.Analysis.Calculus.TangentCone.Prod
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Section4.IsClassicalSol
 
 /-! Ordered spatial derivatives remain smooth up to the initial time.
 At the boundary the proof uses the within derivative, not an unsupported

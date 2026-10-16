@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmPerTimeAssembly
-public import AVenhance.Infra.Section4.HmPairingFubini
-public import AVenhance.Infra.Section4.HmPairingPrefix
+import AVenhance.Infra.Section4.HmPairingFubini
+import AVenhance.Infra.Section4.HmPairingPrefix
+public import AVenhance.Infra.Section4.HmTransportedEnergy
+public import AVenhance.Statements.Roots.TimeCube
 
 /-! Pairing inputs for a positive-time Hm cell. Spacetime L² bounds are
 converted to the time-slice data used by the regular and flux Cauchy

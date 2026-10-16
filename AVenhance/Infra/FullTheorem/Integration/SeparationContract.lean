@@ -3,11 +3,8 @@
 
 module
 
-public import AVenhance.Statements.Roots.SpaceGrad
 public import AVenhance.Statements.Roots.GradNormSq
 public import AVenhance.Statements.Roots.L2NormSq
-public import AVenhance.Statements.Roots.UnitCube
-public import AVenhance.Statements.Roots.IsZ2Periodic
 public import AVenhance.Statements.Construction.StreamVel
 public import AVenhance.Statements.Construction.IsAdmissibleStream
 public import AVenhance.Statements.Section4.IsClassicalSol

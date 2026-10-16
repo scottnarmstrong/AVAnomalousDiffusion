@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Statements.Ingredients.HatXiML
+public import AVenhance.Statements.Ingredients.HatZetaML
 
 /-! Pointwise consequences of the large-scale cutoff requirements. -/
 

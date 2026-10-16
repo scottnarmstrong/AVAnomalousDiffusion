@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section3.QMNRRecursion
+import AVenhance.Infra.Section3.QMNRRecursion
+public import AVenhance.Statements.Section3.QMNR
 
 /-! Proof of the §3 characterization of the `qMNR` family. -/
 

@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Construction.LimitSeries
-public import AVenhance.Statements.Ingredients.Q
+import AVenhance.Infra.Construction.LimitSeries
+public import AVenhance.Statements.Ingredients.Ingredients
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! # The diffusivity scales `κ_j = ε_{j+1}^p`
 

@@ -4,8 +4,8 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.AnalyticDerivativeTail
-public import AVenhance.Infra.Section5.RelativeError.TraceProjectionTrace
 public import AVenhance.Infra.Torus.FrozenBridge
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # derivative control for the finite low-frequency trace mode
 

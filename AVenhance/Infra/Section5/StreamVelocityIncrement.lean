@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.StreamIncrement
-public import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section5.StreamIncrement
+public import AVenhance.Infra.Section5.Terms
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! The stream recursion gives the exact perpendicular-gradient
 velocity increment used in the Section 5 operator split. -/

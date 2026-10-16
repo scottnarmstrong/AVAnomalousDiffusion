@@ -4,10 +4,11 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section5.ResidualForBigBound
-public import AVenhance.Infra.Section5.Terms.R46IteratesRegularity
-public import AVenhance.Infra.Section5.LeftToShow.Matrix
-public import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Section5.ResidualForBigBound
+import AVenhance.Infra.Section5.Terms.R46IteratesRegularity
+import AVenhance.Infra.Section5.LeftToShow.Matrix
+import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! # Contracts already produced
 

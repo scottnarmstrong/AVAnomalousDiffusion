@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesStreamPairing
+import AVenhance.Infra.Section4.IteratesStreamPairing
 public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Section3.SigmaMat
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Spatial skew transfer on every actual terminal-time cell. -/
 

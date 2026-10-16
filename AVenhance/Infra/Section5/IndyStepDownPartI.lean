@@ -5,10 +5,11 @@ module
 
 public import AVenhance.Infra.Heat.WeakBridge
 public import AVenhance.Infra.Section5.HMinusTools
-public import AVenhance.Infra.Section4.Params
 public import AVenhance.Statements.Section4.Ansatz
 public import AVenhance.Statements.Section4.IsTIterates
-public import AVenhance.Infra.Numeric.Exponents
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! Conditional infrastructure for conjunct (i) of step-down estimate.  The step-down estimate and big-bound estimate
 statement modules are intentionally not imported.  Their source-scale estimates,

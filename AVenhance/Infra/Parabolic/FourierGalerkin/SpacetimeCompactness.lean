@@ -4,7 +4,9 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.EquationModulus
-public import Mathlib.MeasureTheory.Function.L2Space
+import AVenhance.Infra.Parabolic.FourierGalerkin.Compactness
+import AVenhance.Infra.Parabolic.FourierGalerkin.LimitPassage
+import AVenhance.Infra.Parabolic.FourierGalerkin.PathCompactness
 
 /-!
 # Weak extraction in the scalar and gradient time-L² spaces

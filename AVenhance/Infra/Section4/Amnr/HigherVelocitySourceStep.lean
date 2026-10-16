@@ -4,6 +4,12 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.HigherFastSourceRates
+public import AVenhance.Infra.Section4.Amnr.CorrectionCardinality
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.CoarseSourceRates
+import AVenhance.Infra.Section4.Amnr.VelocityHigherStep
 
 /-! Higher scale-step estimates from the actual lower source levels. -/
 

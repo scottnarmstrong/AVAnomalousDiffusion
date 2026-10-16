@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.MatrixFluxProduct
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.Calculus.FDeriv.Defs
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! A local Fréchet derivative rule for a matrix-vector flux. -/
 

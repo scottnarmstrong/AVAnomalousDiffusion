@@ -3,11 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section3.ChiMRegularity
-public import AVenhance.Infra.Section3.ActiveModeFlux
-public import AVenhance.Infra.Section3.CutoffSymmetry
-public import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section3.ChiMRegularity
+import AVenhance.Infra.Section3.ActiveModeFlux
+import AVenhance.Infra.Section3.CorrectorBounds
 public import AVenhance.Statements.Section3.Flux
+public import AVenhance.Infra.Torus.Basic
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.CorrectorGradient
+import AVenhance.Infra.Section3.FluxStructure
+import AVenhance.Infra.Section3.ShearFormula
+import AVenhance.Infra.Section3.SpaceAverages
 
 /-! Matrix entry calculations for the explicit active-mode flux. -/
 

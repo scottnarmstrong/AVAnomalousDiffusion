@@ -3,10 +3,12 @@
 
 module
 
-public import Mathlib
-public import AVenhance.Infra.Numeric.Exponents
-public import AVenhance.Infra.Section5.Integration.PartIAnsatzScale
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffScalar
+import AVenhance.Infra.Numeric.Exponents
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffScalar
+public import AVenhance.Statements.Ingredients.Delta
+public import AVenhance.Statements.Ingredients.Gamma
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import AVenhance.Infra.Ingredients.Parameters
 
 /-! # Abstract-real scale arithmetic for the centered `normie3` bound
 

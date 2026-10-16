@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms
-public import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.Parameters
+public import AVenhance.Statements.Section4.IsTIterates
 
 /-! The exact transport equation for the final T-iterate. -/
 

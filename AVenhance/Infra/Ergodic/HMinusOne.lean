@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Ergodic.AveragesL2
+import AVenhance.Infra.Ergodic.AveragesL2
 public import AVenhance.Infra.Ergodic.Flow
-public import AVenhance.Infra.Torus.FourierCalculus
+public import AVenhance.Infra.Torus.Calculus
 
 /-! # The homogeneous negative Sobolev duality on the unit torus -/
 

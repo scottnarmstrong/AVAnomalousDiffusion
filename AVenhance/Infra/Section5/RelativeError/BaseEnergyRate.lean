@@ -4,9 +4,11 @@
 module
 
 public import AVenhance.Infra.Classical.TimeEnergy
-public import AVenhance.Infra.Classical.PeriodicCalculus
-public import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Classical.Drift
 public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
 
 /-! # instantaneous energy rate of a classical solution
 

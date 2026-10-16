@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowFirstMixed
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
+import AVenhance.Infra.Section4.Amnr.VelocitySecondRates
 
 /-! Operator bounds extracted from actual source coordinate derivatives. -/
 

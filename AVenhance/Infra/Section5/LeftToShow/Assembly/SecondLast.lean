@@ -3,12 +3,21 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.BracketFF
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section5.LeftToShow.JhatFacts
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP
-public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
-public import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Section5.LeftToShow.BracketFF
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.LeftToShow.JhatFacts
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP
+public import AVenhance.Infra.Section5.LeftToShow.BreakUp
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `e.ergodic.break.up.second` and `e.ergodic.break.up.last`, scaled
 

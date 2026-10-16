@@ -4,7 +4,7 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesAmplitude
-public import Mathlib.Data.Nat.Choose.Bounds
+import Mathlib.Tactic.Positivity.Finset
 
 @[expose] public section
 

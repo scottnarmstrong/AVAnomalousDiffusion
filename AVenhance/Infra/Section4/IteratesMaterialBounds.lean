@@ -13,7 +13,6 @@ not assert the induction hypothesis for the preceding increment. -/
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

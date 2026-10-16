@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section3.CorrTimeRegularity
-public import AVenhance.Infra.Section3.FluxStructure
-public import Mathlib.Topology.Algebra.InfiniteSum.Real
+import AVenhance.Infra.Section3.FluxStructure
+public import AVenhance.Statements.Section3.ChiM
+import AVenhance.Infra.Ingredients.LIdxConsequences
 
 /-! Local finite-sum continuity of the time-dependent corrector. -/
 

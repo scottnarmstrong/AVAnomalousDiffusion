@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Tactic.Monotonicity.Lemmas
+import Mathlib.Tactic.Positivity.Finset
 
 /-! Vector L2 triangle inequality with a narrow analysis import. -/
 

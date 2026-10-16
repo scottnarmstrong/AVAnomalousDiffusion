@@ -5,10 +5,10 @@ module
 
 public import AVenhance.Statements.Section4.XFlow
 public import AVenhance.Statements.Section4.XFlowInv
-public import AVenhance.Statements.FlowDefs.FlowIsFlow
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 public import AVenhance.Statements.FlowDefs.FlowInvLeftInverse
 public import AVenhance.Statements.FlowDefs.FlowInvRightInverse
-public import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Construction.StreamAdmissible
 public import AVenhance.Infra.Construction.Section2FlowIdentities
 public import AVenhance.Infra.Flow.JointSmoothFromFixedStart
 public import AVenhance.Infra.Flow.Laws

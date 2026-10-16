@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.TransportLimit.SolutionForm
-public import AVenhance.Infra.FullTheorem.TransportLimit.KappaBound
-public import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
+import AVenhance.Infra.FullTheorem.TransportLimit.SolutionForm
+import AVenhance.Infra.FullTheorem.TransportLimit.KappaBound
+import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
+public import AVenhance.Infra.FullTheorem.TransportLimit.DriftData
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # Quantitative viscous error for weak solutions

@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Ergodic.HMinusOneSpectral
-public import AVenhance.Infra.Ergodic.LatticeDecay
+import AVenhance.Infra.Ergodic.HMinusOneSpectral
+public import AVenhance.Infra.Ergodic.AveragesL1
+public import AVenhance.Infra.Ergodic.AveragesL2
+public import AVenhance.Infra.Ergodic.HMinusOne
 
 /-! # The frequency split in the homogeneous H⁻¹ ergodic estimate -/
 

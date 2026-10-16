@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.Induction
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Order.CompletePartialOrder
 
 /-! Infrastructure for the AMNR tensors: bridge from the recursion to the actual flow data. -/
 

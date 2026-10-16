@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesVelocityLower
-public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
 
 /-! Quantitative drift-error pairing from actual velocity jets. -/
 
@@ -13,7 +12,6 @@ public import AVenhance.Infra.Section4.IteratesWeightedFlux
 noncomputable section
 open Homogenization
 namespace AVenhance.Infra.Section4
-open IterateCalculus
 open AVenhance
 
 /-- The scalar velocity product for a specified list of actual ordered splits. -/

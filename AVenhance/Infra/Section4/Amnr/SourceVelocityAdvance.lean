@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.HigherVelocitySourceSum
+import AVenhance.Infra.Section4.Amnr.HigherVelocitySourceSum
+public import AVenhance.Infra.Section4.Amnr.HigherVelocitySourceStep
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.HigherStepConstants
 
 /-! Actual velocity induction through the next material level. -/
 

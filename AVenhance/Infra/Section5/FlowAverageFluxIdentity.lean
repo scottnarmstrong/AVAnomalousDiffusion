@@ -3,11 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Bounds
-public import AVenhance.Infra.Section5.HmBaseFluxIdentity
-public import AVenhance.Infra.Section4.LocalFinite
-public import AVenhance.Infra.Ingredients.CutoffConsequences
-public import AVenhance.Infra.Section5.LeftJacobian.PiolaFlux
+import AVenhance.Infra.Section5.LeftJacobian.PiolaFlux
+public import AVenhance.Statements.Section4.SMat
 
 /-! The `K_m + s_{m-1}` flux (corrected form).
 

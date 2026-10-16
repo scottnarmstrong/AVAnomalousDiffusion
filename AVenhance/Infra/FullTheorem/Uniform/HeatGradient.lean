@@ -5,8 +5,8 @@ module
 
 public import AVenhance.Infra.Section5.H1Reduction
 public import AVenhance.Infra.Heat.Energy
-public import AVenhance.Infra.Heat.SmoothClassical
-public import AVenhance.Infra.Torus.FrozenBridge
+import AVenhance.Infra.Heat.FrozenEstimates
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # The heat approximant does not increase the `H¹` seminorm

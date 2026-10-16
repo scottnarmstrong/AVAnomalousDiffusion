@@ -4,6 +4,11 @@
 module
 
 public import AVenhance.Infra.Section5.SlowFactorBoundsChoices
+public import AVenhance.Infra.Ergodic.AveragedCompositionCalculus
+public import AVenhance.Infra.Ergodic.AveragesL2
+public import AVenhance.Infra.Ergodic.Flow
+import AVenhance.Infra.Section5.SlowFactorBoundsAnalytic
+import AVenhance.Infra.Section5.SlowFactorBoundsProduct
 
 /-! Proved composed analytic inputs for all four slow factors. The order-zero
 bound is obtained from the same positive-T-jet calculation as every other order. -/

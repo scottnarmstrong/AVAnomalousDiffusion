@@ -4,9 +4,7 @@
 module
 
 public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakProjectionConvergence
-public import AVenhance.Infra.Parabolic.WeakUniqueness.FiniteGalerkinEnergy
-public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenDrift
-public import AVenhance.Infra.Classical.GalerkinModeCalculus
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # Strong spacetime cutoff convergence for weak solutions

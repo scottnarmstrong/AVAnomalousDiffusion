@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTiny
+import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTiny
+public import AVenhance.Infra.Section5.SourceErrors
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTerms
 
 /-! # Joint continuity of the six non-divergence §5.1 terms
 

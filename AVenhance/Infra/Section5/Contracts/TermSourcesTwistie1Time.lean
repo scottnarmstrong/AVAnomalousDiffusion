@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyTransfer
-public import AVenhance.Infra.Section5.HMinusTools
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyTransfer
+public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyPointwise
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Time assembly for the `twistie1` source contract
 

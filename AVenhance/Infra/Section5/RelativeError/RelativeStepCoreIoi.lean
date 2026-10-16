@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeStepCore
+public import AVenhance.Infra.Section5.LeftToShow.Defs
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.Ansatz
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Section5.RelativeError.RelativeNorms
+import AVenhance.Infra.Section5.RelativeError.RelativeScalar
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The relative energy comparison with an open-time ansatz gradient
 

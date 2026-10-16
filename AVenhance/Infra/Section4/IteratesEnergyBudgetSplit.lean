@@ -6,6 +6,7 @@ module
 public import AVenhance.Infra.Section4.IteratesFirstMaterialBudget
 public import AVenhance.Infra.Section4.IteratesMaterialBudgetMajorant
 public import AVenhance.Infra.Section4.IteratesStreamBudgetKernel
+public import AVenhance.Infra.Section4.IteratesHigherEnergyBudget
 
 @[expose] public section
 

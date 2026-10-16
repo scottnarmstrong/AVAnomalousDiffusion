@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinSmoothTimeDerivativeLaplacian
-public import Mathlib.Analysis.Calculus.UniformLimitsDeriv
-public import Mathlib.Topology.UniformSpace.CompactConvergence
+import AVenhance.Infra.Classical.GalerkinSmoothTimeDerivativeLaplacian
+public import AVenhance.Infra.Classical.GalerkinSmoothTimeDerivative
+public import Mathlib.Topology.Compactness.CompactlyGeneratedSpace
+import AVenhance.Infra.Classical.GalerkinSmoothTransportCoefficient
+import AVenhance.Infra.Classical.TimeEnergy
 
 /-! Uniform Cauchy convergence of the time derivatives of finite Fourier modes. -/
 

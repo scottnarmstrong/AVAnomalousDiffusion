@@ -3,15 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Params
-public import AVenhance.Infra.Section4.HmBounds
-public import AVenhance.Infra.Section4.DmBounds
-public import AVenhance.Infra.Section5.RelativeError.KappaProduct
-public import AVenhance.Infra.Section4.ThetaSpaceTime
-public import AVenhance.Infra.Section4.Amnr.Cutoff
-public import AVenhance.Infra.Section4.Amnr.VelocitySpatial
-public import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
-public import AVenhance.Infra.Section4.Amnr.HmAdapter
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Ingredients.Ingredients
+public import AVenhance.Statements.Section4.Jcut
+public import Homogenization.Ambient.Basic
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Scalar rate bookkeeping for the `p.Hm` and `p.dm` interfaces.
 

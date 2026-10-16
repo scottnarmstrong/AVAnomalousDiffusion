@@ -4,7 +4,7 @@
 module
 
 public import AVenhance.Infra.Section4.CoarseCoeff.WordBounds
-public import AVenhance.Infra.Section4.IteratesCoefficient
+import AVenhance.Infra.Ingredients.CutoffConsequences
 
 @[expose] public section
 

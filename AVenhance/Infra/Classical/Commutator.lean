@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Classical.Drift
-public import Mathlib.Analysis.Calculus.FDeriv.Mul
-public import Mathlib.Analysis.Calculus.FDeriv.Add
+public import AVenhance.Statements.Roots.SpaceGrad
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
 
 /-! First-order transport commutator identities for smooth Euclidean fields. -/
 

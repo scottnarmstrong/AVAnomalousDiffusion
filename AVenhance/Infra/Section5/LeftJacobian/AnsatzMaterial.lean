@@ -3,14 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftJacobian.SourceHelpers
-public import AVenhance.Infra.Section5.TEquationRegularity
-public import AVenhance.Infra.Section5.FrozenAnsatzMaterial
-public import AVenhance.Infra.Section5.TransportIdentities
-public import AVenhance.Infra.Section5.PulledGradientMaterial
-public import AVenhance.Infra.Section5.OddSupportTsum
-public import AVenhance.Infra.Section5.MatrixFluxProduct
-public import AVenhance.Infra.Section5.MatrixTransport
+import AVenhance.Infra.Section5.FrozenAnsatzMaterial
+import AVenhance.Infra.Section5.TransportIdentities
+import AVenhance.Infra.Section5.PulledGradientMaterial
+import AVenhance.Infra.Section5.OddSupportTsum
+import AVenhance.Infra.Section5.MatrixTransport
+public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Section5.FrozenAnsatzTime
+public import AVenhance.Infra.Section5.TEquation
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Source-generic ansatz material equation (corrected form).
 

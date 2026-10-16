@@ -4,10 +4,10 @@
 module
 
 public import AVenhance.Statements.Ingredients.Ingredients
-public import AVenhance.Infra.Cutoff.CardinalIntegral
-public import AVenhance.Infra.Cutoff.BaseCutoffs
-public import AVenhance.Infra.Cutoff.ScaleCutoffs
-public import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Cutoff.CardinalIntegral
+import AVenhance.Infra.Cutoff.BaseCutoffs
+import AVenhance.Infra.Cutoff.ScaleCutoffs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! Proof of ingredient statement ingredient existence. -/
 

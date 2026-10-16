@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TraceProjectionSpectrum
-public import AVenhance.Infra.Section5.RelativeError.TraceEuclideanClassical
+import AVenhance.Infra.Section5.RelativeError.TraceProjectionSpectrum
+import AVenhance.Infra.Section5.RelativeError.TraceEuclideanClassical
+public import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
+public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Infra.Section5.RelativeError.ClassicalEnergy
+public import AVenhance.Statements.Roots.GradNormSq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # apply the classical trace bridge to the square cutoff -/
 

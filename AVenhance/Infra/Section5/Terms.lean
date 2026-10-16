@@ -6,6 +6,7 @@ module
 public import AVenhance.Statements.Section4.Ansatz
 public import AVenhance.Statements.Section4.AdvDiffOp
 public import AVenhance.Statements.Section4.SMat
+public import AVenhance.Statements.Section3.Flux
 
 /-! Named terms in the Section 5.1 residual identity. -/
 

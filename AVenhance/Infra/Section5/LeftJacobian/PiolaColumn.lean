@@ -3,10 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.StreamFlowPiola
-public import AVenhance.Infra.Section5.FlowPiolaIdentity
-public import AVenhance.Infra.Section5.MatrixFluxProduct
+import AVenhance.Infra.Section5.StreamFlowPiola
+import AVenhance.Infra.Section5.FlowPiolaIdentity
+import AVenhance.Infra.Section5.MatrixFluxProduct
 public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Infra.Section5.FlowPiola
+import AVenhance.Infra.Section5.FlowPiolaDivergence
 
 /-!: the Piola column lemma. For a constant matrix `P`, the matrix field
 `κ I + F_kᵀ P` (with `F_k` the `l_k` flow gradient) has zero column divergence, so the

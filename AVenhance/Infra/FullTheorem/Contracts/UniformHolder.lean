@@ -4,10 +4,14 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Integration.UniformHolderContract
-public import AVenhance.Infra.FullTheorem.Contracts.AnalyticUniform
-public import AVenhance.Infra.FullTheorem.Contracts.UniformInputs
-public import AVenhance.Infra.FullTheorem.UniformH1.Core
-public import AVenhance.Statements.Roots.WeakWellposed
+import AVenhance.Infra.FullTheorem.Contracts.AnalyticUniform
+import AVenhance.Infra.FullTheorem.Contracts.UniformInputs
+import AVenhance.Infra.FullTheorem.UniformH1.Core
+import AVenhance.Statements.Roots.WeakWellposed
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
+import AVenhance.Statements.Construction.LimitFieldRegular
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The general `H¹` case of `r.LeBron.2`, proved
 

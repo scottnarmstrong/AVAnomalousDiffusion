@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes
+public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Projection
+import Homogenization.Ambient.HilbertFinite
 
 /-!
 # Coefficients of finite real Fourier expansions

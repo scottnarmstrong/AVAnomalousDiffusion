@@ -3,14 +3,21 @@
 
 module
 
-public import AVenhance.Infra.Construction.Section2FlowRegularity
-public import AVenhance.Infra.Construction.AppB2Smoothness
-public import AVenhance.Infra.Construction.Section2Scales
-public import AVenhance.Infra.Ingredients.TimeScaleBounds
-public import AVenhance.Infra.Ingredients.TimeScales
-public import AVenhance.Infra.Section4.LocalFinite
-public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
-public import AVenhance.Infra.FaaDiBruno.Seminorm
+import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Construction.Section2Scales
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
+public import AVenhance.Infra.Construction.RecursionIncrement
+public import AVenhance.Statements.Ingredients.XiMK
+public import AVenhance.Statements.Section4.XFlow
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Construction.Section2FlowHigherDerivative
+import AVenhance.Infra.Construction.Section2JointInduction
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Flow derivative bounds for the composed-analyticity bridge
 

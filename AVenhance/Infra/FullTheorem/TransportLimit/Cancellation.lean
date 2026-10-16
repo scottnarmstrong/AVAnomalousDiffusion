@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStatic
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
-public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyStatic
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
+public import AVenhance.Statements.Roots.IsPeriodicH1With
+public import AVenhance.Statements.Roots.SpaceGrad
+import AVenhance.Infra.Parabolic.WeakUniqueness.DivergenceFreeEnergy
 
 /-!
 # Slice transport identity against smooth periodic tests

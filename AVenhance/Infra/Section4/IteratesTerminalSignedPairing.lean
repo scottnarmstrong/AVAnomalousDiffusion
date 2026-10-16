@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesTruncatedCell
+import AVenhance.Infra.Section4.IteratesEnergyIntegrability
 
 @[expose] public section
 

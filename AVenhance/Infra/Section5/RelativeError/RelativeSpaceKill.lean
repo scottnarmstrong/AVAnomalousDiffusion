@@ -3,10 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section5.ClassicalRegularity
-public import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Classical.TimeEnergy
+public import AVenhance.Infra.Ergodic.FourierDecay
+public import AVenhance.Infra.Section5.LeftToShow.BreakUp
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Amplitude-generic leading-energy estimates on the actual datum and T iterates.
 The quadratic error has amplitude S squared; the base consumes only integrated gradients. -/

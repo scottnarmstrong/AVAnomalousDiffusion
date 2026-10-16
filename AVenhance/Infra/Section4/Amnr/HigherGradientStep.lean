@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.BoundedGradientInduction
+import AVenhance.Infra.Section4.Amnr.BoundedGradientInduction
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+import AVenhance.Infra.Section4.Amnr.CenteredJets
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
 
 /-! Actual gradient jets from velocity jets through the current material level. -/
 

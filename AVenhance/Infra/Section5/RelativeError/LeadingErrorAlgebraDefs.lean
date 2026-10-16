@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
-public import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section5.GradientChain
 public import AVenhance.Infra.Section5.Terms
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularityFlow
+import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
 
 /-! # The three remainder fields of `e.grad.tildetheta.again`: definitions and calculus
 

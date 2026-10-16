@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CanonicalCorrectionBounds
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Abstract real algebra for higher material velocity rates and scale sums. -/
 

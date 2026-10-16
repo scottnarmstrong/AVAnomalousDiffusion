@@ -4,10 +4,13 @@
 module
 
 public import AVenhance.Infra.Section3.KappaPrimeUniform
-public import AVenhance.Infra.Section3.ExpratScaling
-public import AVenhance.Infra.Ingredients.TimeScaleBounds
-public import AVenhance.Infra.Ingredients.EpsilonConsequences
-public import AVenhance.Infra.Numeric.Exponents
+import AVenhance.Infra.Section3.ExpratScaling
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+import AVenhance.Infra.Numeric.Exponents
+public import AVenhance.Statements.Ingredients.Tau
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Star.Real
 
 /-! The corrected `4δ` exprat estimate for the auxiliary κ′ chain. -/
 

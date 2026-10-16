@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Flow.HigherVariation3
+public import AVenhance.Infra.Flow.HigherVariation3.Existence
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Taylor control for the second spatial derivative of the field. -/
 

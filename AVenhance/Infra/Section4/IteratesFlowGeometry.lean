@@ -3,13 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
-public import AVenhance.Infra.Section4.IteratesFlowSupport
-public import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
-public import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
-public import AVenhance.Infra.Construction.Section2FlowRegularity
-public import AVenhance.Infra.Construction.Section2Scales
-public import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Section4.IteratesFlowSupport
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Construction.Section2Scales
+import AVenhance.Infra.Construction.AppB2Smoothness
+public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
+public import AVenhance.Infra.Section4.Amnr.Calculus
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Construction.Section2FlowRegularityCore
+import AVenhance.Infra.Construction.Section2JointInduction
 
 @[expose] public section
 
@@ -17,7 +21,6 @@ noncomputable section
 open Homogenization MeasureTheory
 open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
-open IterateCalculus
 open AVenhance Infra.Construction
 
 /-- Joint smoothness of the actual matrix, assembled from its proved entries. -/

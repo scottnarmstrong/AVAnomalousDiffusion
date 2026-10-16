@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeVectorTriangle
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import AVenhance.Infra.Section5.RelativeError.RelativeVectorTriangle
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
 
 /-! Triangle inequalities for the actual space-time gradient norm. -/
 

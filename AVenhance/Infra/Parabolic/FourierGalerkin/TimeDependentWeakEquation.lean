@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ProductWeakLimitPassage
+import AVenhance.Infra.Parabolic.FourierGalerkin.ProductWeakLimitPassage
 public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
+public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenDriftProduct
 
 /-!
 # Weak equation for time-dependent finite Fourier tests

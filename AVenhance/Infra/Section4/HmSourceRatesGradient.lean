@@ -3,18 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmSourceRatesGradientCore
-public import AVenhance.Infra.Section4.Amnr.DissipationCoordinateL2
-public import AVenhance.Infra.Section4.IteratesComponentEnergy
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
-public import AVenhance.Infra.Section4.TUpgradeConsumersFinal
-public import AVenhance.Infra.Section4.TUpgradeConsumersScales
-public import AVenhance.Infra.Section4.ThetaProfileDischarge
-public import AVenhance.Infra.Construction.Section2FlowBridge
-public import AVenhance.Infra.Construction.Section2Scales
-public import AVenhance.Infra.Construction.AppB2Smoothness
-public import AVenhance.Infra.Section5.Contracts.TermFluxesJoint
+import AVenhance.Infra.Section4.HmSourceRatesGradientCore
+import AVenhance.Infra.Section4.Amnr.DissipationCoordinateL2
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.TUpgradeConsumersFinal
+import AVenhance.Infra.Section4.TUpgradeConsumersScales
+import AVenhance.Infra.Section4.ThetaProfileDischarge
+import AVenhance.Infra.Construction.Section2FlowBridge
+import AVenhance.Infra.Construction.Section2Scales
+import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Section5.Contracts.TermFluxesJoint
 public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.TIterateSmooth
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Spacetime `L²` rate for the averaged pulled temperature gradient. -/
 

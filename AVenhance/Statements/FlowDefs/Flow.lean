@@ -4,7 +4,6 @@
 module
 
 public import AVenhance.Statements.Flow.ExistsUniqueFlow
-public import AVenhance.Infra.Flow.Laws
 
 /-! Statement file: `flow` (FlowDefs).
 This file contains exactly one declaration of the formalization's public statement surface. -/

@@ -3,7 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.VelocitySecondRates
+import AVenhance.Infra.Section4.Amnr.VelocitySecondRates
+public import AVenhance.Infra.Construction.LimitFieldBounds
+public import AVenhance.Statements.Section4.XFlowInv
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Flow.Estimates
+import AVenhance.Infra.Section4.Amnr.Rates
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! The first spatial primitive flow rate, from actual stream-regularity derivative bounds. -/
 

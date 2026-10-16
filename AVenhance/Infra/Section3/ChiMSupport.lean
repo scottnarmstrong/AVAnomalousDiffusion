@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section3.FluxStructure
-public import AVenhance.Statements.Section3.ChiM
+import AVenhance.Infra.Section3.FluxStructure
+public import AVenhance.Statements.Ingredients.XiMK
+import AVenhance.Infra.Ingredients.LIdxConsequences
 
 /-! Pointwise finite support of the summed corrector in its mode index. -/
 

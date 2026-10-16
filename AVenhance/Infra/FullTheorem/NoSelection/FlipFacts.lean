@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.Contracts.FlipFlop
-public import AVenhance.Infra.FullTheorem.NoSelection.Scales
+import AVenhance.Infra.FullTheorem.Contracts.FlipFlop
+import AVenhance.Infra.FullTheorem.NoSelection.Scales
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! # Consequences of the flip-flop at a fixed level
 

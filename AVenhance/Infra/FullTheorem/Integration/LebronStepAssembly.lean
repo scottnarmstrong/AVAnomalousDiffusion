@@ -5,18 +5,22 @@ module
 
 public import AVenhance.Infra.FullTheorem.Integration.Statements
 public import AVenhance.Infra.FullTheorem.Integration.LemmaUContract
-public import AVenhance.Infra.FullTheorem.LebronStep.Interpolation
-public import AVenhance.Infra.FullTheorem.LebronStep.KappaBounds
-public import AVenhance.Infra.FullTheorem.LebronStep.VelocityBounds
-public import AVenhance.Infra.FullTheorem.LebronStep.Pieces
-public import AVenhance.Statements.Section4.IndyStepDown
-public import AVenhance.Statements.Section4.ClassicalWellposed
-public import AVenhance.Statements.Section4.MTheta0IsLeast
-public import AVenhance.Infra.Section5.RelativeError.IteratesExist
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyClassical
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
-public import AVenhance.Infra.Construction.LimitFieldBounds
-public import AVenhance.Statements.Construction.StreamVelContinuous
+import AVenhance.Infra.FullTheorem.LebronStep.Interpolation
+import AVenhance.Infra.FullTheorem.LebronStep.KappaBounds
+import AVenhance.Infra.FullTheorem.LebronStep.VelocityBounds
+import AVenhance.Infra.FullTheorem.LebronStep.Pieces
+import AVenhance.Statements.Section4.IndyStepDown
+import AVenhance.Statements.Section4.ClassicalWellposed
+import AVenhance.Statements.Section4.MTheta0IsLeast
+import AVenhance.Infra.Section5.RelativeError.IteratesExist
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyClassical
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.LebronStep.DivFree
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Lemma r.LeBron (`lebron_step`), conditional on Lemma U
 

@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Ergodic.AveragesL1
-public import AVenhance.Infra.Ergodic.AveragesL2
+import AVenhance.Infra.Ergodic.AveragesL1
 public import AVenhance.Infra.Ergodic.Flow
+public import AVenhance.Infra.Ergodic.FourierDecay
 
 /-! # Ergodic estimates after a periodic volume-preserving flow -/
 

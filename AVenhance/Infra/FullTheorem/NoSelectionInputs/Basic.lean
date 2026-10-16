@@ -4,8 +4,6 @@
 module
 
 public import AVenhance.Statements.Roots.SpaceGrad
-public import AVenhance.Statements.Roots.UnitCube
-public import Homogenization.Sobolev.WeakDerivatives
 
 /-! # Smoothness of partial derivatives (shared helpers of the no-selection inputs) -/
 

@@ -3,13 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmPerTimeRegularity
-public import AVenhance.Infra.Section4.HmPerTimePairingInputs
-public import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+import AVenhance.Infra.Section4.HmPerTimeRegularity
+import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFlux
-public import AVenhance.Infra.Section5.RelativeError.ATensorHm
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
+import AVenhance.Infra.Section5.Contracts.TermSourcesFlux
+import AVenhance.Infra.Section5.RelativeError.ATensorHm
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
+public import AVenhance.Infra.Section4.HmSourcePairing
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTiny
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Positive-time spacetime measurability and finite-`L²` adapters for the
 three fields used by the `H_m` per-time pairing interface. Quantitative rate

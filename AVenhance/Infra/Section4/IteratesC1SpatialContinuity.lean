@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordRegularity
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+import Mathlib.Order.CompletePartialOrder
 
 @[expose] public section
 

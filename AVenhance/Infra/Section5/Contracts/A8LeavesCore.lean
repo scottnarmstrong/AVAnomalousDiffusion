@@ -5,12 +5,8 @@ module
 
 public import AVenhance.Infra.Section5.Contracts.A8LeavesTools
 public import AVenhance.Infra.Section5.Contracts.ThetaProfile
-public import AVenhance.Infra.Section5.Contracts.TJets
-public import AVenhance.Infra.Section5.Contracts.TJetsSecondOrder
-public import AVenhance.Infra.Section5.Contracts.TMaterialFamily
-public import AVenhance.Infra.Section5.Contracts.TemperatureError
-public import AVenhance.Infra.Section5.Contracts.RelativeInitialProfile
-public import AVenhance.Infra.Section5.RelativeError.ATensor
+import AVenhance.Infra.Section5.Contracts.TJets
+import AVenhance.Infra.Section5.Contracts.TJetsSecondOrder
 
 /-! # The S-amplitude core of step-down and six relative fields from the trace leaf
 

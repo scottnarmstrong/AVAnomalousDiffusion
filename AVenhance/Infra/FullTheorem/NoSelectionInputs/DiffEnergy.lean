@@ -3,12 +3,16 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.NoSelectionInputs.Basic
-public import AVenhance.Infra.FullTheorem.Integration.NoSelectionInputs
-public import AVenhance.Infra.FullTheorem.Separation.EnergyLoss
-public import AVenhance.Infra.Section4.ThetaEnergy
-public import AVenhance.Infra.Classical.TimeEnergy
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
+import AVenhance.Infra.FullTheorem.NoSelectionInputs.Basic
+import AVenhance.Infra.Section4.ThetaEnergy
+import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.UnitCube
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Section4.VecDiv
+import AVenhance.Infra.Section4.ThetaTimeEnergy
 
 /-! # Energy balance for the difference of two classical solutions with the same drift
 

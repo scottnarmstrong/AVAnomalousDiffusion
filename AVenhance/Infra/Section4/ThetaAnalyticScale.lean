@@ -3,10 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaAnalyticInduction
-public import AVenhance.Infra.Section4.ThetaAnalyticRecursion
-public import AVenhance.Infra.Section4.ThetaScale
-public import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Section4.ThetaScale
+import AVenhance.Infra.Construction.Scalars
+public import AVenhance.Infra.Section4.ThetaAnalyticEstimate
+public import AVenhance.Statements.Ingredients.Gamma
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Radius bookkeeping for the analytic derivative induction. -/
 

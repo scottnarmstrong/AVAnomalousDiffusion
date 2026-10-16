@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Flow.InverseC1
-public import Mathlib.Analysis.Calculus.MeanValue
+public import AVenhance.Infra.Flow.VariationalEquation
+public import Mathlib.Topology.Algebra.Module.Determinant
+import AVenhance.Infra.Flow.SpatialC1
+import Mathlib.Analysis.Calculus.Deriv.Prod
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! The determinant evolution of the two-dimensional variational flow. -/
 

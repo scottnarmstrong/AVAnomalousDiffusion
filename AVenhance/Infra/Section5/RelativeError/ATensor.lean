@@ -3,11 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ATensorJets
-public import AVenhance.Infra.Section5.RelativeError.ATensorBound
-public import AVenhance.Infra.Section5.RelativeError.ATensorHm
-public import AVenhance.Infra.Section5.RelativeError.LeadingError
+import AVenhance.Infra.Section5.RelativeError.ATensorJets
+import AVenhance.Infra.Section5.RelativeError.ATensorBound
+import AVenhance.Infra.Section5.RelativeError.ATensorHm
+import AVenhance.Infra.Section5.RelativeError.LeadingError
 public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Section5.LeftToShow.Scales
 
 /-! # `hLeadingError` from the S-amplitude temperature jets
 

@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredSplitFields
-public import AVenhance.Infra.Section5.Contracts.TermCenteredSplitCalculus
-public import AVenhance.Infra.Section5.Contracts.TermCenteredSplitAlgebra
+import AVenhance.Infra.Section5.Contracts.TermCenteredSplitCalculus
+public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Section5.Contracts.TermFluxesTools
 
 /-! # Smoothness and periodicity of `Σ_k ξ_k D_k G_k` at a fixed time
 

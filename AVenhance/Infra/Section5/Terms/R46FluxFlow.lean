@@ -3,10 +3,21 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms.R46FluxSupport
 public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
-public import AVenhance.Infra.Ingredients.TimeScaleBounds
-public import AVenhance.Infra.Section5.FlowAverageFluxIdentity
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+public import AVenhance.Infra.Ingredients.TimeScales
+public import AVenhance.Statements.Ingredients.HatXiML
+public import AVenhance.Statements.Ingredients.XiMK
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.ChiMSupport
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Quantitative control of the pulled-flow Jacobians on the supports
 of the transition cutoffs. -/

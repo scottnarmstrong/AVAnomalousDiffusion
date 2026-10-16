@@ -5,7 +5,12 @@ module
 
 public import AVenhance.Infra.Section4.ThetaTimeEnergy
 public import AVenhance.Infra.Section4.ThetaCommutator
-public import AVenhance.Infra.FaaDiBruno.Product
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Section4.VecDiv
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+import Mathlib.Order.CompletePartialOrder
 
 /-! Higher spatial derivatives of the classical theta equation. -/
 

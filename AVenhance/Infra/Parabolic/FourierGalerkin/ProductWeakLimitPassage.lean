@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.FiniteProductWeakForm
+import AVenhance.Infra.Parabolic.FourierGalerkin.FiniteProductWeakForm
+public import AVenhance.Infra.Parabolic.FourierGalerkin.CutoffNesting
+public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenDriftProduct
 
 /-!
 # Weak limit passage on fixed Fourier tests

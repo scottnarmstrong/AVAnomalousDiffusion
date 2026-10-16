@@ -5,8 +5,9 @@ module
 
 public import AVenhance.Statements.Flow.IsFlow
 public import AVenhance.Statements.Roots.IsZ2Periodic
-public import AVenhance.Infra.Flow.CurveUniqueness
-public import Mathlib.Analysis.ODE.Transform
+import AVenhance.Infra.Flow.CurveUniqueness
+import Mathlib.Analysis.Calculus.Deriv.Shift
+import Mathlib.Analysis.InnerProductSpace.Basic
 
 /-! Algebraic consequences of the global flow characterization. -/
 

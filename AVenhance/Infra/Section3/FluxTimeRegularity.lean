@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section3.ChiMTimeRegularity
-public import AVenhance.Infra.Section3.FluxMatrix
-public import AVenhance.Infra.Section3.FluxSymmetry
+import AVenhance.Infra.Section3.ChiMTimeRegularity
+import AVenhance.Infra.Section3.FluxMatrix
+public import AVenhance.Statements.Section3.Flux
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Section3.CorrTimeRegularity
+import AVenhance.Infra.Section3.FluxStructure
 
 /-! Time continuity of the homogenized flux from the active shear formula. -/
 

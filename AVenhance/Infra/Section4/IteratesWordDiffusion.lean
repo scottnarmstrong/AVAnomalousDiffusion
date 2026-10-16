@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesDiffusion
+public import AVenhance.Statements.Section3.SpaceLap
 
 /-! Ordered spatial words and exact diffusion commutation for l.V. -/
 

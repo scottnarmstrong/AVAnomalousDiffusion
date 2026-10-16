@@ -5,6 +5,7 @@ module
 
 public import AVenhance.Infra.Section5.Contracts.A7Assembly
 public import AVenhance.Infra.Section5.Integration.IndyStepDownV2
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! # Step-down estimate assembly from the individual contract producers
 

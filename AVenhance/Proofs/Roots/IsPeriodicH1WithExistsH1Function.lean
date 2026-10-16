@@ -4,10 +4,6 @@
 module
 
 public import AVenhance.Statements.Roots.IsPeriodicH1With
-public import Homogenization.Sobolev.H1.Definitions
-public import Homogenization.Sobolev.WeakDerivatives
-public import Mathlib.Analysis.Calculus.FDeriv.Const
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
 
 /-!
 # Periodic H¹ bridge to CoarseGraining

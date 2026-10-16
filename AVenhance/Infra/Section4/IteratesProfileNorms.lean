@@ -4,7 +4,9 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesCoordinateProfile
-public import AVenhance.Infra.Section4.IteratesIndependentCoordinateNorms
+import AVenhance.Infra.Section4.IteratesAnalyticWeightOrder
+import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

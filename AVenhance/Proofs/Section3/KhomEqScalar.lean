@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section3.FluxTimeRegularity
-public import AVenhance.Infra.Section3.KhomSymmetry
+import AVenhance.Infra.Section3.FluxTimeRegularity
+import AVenhance.Infra.Section3.KhomSymmetry
 public import AVenhance.Statements.Section3.KhomScalar
 
 /-! Proof of the Section 3 statement `Ingredients.Khom_eq_scalar`. -/

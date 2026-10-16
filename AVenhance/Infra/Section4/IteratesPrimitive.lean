@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section3.Approx
-public import AVenhance.Infra.Section4.IteratesEnergy
+import AVenhance.Infra.Section3.Approx
+public import AVenhance.Statements.Section3.KMat
+import AVenhance.Infra.Ingredients.TimeScaleArithmetic
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section3.JMNPeriodAverage
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
 
 /-! Time primitives of the actual large-cell diffusivity coefficient. -/
 

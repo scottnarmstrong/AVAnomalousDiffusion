@@ -5,11 +5,10 @@ module
 
 public import AVenhance.Infra.Section5.Integration.KeystoneStatements
 public import AVenhance.Infra.Section5.Integration.Statements
-public import AVenhance.Infra.Section5.RelativeError
-public import AVenhance.Infra.Section5.H1Reduction
-public import AVenhance.Infra.Construction.LimitFieldBounds
-public import AVenhance.Statements.Ingredients.Nonempty
-public import AVenhance.Statements.Construction.ExistsIsStreamSeq
+import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Statements.Ingredients.Nonempty
+import AVenhance.Statements.Construction.ExistsIsStreamSeq
+import AVenhance.Infra.Section5.RelativeError.AssemblyClosure
 
 /-! # Main theorem from the three statements
 

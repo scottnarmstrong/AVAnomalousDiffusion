@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmParameterTransfers
+import AVenhance.Infra.Section4.HmParameterTransfers
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Analysis.SpecialFunctions.Sqrt
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Tactic.Positivity.Finset
 
 /-! # Abstract-real scalar algebra for the `H̃_m` gradient bound (16)-(18)
 

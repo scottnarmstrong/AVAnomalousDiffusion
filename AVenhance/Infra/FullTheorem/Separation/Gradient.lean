@@ -4,7 +4,8 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Separation.Derivs
-public import AVenhance.Infra.FullTheorem.Separation.Chain
+import AVenhance.Infra.FullTheorem.Separation.Chain
+import AVenhance.Infra.FullTheorem.Separation.OdeCompare
 
 /-! # Short-time stability of the gradient energy
 

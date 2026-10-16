@@ -13,6 +13,6 @@ n=1 trace estimate left as a named input. -/
 noncomputable section
 open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section5.RelativeError
-open AVenhance AVenhance.Infra.Section5.LeftToShow AVenhance.Infra.Section5.Integration
+open AVenhance
 
 end AVenhance.Infra.Section5.RelativeError

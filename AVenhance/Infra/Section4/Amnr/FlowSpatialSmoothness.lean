@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowCurve
+import AVenhance.Infra.Section4.Amnr.FlowCurve
+public import AVenhance.Infra.Construction.LimitFieldBounds
+public import AVenhance.Statements.Section4.XFlow
+public import AVenhance.Statements.Section4.XFlowInv
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.Rates
+import AVenhance.Infra.Section4.Amnr.VelocitySecondRates
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! All spatial orders of the actual flows on source cutoff windows. -/
 

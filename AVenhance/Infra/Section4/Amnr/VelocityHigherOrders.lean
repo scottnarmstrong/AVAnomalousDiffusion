@@ -3,7 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CurveJetOperators
+public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Infra.Section4.Amnr.VelocitySpatialRates
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.Cutoff
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.SpatialOperatorBounds
+import AVenhance.Infra.Section4.Amnr.VelocityHigherRates
+import AVenhance.Infra.Section4.Amnr.VelocitySecondRates
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Auxiliary finite-order stream-regularity bounds, without restricting the paper budget.
 The stream-regularity estimates control every spatial order. Auxiliary constants may use a larger finite

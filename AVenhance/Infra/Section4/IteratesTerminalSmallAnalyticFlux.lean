@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedAllocatedFlux
-public import AVenhance.Infra.Section4.IteratesForcingFactorials
+import AVenhance.Infra.Section4.IteratesTruncatedAllocatedFlux
+import AVenhance.Infra.Section4.IteratesForcingFactorials
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 
 /-! Analytic forcing bound for the actual differentiated flux. -/
 

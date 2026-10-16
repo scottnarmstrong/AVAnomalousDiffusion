@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientTopSourceBounds
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Algebra.Order.Archimedean.Real.Basic
 
 /-! One literal source smallness threshold pays for the terminal coefficient bounds. -/
 

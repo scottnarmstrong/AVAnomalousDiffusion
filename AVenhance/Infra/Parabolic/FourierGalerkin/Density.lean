@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.LimitPassage
+public import AVenhance.Infra.Parabolic.FourierGalerkin.FourierLimit
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarSpace
+public import Mathlib.MeasureTheory.Measure.SeparableMeasure
+import AVenhance.Infra.Parabolic.FourierGalerkin.ConcreteData
+import AVenhance.Infra.Parabolic.FourierGalerkin.ProjectionCoefficients
 
 /-!
 # Density of the real symmetric Fourier cutoffs

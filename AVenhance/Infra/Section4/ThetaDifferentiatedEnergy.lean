@@ -4,7 +4,10 @@
 module
 
 public import AVenhance.Infra.Section4.ThetaDifferentiated
-public import AVenhance.Infra.Section4.ThetaClassicalUniqueness
+import AVenhance.Infra.Section4.ThetaClassicalUniqueness
+import AVenhance.Infra.Section4.ThetaEnergy
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! The differentiated classical θ equation in divergence form and its
 instantaneous torus energy identity. -/

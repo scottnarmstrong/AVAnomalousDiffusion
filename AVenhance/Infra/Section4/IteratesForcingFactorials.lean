@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWeightedFactorials
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Nat.Choose.Basic
+import AVenhance.Infra.Section4.IteratesRecursion
+import AVenhance.Infra.Section4.IteratesWordFactorials
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Tactic.Positivity.Finset
 
 /-! Exact shifted factorial profiles for differentiated material forcing. -/
 

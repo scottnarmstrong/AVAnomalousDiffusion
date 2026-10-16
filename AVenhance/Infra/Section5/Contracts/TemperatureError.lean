@@ -4,11 +4,16 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section5.RelativeError.TemperatureError
-public import AVenhance.Infra.Section4.IteratesTSourceScale
-public import AVenhance.Infra.Section4.TUpgradeConsumersScales
-public import AVenhance.Infra.Section4.IteratesDiffusivityComparison
+import AVenhance.Infra.Section5.RelativeError.TemperatureError
+import AVenhance.Infra.Section4.IteratesTSourceScale
+import AVenhance.Infra.Section4.TUpgradeConsumersScales
+import AVenhance.Infra.Section4.IteratesDiffusivityComparison
 public import Mathlib.Analysis.Matrix.Normed
+public import AVenhance.Infra.Section4.Amnr.Calculus
+public import AVenhance.Infra.Section4.IteratesBudgetConstantChoice
+public import AVenhance.Statements.Construction.BarNorm
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.LeftToShow.Matrix
 
 /-! Exact contract adapter for the abstract-amplitude temperature error leaf. -/
 

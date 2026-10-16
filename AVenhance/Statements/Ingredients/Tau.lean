@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.TauP
+public import AVenhance.Statements.Ingredients.TauPP
 
 /-! Statement file: `tau` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -13,8 +13,6 @@ This file contains exactly one declaration of the formalization's public stateme
 noncomputable section
 
 namespace AVenhance
-
-open Homogenization
 
 /-- `e.taum.def` (1108-1116): `τ_0 := 1`, and for `m ≥ 1`,
 `τ_m := (4⌈ε_{m-1}^{-δ}⌉ + 1)⁻² τ''_m`. -/

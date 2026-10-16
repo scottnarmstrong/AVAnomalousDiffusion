@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ClassicalEnergy
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import AVenhance.Infra.Section5.RelativeError.ClassicalEnergy
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+public import AVenhance.Infra.Classical.TimeEnergy
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Section4.VecDiv
+import AVenhance.Infra.Classical.PeriodicCalculus
+import Mathlib.Order.CompletePartialOrder
 
 /-! # RelativeError: pairing a classical solution with a transported test
 

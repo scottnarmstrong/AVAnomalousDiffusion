@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.AnsatzGradient
-public import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.AnsatzGradient
+import AVenhance.Infra.Section5.GradientChain
+public import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Infra.Section5.Terms
 
 /-! Fixed-time spatial differentiation of the cutoff ansatz. -/
 

@@ -11,7 +11,6 @@ public import AVenhance.Infra.Section4.IteratesVelocityRegularity
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

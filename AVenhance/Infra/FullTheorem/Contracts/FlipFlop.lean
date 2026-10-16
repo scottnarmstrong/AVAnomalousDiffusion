@@ -4,10 +4,17 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Integration.FlipFlopContract
-public import AVenhance.Infra.FullTheorem.FlipFlop.Top
-public import AVenhance.Infra.FullTheorem.LebronStep.KappaBounds
-public import AVenhance.Statements.Section3.LRecurse
-public import AVenhance.Statements.Section4.KappaSeqPred
+import AVenhance.Infra.FullTheorem.FlipFlop.Top
+import AVenhance.Infra.FullTheorem.LebronStep.KappaBounds
+import AVenhance.Statements.Section3.LRecurse
+import AVenhance.Statements.Section4.KappaSeqPred
+import AVenhance.Infra.Construction.LimitSeries
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.FlipFlop.Abstract
+import AVenhance.Infra.FullTheorem.FlipFlop.Steps
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Proof of the flip-flop statement
 

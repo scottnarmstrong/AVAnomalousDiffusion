@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.AdvectionTermCounts
+import AVenhance.Infra.Section4.Amnr.FiniteWordSums
 
 /-! Actual outer spatial derivatives of ordered material corrections. -/
 

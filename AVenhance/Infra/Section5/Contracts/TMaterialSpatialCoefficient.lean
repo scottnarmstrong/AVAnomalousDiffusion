@@ -3,12 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ATensorJets
-public import AVenhance.Infra.Section4.IteratesCoefficientWords
-public import AVenhance.Infra.Section4.IteratesFlowBounds
-public import AVenhance.Infra.Section4.Amnr.FiniteSpatialWordBridge
-public import AVenhance.Infra.Section5.SMatRegularity
-public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section5.RelativeError.ATensorJets
+import AVenhance.Infra.Section4.IteratesCoefficientWords
+import AVenhance.Infra.Section4.IteratesFlowBounds
+import AVenhance.Infra.Section4.Amnr.FiniteSpatialWordBridge
+import AVenhance.Infra.Section5.SMatRegularity
+public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientIdentity
+public import AVenhance.Infra.Section4.CoarseCoeff.WordBounds
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientBounds
+import AVenhance.Infra.Section4.IteratesWordCoefficientSplit
+import AVenhance.Infra.Section4.IteratesWordEquation
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Tactic.Monotonicity.Lemmas
 
 @[expose] public section
 

@@ -6,6 +6,8 @@ module
 public import AVenhance.Infra.Torus.FourierCalculus
 public import AVenhance.Statements.Roots.GradNormSq
 public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Roots.L2NormSq
+import Homogenization.Sobolev.CubeEmbedding.FaceReflectionLines
 
 /-! Real-valued d = 2 corollaries in the paper carriers. -/
 

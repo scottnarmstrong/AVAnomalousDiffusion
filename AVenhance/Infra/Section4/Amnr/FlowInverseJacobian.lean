@@ -11,7 +11,7 @@ public import Mathlib.Analysis.Calculus.ContDiff.FiniteDimension
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
+open MeasureTheory
 namespace AVenhance.Infra.Section4
 
 end AVenhance.Infra.Section4

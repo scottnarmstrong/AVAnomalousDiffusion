@@ -3,10 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section3.FluxEnergy
-public import AVenhance.Infra.Section3.ChiMSupport
-public import AVenhance.Infra.Section3.FluxStructure
-public import AVenhance.Infra.Section3.FluxMatrix
+import AVenhance.Infra.Section3.FluxEnergy
+import AVenhance.Infra.Section3.ChiMSupport
+import AVenhance.Infra.Section3.FluxStructure
+import AVenhance.Infra.Section3.FluxMatrix
+public import AVenhance.Statements.Section3.Flux
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.ActiveModeFlux
+import AVenhance.Infra.Section3.FluxEnergyCutoff
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Algebra.Ring.IsFormallyReal
 
 /-! The transition-window memory tail in the moving-cutoff energy. -/
 

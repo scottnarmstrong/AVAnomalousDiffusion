@@ -3,11 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section3.QMNRRecursion
-public import AVenhance.Infra.Section4.LocalFinite
-public import AVenhance.Infra.Section4.Amnr.HmAdapter
-public import AVenhance.Infra.Section5.ResidualCompletion
+import AVenhance.Infra.Section3.QMNRRecursion
+import AVenhance.Infra.Section4.LocalFinite
 public import Mathlib.Analysis.Matrix.Normed
+public import AVenhance.Statements.Section3.QMNR
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 /-! Regularity adapters used to construct the pointwise residual calculus data. -/
 
@@ -15,7 +16,7 @@ public import Mathlib.Analysis.Matrix.Normed
 
 noncomputable section
 
-open Filter Homogenization
+open Filter
 open scoped ContDiff
 open scoped Topology
 open scoped Matrix.Norms.Elementwise

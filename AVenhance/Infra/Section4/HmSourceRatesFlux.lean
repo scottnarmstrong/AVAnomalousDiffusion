@@ -3,12 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.HmPositivePairingAssembly
-public import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
-public import AVenhance.Infra.Section5.LeftToShow.JhatFacts
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section4.TUpgradeConsumersScales
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section5.LeftToShow.JhatFacts
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section4.TUpgradeConsumersScales
 public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.Approx
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-! The flux coefficient input for the positive-time `H_m` source.
 

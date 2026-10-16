@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.GradientChain
+public import AVenhance.Statements.Roots.SpaceGrad
 
 /-! Spatial product-rule lemmas for a finite cutoff ansatz. -/
 

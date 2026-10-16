@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms.R46FluxSupport
-public import AVenhance.Infra.Section5.Terms.R46Scale
+public import AVenhance.Statements.Roots.GradNormSq
 
 /-! Source-scale transfer for the corrected transition-window flux.
 
@@ -21,8 +20,6 @@ open MeasureTheory Homogenization
 namespace AVenhance.Infra.Section5
 
 open AVenhance
-
-variable {β : ℝ} (I : Ingredients β) {Φ : ℕ → ℝ → Vec 2 → ℝ}
 
 /-- The space-time L² norm of the spatial L² norm, in the exact ENNReal
 carrier used for the `R46` source estimate. -/

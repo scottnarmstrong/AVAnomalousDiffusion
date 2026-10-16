@@ -3,9 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftJacobian.Transport
+import AVenhance.Infra.Section5.LeftJacobian.Transport
 public import AVenhance.Infra.Section5.LeftJacobian.SourceHelpers
-public import AVenhance.Infra.Section5.StreamFlowPiola
+public import AVenhance.Infra.Section5.HmMaterialIncrement
+public import AVenhance.Infra.Section5.LeftJacobian.Candidate
+public import AVenhance.Infra.Section5.TEquation
+import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section5.FrozenHmSourceTelescope
+import AVenhance.Infra.Section5.LeftJacobian.BaseFlux
+import AVenhance.Infra.Section5.TEquationRegularity
 
 /-!: the source material equation for the names.
 

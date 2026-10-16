@@ -3,11 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.SlowFactorBounds
-public import AVenhance.Infra.Section5.SlowFactorBoundsSource
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticJets
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticSmooth
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticInputs
+public import AVenhance.Infra.Ergodic.AveragesL2
 
 /-! # Composed analyticity of the slow factors: assembly
 
@@ -25,7 +21,7 @@ noncomputable section
 
 namespace AVenhance.Infra.Section5.Contracts
 
-open AVenhance AVenhance.Infra.Section5 AVenhance.Infra.Section4 AVenhance.Infra.Section5.RelativeError
+open AVenhance AVenhance.Infra.Section5
 
 /-- `HasCoordinateAnalyticL2Bounds` is monotone in the amplitude and anti-monotone in the radius. -/
 theorem sdc_hasCoordinate_mono {f : Vec 2 → ℂ} {Cf Cf' r r' : ℝ}

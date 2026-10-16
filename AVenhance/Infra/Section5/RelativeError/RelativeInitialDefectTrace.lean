@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectKappa
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceGrad
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import Mathlib.Algebra.Order.Star.Real
 
 /-! The first-order instance of the initial trace estimate: the coordinate trace bound gives
 the gradient input of the initial-layer estimate. The trace bound itself is proved in
@@ -14,7 +18,7 @@ the gradient input of the initial-layer estimate. The trace bound itself is prov
 noncomputable section
 open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section5.RelativeError
-open AVenhance AVenhance.Infra.Section5.Integration AVenhance.Infra.Section5.LeftToShow
+open AVenhance AVenhance.Infra.Section5.LeftToShow
 
 /-- Coordinate n=1 trace implies the vector-gradient input of the initial-layer estimate. -/
 theorem relative_initial_gradient_of_trace {g : Vec 2 → ℝ}

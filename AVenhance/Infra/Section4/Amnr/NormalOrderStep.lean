@@ -4,6 +4,9 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.NormalOrderFields
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+import AVenhance.Infra.Section4.Amnr.MaterialGradientEstimate
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! One quantitative adjacent material/spatial commutator step. -/
 

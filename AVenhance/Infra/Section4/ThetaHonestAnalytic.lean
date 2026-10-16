@@ -3,12 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaCommutatorBounds
-public import AVenhance.Infra.Section4.ThetaEnergyLevels
+import AVenhance.Infra.Section4.ThetaCommutatorBounds
 public import AVenhance.Infra.Section4.ThetaFluxEstimates
-public import AVenhance.Infra.Section4.ThetaScale
-public import AVenhance.Infra.Ingredients.Parameters
-public import AVenhance.Infra.Ingredients.EpsilonConsequences
+import AVenhance.Infra.Section4.ThetaScale
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.ThetaDifferentiatedEnergy
+import AVenhance.Infra.Section4.ThetaIntegratedEnergy
+import AVenhance.Infra.Section4.ThetaSpaceTime
+import AVenhance.Infra.Section4.ThetaTimeSpatialTrace
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Honest analytic estimates for the classical theta solution. -/
 

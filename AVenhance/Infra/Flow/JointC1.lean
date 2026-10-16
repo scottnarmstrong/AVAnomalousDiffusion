@@ -3,10 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Flow.JointSpatialDerivativeAll
-public import AVenhance.Infra.Flow.JointC1Core
-public import AVenhance.Infra.Flow.StartTimeDerivative
-public import Mathlib.Analysis.Calculus.FDeriv.Partial
+import AVenhance.Infra.Flow.JointSpatialDerivativeAll
+import AVenhance.Infra.Flow.JointC1Core
+import AVenhance.Infra.Flow.StartTimeDerivative
+import Mathlib.Analysis.Calculus.FDeriv.Partial
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Flow.IsFlow
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.SpatialRegularity
 
 /-! Joint first-order regularity of a smooth nonautonomous flow. -/
 

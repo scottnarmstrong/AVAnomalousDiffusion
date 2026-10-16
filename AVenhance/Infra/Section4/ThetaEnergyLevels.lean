@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaSpaceTime
-public import AVenhance.Infra.Section4.ThetaRecursion
+public import AVenhance.Infra.Section4.ThetaCommutator
+public import AVenhance.Statements.Roots.TimeCube
 
 /-! Ordered-coordinate energy levels and their normalization. -/
 

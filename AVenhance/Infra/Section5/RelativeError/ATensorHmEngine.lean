@@ -3,9 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ATensorHmComponents
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorH
-public import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section5.RelativeError.ATensorHmComponents
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorH
+import AVenhance.Infra.Section4.Amnr.Seed
+public import AVenhance.Infra.Section4.HmBounds
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Section4.Params
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorHEuclid
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorHScalars
+import AVenhance.Statements.Section3.LRecurse
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Open-time `H̃_m` gradient: scale engine and generic bound
 
@@ -17,7 +30,6 @@ differentiability premises are only required at positive times. -/
 noncomputable section
 
 open MeasureTheory Homogenization
-open scoped Matrix.Norms.Elementwise
 
 namespace AVenhance.Infra.Section5.RelativeError
 

@@ -4,7 +4,9 @@
 module
 
 public import Mathlib.Basic.Real.Basic
-public import Mathlib.Tactic
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Tactic.Linarith.Frontend
+import Mathlib.Tactic.Positivity.Basic
 
 /-!
 # Young's inequality for the bounded drift term

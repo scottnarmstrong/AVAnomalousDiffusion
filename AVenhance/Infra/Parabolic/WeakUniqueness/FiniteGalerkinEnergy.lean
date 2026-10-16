@@ -4,9 +4,9 @@
 module
 
 public import AVenhance.Infra.Parabolic.WeakUniqueness.ModePath
-public import AVenhance.Infra.Parabolic.WeakUniqueness.FiniteEnergy
-public import AVenhance.Infra.Classical.GalerkinModeCalculus
-public import AVenhance.Infra.ODE.Linear.Basic
+import AVenhance.Infra.Parabolic.WeakUniqueness.FiniteEnergy
+public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Projection
+import Mathlib.Algebra.Order.Archimedean.Real.Hom
 
 /-!
 # Energy identity for finite Fourier coefficients of weak solutions

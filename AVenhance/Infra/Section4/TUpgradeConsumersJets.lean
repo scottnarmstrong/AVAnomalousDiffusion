@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.TUpgradeConsumersFinal
 public import AVenhance.Infra.Section5.RelativeError.RelativeAnalytic
-public import AVenhance.Infra.Section4.TIterateSmooth
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesWordSource
 
 @[expose] public section
 

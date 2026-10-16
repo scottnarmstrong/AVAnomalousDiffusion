@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowSecondMaterial
+public import AVenhance.Infra.Section4.Amnr.FlowMaterialJets
+import AVenhance.Infra.Section4.Amnr.FlowAverage
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Quantitative finite-jet induction for derived flow-transport coefficients. -/
 

@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FiniteSmoothLocalization
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+public import AVenhance.Infra.Section4.Amnr.NormalOrderFields
+import AVenhance.Infra.Section4.Amnr.FiniteMaterialCommutator
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! One quantitative adjacent material/spatial commutator step. -/
 

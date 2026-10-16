@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+public import AVenhance.Infra.Section4.Amnr.Calculus
 
 /-! Finite coordinate estimates for the physical tensor L2 norm. -/
 

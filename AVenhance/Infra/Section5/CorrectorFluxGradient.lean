@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.CorrectorDiffusionSource
-public import AVenhance.Infra.Section5.MatrixFluxProduct
+import AVenhance.Infra.Section5.CorrectorDiffusionSource
+import AVenhance.Infra.Section5.MatrixFluxProduct
+public import AVenhance.Infra.Section5.CorrectorDiffusionDivergence
+import AVenhance.Infra.Section5.CorrectorLocalization
 
 /-! The corrector divergence expansion paired with a selected pulled gradient.
 -/

@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsScales
-public import AVenhance.Infra.Section5.Integration.PartIAnsatzScale
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsScales
+import AVenhance.Infra.Section5.Integration.PartIAnsatzScale
+public import AVenhance.Statements.Ingredients.Delta
+public import AVenhance.Statements.Ingredients.Gamma
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 /-! # Abstract-real scale arithmetic for the flux source contracts
 

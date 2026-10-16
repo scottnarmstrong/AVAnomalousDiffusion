@@ -4,10 +4,12 @@
 module
 
 public import AVenhance.Infra.Section3.ChiMSupport
-public import AVenhance.Infra.Section3.SpaceAverages
-public import AVenhance.Infra.Torus.FrozenBridge
-public import AVenhance.Infra.Torus.Calculus
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+import AVenhance.Infra.Section3.SpaceAverages
+import AVenhance.Infra.Torus.FrozenBridge
+public import AVenhance.Infra.Torus.Basic
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Section3.ChiM
+public import AVenhance.Statements.Section3.SpaceAvg
 
 /-! Fixed-time spatial regularity and zero-mean gradient of the summed corrector. -/
 

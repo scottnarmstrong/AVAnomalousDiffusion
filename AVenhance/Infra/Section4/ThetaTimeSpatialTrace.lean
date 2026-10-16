@@ -3,9 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaDifferentiated
-public import AVenhance.Infra.Section4.ThetaTimeEnergy
-public import Mathlib.Analysis.Calculus.TangentCone.Prod
+public import AVenhance.Infra.Section4.ThetaCommutator
 
 /-! Spatial derivatives of a classical solution remain smooth and continuous
 down to the initial time. The derivatives are taken within the closed

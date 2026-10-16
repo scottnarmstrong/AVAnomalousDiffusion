@@ -3,10 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Torus.FourierCalculus
 public import AVenhance.Infra.Heat.ClassicalDerivative
 public import AVenhance.Statements.Roots.IsPeriodicH1With
-public import AVenhance.Infra.Heat.Energy
+public import AVenhance.Statements.Roots.L2NormSq
 
 @[expose] public section
 

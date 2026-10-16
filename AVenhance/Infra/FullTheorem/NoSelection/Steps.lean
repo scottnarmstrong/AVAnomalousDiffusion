@@ -3,15 +3,21 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.LebronStep.Pieces
-public import AVenhance.Infra.FullTheorem.LebronStep.KappaBounds
-public import AVenhance.Statements.Section4.IndyStepDown
-public import AVenhance.Statements.Section4.ClassicalWellposed
-public import AVenhance.Statements.Section4.MTheta0IsLeast
-public import AVenhance.Infra.Section5.RelativeError.IteratesExist
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyClassical
-public import AVenhance.Infra.Section4.TLemmasNorm
-public import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Statements.Section4.IndyStepDown
+import AVenhance.Statements.Section4.ClassicalWellposed
+import AVenhance.Statements.Section4.MTheta0IsLeast
+import AVenhance.Infra.Section5.RelativeError.IteratesExist
+import AVenhance.Infra.Section4.TLemmasNorm
+import AVenhance.Infra.Construction.LimitFieldBounds
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Section4.IsThetaAnalytic
+public import AVenhance.Statements.Section4.KappaSeq
+public import AVenhance.Statements.Section4.MTheta0
+public import Homogenization.Sobolev.H1.Definitions
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
 
 /-! # One level of the chain, telescoping, and the `L²` triangle for norms
 

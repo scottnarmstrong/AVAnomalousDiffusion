@@ -4,13 +4,10 @@
 module
 
 public import AVenhance.Statements.Section3.CorrTime
-public import AVenhance.Infra.Section3.FluxStructure
-public import Mathlib.MeasureTheory.Integral.CompactlySupported
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
-public import Mathlib.Topology.Algebra.Support
-public import Mathlib.Analysis.Calculus.ContDiff.Deriv
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import Mathlib.Analysis.SpecialFunctions.ExpDeriv
 
 /-! Continuity of the explicit single-mode memory integral. -/
 

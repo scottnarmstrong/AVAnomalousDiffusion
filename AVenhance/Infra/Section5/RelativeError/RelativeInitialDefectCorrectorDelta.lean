@@ -3,8 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectCorrector
-public import AVenhance.Infra.Section5.Integration.PartIInitial
+import AVenhance.Infra.Section5.Integration.PartIInitial
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.ChiTilde
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.LeftToShow.Assembly.SecondLast
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectCoefficient
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectTrace
+import AVenhance.Statements.Section3.LRecurse
 
 /-! Relative initial corrector at the epsilon-delta scale on the full
 Ingredients beta range, using the exact gradient-only initial trace. -/

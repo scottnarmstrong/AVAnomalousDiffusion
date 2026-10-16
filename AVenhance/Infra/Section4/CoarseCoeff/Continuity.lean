@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWeightedIntegrability
-public import AVenhance.Infra.Section4.CoarseCoeff.SpatialWords
+import AVenhance.Infra.Section4.CoarseCoeff.SpatialWords
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.CoarseCoeff.Form
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.CoarseCoeff.Regularity
+import AVenhance.Infra.Section4.IteratesWordRegularity
+import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
 
 @[expose] public section
 

@@ -4,7 +4,6 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.Basis
-public import Mathlib.Topology.Algebra.InfiniteSum.Module
 
 /-!
 # Exhaustion limits for the symmetric torus Fourier cutoffs

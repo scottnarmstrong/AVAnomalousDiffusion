@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Params
-public import AVenhance.Infra.Ergodic.FlowAverages
-public import AVenhance.Infra.Ergodic.HMinusOneErgodicFlow
+public import AVenhance.Statements.Ingredients.Epsilon
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! Corrected parameter bookkeeping for the four §5.2 nondivergence terms.
 The physical unit-cell frequency is ε_m⁻¹, not ε_(m-1)/ε_m. Composed
@@ -14,8 +13,7 @@ analyticity, its order-zero estimate, and both means remain explicit inputs. -/
 @[expose] public section
 
 noncomputable section
-open MeasureTheory Filter Topology Homogenization AVenhance
-open AVenhance.Infra.Ingredients AVenhance.Infra.Ergodic
+open Filter Topology AVenhance
 namespace AVenhance.Infra.Section5
 
 /-- The actual integer fast frequency on the unit cell. -/

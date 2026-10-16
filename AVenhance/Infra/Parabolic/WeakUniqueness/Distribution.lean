@@ -3,10 +3,9 @@
 
 module
 
-public import Mathlib.Basic.Real.Basic
-public import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
+import Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
 
 /-!
 # A fundamental lemma for scalar weak tests

@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.WordOrdering
+import AVenhance.Infra.Section4.Amnr.MixedSubwordBudget
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Actual primitive fields and budget reserves in the normal-order induction. -/
 

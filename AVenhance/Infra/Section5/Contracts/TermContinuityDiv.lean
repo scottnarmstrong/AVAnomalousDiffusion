@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermFluxesJoint
-public import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Contracts.TermFluxesJoint
+import AVenhance.Infra.Section4.TIterateSmooth
+public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
 
 /-! # Joint continuity of the divergence-form terms on the open half space
 

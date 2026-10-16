@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTerminalCoercivity
+import AVenhance.Infra.Section4.IteratesTerminalCoercivity
+public import Mathlib.Analysis.Real.Sqrt
+import AVenhance.Infra.Section4.IteratesNormEnergy
 
 @[expose] public section
 

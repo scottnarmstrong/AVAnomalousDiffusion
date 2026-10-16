@@ -3,7 +3,20 @@
 
 module
 
-public import AVenhance.Infra.Section4.TUpgradeConsumersPackaging
+import AVenhance.Infra.Section4.TUpgradeConsumersPackaging
+public import AVenhance.Infra.Section5.AnalyticBridge.Defs
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermittedInterval
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.IsThetaAnalytic
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesTSourceScale
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section4.TUpgradeConsumersFinal
+import AVenhance.Infra.Section4.TUpgradeConsumersJets
+import AVenhance.Infra.Section4.TUpgradeConsumersScalarFinal
 
 @[expose] public section
 

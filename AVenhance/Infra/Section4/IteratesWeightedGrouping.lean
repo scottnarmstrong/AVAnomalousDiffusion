@@ -4,6 +4,9 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesYoungWeights
+import AVenhance.Infra.Section4.IteratesWordGrouping
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Exact binomial-square remainder after allocating dissipation. -/
 

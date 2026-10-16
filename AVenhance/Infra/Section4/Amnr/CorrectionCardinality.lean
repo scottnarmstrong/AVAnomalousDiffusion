@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CorrectionBudgets
+public import AVenhance.Infra.Section4.Amnr.SpatialCorrectionExpansion
 
 /-! Finite combinatorial bounds for actual material correction lists. -/
 

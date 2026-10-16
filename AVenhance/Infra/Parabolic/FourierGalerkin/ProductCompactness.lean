@@ -4,8 +4,8 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.SpacetimeCompactness
-public import Mathlib.MeasureTheory.Function.LpSeminorm.Prod
-public import Mathlib.MeasureTheory.Function.LpSeminorm.SMul
+import AVenhance.Infra.Parabolic.FourierGalerkin.Compactness
+import Homogenization.Ambient.HilbertFinite
 
 /-!
 # Product-space weak compactness for the explicit Galerkin sums

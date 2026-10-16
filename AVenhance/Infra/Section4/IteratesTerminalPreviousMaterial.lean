@@ -3,9 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesGradientMaterialMatrix
-public import AVenhance.Infra.Section4.IteratesMaterialGradientRegularity
-public import AVenhance.Infra.Section4.IteratesTruncatedMatrix
+import AVenhance.Infra.Section4.IteratesGradientMaterialMatrix
+import AVenhance.Infra.Section4.IteratesMaterialGradientRegularity
+import AVenhance.Infra.Section4.IteratesTruncatedMatrix
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 @[expose] public section
 

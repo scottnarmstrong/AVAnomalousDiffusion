@@ -3,17 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.StreamMaterialRates
+public import AVenhance.Statements.Ingredients.ZetaMK
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Material jets of the actual locally finite stream increment. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory Filter
+open MeasureTheory Filter
 open scoped Topology
 namespace AVenhance.Infra.Section4
-open AVenhance.Infra.Flow
 
 /-- Fine cutoffs have three possible indices on a fixed open time
 neighborhood. This controls all differentiated stream sums. -/

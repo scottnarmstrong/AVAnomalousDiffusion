@@ -5,7 +5,11 @@ module
 
 public import AVenhance.Infra.Classical.GalerkinSmoothJointEquation
 public import AVenhance.Infra.Classical.GalerkinBounds
-public import AVenhance.Infra.Classical.Commutator
+import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Classical.TimeEnergy
+import Mathlib.Topology.Algebra.ProperAction.Basic
+import Mathlib.Topology.ContinuousMap.SecondCountableSpace
+import Mathlib.Topology.Metrizable.ContinuousMap
 
 /-! Continuous right-hand-side paths for every ordered spatial derivative of the limit equation. -/
 

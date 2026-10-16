@@ -4,8 +4,9 @@
 module
 
 public import AVenhance.Statements.Flow.IsFlow
-public import AVenhance.Infra.Flow.Estimates
-public import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.Estimates
+import AVenhance.Infra.Flow.Laws
+import Mathlib.Analysis.SpecialFunctions.Exp
 
 /-! Joint continuity follows from curve continuity, the flow law, and the
 spatial Grönwall estimate. -/

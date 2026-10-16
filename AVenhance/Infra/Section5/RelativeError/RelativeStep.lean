@@ -3,14 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeLeadingTBounds
-public import AVenhance.Infra.Section5.RelativeError.RelativeEnergy
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitial
-public import AVenhance.Infra.Section5.RelativeError.RelativeStepCoreIoi
-public import AVenhance.Infra.Section5.Integration.PartIHmExtension
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
+import AVenhance.Infra.Section5.RelativeError.RelativeLeadingTBounds
+import AVenhance.Infra.Section5.RelativeError.RelativeEnergy
+import AVenhance.Infra.Section5.RelativeError.RelativeStepCoreIoi
+import AVenhance.Infra.Section5.Integration.PartIHmExtension
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.LeftToShow.Matrix
+import AVenhance.Infra.Section5.RelativeError.RelativeResidual
+import AVenhance.Infra.Section5.RelativeError.RelativeSecondLast
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Conditional relative-step assembly with constants chosen before Ingredients.
 The named physical leaves are ordinary hypotheses. This module never imports

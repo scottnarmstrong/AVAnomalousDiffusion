@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.Ingredients
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Ingredients.Nstar
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Numerical relations among the §2.1 parameters. -/
 

@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpointScales
-public import AVenhance.Infra.Ingredients.TimeScaleBounds
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+public import AVenhance.Statements.Ingredients.Ingredients
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Scalar absorption of the positive half-cell source estimate. All amplitude
 parameters are nonnegative; the zero-amplitude case is included. -/

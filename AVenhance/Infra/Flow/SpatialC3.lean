@@ -3,10 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Flow.ThirdSpatialRemainder
-public import AVenhance.Infra.Flow.ThirdVariationContinuity
-public import AVenhance.Infra.Flow.SpatialRegularity
-public import Mathlib.Analysis.Asymptotics.Basic
+import AVenhance.Infra.Flow.ThirdSpatialRemainder
+import AVenhance.Infra.Flow.ThirdVariationContinuity
+import AVenhance.Infra.Flow.SpatialRegularity
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Flow.IsFlow
+import AVenhance.Infra.Flow.FieldTaylor
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.SpatialC1
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Spatial C³ regularity of a smooth periodic flow. -/
 

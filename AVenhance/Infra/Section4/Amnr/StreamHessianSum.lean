@@ -10,7 +10,7 @@ public import AVenhance.Infra.Section4.Amnr.StreamHessianMaterial
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory Filter
+open MeasureTheory Filter
 open scoped Topology
 namespace AVenhance.Infra.Section4
 

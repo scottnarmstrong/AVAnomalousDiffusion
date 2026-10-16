@@ -3,10 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.WeakEnergyIdentity
-public import AVenhance.Statements.Section4.IndyStepDown
-public import AVenhance.Statements.Section4.ClassicalWellposed
-public import AVenhance.Infra.Section5.Integration.AnomalousDissipationA3b
+import AVenhance.Statements.Section4.IndyStepDown
+import AVenhance.Statements.Section4.ClassicalWellposed
+import AVenhance.Infra.Section5.Integration.AnomalousDissipationA3b
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsHolderClass
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 
 /-!
 # Proof of the main theorem, and its conditional assembly from analytic dissipation

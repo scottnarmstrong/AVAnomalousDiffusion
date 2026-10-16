@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.BigBound
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! # Big-bound estimate assembly from the individual contract producers
 

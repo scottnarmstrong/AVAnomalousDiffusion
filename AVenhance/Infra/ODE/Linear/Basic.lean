@@ -3,8 +3,8 @@
 
 module
 
-public import Mathlib.MeasureTheory.Integral.DominatedConvergence
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.LebesgueDifferentiationThm
+import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.LebesgueDifferentiationThm
 public import Mathlib.MeasureTheory.Function.AbsolutelyContinuous
 
 /-!

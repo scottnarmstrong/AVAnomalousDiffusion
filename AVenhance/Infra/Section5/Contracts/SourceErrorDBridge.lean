@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.OpenInputs
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.TimeCube
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `SourceErrorDContract`: the contract norm versus the space-time `L²` norm
 

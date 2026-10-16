@@ -4,9 +4,19 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.BigBoundRegularity
-public import AVenhance.Infra.Section5.OddSupportTsum
-public import AVenhance.Infra.Section5.LeftJacobian.Regroup
-public import AVenhance.Infra.Section5.LeftJacobian.PiolaColumn
+import AVenhance.Infra.Section5.OddSupportTsum
+import AVenhance.Infra.Section5.LeftJacobian.Regroup
+import AVenhance.Infra.Section5.LeftJacobian.PiolaColumn
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Section5.CorrectorFluxGradient
+import AVenhance.Infra.Section5.DivergenceLinearity
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.LeftJacobian.CellFlux
+import AVenhance.Infra.Section5.LeftJacobian.RegroupSmooth
+import AVenhance.Infra.Section5.MatrixFluxProduct
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! The grouped corrector error mean is the mean of an explicit periodic
 finite-mode divergence.

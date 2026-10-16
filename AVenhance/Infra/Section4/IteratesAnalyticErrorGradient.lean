@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesErrorGradientEnergy
-public import AVenhance.Infra.Section4.IteratesAnalyticErrorEnergy
+import AVenhance.Infra.Section4.IteratesErrorGradientEnergy
+import AVenhance.Infra.Section4.IteratesAnalyticErrorEnergy
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Actual previous material-error gradient in the induction's analytic weights. -/
 

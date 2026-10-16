@@ -4,9 +4,13 @@
 module
 
 public import AVenhance.Infra.Section4.HmBounds
-public import AVenhance.Infra.Section4.Params
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorHEuclid
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorHScalars
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorHEuclid
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorHScalars
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The `H̃_m` gradient from the AMNR tensor estimate, at explicit scales
 
@@ -20,7 +24,6 @@ hypotheses and are discharged in `LeadingErrorH`. -/
 noncomputable section
 
 open MeasureTheory Homogenization
-open scoped Matrix.Norms.Elementwise
 
 namespace AVenhance.Infra.Section5.RelativeError
 

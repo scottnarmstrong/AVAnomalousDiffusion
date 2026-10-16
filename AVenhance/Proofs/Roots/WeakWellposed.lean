@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.LimitExistence
-public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakUniquenessTheorem
+import AVenhance.Infra.Parabolic.FourierGalerkin.LimitExistence
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakUniquenessTheorem
 public import AVenhance.Statements.Roots.IsWeakSolution
 
 /-!

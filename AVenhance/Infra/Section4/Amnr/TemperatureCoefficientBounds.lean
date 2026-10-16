@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CoefficientProductBounds
-public import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.Amnr.CoefficientProductBounds
+public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientIdentity
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section4.Amnr.FlowAverage
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
 
 /-! Actual forcing coefficient jets assembled from source primitive estimates. -/
 

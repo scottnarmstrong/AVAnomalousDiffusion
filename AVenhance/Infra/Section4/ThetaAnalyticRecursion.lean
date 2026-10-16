@@ -4,10 +4,12 @@
 module
 
 public import AVenhance.Infra.Section4.ThetaAnalyticProof
-public import AVenhance.Infra.Section4.ThetaHonestRecursion
-public import AVenhance.Infra.Section4.ThetaScale
-public import AVenhance.Statements.Section4.MTheta0IsLeast
-public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Section4.ThetaScale
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.ThetaIntegratedEnergy
+import AVenhance.Infra.Section4.ThetaSpaceTime
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! The normalized analytic derivative recursion for the classical theta
 solution, conditional on the stream-regularity and diffusivity-recursion conclusion data. -/

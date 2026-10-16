@@ -3,14 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Flow.JointC1Core
-public import AVenhance.Infra.Flow.JointSpatialDerivative
-public import AVenhance.Infra.Flow.JointSpatialDerivativeAll
-public import AVenhance.Infra.Flow.JointC1
-public import AVenhance.Infra.Flow.SecondJetContinuity
-public import AVenhance.Infra.Flow.FirstJet
-public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+import AVenhance.Infra.Flow.JointC1Core
+import AVenhance.Infra.Flow.JointSpatialDerivative
+import AVenhance.Infra.Flow.JointSpatialDerivativeAll
+import AVenhance.Infra.Flow.SecondJetContinuity
 public import Mathlib.Analysis.Matrix.Normed
+public import AVenhance.Infra.Flow.VariationalEquation
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.SpatialC1
+import AVenhance.Infra.Flow.SpatialC2
+import Mathlib.Analysis.Calculus.Deriv.Prod
 
 /-! Joint C¹ regularity of the variational flow on forward regions. -/
 

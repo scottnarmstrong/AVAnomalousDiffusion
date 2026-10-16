@@ -3,11 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section5.Contracts.Produced
-public import AVenhance.Infra.Section5.Terms.R46IteratesRegularity
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Proofs.Construction.StreamRegularity
+public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
+public import AVenhance.Infra.Section5.Terms.R46
+public import AVenhance.Infra.Section5.Terms.R46FluxScale
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.Terms.R46FluxEstimate
 
 /-! Conditional producer for the `R46` source-scale contract with an abstract amplitude.
 
@@ -23,7 +26,7 @@ open MeasureTheory Homogenization
 
 namespace AVenhance.Infra.Section5.Contracts
 
-open AVenhance AVenhance.Infra.Section5 AVenhance.Infra.Section5.Integration
+open AVenhance AVenhance.Infra.Section5
 
 theorem R46Source.epsilon_two_delta_le_delta_r46Source (β : ℝ) (I : Ingredients β)
     (m : ℕ) :

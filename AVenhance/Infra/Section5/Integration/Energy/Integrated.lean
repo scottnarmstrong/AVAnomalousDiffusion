@@ -3,12 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.Energy.Inequality
-public import AVenhance.Infra.Section5.Integration.Energy.Abstract
-public import AVenhance.Infra.Section5.Integration.Energy.FiniteNorm
-public import AVenhance.Infra.Section5.Integration.HMinusMeasurable
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
-public import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Section5.Integration.Energy.Inequality
+import AVenhance.Infra.Section5.Integration.Energy.Abstract
+import AVenhance.Infra.Section5.Integration.Energy.FiniteNorm
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+public import AVenhance.Infra.Section5.HMinusTools
+public import AVenhance.Infra.Section5.Integration.Energy.Pointwise
+import AVenhance.Infra.Section5.Integration.Energy.ParamIntegral
+import AVenhance.Infra.Section5.Integration.Energy.Regularity
+import AVenhance.Infra.Section5.Integration.Energy.TimeDerivative
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Topology.Separation.CompletelyRegular
 
 /-! # The integrated energy inequality for `w = u - v`
 

@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Ergodic.CenteredSpectral
+import AVenhance.Infra.Ergodic.CenteredSpectral
 public import AVenhance.Infra.Ergodic.HMinusOneErgodicFlow
+public import AVenhance.Infra.Ergodic.HMinusOneErgodic
 
 @[expose] public section
 

@@ -3,10 +3,17 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.Integration.FullAssembly
-public import AVenhance.Infra.FullTheorem.Integration.NoSelectionAssembly
-public import AVenhance.Infra.FullTheorem.Integration.SeparatedChainsAssembly
-public import AVenhance.Infra.FullTheorem.Contracts.NoSelectionInputs
+import AVenhance.Infra.FullTheorem.Integration.FullAssembly
+import AVenhance.Infra.FullTheorem.Integration.NoSelectionAssembly
+import AVenhance.Infra.FullTheorem.Integration.SeparatedChainsAssembly
+import AVenhance.Infra.FullTheorem.Contracts.NoSelectionInputs
+public import AVenhance.Statements.FullTheorem.HolderTimeL2Le
+public import AVenhance.Statements.FullTheorem.IsTransportWeakSolution
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsHolderClass
+public import AVenhance.Statements.Roots.IsWeakSolution
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 
 /-!
 # Proof of the combined main theorem

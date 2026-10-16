@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
 public import AVenhance.Statements.Section4.IsTIterates
-public import AVenhance.Statements.Section4.IsClassicalSol
 
 /-! # recursive construction of the `T` iterates
 

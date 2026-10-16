@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.Amnr.Seed
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Section4.Amnr.Memory
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Actual large-cutoff support, local finiteness, and mixed derivative bounds. -/
 

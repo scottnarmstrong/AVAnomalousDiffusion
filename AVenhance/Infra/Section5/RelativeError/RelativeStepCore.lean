@@ -3,9 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeNorms
-public import AVenhance.Infra.Section5.RelativeError.RelativeScalar
+import AVenhance.Infra.Section5.RelativeError.RelativeNorms
+import AVenhance.Infra.Section5.RelativeError.RelativeScalar
 public import AVenhance.Infra.Section5.LeftToShow.Defs
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.Ansatz
+public import AVenhance.Statements.Section4.KappaSeq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Relative energy comparison in the actual gradient carriers. This is a
 conditional assembly helper, not a proof of the step-down estimate statement. -/

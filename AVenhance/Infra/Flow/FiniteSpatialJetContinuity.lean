@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Flow.FiniteSpatialJetBounds
-public import Mathlib.Analysis.ODE.Gronwall
+import AVenhance.Infra.Flow.FiniteSpatialJetBounds
+import Mathlib.Analysis.ODE.Gronwall
+public import AVenhance.Infra.Flow.FiniteSpatialJetGlobal
+public import Mathlib.Analysis.Complex.Exponential
 
 /-! Joint continuity of finite recursive jet flows on compact windows. -/
 

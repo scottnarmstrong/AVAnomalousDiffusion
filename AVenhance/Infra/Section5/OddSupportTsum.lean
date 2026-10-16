@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.OddSupportSums
+import AVenhance.Infra.Section5.OddSupportSums
+public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Section4.LocalFinite
 
 /-! The odd cutoff `tsum` as an integer sum on its filtered finite support. -/
 

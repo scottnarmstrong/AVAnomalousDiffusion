@@ -3,9 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.SelectedDiffusionDivergence
-public import AVenhance.Infra.Section5.SelectedDiffusionFluxSubtype
-public import AVenhance.Infra.Section5.OddSupportTsum
+import AVenhance.Infra.Section5.SelectedDiffusionDivergence
+import AVenhance.Infra.Section5.SelectedDiffusionFluxSubtype
+import AVenhance.Infra.Section5.OddSupportTsum
+public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Infra.Section5.CorrectorDiffusionDivergence
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! The selected diffusion divergence written in the named Section 5.1 terms. -/
 

@@ -3,9 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section3.ChiMKCorrector
-public import AVenhance.Infra.Section3.ShearFormula
-public import AVenhance.Infra.Section5.FlowPiola
+import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section3.ShearFormula
+public import AVenhance.Statements.Ingredients.Psi
+public import AVenhance.Statements.Section3.ChiMK
+public import AVenhance.Statements.Section3.SigmaMat
+public import AVenhance.Statements.Section4.VecDiv
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Order.CompletePartialOrder
 
 /-! The unpulled corrector flux divergence identity and its conditional
 cofactor push-forward along the inverse flow. -/

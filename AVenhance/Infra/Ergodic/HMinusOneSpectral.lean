@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Ergodic.HMinusOne
+public import AVenhance.Infra.Ergodic.Periodic
+public import AVenhance.Infra.Torus.FourierCalculus
+import AVenhance.Infra.Ergodic.AveragesL1
 
 /-! # Finite spectral support for the H⁻¹ ergodic split
 

@@ -4,8 +4,11 @@
 module
 
 public import AVenhance.Infra.FullTheorem.LemmaU.WeakModeSystem
-public import AVenhance.Infra.FullTheorem.LemmaU.Limit
-public import AVenhance.Infra.FullTheorem.LemmaU.Optimize
+import AVenhance.Infra.FullTheorem.LemmaU.Limit
+import AVenhance.Infra.FullTheorem.LemmaU.Optimize
+import AVenhance.Infra.FullTheorem.LemmaU.LowHigh
+import AVenhance.Infra.FullTheorem.LemmaU.SliceDrift
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
 
 /-!
 # Lemma U: assembly of the Fourier estimates

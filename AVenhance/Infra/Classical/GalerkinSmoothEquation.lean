@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinSmoothCoefficients
+import AVenhance.Infra.Classical.GalerkinSmoothCoefficients
 public import AVenhance.Infra.Classical.GalerkinSmoothLimit
-public import AVenhance.Infra.Classical.GalerkinGenerator
 
 /-! Fourier coefficient equations for the finite classical Galerkin paths. -/
 

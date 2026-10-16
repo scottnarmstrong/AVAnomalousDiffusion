@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Proofs.Construction.StreamRegularity
+import AVenhance.Proofs.Construction.StreamRegularity
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Roots.IsDivFree
+public import AVenhance.Statements.Roots.IsHolderClass
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! Proof of stream-function estimates. The exponent-specific construction
 below uses one admissible exponent to choose the limit field; uniqueness of

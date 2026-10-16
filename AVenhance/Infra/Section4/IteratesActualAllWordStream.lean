@@ -3,7 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualTerminalStream
+import AVenhance.Infra.Section4.IteratesActualTerminalStream
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

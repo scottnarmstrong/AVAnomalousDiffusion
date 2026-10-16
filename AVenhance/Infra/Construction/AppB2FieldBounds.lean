@@ -5,6 +5,9 @@ module
 
 public import AVenhance.Infra.Construction.RecursionIncrement
 public import AVenhance.Infra.FaaDiBruno.TransportODEApplications
+public import Mathlib.Algebra.Order.Archimedean.Real.Hom
+import AVenhance.Infra.FaaDiBruno.Composition
+import Mathlib.Algebra.Order.Star.Real
 
 /-! The Section 2 induction bound controls all positive spatial seminorms of
 the stream velocity. -/

@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.Energy.TimeDerivative
+import AVenhance.Infra.Section5.Integration.Energy.TimeDerivative
 public import AVenhance.Statements.Section4.AdvDiffOp
+public import AVenhance.Infra.Classical.TimeEnergy
+import Mathlib.Order.CompletePartialOrder
 
 /-! # Joint regularity of the spatial derivatives of a jointly `C²` function
 

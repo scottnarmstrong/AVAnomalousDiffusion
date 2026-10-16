@@ -3,10 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinLimit
-public import AVenhance.Infra.Classical.GalerkinConvergence
-public import AVenhance.Infra.Classical.GalerkinResidualBounds
-public import AVenhance.Infra.Classical.GalerkinDerivative
+import AVenhance.Infra.Classical.GalerkinLimit
+import AVenhance.Infra.Classical.GalerkinResidualBounds
+import AVenhance.Infra.Classical.GalerkinDerivative
+public import AVenhance.Infra.Classical.GalerkinCauchy
+public import AVenhance.Infra.Classical.GalerkinGenerator
+public import AVenhance.Infra.Parabolic.FourierGalerkin.FourierLimit
+public import AVenhance.Infra.Torus.FrozenBridge
+import AVenhance.Infra.Classical.GalerkinResidual
+import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Parabolic.FourierGalerkin.ProjectionCoefficients
+import Mathlib.Analysis.Complex.OperatorNorm
+import Mathlib.Topology.Compactness.CompactlyGeneratedSpace
+import Mathlib.Topology.Separation.CompletelyRegular
 
 /-! Uniform Sobolev energy bounds for all spatial derivatives of the Galerkin paths. -/
 

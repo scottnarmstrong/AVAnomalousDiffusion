@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Flow.HessianJointAll
-public import AVenhance.Infra.Flow.ThirdVariationContinuity
+import AVenhance.Infra.Flow.ThirdVariationContinuity
+public import AVenhance.Infra.Flow.HigherVariation3.Existence
+public import AVenhance.Infra.Flow.SecondJetContinuity
+public import AVenhance.Infra.Flow.SpatialRegularity
+import AVenhance.Infra.Flow.SpatialC3
+import AVenhance.Infra.Flow.ThirdSpatialRemainder
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! The third spatial derivative on forward target-time strips. -/
 

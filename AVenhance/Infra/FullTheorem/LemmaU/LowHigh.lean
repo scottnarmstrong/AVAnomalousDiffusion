@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Infra.FullTheorem.LemmaU.ModeEnergy
+import AVenhance.Infra.FullTheorem.LemmaU.ScalarPaths
+import Mathlib.Tactic.Positivity.Finset
 
 /-!
 # Lemma U: low-mode increments and high-mode amplitudes

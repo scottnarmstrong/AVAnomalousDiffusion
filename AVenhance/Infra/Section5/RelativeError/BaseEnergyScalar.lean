@@ -4,8 +4,6 @@
 module
 
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
 
 /-! # RelativeError item 11: the scalar dissipation lower bound
 

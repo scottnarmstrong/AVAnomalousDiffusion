@@ -5,9 +5,7 @@ module
 
 public import AVenhance.Infra.Ergodic.BasicL1
 public import AVenhance.Infra.Ergodic.FourierDecay
-public import AVenhance.Infra.Ergodic.LatticeDecay
-public import Mathlib.Topology.Algebra.Group.Quotient
-public import Mathlib.MeasureTheory.Function.LocallyIntegrable
+import AVenhance.Infra.Ergodic.LatticeDecay
 
 /-! # The basic L¹ ergodic estimate -/
 

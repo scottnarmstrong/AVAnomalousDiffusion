@@ -5,6 +5,7 @@ module
 
 public import AVenhance.Infra.FaaDiBruno.TransportODEApplications
 public import AVenhance.Statements.Roots.SpaceGrad
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
 
 /-! # RelativeError: the two-dimensional cofactor Piola identity -/
 

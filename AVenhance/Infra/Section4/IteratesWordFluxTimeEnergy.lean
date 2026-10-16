@@ -3,10 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Representation
-public import AVenhance.Infra.Section4.IteratesWordDriftPairing
-public import AVenhance.Infra.Section4.IteratesWordTimeEnergy
-public import AVenhance.Infra.Section5.SMatRegularity
+import AVenhance.Infra.Section4.CoarseCoeff.Representation
+import AVenhance.Infra.Section4.IteratesWordDriftPairing
+import AVenhance.Infra.Section4.IteratesWordTimeEnergy
+import AVenhance.Infra.Section5.SMatRegularity
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Section4.IteratesForcing
 
 /-! All-order terminal energy with the actual explicit flux pairings. -/
 

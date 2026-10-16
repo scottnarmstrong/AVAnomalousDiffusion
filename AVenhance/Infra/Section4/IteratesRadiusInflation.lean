@@ -3,7 +3,9 @@
 
 module
 
-public import Mathlib
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Nat.Factorial.Basic
+import Mathlib.Algebra.Order.Archimedean.Real.Basic
 
 @[expose] public section
 

@@ -3,11 +3,10 @@
 
 module
 
-public import AVenhance.Statements.Section3.LRecurse
-public import AVenhance.Statements.Section4.KappaSeq
-public import AVenhance.Infra.Section3.OneStepAveragingUnconditional
-public import AVenhance.Infra.Section3.LRecurseTop
-public import AVenhance.Infra.Section4.Params
+public import AVenhance.Statements.Ingredients.Ingredients
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.EpsilonConsequences
+import AVenhance.Infra.Ingredients.Parameters
 
 /-! contract 8: the enhancement product bound, including the terminal step.
 Constants are selected before the ingredients; no temperature datum occurs. -/

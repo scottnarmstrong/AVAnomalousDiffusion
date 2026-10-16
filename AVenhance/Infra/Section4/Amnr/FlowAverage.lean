@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.Cutoff
-public import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.Amnr.Cutoff
+import AVenhance.Infra.Section4.Amnr.Seed
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! Differentiation and estimates for the actual locally finite cutoff-flow sum. -/
 

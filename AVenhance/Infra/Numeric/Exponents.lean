@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.Parameters
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Ingredients.Nstar
 
 /-! Pure real algebra for the exponents in §§5.2–5.4. No scale powers are expanded.
 The printed `γβ` at line 7441 must be `qγ`. -/

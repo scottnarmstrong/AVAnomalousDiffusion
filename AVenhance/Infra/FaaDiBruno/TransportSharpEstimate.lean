@@ -4,7 +4,10 @@
 module
 
 public import AVenhance.Infra.FaaDiBruno.TransportHighOrder
-public import AVenhance.Infra.FaaDiBruno.Transport
+import AVenhance.Infra.FaaDiBruno.Transport
+public import AVenhance.Infra.FaaDiBruno.TransportSolution.GradientMatrix
+import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Infra.FaaDiBruno.TransportSolution.GradientEstimates
 
 @[expose] public section
 

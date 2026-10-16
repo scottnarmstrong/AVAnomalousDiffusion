@@ -4,9 +4,12 @@
 module
 
 public import AVenhance.Infra.Section5.Terms.R46
-public import AVenhance.Infra.Ingredients.Overlap
-public import AVenhance.Infra.Section3.FluxMatrix
-public import AVenhance.Infra.Section3.Approx
+import AVenhance.Infra.Section3.Approx
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Support and fixed-time algebra for the transition-window flux.
 

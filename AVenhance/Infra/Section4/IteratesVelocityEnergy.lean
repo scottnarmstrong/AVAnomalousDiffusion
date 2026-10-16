@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesVelocityTerm
-public import AVenhance.Infra.Section4.IteratesPositiveGrouping
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.TimeCube
 
 /-! Integrated all-order drift errors with linear lower-energy dependence. -/
 

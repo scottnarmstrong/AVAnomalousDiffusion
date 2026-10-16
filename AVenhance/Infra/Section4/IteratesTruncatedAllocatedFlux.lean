@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedContinuousFlux
-public import AVenhance.Infra.Section4.IteratesWeightedGrouping
+import AVenhance.Infra.Section4.IteratesTruncatedContinuousFlux
+import AVenhance.Infra.Section4.IteratesWeightedGrouping
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Actual integrated forcing with dissipation absorbed uniformly in order. -/
 

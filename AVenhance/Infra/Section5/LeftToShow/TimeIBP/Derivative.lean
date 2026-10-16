@@ -3,11 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
 public import AVenhance.Infra.Section5.LeftToShow.Defs
-public import AVenhance.Infra.Flow.PeriodicSmooth
 public import AVenhance.Infra.Flow.Liouville
-public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import Mathlib.Order.CompletePartialOrder
 
 /-! # Time derivative of `∫ ∂_iT ∂_jT`
 

@@ -3,11 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesEnergyBudgetSplit
-public import AVenhance.Infra.Section4.IteratesMaterialBudgetNormalized
-public import AVenhance.Infra.Section4.IteratesStreamBudgetNormalized
-public import AVenhance.Infra.Section4.IteratesCorrectedUnnormalizedQuarter
-public import AVenhance.Infra.Section4.IteratesAnalyticWeightOrder
+import AVenhance.Infra.Section4.IteratesEnergyBudgetSplit
+import AVenhance.Infra.Section4.IteratesMaterialBudgetNormalized
+import AVenhance.Infra.Section4.IteratesStreamBudgetNormalized
+import AVenhance.Infra.Section4.IteratesCorrectedUnnormalizedQuarter
+import AVenhance.Infra.Section4.IteratesAnalyticWeightOrder
+public import AVenhance.Infra.Section4.IteratesAmplitude
+public import AVenhance.Infra.Section4.IteratesHigherEnergyBudget
+public import AVenhance.Infra.Section4.IteratesMaterialBudgetConstant
+import AVenhance.Infra.Section4.IteratesCorrectedRecursion
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

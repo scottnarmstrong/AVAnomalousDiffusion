@@ -4,7 +4,6 @@
 module
 
 public import Mathlib.MeasureTheory.Integral.Bochner.Basic
-public import Mathlib.Algebra.QuadraticDiscriminant
 
 /-!
 # Abstract real inequalities for the stream-difference estimate

@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.TransportLimit.Passage
+import AVenhance.Infra.FullTheorem.TransportLimit.Passage
+public import AVenhance.Infra.FullTheorem.TransportLimit.DriftData
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
+import AVenhance.Infra.FullTheorem.TransportLimit.AbstractLimit
+import AVenhance.Infra.FullTheorem.TransportLimit.Construction
+import AVenhance.Infra.FullTheorem.TransportLimit.SolutionForm
+import AVenhance.Infra.FullTheorem.TransportLimit.ViscousError
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
+import Mathlib.Algebra.Order.Ring.Star
 
 /-!
 # The limit satisfies the transport weak form

@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Flow.SpatialRegularity
-public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+public import AVenhance.Infra.Flow.VariationalEquation
+public import Mathlib.Analysis.ODE.Gronwall
+import AVenhance.Infra.Flow.CurveUniqueness
+import AVenhance.Infra.Flow.Estimates
+import AVenhance.Infra.Flow.GlobalExistence
+import AVenhance.Infra.Flow.Laws
 
 /-! Preparatory ODE systems for higher spatial variations of a smooth flow. -/
 

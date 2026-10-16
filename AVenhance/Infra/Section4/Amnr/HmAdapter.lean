@@ -3,9 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.Discharge
-public import AVenhance.Infra.Section4.Amnr.FiniteSpatialWordBridge
+import AVenhance.Infra.Section4.Amnr.FiniteSpatialWordBridge
 public import AVenhance.Infra.Section4.HmBounds
+public import AVenhance.Infra.Section4.Amnr.Induction
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section4.Amnr.SeedMultiplierSourceBounds
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.TemperatureCalculus
+import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
+import AVenhance.Infra.Section4.Amnr.TensorNorm
 
 /-! Adapter to the actual spatial divergence-gradient tensor.
 Import this module directly: HmBounds already imports the AmnrBounds facade. -/

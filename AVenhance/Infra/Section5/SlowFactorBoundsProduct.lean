@@ -5,8 +5,6 @@ module
 
 public import AVenhance.Infra.Section4.Amnr.SpatialWords
 public import AVenhance.Infra.FaaDiBruno.DirectionalProduct
-public import AVenhance.Infra.Ergodic.AveragedComposition
-public import Mathlib.MeasureTheory.Function.LpSeminorm.SMul
 
 /-! Finite scalar products: bounded coefficient jets times averaged positive
 T jets. Every differentiation allocation retains its multiplicity. -/
@@ -16,7 +14,7 @@ T jets. Every differentiation allocation retains its multiplicity. -/
 noncomputable section
 open scoped ContDiff ENNReal
 open MeasureTheory Homogenization AVenhance.FaaDiBruno
-open AVenhance.Infra.Section4 AVenhance.Infra.Ergodic AVenhance.Infra.Torus
+open AVenhance.Infra.Section4
 namespace AVenhance.Infra.Section5
 
 /-- Allocations of derivative positions between two scalar factors. -/

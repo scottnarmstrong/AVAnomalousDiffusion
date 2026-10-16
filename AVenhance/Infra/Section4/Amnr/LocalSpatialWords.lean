@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowJointSource
+import AVenhance.Infra.Section4.Amnr.FlowJointSource
+public import AVenhance.Infra.Section4.Amnr.FlowSpatialSourceRates
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.FlowGradientSpatialRates
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Spatial-word bridges on the actual open cutoff neighborhood. -/
 

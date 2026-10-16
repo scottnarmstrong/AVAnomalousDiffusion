@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinHorizonProvider
-public import AVenhance.Infra.Classical.GalerkinHorizonSmoothnessAssembly
+import AVenhance.Infra.Classical.GalerkinHorizonProvider
+import AVenhance.Infra.Classical.GalerkinHorizonSmoothnessAssembly
+public import AVenhance.Infra.Classical.GalerkinHorizonConsistency
+public import AVenhance.Statements.Section4.IsClassicalSol
 
 /-! Proof bridge for classical well-posedness. The Galerkin limit and nested-horizon
 compatibility are already constructed in `Infra.Classical`; only joint

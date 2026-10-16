@@ -4,7 +4,10 @@
 module
 
 public import AVenhance.Infra.Section5.FlowPiola
-public import AVenhance.Infra.Section5.FlowGradientRegularity
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Identify the inverse-flow cofactor with the forward flow matrix in the
 row-Jacobian convention. -/

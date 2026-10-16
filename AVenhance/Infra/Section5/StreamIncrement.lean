@@ -4,7 +4,6 @@
 module
 
 public import AVenhance.Infra.Section5.Terms
-public import AVenhance.Statements.Construction.NextStream
 
 /-! Exact recursion identities for the selected stream increments. -/
 

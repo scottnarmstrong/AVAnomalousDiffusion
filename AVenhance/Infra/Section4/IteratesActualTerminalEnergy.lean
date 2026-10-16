@@ -3,10 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesFluxPairingContinuity
-public import AVenhance.Infra.Section4.IteratesForcingCoefficients
-public import AVenhance.Infra.Section4.IteratesStreamCoefficient
-public import AVenhance.Infra.Section4.IteratesTerminalSignedPairing
+import AVenhance.Infra.Section4.IteratesFluxPairingContinuity
+import AVenhance.Infra.Section4.IteratesForcingCoefficients
+import AVenhance.Infra.Section4.IteratesStreamCoefficient
+import AVenhance.Infra.Section4.IteratesTerminalSignedPairing
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
 
 @[expose] public section
 

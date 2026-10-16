@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinSmoothTimeDerivative
+public import AVenhance.Infra.Classical.GalerkinSmoothLimit
+import AVenhance.Infra.Classical.GalerkinSmoothTransportCoefficient
+import Mathlib.Topology.Separation.CompletelyRegular
 
 /-! Finite Laplacian coefficients in terms of the Galerkin second derivative paths. -/
 

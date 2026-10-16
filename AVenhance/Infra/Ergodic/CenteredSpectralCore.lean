@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Ergodic.HMinusOneErgodic
+import AVenhance.Infra.Ergodic.HMinusOneSpectral
 
 /-! The low-frequency gap and L2 splitting used in the centered extension.
 These finite spectral estimates do not require the product's mean to vanish. -/

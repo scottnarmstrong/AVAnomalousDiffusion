@@ -3,9 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualPrimitiveFlat
-public import AVenhance.Infra.Section4.IteratesGradientCoordinateMaterial
-public import AVenhance.Infra.Section4.IteratesMatrixPrimitiveAssembly
+import AVenhance.Infra.Section4.IteratesActualPrimitiveFlat
+import AVenhance.Infra.Section4.IteratesGradientCoordinateMaterial
+import AVenhance.Infra.Section4.IteratesMatrixPrimitiveAssembly
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section4.IteratesCancellation
+import AVenhance.Infra.Section4.IteratesMatrixIntegralSum
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 @[expose] public section
 

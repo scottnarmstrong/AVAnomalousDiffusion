@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTThetaUpgrade
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

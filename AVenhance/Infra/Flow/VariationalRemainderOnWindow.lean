@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Flow.LinearWindowBounds
+import AVenhance.Infra.Flow.LinearWindowBounds
 public import Mathlib.Analysis.ODE.Gronwall
+public import AVenhance.Infra.Flow.FlowOn
 
 /-! A local quadratic remainder estimate for a flow and its variational
 equation. All bounds are confined to one compact forward time window and one

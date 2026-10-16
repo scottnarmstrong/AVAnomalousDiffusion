@@ -3,9 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureSpatialDiffusion
-public import Mathlib.Analysis.Calculus.TangentCone.Real
-public import Mathlib.Analysis.Calculus.TangentCone.Prod
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
 
 /-! Actual spatial derivatives and their inherited initial trace. -/
 

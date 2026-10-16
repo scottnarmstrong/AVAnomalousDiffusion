@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesPrimitive
 public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
-public import Mathlib.MeasureTheory.Integral.Prod
+public import AVenhance.Statements.Roots.TimeCube
+public import AVenhance.Statements.Section4.IsClassicalSol
 
 /-! Space-time bounds for the primitive/material pairings in l.V.
 Conditional material inputs refer to the actual material derivative fields. -/
@@ -14,7 +14,6 @@ Conditional material inputs refer to the actual material derivative fields. -/
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

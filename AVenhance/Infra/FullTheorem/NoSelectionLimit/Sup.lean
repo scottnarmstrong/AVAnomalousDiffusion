@@ -3,9 +3,17 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.Integration.LebronStepAssembly
-public import AVenhance.Infra.FullTheorem.UniformAnalytic.CaseBig
-public import AVenhance.Statements.Construction.LimitFieldRegular
+public import AVenhance.Infra.FullTheorem.UniformAnalytic.TailHolder
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.Contracts.UniformInputs
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Scales
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Tail
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.RelativeError.AssemblyScales
+import AVenhance.Infra.Section5.RelativeError.IteratesExist
+import AVenhance.Statements.Section4.ClassicalWellposed
+import AVenhance.Statements.Section4.IndyStepDown
+import AVenhance.Statements.Section4.MTheta0IsLeast
 
 /-! # Sup-in-time pieces for the no-selection limit
 

@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.CorrectorFluxGradient
-public import AVenhance.Infra.Section5.DivergenceLinearity
-public import AVenhance.Infra.Section5.MatrixFluxDerivative
+import AVenhance.Infra.Section5.CorrectorFluxGradient
+import AVenhance.Infra.Section5.DivergenceLinearity
+import AVenhance.Infra.Section5.MatrixFluxDerivative
+public import AVenhance.Infra.Section5.CorrectorDiffusionDivergence
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Finite-support assembly of the selected per-corrector flux divergences. -/
 

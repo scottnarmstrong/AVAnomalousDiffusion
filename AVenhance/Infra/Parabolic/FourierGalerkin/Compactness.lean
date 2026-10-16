@@ -3,11 +3,11 @@
 
 module
 
-public import Mathlib.Analysis.InnerProductSpace.Basic
-public import Mathlib.Analysis.InnerProductSpace.Dual
-public import Mathlib.Analysis.InnerProductSpace.ProdL2
-public import Mathlib.Analysis.Normed.Module.WeakDual
-public import Mathlib.Topology.Order.OrderClosed
+import Mathlib.Analysis.InnerProductSpace.Dual
+import Mathlib.Analysis.InnerProductSpace.ProdL2
+import Mathlib.Analysis.Normed.Module.WeakDual
+public import Mathlib.Analysis.InnerProductSpace.Defs
+public import Mathlib.Analysis.Normed.Lp.ProdLp
 
 /-!
 # Pointwise weak-limit bounds and traces for Galerkin paths

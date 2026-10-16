@@ -4,6 +4,10 @@
 module
 
 public import AVenhance.Infra.Ingredients.TimeScales
+public import AVenhance.Statements.Ingredients.LIdx
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! The corrected floor index and its cell-containment property. -/
 

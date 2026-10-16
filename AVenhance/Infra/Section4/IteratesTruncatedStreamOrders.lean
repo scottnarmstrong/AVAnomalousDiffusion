@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTruncatedFirstFlux
-public import AVenhance.Infra.Section4.IteratesStreamOrders
+import AVenhance.Infra.Section4.IteratesStreamOrders
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Section3.SigmaMat
+import AVenhance.Infra.Section4.IteratesStreamCoefficient
+import AVenhance.Infra.Section4.IteratesTruncatedFluxIntegral
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
 
 /-! Exact first and high stream order split at each terminal time. -/
 

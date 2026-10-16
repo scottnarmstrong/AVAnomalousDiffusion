@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCommutator
+import AVenhance.Infra.Section4.IteratesCommutator
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
 
 /-! Exact all-order drift commutators, before quantitative norm estimates. -/
 

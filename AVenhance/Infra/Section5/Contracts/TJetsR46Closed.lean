@@ -3,8 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TJetsDatum
-public import AVenhance.Infra.Section5.Contracts.R46Source
+import AVenhance.Infra.Section5.Contracts.TJetsDatum
+import AVenhance.Infra.Section5.Contracts.R46Source
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+public import AVenhance.Infra.Section5.Terms.R46FluxScale
+import AVenhance.Infra.Construction.AppB2Smoothness
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.Terms.R46IteratesRegularity
+import AVenhance.Proofs.Construction.StreamRegularity
 
 /-! # Uniform-amplitude `R46` wiring and its closed datum producer -/
 

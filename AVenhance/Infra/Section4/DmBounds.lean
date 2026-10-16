@@ -6,11 +6,18 @@ module
 public import AVenhance.Statements.Section4.Jcut
 public import AVenhance.Statements.Section4.Amnr
 public import AVenhance.Statements.Section3.QMNR
-public import AVenhance.Infra.Section4.Params
-public import AVenhance.Infra.Section4.AmnrBounds
-public import AVenhance.Infra.Section4.IteratesBasic
-public import AVenhance.Infra.Section3.Approx
-public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import AVenhance.Infra.Section4.IteratesBasic
+import AVenhance.Infra.Section3.Approx
+public import AVenhance.Statements.Roots.TimeCube
+public import AVenhance.Statements.Section3.Flux
+public import AVenhance.Statements.Section3.JHat
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Section3.QMNRRecursion
+import AVenhance.Infra.Section4.Amnr.Base
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! Source-scale reduction for the remainder index.  The corrected
 indexing fixes the remainder at `Jcut β`; the estimates below retain that exact exponent. -/

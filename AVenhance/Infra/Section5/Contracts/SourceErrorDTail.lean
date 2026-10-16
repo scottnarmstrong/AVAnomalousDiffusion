@@ -3,7 +3,24 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ATensorBound
+import AVenhance.Infra.Section5.RelativeError.ATensorBound
+public import AVenhance.Infra.Section5.RelativeError.ATensorBoundCoeff
+public import AVenhance.Infra.Section5.RelativeError.MaterialAmnrAdapters
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.Amnr.HmAdapter
+import AVenhance.Infra.Section4.Amnr.Rates
+import AVenhance.Infra.Section4.Amnr.SourceSmallnessThreshold
+import AVenhance.Infra.Section4.Amnr.TemperatureDiffusionRates
+import AVenhance.Infra.Section4.Amnr.TemporalPairing
+import AVenhance.Infra.Section4.Amnr.TensorNorm
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `SourceErrorDContract`: the terminal `A_{m,n,Jcut}` tensor in `LÂ²`
 
@@ -19,7 +36,6 @@ is abstract, and the temperature input is the positive-order spatial jets of `âˆ
 noncomputable section
 
 open MeasureTheory Homogenization Set
-open scoped Matrix.Norms.Elementwise
 
 namespace AVenhance.Infra.Section5.Contracts
 

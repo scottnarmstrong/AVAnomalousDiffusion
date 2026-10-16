@@ -11,10 +11,7 @@ public import AVenhance.Infra.Section4.IteratesFirstStreamFactorials
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
-open IterateCalculus
 open AVenhance
 
 end AVenhance.Infra.Section4

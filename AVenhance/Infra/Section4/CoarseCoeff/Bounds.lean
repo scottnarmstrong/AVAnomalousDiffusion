@@ -10,7 +10,6 @@ public import AVenhance.Infra.Section4.CoarseCoeff.CutoffAverage
 
 noncomputable section
 open Homogenization
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open AVenhance
 

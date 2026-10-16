@@ -3,11 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.HmGradientActual
-public import AVenhance.Infra.Section5.Contracts.HmGradientTheta
-public import AVenhance.Infra.Section5.Contracts.TJets
-public import AVenhance.Infra.Section5.RelativeError.ATensorJets
-public import AVenhance.Infra.Section5.RelativeError.ATensorBound
+import AVenhance.Infra.Section5.Contracts.HmGradientActual
+import AVenhance.Infra.Section5.Contracts.HmGradientTheta
+import AVenhance.Infra.Section5.RelativeError.ATensorJets
+import AVenhance.Infra.Section5.RelativeError.ATensorBound
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.TUpgradeConsumersScales
+import AVenhance.Infra.Section4.TUpgradeConsumersV
 
 /-! # `HmGradientContract` (`e.Hm.gradient.L2`, `enhance.tex` 5975-5995)
 

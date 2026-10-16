@@ -4,7 +4,9 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesWeightedFlux
-public import AVenhance.Infra.Section4.IteratesEnergyIntegrability
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Space-time forcing estimates for the actual ordered coefficient flux. -/
 
@@ -12,7 +14,6 @@ public import AVenhance.Infra.Section4.IteratesEnergyIntegrability
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

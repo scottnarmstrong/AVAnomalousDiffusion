@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Statements.Section4.AdvDiffOp
 
 /-! Exact algebraic splitting of the Section 5 advection-diffusion operator. -/
 

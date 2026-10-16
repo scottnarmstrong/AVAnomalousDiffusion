@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
-public import AVenhance.Infra.Torus.FrozenBridge
-public import Mathlib.Analysis.Calculus.ParametricIntegral
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Torus.FrozenBridge
+public import AVenhance.Infra.Torus.Basic
+public import AVenhance.Statements.Roots.SpaceGrad
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Unit-cube tools for the time integration by parts
 

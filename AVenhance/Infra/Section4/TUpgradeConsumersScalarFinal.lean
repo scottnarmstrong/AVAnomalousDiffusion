@@ -3,8 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.TUpgradeConsumersScalarTrace
-public import AVenhance.Infra.Section4.TUpgradeConsumersFinal
+import AVenhance.Infra.Section4.TUpgradeConsumersScalarTrace
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.KappaAt
+public import AVenhance.Statements.Section3.PermittedInterval
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.IsThetaAnalytic
+import AVenhance.Infra.Section4.ThetaAnalyticData
+import AVenhance.Infra.Section4.ThetaAnalyticTrace
+import AVenhance.Infra.Section4.ThetaProfileDischarge
+import AVenhance.Infra.Section4.ThetaScale
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

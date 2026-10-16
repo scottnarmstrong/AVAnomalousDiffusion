@@ -3,10 +3,10 @@
 
 module
 
-public import Mathlib.Analysis.Fourier.AddCircleMulti
-public import Homogenization.Ambient.Basic
+import Mathlib.Analysis.Fourier.AddCircleMulti
 public import AVenhance.Statements.Roots.IsZ2Periodic
 public import AVenhance.Statements.Roots.UnitCube
+public import Mathlib.Analysis.Fourier.AddCircle
 
 /-! Basic measurable and periodic infrastructure for the unit torus. -/
 

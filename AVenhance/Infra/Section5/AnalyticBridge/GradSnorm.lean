@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.AnalyticBridge.SupBound
+import AVenhance.Infra.Section5.AnalyticBridge.SupBound
 public import AVenhance.Infra.FaaDiBruno.Product
-public import AVenhance.Infra.FaaDiBruno.Composition
+import AVenhance.Infra.FaaDiBruno.Composition
+public import AVenhance.Infra.Section5.AnalyticBridge.Sobolev
+import AVenhance.Infra.Section5.AnalyticBridge.Derivs
 
 /-! # Steps 2 and 3: analytic `snorm` bounds for `∂_i T` and `∂_i T ∂_j T`
 

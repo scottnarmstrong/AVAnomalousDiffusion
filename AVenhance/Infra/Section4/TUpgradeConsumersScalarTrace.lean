@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.TUpgradeConsumersScalarZero
-public import AVenhance.Infra.Section4.TUpgradeConsumersTrace
+import AVenhance.Infra.Section4.TUpgradeConsumersScalarZero
+public import AVenhance.Infra.Section4.IteratesTDischarge
+public import AVenhance.Infra.Section4.ThetaCommutator
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.TUpgradeConsumersAmplitude
+import AVenhance.Infra.Section4.TUpgradeConsumersProfile
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
 
 @[expose] public section
 

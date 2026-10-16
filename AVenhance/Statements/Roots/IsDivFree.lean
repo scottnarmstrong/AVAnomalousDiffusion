@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Statements.Roots.IsHolderClass
+public import AVenhance.Statements.Roots.SpaceGrad
 
 /-! Statement file: `IsDivFree` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/

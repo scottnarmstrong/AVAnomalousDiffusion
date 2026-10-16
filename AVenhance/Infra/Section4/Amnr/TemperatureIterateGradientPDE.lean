@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureIterateSourceEnergy
-public import AVenhance.Infra.Section4.Amnr.TemperatureMaterialWordEquation
+public import AVenhance.Infra.Section4.Amnr.TemperatureFluxBounds
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Section4.Amnr.Cutoff
+import AVenhance.Infra.Section4.Amnr.TemperatureFluxEvolution
+import AVenhance.Infra.Section4.Amnr.TemperatureGradientMaterialEquation
+import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
 
 /-! The primitive gradient PDE for every actual temperature iterate. -/
 

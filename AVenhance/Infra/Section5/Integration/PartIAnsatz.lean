@@ -4,13 +4,15 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section5.Integration.PartIAnsatzL2
-public import AVenhance.Infra.Section5.Integration.PartIAnsatzScale
-public import AVenhance.Infra.Section5.Integration.PartIAnsatzPointwise
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularity
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Integration.PartIAnsatzL2
+import AVenhance.Infra.Section5.Integration.PartIAnsatzScale
+import AVenhance.Infra.Section5.Integration.PartIAnsatzPointwise
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
 
 /-! # Part I: `‖θ̃_m - T_{m-1}‖_{L^∞((0,1];L²)} ≤ C ε_{m-1}^δ ‖θ₀‖_{L²}` (`e.tildethetam.to.Tm`)
 

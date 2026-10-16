@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinSmoothWordEquation
+import AVenhance.Infra.Classical.GalerkinSmoothWordEquation
 public import AVenhance.Statements.Section4.AdvDiffOp
+public import AVenhance.Infra.Classical.GalerkinSmoothJointEquation
 
 /-! Pointwise advection-diffusion equation for the unit-slab Galerkin limit. -/
 

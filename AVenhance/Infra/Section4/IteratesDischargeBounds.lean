@@ -3,7 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesDischargeChain
+import AVenhance.Infra.Section4.IteratesDischargeChain
+public import AVenhance.Infra.Section3.KappaAtPrimeBootstrap
+public import AVenhance.Infra.Section4.IteratesDischargeScalars
+public import AVenhance.Infra.Section4.IteratesMean
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.IteratesDischargeDiffusivity
+import AVenhance.Infra.Section4.LocalFinite
 
 @[expose] public section
 

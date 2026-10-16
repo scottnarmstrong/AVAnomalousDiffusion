@@ -4,8 +4,11 @@
 module
 
 public import AVenhance.Infra.Section5.LeftJacobian.Candidate
-public import AVenhance.Infra.Section5.StreamFlowPiola
-public import AVenhance.Infra.Section5.OddSupportTsum
+import AVenhance.Infra.Section5.StreamFlowPiola
+import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section3.MovingFluxEnergy
+import AVenhance.Infra.Section5.FlowPiolaIdentity
+import AVenhance.Infra.Section5.FrozenFlowRegularity
 
 /-!: the exact cell-flux identity (33) and the `normie3` split.
 

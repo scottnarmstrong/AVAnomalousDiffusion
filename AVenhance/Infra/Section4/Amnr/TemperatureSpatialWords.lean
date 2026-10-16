@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureBoundaryRegularity
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Section4.Amnr.TemperatureSpatialDiffusion
+import AVenhance.Infra.Section4.ThetaPeriodicity
 
 /-! Spatial words of the actual temperature: diffusion and periodicity. -/
 

@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.BigBound
-public import AVenhance.Infra.Section5.ResidualPointwiseConstructor
+import AVenhance.Infra.Section5.ResidualPointwiseConstructor
+public import AVenhance.Infra.Section5.SourceErrors
 
 /-! The residual field adapter for `BigBoundInputs`. -/
 

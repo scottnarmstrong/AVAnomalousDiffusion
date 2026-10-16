@@ -4,7 +4,8 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinSmoothFourier
-public import AVenhance.Infra.Classical.ForcedGalerkin
+import Mathlib.Topology.Algebra.ProperAction.Basic
+import Mathlib.Topology.Compactness.CompactlyGeneratedSpace
 
 /-! Joint time continuity of the smooth Fourier representatives. -/
 

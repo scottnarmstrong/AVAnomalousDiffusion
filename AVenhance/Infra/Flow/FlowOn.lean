@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Statements.Flow.IsFlow
+public import Mathlib.Analysis.Calculus.Deriv.Basic
 
 /-! A global-flow interface for normed state spaces beyond the case `Vec 2`. -/
 

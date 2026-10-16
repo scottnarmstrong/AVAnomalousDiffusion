@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Statements.Section4.MTheta0IsLeast
+import AVenhance.Statements.Section4.MTheta0IsLeast
+public import AVenhance.Statements.Section4.MTheta0
+import AVenhance.Infra.Ingredients.EpsilonConsequences
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! Index and power bookkeeping for §5.4. Constants at the first scale explicitly
 retain their dependence on Λ; fixing Λ(β) makes them depend only on β. -/

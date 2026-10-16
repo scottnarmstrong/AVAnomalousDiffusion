@@ -4,11 +4,10 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.AnalyticDerivativeTail
-public import AVenhance.Infra.Section5.RelativeError.TraceInstanceSpectrum
-public import AVenhance.Infra.Section5.RelativeError.Combination
-public import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
-public import AVenhance.Infra.Ergodic.AveragedCompositionNorm
-public import AVenhance.Infra.Section4.ThetaProfileDischarge
+import AVenhance.Infra.Section5.RelativeError.Combination
+import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+import AVenhance.Infra.Ergodic.AveragedCompositionNorm
+public import AVenhance.Infra.Section4.ThetaCommutator
 
 /-! # recombine the low Fourier trace and analytic tail -/
 

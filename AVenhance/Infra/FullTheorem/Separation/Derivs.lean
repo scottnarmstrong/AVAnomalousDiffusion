@@ -4,7 +4,10 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Separation.WordEnergy
-public import AVenhance.Infra.FullTheorem.Separation.Commutator
+import AVenhance.Infra.FullTheorem.Separation.Commutator
+public import AVenhance.Infra.FullTheorem.Separation.Calculus
+import AVenhance.Infra.Section4.ThetaDifferentiated
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Differential inequalities for `E`, `G = ‖∇θ‖²`, `H = ‖∇²θ‖²`
 

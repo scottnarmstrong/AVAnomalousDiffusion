@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientStepBounds
+public import AVenhance.Infra.Section3.KappaAtPrimeBootstrap
+import AVenhance.Infra.Ingredients.Parameters
 
 /-! Literal source coefficients through the terminal permitted scale. -/
 

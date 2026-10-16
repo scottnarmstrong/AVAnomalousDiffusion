@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTerminalGradientMaterialSplit
-public import AVenhance.Infra.Section4.IteratesMatrixIntegralSum
+import AVenhance.Infra.Section4.IteratesTerminalGradientMaterialSplit
+import AVenhance.Infra.Section4.IteratesMatrixIntegralSum
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Statements.Section3.GradMatrix
 
 @[expose] public section
 

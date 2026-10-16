@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Statements.Section4.Hm
-public import AVenhance.Infra.Section3.CorrectorBounds
-public import AVenhance.Infra.Section4.AmnrBounds
 public import AVenhance.Infra.Section5.FrozenHmTelescope
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Section4.Amnr.Base
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! The Hm expansion vanishes in the gaps between the large-scale
 cutoff supports.  This is the endpoint input in the source's transported

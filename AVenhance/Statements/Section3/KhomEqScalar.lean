@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Statements.Section3.IsCorrectorSol
-public import AVenhance.Proofs.Section3.KhomEqScalar
+import AVenhance.Proofs.Section3.KhomEqScalar
+public import AVenhance.Statements.Section3.KhomScalar
 
 /-! Statement file: `Khom_eq_scalar` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/

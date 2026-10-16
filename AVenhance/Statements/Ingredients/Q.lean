@@ -3,8 +3,7 @@
 
 module
 
-public import Mathlib
-public import Homogenization.Ambient.Basic
+public import Mathlib.Basic.Real.Basic
 
 /-! Statement file: `q` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -14,8 +13,6 @@ This file contains exactly one declaration of the formalization's public stateme
 noncomputable section
 
 namespace AVenhance
-
-open Homogenization
 
 /-- `e.q.def.0` (986-989): `q := (1/2) (1 + (2-β)/(2(β-1)))`. -/
 def q (β : ℝ) : ℝ := (1 / 2) * (1 + (2 - β) / (2 * (β - 1)))

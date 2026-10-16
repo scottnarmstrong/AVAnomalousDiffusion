@@ -3,9 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.CorrectorDiffusionExpansion
-public import AVenhance.Infra.Section5.FlowPushforward
-public import AVenhance.Infra.Section5.FrozenShearOrthogonality
+import AVenhance.Infra.Section5.CorrectorDiffusionExpansion
+import AVenhance.Infra.Section5.FlowPushforward
+import AVenhance.Infra.Section5.FrozenShearOrthogonality
+public import AVenhance.Infra.Section5.CorrectorFlux
+public import AVenhance.Infra.Section5.FlowPiola
+public import AVenhance.Infra.Section5.Terms
+import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section5.FlowPiolaIdentity
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Column divergence of the per-corrector diffusion flux and its inverse-flow
 expansion. -/

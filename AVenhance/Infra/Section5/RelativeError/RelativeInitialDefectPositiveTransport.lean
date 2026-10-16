@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectTransport
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectTransport
+public import AVenhance.Infra.Ergodic.Flow
+public import AVenhance.Statements.Roots.L2NormSq
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
 
 /-! Backward transport on positive windows. No continuity at zero is needed
 when the source integral is uniformly bounded on every such window. -/

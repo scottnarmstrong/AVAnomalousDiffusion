@@ -3,10 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredNd
-public import AVenhance.Infra.Section5.Contracts.TermCenteredSplit
-public import AVenhance.Infra.Section5.Contracts.TermCenteredFast
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalytic
+import AVenhance.Infra.Section5.Contracts.TermCenteredNd
+import AVenhance.Infra.Section5.Contracts.TermCenteredSplit
+import AVenhance.Infra.Section5.Contracts.TermCenteredFast
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalytic
+public import AVenhance.Infra.Section5.Contracts.TermCenteredDefs
+public import AVenhance.Infra.Section5.Contracts.TermCenteredErgodic
+public import AVenhance.Infra.Section5.ErgodicParams
+public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
+public import AVenhance.Infra.Section5.SlowFactorBoundsSource
+import AVenhance.Infra.Section5.LeftToShow.BracketFF
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Per-time centered bounds for the nondivergence parts -/
 

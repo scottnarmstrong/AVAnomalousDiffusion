@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CenteredJets
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Explicit finite monomials for noncommuting material-power corrections. -/
 

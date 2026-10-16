@@ -3,10 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Flow.SpatialC1
+import AVenhance.Infra.Flow.SpatialC1
 public import AVenhance.Infra.Flow.VariationalEquation
-public import AVenhance.Infra.FaaDiBruno.Composition
-public import Mathlib.Analysis.ODE.Gronwall
+import AVenhance.Infra.FaaDiBruno.Composition
+public import AVenhance.Infra.FaaDiBruno.Seminorm
 
 /-! A quantitative first-order estimate for the spatial derivative of a flow. -/
 

@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TensorNorm
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Statements.Construction.BarNorm
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.SpatialPrimitive
 
 /-! Ordered spatial derivatives and the actual source seminorm. -/
 

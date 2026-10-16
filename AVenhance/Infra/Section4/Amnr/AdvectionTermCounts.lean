@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.ChangedMaterialExpansion
+public import AVenhance.Infra.Section4.Amnr.WordOrdering
 
 /-! Exact spatial and material counts of ordered correction monomials. -/
 

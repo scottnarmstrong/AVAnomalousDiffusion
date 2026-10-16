@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Statements.Section4.KappaSeq
+public import AVenhance.Statements.Ingredients.Gamma
 
 /-! # The flip-flop statement for the `kappaSeq` chains
 

@@ -3,14 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowSpatialSourceRates
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+import Mathlib.Analysis.Calculus.ContDiff.Bounds
 
 /-! Spatial radius bookkeeping for composition with an actual flow map. -/
 
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
 
 /-- A function whose jets cost `ε⁻ⁱ`, composed with a state map whose positive

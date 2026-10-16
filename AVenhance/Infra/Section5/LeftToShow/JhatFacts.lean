@@ -3,11 +3,21 @@
 
 module
 
-public import AVenhance.Infra.Section3.Approx
-public import AVenhance.Infra.Section3.JMNPeriodicity
-public import AVenhance.Infra.Section3.FluxTimeRegularity
-public import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section3.Approx
+import AVenhance.Infra.Section3.JMNPeriodicity
+import AVenhance.Infra.Section3.FluxTimeRegularity
+import AVenhance.Infra.Section5.LeftToShow.Scales
 public import AVenhance.Infra.Section5.LeftToShow.BreakUp
+public import AVenhance.Statements.Section3.Flux
+public import AVenhance.Statements.Section3.JHat
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.ExplicitBounds.CutoffMemory
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section3.JMNRegularity
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
+import Mathlib.Order.CompletePartialOrder
 
 /-! # Facts about `Ĵ_m` and the replacement `J_m → Ĵ_m` of `e.TJT.break`
 

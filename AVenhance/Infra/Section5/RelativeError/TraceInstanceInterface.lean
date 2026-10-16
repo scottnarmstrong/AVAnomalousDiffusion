@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section4.ThetaProfileDischarge
+public import AVenhance.Infra.Section4.ThetaCommutator
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.KappaSeq
 
 /-! # The positive-word trace interface shared by the producer and step-down estimate consumers -/
 
@@ -19,7 +21,6 @@ namespace AVenhance.Infra.Section5.RelativeError
 open AVenhance
 open AVenhance.Infra.Section4
 open AVenhance.Infra.Section5
-open AVenhance.Infra.Section5.Integration
 
 /-- Literal trace formula, stated independently of the profile consumer
 module so the Fourier construction and its adapters can be built in

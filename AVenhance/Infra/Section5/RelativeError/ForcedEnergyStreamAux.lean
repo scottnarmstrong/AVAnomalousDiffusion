@@ -3,11 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyPeriodic
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
-public import AVenhance.Infra.Classical.GalerkinGenerator
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyPeriodic
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
+import AVenhance.Infra.Classical.GalerkinGenerator
 public import AVenhance.Statements.Construction.IsAdmissibleStream
-public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Roots.UnitCube
+public import AVenhance.Statements.Section3.SigmaMat
+import AVenhance.Infra.Classical.PeriodicCalculus
 
 /-!
 # Auxiliary facts for the stream-difference estimate

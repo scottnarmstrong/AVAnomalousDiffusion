@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.LocalSpatialWords
+public import AVenhance.Infra.Flow.VariationalEquation
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Section4.Amnr.FlowCurve
+import AVenhance.Infra.Section4.Amnr.FlowJointSmoothness
+import Mathlib.Analysis.Calculus.ContDiff.Comp
 
 /-! Extend actual short-time spatial smoothness by the proved flow group law. -/
 

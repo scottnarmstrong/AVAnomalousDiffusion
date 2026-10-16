@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesDiffusion
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+import Mathlib.Order.CompletePartialOrder
 
 /-! Exact derivative commutators for the material oscillatory terms. -/
 

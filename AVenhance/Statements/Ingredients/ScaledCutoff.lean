@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.IndIcc
+public import Mathlib.Basic.Real.Basic
 
 /-! Statement file: `scaledCutoff` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/
@@ -13,8 +13,6 @@ This file contains exactly one declaration of the formalization's public stateme
 noncomputable section
 
 namespace AVenhance
-
-open Homogenization
 
 /-- `e.zeta.mk.def` (1246), `e.xi.mk.def` (1283): `f_{m,k}(t) = f((t - kτ)/τ)`. -/
 def scaledCutoff (f : ℝ → ℝ) (τ : ℝ) (k : ℤ) : ℝ → ℝ := fun t => f ((t - k * τ) / τ)

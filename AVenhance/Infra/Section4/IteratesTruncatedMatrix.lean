@@ -4,7 +4,9 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesTruncatedCell
-public import AVenhance.Infra.Section4.IteratesOscillatory
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesEnergy
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Matrix Young allocation on each actual terminal-time cell. -/
 

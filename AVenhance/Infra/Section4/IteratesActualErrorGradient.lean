@@ -3,8 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesAnalyticErrorGradient
-public import AVenhance.Infra.Section4.IteratesActualVelocity
+import AVenhance.Infra.Section4.IteratesAnalyticErrorGradient
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.IteratesVelocityProfile
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
 
 /-! Actual increment material-error gradient energy under the stream-regularity estimates. -/
 

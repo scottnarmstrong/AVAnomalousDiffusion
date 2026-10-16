@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Flow.HigherVariation3.Existence
+import AVenhance.Infra.Flow.CurveUniqueness
 
 @[expose] public section
 

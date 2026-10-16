@@ -3,15 +3,25 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.HmAdapter
-public import AVenhance.Infra.Section4.Amnr.TemperatureSpatialEnergy
-public import AVenhance.Infra.Section4.Amnr.DissipationCoordinateL2
-public import AVenhance.Infra.Section4.Amnr.WordLinearCalculus
-public import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
-public import AVenhance.Infra.Section4.Amnr.TemperatureGradientDiffusion
+import AVenhance.Infra.Section4.Amnr.HmAdapter
+import AVenhance.Infra.Section4.Amnr.DissipationCoordinateL2
+import AVenhance.Infra.Section4.Amnr.TemperatureIterateClassicalFamily
 public import AVenhance.Infra.Section4.IteratesCoordinateProfile
-public import AVenhance.Infra.Section4.IteratesWordDiffusion
-public import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.LeftToShow.Scales
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
+public import AVenhance.Infra.Section4.IteratesAmplitude
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.Amnr.LocalSpatialWords
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.SpatialFluxCalculus
+import AVenhance.Infra.Section4.Amnr.TemperatureBoundaryRegularity
+import AVenhance.Infra.Section4.Amnr.TemperatureEnergyIntegrability
+import AVenhance.Infra.Section4.Amnr.TemporalPairing
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Per-iterate spatial jets of the S-amplitude
 

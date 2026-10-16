@@ -4,10 +4,21 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3Fast
-public import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticSmooth
-public import AVenhance.Infra.Section5.Contracts.TermCenteredSplitAlgebra
-public import AVenhance.Infra.Section5.Contracts.TermCenteredFlux
-public import AVenhance.Infra.Section5.LeftJacobian.CellMeanPull
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticSmooth
+import AVenhance.Infra.Section5.Contracts.TermCenteredSplitAlgebra
+import AVenhance.Infra.Section5.LeftJacobian.CellMeanPull
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Infra.Section5.Terms
+import AVenhance.Infra.Section3.MovingFluxEnergy
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalyticJets
+import AVenhance.Infra.Section5.Contracts.TermCenteredFluxEntries
+import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
+import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Slow factor of `normie3`
 

@@ -4,7 +4,10 @@
 module
 
 public import AVenhance.Infra.Flow.FiniteSpatialJet
-public import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Normed.Module.FiniteDimension
+import Mathlib.Topology.GDelta.MetrizableSpace
 
 /-! Compact-window Taylor control for the recursive augmented fields. -/
 

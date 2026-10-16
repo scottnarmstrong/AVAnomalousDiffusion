@@ -3,10 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section3.ChiMKCorrector
-public import AVenhance.Infra.Section5.FrozenFlowRegularity
-public import AVenhance.Infra.Section5.Terms
-public import AVenhance.Infra.Section5.TransportCalculus
+import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section5.TransportCalculus
+public import AVenhance.Statements.Section4.ChiTilde
+public import AVenhance.Statements.Section4.XFlow
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Order.CompletePartialOrder
 
 /-! Source transport identities for fields pulled back by the flow. -/
 

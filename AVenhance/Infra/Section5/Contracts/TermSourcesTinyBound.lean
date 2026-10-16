@@ -3,13 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyRegular
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyTime
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyRegular
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyTime
 public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyTransfer
-public import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section4.IteratesFlowGeometry
-public import AVenhance.Infra.Section5.SMatRegularity
+import AVenhance.Infra.Section4.IteratesFlowGeometry
+import AVenhance.Infra.Section5.SMatRegularity
+public import AVenhance.Infra.Section4.Amnr.Calculus
+public import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTools
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The time negative norm of `tiny` in terms of the last increment
 

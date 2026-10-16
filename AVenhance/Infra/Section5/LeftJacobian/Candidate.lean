@@ -3,9 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms
-public import AVenhance.Infra.Section5.SourceErrors
 public import AVenhance.Infra.Section5.CorrectorDiffusionDivergence
+public import AVenhance.Statements.Section3.JHat
 
 /-! Candidate objects: local aliases for the corrected-form definitions.
 

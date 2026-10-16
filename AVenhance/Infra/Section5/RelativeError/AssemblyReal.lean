@@ -3,7 +3,12 @@
 
 module
 
-public import Mathlib
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Algebra.Order.Field.GeomSum
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Tactic.Positivity.Finset
 
 /-! # abstract real lemmas for the main-theorem assembly  Pure real-variable statements used by the
 assembly: the telescoping lower bound `s_n ≥ (1 - ∑ e_i) s_j`, the geometric tail estimate, and the

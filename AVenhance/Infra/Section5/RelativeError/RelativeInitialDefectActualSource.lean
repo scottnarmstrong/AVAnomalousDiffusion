@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectActualBackward
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectSourceIntegral
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectActualBackward
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectSourceIntegral
+public import AVenhance.Infra.Section5.FrozenHmTelescope
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.TimeCube
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Section5.AmnrMaterialStep
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectMaterialRegularity
 
 /-! Actual Hm bound from its endpoint-difference L2 source on positive time.
 The source estimate uses the terminal one-letter budget from EndpointPhysical. -/
@@ -12,8 +18,8 @@ The source estimate uses the terminal one-letter budget from EndpointPhysical. -
 @[expose] public section
 
 noncomputable section
-open MeasureTheory Filter Topology Homogenization AVenhance AVenhance.Infra.Section4
-open AVenhance.Infra.Section5 AVenhance.Infra.Section5.Integration
+open MeasureTheory Filter Topology Homogenization AVenhance
+open AVenhance.Infra.Section5
 namespace AVenhance.Infra.Section5.RelativeError
 
 /-- A genuine spacetime L2 source bound gives uniform Hm control on the first

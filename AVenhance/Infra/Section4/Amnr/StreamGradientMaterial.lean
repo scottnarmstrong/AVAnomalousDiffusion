@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.StreamProfileGradient
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section4.Amnr.Cutoff
+import AVenhance.Infra.Section4.Amnr.StreamMaterialRates
+import AVenhance.Infra.Section4.LocalFinite
 
 /-! First spatial derivatives of material jets of the actual stream summands. -/
 

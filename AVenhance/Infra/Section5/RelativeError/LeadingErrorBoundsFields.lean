@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section5.LeftToShow.SpaceErgodic
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsScales
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
 
 /-! # Pointwise bound for the actual remainder fields
 

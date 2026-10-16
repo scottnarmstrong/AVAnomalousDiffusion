@@ -3,9 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitial
-public import AVenhance.Infra.Section5.Terms.R46FluxSupport
-public import AVenhance.Infra.Section3.ChiMSupport
+import AVenhance.Infra.Section5.RelativeError.RelativeInitial
+import AVenhance.Infra.Section5.Terms.R46FluxSupport
+import AVenhance.Infra.Section3.ChiMSupport
+public import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.TimeScales
+import AVenhance.Infra.Section3.MovingFluxEnergy
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! The active refresh flow starts at time zero. -/
 

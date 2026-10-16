@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.VelocitySpatialJets
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Uniform radius bookkeeping for the primitive spatial velocity jets. -/
 

@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.AdvectionProductBounds
+import AVenhance.Infra.Section4.Amnr.AdvectionProductBounds
+public import AVenhance.Infra.Section4.Amnr.SpatialCorrectionExpansion
 
 /-! Exact amplitude cancellation in material correction products. -/
 

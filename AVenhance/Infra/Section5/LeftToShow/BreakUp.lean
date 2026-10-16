@@ -5,6 +5,10 @@ module
 
 public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
 public import AVenhance.Infra.Section5.LeftToShow.BreakUp.MatrixContinuity
+public import AVenhance.Statements.Section3.TimeAvgMat
+import AVenhance.Infra.Section5.LeftToShow.Matrix
+import Mathlib.Order.CompletePartialOrder
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! # The four-term break-up `e.ergodic.break.up`
 

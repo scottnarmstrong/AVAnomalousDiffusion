@@ -3,7 +3,14 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.FlipFlop.Steps
+import AVenhance.Infra.FullTheorem.FlipFlop.Steps
+public import AVenhance.Infra.FullTheorem.FlipFlop.Scales
+public import AVenhance.Statements.Section3.KhomScalar
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.FlipFlop.Abstract
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.KappaAtBounds
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Top step of the flip-flop
 

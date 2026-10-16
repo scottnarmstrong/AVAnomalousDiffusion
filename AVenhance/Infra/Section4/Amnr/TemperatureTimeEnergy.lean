@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesEnergy
-public import AVenhance.Infra.Section4.Amnr.FlowAverageSourceBounds
+public import AVenhance.Statements.Roots.UnitCube
+public import Mathlib.MeasureTheory.Integral.IntegrableOn
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.MeasureTheory.Function.LocallyIntegrable
 
 /-! Time energy tools below the AMNR facade, avoiding a reverse import. -/
 

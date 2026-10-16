@@ -4,8 +4,9 @@
 module
 
 public import AVenhance.Infra.Flow.FiniteSpatialJetGlobal
-public import AVenhance.Infra.Flow.LinearWindowBounds
-public import Mathlib.Analysis.ODE.ExistUnique
+import AVenhance.Infra.Flow.LinearWindowBounds
+import Mathlib.Analysis.ODE.ExistUnique
+import AVenhance.Infra.Flow.SmoothField
 
 /-! Uniform trajectory bounds for recursive spatial jets. The base point
 component is controlled inductively, and each newly appended column satisfies

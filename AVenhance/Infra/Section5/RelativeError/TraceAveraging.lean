@@ -3,10 +3,9 @@
 
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Exp
-public import Mathlib.Analysis.SpecialFunctions.Sqrt
 public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # RelativeError: averaging the transport duality bound
 

@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
-public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
-public import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+public import AVenhance.Infra.Section5.Terms
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+import Mathlib.Order.CompletePartialOrder
 
 /-! # Generic tools for the joint continuity of the pointwise §5.1 terms
 

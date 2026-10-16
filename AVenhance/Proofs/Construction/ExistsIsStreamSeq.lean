@@ -4,7 +4,7 @@
 module
 
 public import AVenhance.Statements.Construction.IsStreamSeq
-public import AVenhance.Infra.Construction.NextStreamAdmissible
+import AVenhance.Infra.Construction.NextStreamAdmissible
 
 /-! Provider proof of existence of the recursively constructed stream sequence. -/
 

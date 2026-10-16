@@ -4,8 +4,9 @@
 module
 
 public import AVenhance.Infra.Section5.CorrectorDiffusionDivergence
-public import AVenhance.Infra.Section5.FlowPiolaDivergence
-public import AVenhance.Infra.Section5.CorrectorLocalization
+import AVenhance.Infra.Section5.FlowPiolaDivergence
+import AVenhance.Infra.Section5.CorrectorLocalization
+import AVenhance.Infra.Section5.FrozenFlowRegularity
 
 /-! flow and cutoff specializations of the corrector diffusion rule. -/
 

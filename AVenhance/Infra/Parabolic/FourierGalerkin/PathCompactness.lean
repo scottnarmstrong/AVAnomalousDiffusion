@@ -3,10 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.Compactness
+import AVenhance.Infra.Parabolic.FourierGalerkin.Compactness
 public import Mathlib.Analysis.Normed.Module.WeakDual
-public import Mathlib.Topology.UniformSpace.Ascoli
-public import Mathlib.Topology.Bases
+import Mathlib.Topology.UniformSpace.Ascoli
+public import Mathlib.Analysis.InnerProductSpace.Dual
 
 /-!
 # Weak path compactness for Galerkin approximations

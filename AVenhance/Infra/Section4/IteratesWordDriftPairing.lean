@@ -3,7 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordFluxPairing
+import AVenhance.Infra.Section4.IteratesWordFluxPairing
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.UnitCube
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.IteratesEnergy
+import AVenhance.Infra.Section4.IteratesStreamFlux
+import AVenhance.Infra.Section4.IteratesStreamPairing
+import AVenhance.Infra.Section4.IteratesWordEnergy
 
 /-! Exact forcing and drift pairings for the all-order differentiated energy. -/
 

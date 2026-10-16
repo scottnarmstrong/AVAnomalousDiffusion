@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyTransfer
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Flow
+public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyPointwise
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
+import Mathlib.Algebra.Order.Chebyshev
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Weighted pointwise bound for `∇ ∇·(B ∇T)`
 

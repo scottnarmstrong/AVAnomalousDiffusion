@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.SourceVelocityAdvance
+import AVenhance.Infra.Section4.Amnr.SourceVelocityAdvance
+public import AVenhance.Infra.Section4.Amnr.SourceJetLevels
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.HigherGradientStep
 
 /-! Joint source induction for actual higher velocity and gradient jets. -/
 

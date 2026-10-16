@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Ingredients.LIdxConsequences
+public import AVenhance.Statements.Ingredients.Tau
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Ingredients.TimeScales
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Source consequences for the magnitudes of the time scales. -/
 

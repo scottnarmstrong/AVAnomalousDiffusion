@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesBasic
+import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Statements.Section4.IsTIterates
 
 /-! Joint smoothness and spatial periodicity for the actual T iterates.
 

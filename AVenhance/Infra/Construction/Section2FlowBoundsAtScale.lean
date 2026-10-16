@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Construction.Section2FlowRegularityCore
-public import AVenhance.Infra.Construction.Section2FlowHigherDerivative
-public import AVenhance.Infra.Construction.Section2FlowInverseBounds
+import AVenhance.Infra.Construction.Section2FlowRegularityCore
+import AVenhance.Infra.Construction.Section2FlowHigherDerivative
+import AVenhance.Infra.Construction.Section2FlowInverseBounds
 public import AVenhance.Infra.Construction.MaterialFlowBounds
+public import AVenhance.Infra.Construction.Section2JointInduction
 
 /-! Per-scale assembly for the source-form §2 flow bounds. -/
 

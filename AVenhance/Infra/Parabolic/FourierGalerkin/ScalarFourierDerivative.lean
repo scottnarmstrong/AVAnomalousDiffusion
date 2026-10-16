@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.SolutionIntegrability
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarRepresentative
 
 /-!
 # Common Fourier weak-derivative identities for the physical limit representative

@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.ResidualDataRegularity
-public import AVenhance.Infra.Section5.FrozenHmSourceIdentity
+import AVenhance.Infra.Section5.ResidualDataRegularity
+import AVenhance.Infra.Section5.FrozenHmSourceIdentity
+public import AVenhance.Infra.Section5.HmMaterialIncrement
+public import AVenhance.Statements.Section4.Hm
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Section4.Amnr.HmAdapter
 
 /-! Finite regularity of the spacetime fluxes used by the residual data. -/
 

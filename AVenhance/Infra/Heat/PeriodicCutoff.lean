@@ -3,11 +3,8 @@
 
 module
 
-public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
-public import Mathlib.Analysis.Calculus.LocalExtr.Basic
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
-public import Mathlib.MeasureTheory.VectorMeasure.SetIntegral
 public import AVenhance.Infra.Torus.Basic
+public import Homogenization.Sobolev.WeakDerivatives
 
 @[expose] public section
 

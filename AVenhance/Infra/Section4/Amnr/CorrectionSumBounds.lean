@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CorrectionScaling
+import AVenhance.Infra.Section4.Amnr.CorrectionScaling
+public import AVenhance.Infra.Section4.Amnr.CorrectionCardinality
+import AVenhance.Infra.Section4.Amnr.CorrectionBudgets
+import AVenhance.Infra.Section4.Amnr.FiniteWordSums
 
 /-! Quantitative bounds for finite actual correction sums. -/
 

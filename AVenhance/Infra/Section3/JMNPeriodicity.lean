@@ -4,8 +4,8 @@
 module
 
 public import AVenhance.Statements.Section3.JMN
-public import AVenhance.Infra.Section4.LocalFinite
-public import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
+import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
+import AVenhance.Infra.Ingredients.LIdxConsequences
 
 /-! The explicit `j_{m,n}` coefficients have the corrected period `4τ_m`. -/
 

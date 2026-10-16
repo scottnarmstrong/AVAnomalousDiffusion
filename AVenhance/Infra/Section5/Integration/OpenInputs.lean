@@ -7,9 +7,6 @@ public import AVenhance.Infra.Section5.Integration.Statements
 public import AVenhance.Infra.Section5.Integration.KeystoneStatements
 public import AVenhance.Infra.Section5.Integration.BigBound.Grouped
 public import AVenhance.Infra.Section5.SourceErrors
-public import AVenhance.Infra.Section5.HMinusTools
-public import AVenhance.Infra.Section5.Terms.Assembly
-public import AVenhance.Infra.Section5.Terms.ScaleTools
 public import AVenhance.Infra.Section5.Terms.Twistie3
 public import AVenhance.Infra.Section5.Terms.Normie1
 public import AVenhance.Infra.Section5.Terms.Normie2
@@ -18,9 +15,7 @@ public import AVenhance.Infra.Section5.LeftToShow.Defs
 public import AVenhance.Infra.Section5.RelativeError.RelativeAnalytic
 public import AVenhance.Infra.Section4.IteratesCoordinateProfile
 public import AVenhance.Infra.Section4.IteratesAmplitude
-public import AVenhance.Infra.Section4.IteratesHigherEnergyBudget
 public import AVenhance.Infra.Section4.IteratesBasic
-public import AVenhance.Infra.Section4.IteratesWordDiffusion
 
 /-! # Input contracts of the main theorem
 

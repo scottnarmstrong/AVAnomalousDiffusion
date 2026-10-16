@@ -4,8 +4,11 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyPointwise
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
-public import AVenhance.Infra.Section4.IteratesWordRegularity
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section4.IteratesWordRegularity
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesDiffusion
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Space-time transfer for the `tiny` source contract
 

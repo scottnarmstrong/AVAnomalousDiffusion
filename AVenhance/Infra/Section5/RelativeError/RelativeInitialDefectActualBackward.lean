@@ -3,10 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectMaterialFlow
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectPositiveExtension
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectMaterialFlow
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectPositiveExtension
 public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
-public import AVenhance.Infra.Section4.HmEndpoints
+import AVenhance.Infra.Section4.HmEndpoints
+public import AVenhance.Infra.Section5.FrozenHmTelescope
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectMaterialRegularity
 
 /-! Backward transport for the actual Hm on the first positive half-cell.
 The quantitative source primitive is separate from the proved calculus. -/

@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Params
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Tactic.Positivity.Finset
 
 /-! Explicit smallness for the finite geometric sums in the transported
 `H_m` estimate. -/

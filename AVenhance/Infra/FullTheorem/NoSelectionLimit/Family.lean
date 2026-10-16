@@ -3,10 +3,24 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.NoSelectionLimit.Pair
-public import AVenhance.Infra.FullTheorem.NoSelectionLimit.Upgrade
-public import AVenhance.Infra.FullTheorem.Contracts.TransportLimit
-public import AVenhance.Infra.FullTheorem.Contracts.UniformHolder
+import AVenhance.Infra.FullTheorem.NoSelectionLimit.Pair
+import AVenhance.Infra.FullTheorem.NoSelectionLimit.Upgrade
+import AVenhance.Infra.FullTheorem.Contracts.TransportLimit
+import AVenhance.Infra.FullTheorem.Contracts.UniformHolder
+public import AVenhance.Infra.FullTheorem.NoSelectionLimit.Middle
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.FullTheorem.HolderTimeL2Le
+public import AVenhance.Statements.FullTheorem.IsTransportWeakSolution
+public import AVenhance.Statements.Roots.IsWeakSolution
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.Contracts.NoSelectionInputs
+import AVenhance.Infra.FullTheorem.NoSelectionLimit.Limit
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Holder
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
+import AVenhance.Infra.Section5.RelativeError.AssemblyScales
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergySmooth
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! # The limit of one vanishing-viscosity family
 

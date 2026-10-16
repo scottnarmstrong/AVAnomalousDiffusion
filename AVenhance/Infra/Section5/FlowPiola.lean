@@ -3,10 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.PiolaFormula
-public import AVenhance.Infra.Section5.FrozenFlowRegularity
-public import AVenhance.Infra.Section5.PulledGradientTransport
+import AVenhance.Infra.Section5.PiolaFormula
+import AVenhance.Infra.Section5.PulledGradientTransport
 public import AVenhance.Infra.Flow.Liouville
+public import AVenhance.Statements.Section3.GradMatrix
+public import AVenhance.Statements.Section4.VecDiv
+public import AVenhance.Statements.Section4.XFlowInv
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Flow.SpatialRegularity
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Piola push-forward for the row-Jacobian convention used by `gradMatrix`.
 

@@ -6,11 +6,20 @@ module
 public import AVenhance.Infra.Section4.IteratesWordFlux
 public import AVenhance.Infra.Section4.IteratesBasic
 public import AVenhance.Infra.Section4.IteratesWeightedFlux
-public import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
 public import AVenhance.Infra.Section5.Terms.Tiny
-public import AVenhance.Infra.Section5.SourceErrors
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+public import AVenhance.Infra.Section5.TEquation
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorFlow
+import Mathlib.Algebra.Order.Chebyshev
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! # Pointwise bounds for the `tiny` source contract
 

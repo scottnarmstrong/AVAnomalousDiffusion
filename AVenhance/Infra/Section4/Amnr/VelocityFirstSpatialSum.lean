@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.VelocityFirstSpatialStep
+public import AVenhance.Infra.Section4.Amnr.Calculus
 
 /-! Scale summation for every spatial first-material velocity jet. -/
 

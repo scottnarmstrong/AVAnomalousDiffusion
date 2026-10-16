@@ -3,10 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Classical.PeriodicCalculus
-public import AVenhance.Statements.Section4.IsClassicalSol
-public import Mathlib.Analysis.Calculus.ParametricIntegral
-public import Mathlib.Analysis.Calculus.Deriv.MeanValue
+public import AVenhance.Infra.Torus.Basic
+public import AVenhance.Statements.Section3.SpaceLap
 
 /-! Time differentiation of the periodic quadratic energy. -/
 

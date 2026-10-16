@@ -4,10 +4,10 @@
 module
 
 public import AVenhance.Statements.Roots.UnitCube
-public import AVenhance.Statements.Roots.L2NormSq
-public import Homogenization.Sobolev.H1.Definitions
-public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-public import Mathlib.MeasureTheory.Constructions.Pi
+import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import Mathlib.MeasureTheory.Integral.Prod
 
 /-! # Integrals of functions of `x₀` over the unit cube, and `∫ cos²` of the cosine data -/
 

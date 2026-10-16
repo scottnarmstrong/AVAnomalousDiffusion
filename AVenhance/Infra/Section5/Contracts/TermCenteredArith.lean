@@ -3,7 +3,7 @@
 
 module
 
-public import Mathlib
+public import Mathlib.Analysis.Real.Sqrt
 
 /-! # Abstract-real arithmetic of the centered ergodic estimates
 

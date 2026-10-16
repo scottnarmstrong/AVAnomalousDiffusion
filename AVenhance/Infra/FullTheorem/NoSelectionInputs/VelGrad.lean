@@ -4,9 +4,11 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Integration.NoSelectionInputs
-public import AVenhance.Infra.FullTheorem.NoSelectionInputs.Basic
-public import AVenhance.Infra.Construction.LimitSeries
-public import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Infra.FullTheorem.NoSelectionInputs.Basic
+import AVenhance.Infra.Construction.LimitSeries
+import AVenhance.Statements.Construction.StreamRegularity
+public import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Infra.Cutoff.TimeScaleFacts
 
 /-! # `VelGradContract`: the gradient of the stream drift is `O(ε_m^{β-2})`
 

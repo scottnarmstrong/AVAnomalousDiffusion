@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentTestConvergence
+public import AVenhance.Infra.Section5.TestDensity
 
 /-!
 # Admissibility of spacetime Fourier cutoffs

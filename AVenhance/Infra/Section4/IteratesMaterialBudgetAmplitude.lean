@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCorrectedRecursion
-public import AVenhance.Infra.Section4.IteratesMaterialBudgetMajorant
+import AVenhance.Infra.Section4.IteratesCorrectedRecursion
+public import AVenhance.Infra.Section4.IteratesAmplitude
 
 @[expose] public section
 

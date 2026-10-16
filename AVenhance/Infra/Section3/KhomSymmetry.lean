@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section3.FluxSymmetry
-public import AVenhance.Infra.Ingredients.TimeScaleArithmetic
+import AVenhance.Infra.Section3.FluxSymmetry
+import AVenhance.Infra.Ingredients.TimeScaleArithmetic
 public import AVenhance.Statements.Section3.KhomScalar
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.FluxMatrix
 
 /-! Time averaging the fixed-time flux symmetry, under explicit time regularity. -/
 

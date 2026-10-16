@@ -4,8 +4,9 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesWordCommutator
-public import AVenhance.Infra.Section4.IteratesWordEquation
-public import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.IteratesWordEquation
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Section4.IsClassicalSol
 
 /-! Connect joint commutator words to the actual spatially differentiated PDE. -/
 
@@ -13,7 +14,6 @@ public import AVenhance.Infra.Construction.StreamAdmissible
 
 noncomputable section
 open Homogenization
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

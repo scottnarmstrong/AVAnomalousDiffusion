@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesFlowCoefficientProfile
+import AVenhance.Infra.Section4.IteratesFlowCoefficientProfile
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Section4.SMat
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section5.SMatRegularity
 
 @[expose] public section
 

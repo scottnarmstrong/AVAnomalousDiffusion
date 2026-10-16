@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
+public import AVenhance.Infra.Section5.LeftToShow.Defs
+public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
+import AVenhance.Infra.Section3.MovingEnergyReduction
+import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebra
 
 /-! # Pointwise bound for `∇θ̃_m - F ∇T_{m-1}`
 

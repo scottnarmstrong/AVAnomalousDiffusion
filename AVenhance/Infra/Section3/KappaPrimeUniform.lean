@@ -4,6 +4,11 @@
 module
 
 public import AVenhance.Infra.Section3.KappaPrimeScaling
+public import AVenhance.Statements.Section3.PermittedInterval
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Tactic.Positivity.Finset
 
 /-! Uniform scale-normalized bounds for the auxiliary diffusivity chain. -/
 

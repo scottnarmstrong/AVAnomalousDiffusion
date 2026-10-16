@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowJointSmoothness
+import AVenhance.Infra.Section4.Amnr.FlowJointSmoothness
+public import AVenhance.Infra.Flow.VariationalEquation
+import AVenhance.Infra.Flow.InverseC1
+import AVenhance.Infra.Flow.JointC1
+import AVenhance.Infra.Section4.Amnr.CurveImplicit
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-! Smoothness of actual inverses from proved C¹ inverse identities. -/
 

@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinSmoothInitial
-public import AVenhance.Infra.Ergodic.AveragesL1
+import AVenhance.Infra.Classical.GalerkinSmoothInitial
+import AVenhance.Infra.Ergodic.AveragesL1
+public import AVenhance.Infra.Classical.GalerkinSmoothReal
 
 /-! The continuous Fourier representative has the prescribed pointwise initial trace. -/
 

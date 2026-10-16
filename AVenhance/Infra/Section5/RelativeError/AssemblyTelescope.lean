@@ -3,11 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.AssemblyScales
-public import AVenhance.Infra.Section5.RelativeError.AssemblyGradient
-public import AVenhance.Infra.Section5.RelativeError.BaseEnergy
-public import AVenhance.Infra.Section5.RelativeError.Iterates
+import AVenhance.Infra.Section5.RelativeError.AssemblyScales
+import AVenhance.Infra.Section5.RelativeError.BaseEnergy
 public import AVenhance.Infra.Section5.Integration.Statements
+public import AVenhance.Infra.Section5.RelativeError.IteratesExist
+public import AVenhance.Infra.Section5.RelativeError.LaterStart
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.RelativeError.AssemblyReal
+import AVenhance.Infra.Section5.RelativeError.RelativeSecondLast
+import AVenhance.Statements.Section3.LRecurse
 
 /-! # the telescoping chain from the later start to the terminal level("Multiplying just the lower inequalities in (9),
 or using `∏(1-e_j) ≥ 1 - ∑ e_j`, gives `a_M ≥ a_{j*}/2`").  Uses only conjunct (ii) of the

@@ -4,10 +4,18 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Integration.AnalyticUniformContract
-public import AVenhance.Infra.FullTheorem.Contracts.LemmaU
-public import AVenhance.Infra.FullTheorem.Integration.LebronStepAssembly
-public import AVenhance.Infra.FullTheorem.UniformAnalytic.CaseBig
-public import AVenhance.Statements.Construction.LimitFieldRegular
+import AVenhance.Infra.FullTheorem.Contracts.LemmaU
+import AVenhance.Infra.FullTheorem.Integration.LebronStepAssembly
+import AVenhance.Infra.FullTheorem.UniformAnalytic.CaseBig
+import AVenhance.Statements.Construction.LimitFieldRegular
+public import AVenhance.Infra.FullTheorem.UniformAnalytic.CaseSmall
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Holder
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Scales
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Statements.Section4.MTheta0IsLeast
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The analytic case of `r.LeBron.2`, proved
 

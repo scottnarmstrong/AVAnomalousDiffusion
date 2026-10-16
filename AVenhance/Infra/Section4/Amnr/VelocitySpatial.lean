@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.SpatialPrimitive
-public import Mathlib.Analysis.Calculus.MeanValue
+import AVenhance.Infra.Section4.Amnr.SpatialPrimitive
+public import AVenhance.Infra.Construction.LimitFieldBounds
+public import AVenhance.Statements.Section4.FlowGrad
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.FlowSize
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! Source spatial primitive estimates for the stream velocity. -/
 

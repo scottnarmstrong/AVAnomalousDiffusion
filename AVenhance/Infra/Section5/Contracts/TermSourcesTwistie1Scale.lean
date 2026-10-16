@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section3.ExpratScaling
-public import AVenhance.Infra.Ingredients.Parameters
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffScalar
+import AVenhance.Infra.Section3.ExpratScaling
+import AVenhance.Infra.Ingredients.Parameters
+public import AVenhance.Statements.Ingredients.Delta
+public import AVenhance.Statements.Ingredients.Gamma
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
 
 /-! # Abstract-real scale arithmetic for the `twistie1` source contract
 
@@ -16,8 +18,6 @@ Pure real lemmas (no objects) for `e.monster.est.5` (`enhance.tex` 7371–7460):
   supergeometric comparison `ε_m ≃ ε_{m-1}^q`; the exponent is `8δ` (`se_exponent_ge`). -/
 
 @[expose] public section
-
-open Homogenization
 
 noncomputable section
 

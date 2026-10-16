@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyIdentity
-public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyDrift
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyDrift
+public import AVenhance.Infra.Parabolic.WeakUniqueness.WeakProjectionConvergence
+public import AVenhance.Infra.Section5.RelativeError.ForcedEnergyFinite
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyPairing
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # The difference of two weak solutions as a forced path

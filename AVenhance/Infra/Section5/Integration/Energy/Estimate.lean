@@ -3,7 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.Energy.Integrated
+import AVenhance.Infra.Section5.Integration.Energy.Integrated
+public import AVenhance.Infra.Section5.HMinusTools
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The classical forced energy estimate
 

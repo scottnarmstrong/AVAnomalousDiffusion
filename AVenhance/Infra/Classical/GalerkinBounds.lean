@@ -3,11 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinDerivative
-public import AVenhance.Infra.Classical.Drift
-public import Mathlib.Analysis.Calculus.FDeriv.Comp
-public import Mathlib.Analysis.Calculus.TangentCone.Real
-public import Mathlib.Data.List.OfFn
+import AVenhance.Infra.Classical.Drift
+public import AVenhance.Infra.Classical.Commutator
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Classical.PeriodicCalculus
 
 /-! Joint space-time bounds for ordered spatial derivatives of smooth periodic data. -/
 

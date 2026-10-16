@@ -4,8 +4,7 @@
 module
 
 public import AVenhance.Infra.Section5.AnalyticBridge.Sobolev
-public import AVenhance.Infra.Section5.AnalyticBridge.Derivs
-public import AVenhance.Infra.Section5.AnalyticBridge.Defs
+import AVenhance.Infra.Section5.AnalyticBridge.Derivs
 
 /-! Positive-order temperature jets and arbitrary amplitude; no zeroth-order
 temperature supremum. Existing Sobolev, product and composition engines are reused. -/

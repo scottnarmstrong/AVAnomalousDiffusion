@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.DriftCommutatorTerms
+import AVenhance.Infra.Section4.Amnr.FiniteWordSums
 
 /-! Exact finite-product expansion of the spatial drift correction. -/
 

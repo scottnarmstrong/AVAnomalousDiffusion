@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.MaterialGradient
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.Topology.Algebra.Module.ModuleTopology
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.InnerProductSpace.Basic
 
 /-! Finite telescoping for source-style material derivatives. -/
 

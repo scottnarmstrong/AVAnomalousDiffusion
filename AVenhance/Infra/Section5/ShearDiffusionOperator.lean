@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.OperatorSplit
-public import AVenhance.Infra.Section5.DiffusionDivergence
+import AVenhance.Infra.Section5.OperatorSplit
+import AVenhance.Infra.Section5.DiffusionDivergence
+public import AVenhance.Statements.Section3.SigmaMat
+public import AVenhance.Statements.Section4.AdvDiffOp
+public import AVenhance.Statements.Section4.VecDiv
 
 /-! The velocity increment turns the new-scale diffusion into divergence form. -/
 

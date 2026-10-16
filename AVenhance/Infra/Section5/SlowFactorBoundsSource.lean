@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.SlowFactorBoundsComposition
-public import AVenhance.Infra.Section5.GradientChain
-public import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+public import AVenhance.Infra.Section5.SlowFactorBoundsChoices
+public import AVenhance.Infra.Section5.Terms
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Identification of the four slow-factor estimates with the actual selected
 flow and the derivative-row matrix convention. -/
@@ -14,8 +17,8 @@ flow and the derivative-row matrix convention. -/
 
 noncomputable section
 open scoped ContDiff ENNReal
-open MeasureTheory Homogenization AVenhance AVenhance.FaaDiBruno
-open AVenhance.Infra.Section4 AVenhance.Infra.Ergodic AVenhance.Infra.Torus
+open MeasureTheory Homogenization AVenhance
+open AVenhance.Infra.Section4
 namespace AVenhance.Infra.Section5
 
 theorem slowFactorG_eq_mulVec (B : Vec 2 → Matrix (Fin 2) (Fin 2) ℝ)

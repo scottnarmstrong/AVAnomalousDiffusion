@@ -12,6 +12,5 @@ public import AVenhance.Infra.Section4.Amnr.FlowSpatialSmoothness
 noncomputable section
 open Homogenization MeasureTheory Set
 namespace AVenhance.Infra.Section4
-open AVenhance.Infra.Flow
 
 end AVenhance.Infra.Section4

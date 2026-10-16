@@ -3,16 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaAnalyticTrace
-public import AVenhance.Infra.Section4.ThetaZeroBounds
-public import AVenhance.Infra.Section4.ThetaZeroBounds
-public import AVenhance.Infra.Section4.IteratesThetaGradientBase
-public import AVenhance.Infra.Section4.IteratesComponentEnergy
+import AVenhance.Infra.Section4.ThetaAnalyticTrace
+import AVenhance.Infra.Section4.ThetaZeroBounds
+import AVenhance.Infra.Section4.IteratesThetaGradientBase
+import AVenhance.Infra.Section4.IteratesComponentEnergy
 public import AVenhance.Infra.Section4.IteratesBudgetConstantChoice
-public import AVenhance.Statements.Construction.StreamRegularity
-public import AVenhance.Statements.Section3.LRecurse
-public import AVenhance.Statements.Section3.PermissibleSet
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
 public import AVenhance.Statements.Section4.KappaSeq
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+public import AVenhance.Infra.Section4.ThetaAnalyticScale
+public import AVenhance.Statements.Section3.PermittedInterval
+public import AVenhance.Statements.Section4.IsThetaAnalytic
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesAnalyticRadiusDoubling
+import AVenhance.Infra.Section4.ThetaAnalyticBound
+import AVenhance.Infra.Section4.ThetaAnalyticData
 
 /-! Discharge the stream-regularity/diffusivity-recursion data and convert theta derivative estimates
 to the order-zero coordinate profile. -/

@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftJacobian.PiolaFlux
+import AVenhance.Infra.Section5.LeftJacobian.PiolaFlux
 public import AVenhance.Infra.Section5.FrozenHmTelescope
+public import AVenhance.Infra.Section5.LeftJacobian.Candidate
+import AVenhance.Infra.Section5.HmBaseFluxIdentity
 
 /-!: the candidate base flux `Σ_n A⁺_{n,0} q_{n,0}` and the order-zero
 endpoint of the `H_m` telescope (the corrected-form analogue of `HmBaseFluxIdentity`). -/

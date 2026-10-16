@@ -4,10 +4,10 @@
 module
 
 public import AVenhance.Infra.Section5.Terms
-public import AVenhance.Infra.Section5.DiffusionDivergence
-public import AVenhance.Infra.Section5.FlowPiolaIdentity
-public import AVenhance.Infra.Section5.FrozenFlowRegularity
-public import AVenhance.Infra.Section5.CorrectorFlux
+import AVenhance.Infra.Section5.DiffusionDivergence
+import AVenhance.Infra.Section5.FlowPiolaIdentity
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section3.ChiMKCorrector
 
 @[expose] public section
 

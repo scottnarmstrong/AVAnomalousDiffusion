@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FiniteSpatialWordBridge
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.InnerProductSpace.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import AVenhance.Infra.Section4.Amnr.ScalarQuadraticL2
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Scalar coordinate L2 jets extracted from actual vector dissipation. -/
 

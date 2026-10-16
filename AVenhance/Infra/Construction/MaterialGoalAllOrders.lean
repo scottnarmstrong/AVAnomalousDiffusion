@@ -4,9 +4,11 @@
 module
 
 public import AVenhance.Infra.Construction.MaterialAuxiliaryInduction
-public import AVenhance.Infra.Construction.MaterialGoalSource
 public import AVenhance.Infra.Construction.MaterialPullback
-public import AVenhance.Infra.Section4.Amnr.SpatialOperatorBounds
+import AVenhance.Infra.Section4.Amnr.SpatialOperatorBounds
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! The finite noncommuting word induction is identified with the source
 material iterates and packaged as `p.material.goal`. -/

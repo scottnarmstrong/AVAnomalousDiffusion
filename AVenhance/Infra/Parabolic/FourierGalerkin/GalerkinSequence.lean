@@ -4,9 +4,10 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.ConcreteData
-public import AVenhance.Infra.Parabolic.FourierGalerkin.Energy
-public import AVenhance.Infra.Parabolic.FourierGalerkin.PathCompactness
+import AVenhance.Infra.Parabolic.FourierGalerkin.Energy
 public import Mathlib.MeasureTheory.Measure.SeparableMeasure
+public import AVenhance.Infra.Parabolic.FourierGalerkin.FrozenInitialData
+import Homogenization.Ambient.HilbertFinite
 
 /-!
 # Positive-cutoff Galerkin paths for drift data

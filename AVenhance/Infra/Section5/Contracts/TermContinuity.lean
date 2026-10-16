@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.Produced
-public import AVenhance.Infra.Section5.Contracts.TermContinuityDiv
-public import AVenhance.Infra.Section5.Contracts.TermContinuityPointwise
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.Contracts.TermContinuityDiv
+import AVenhance.Infra.Section5.Contracts.TermContinuityPointwise
+public import AVenhance.Infra.Section5.Integration.OpenInputs
 
 /-! # `TermContinuousContract`
 

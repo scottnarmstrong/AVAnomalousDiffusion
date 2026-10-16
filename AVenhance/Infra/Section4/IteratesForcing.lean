@@ -5,6 +5,8 @@ module
 
 public import AVenhance.Infra.Section4.IteratesBasic
 public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section3.ParabolicMaximum
+import Mathlib.Order.CompletePartialOrder
 
 /-! Linearity of the forcing, with an explicit regularity premise on
 its actual coefficient. No quantitative V or T estimate is assumed. -/

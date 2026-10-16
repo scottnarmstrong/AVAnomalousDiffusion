@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FastVelocityMixedInduction
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Section4.Amnr.Seed
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Data.Int.Star
 
 /-! Finite ordering measures for material/spatial commutator induction. -/
 

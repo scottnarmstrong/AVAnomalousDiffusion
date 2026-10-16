@@ -3,11 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Construction.StreamAdmissible
 public import AVenhance.Statements.Section4.VecDiv
-public import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
-public import Mathlib.Analysis.Calculus.FDeriv.Symmetric
-public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
 
 /-! Classical regularity and incompressibility of the admissible stream velocity. -/
 

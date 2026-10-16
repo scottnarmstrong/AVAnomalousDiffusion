@@ -3,8 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCenteredRemainderFormula
-public import AVenhance.Infra.Section4.IteratesWordDriftPairing
+import AVenhance.Infra.Section4.IteratesCenteredRemainderFormula
+import AVenhance.Infra.Section4.IteratesWordDriftPairing
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Section4.TForcing
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.IteratesWordFluxPairing
 
 @[expose] public section
 

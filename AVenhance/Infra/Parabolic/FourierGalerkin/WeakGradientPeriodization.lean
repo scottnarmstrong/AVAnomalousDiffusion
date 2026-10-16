@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TestDensityBridge
-public import AVenhance.Infra.Heat.PeriodicCutoff
+import AVenhance.Infra.Parabolic.FourierGalerkin.TestDensityBridge
 public import Mathlib.Algebra.Module.ZLattice.Basic
-public import Mathlib.MeasureTheory.Group.FundamentalDomain
+public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Projection
+public import Homogenization.Sobolev.H1.Definitions
+import Mathlib.Dynamics.Ergodic.Action.Regular
 
 /-!
 # Periodizing compact Euclidean tests against the periodic weak gradient

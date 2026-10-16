@@ -14,8 +14,6 @@ noncomputable section
 
 namespace AVenhance
 
-open Homogenization
-
 /-- `e.taum.prime.def` (1121-1127), for `m ≥ 1`:
 `τ'_m := (4⌈ε_{m-1}^{-δ}⌉ + 1)⁻¹ τ''_m`. The value at `m = 0` is unused. -/
 def tauP (β : ℝ) (Λ : ℕ) (m : ℕ) : ℝ :=

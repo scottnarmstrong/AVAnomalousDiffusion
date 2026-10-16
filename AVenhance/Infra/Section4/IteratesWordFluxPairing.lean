@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesStreamPairing
-public import AVenhance.Infra.Section4.IteratesWordCoefficientSplit
+import AVenhance.Infra.Section4.IteratesStreamPairing
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Section3.SigmaMat
+import AVenhance.Infra.Section4.IteratesWordEnergy
 
 /-! Actual differentiated flux pairings on the periodic cell. -/
 

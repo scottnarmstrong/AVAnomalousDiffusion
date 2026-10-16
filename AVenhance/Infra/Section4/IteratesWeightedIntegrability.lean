@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWeightedSpaceTime
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section4.IteratesEnergyIntegrability
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 /-! Discharge natural space-time integrability using the actual smooth scalar
 carrier and continuity of the conditional coefficient jets. -/
@@ -12,7 +16,6 @@ carrier and continuity of the conditional coefficient jets. -/
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

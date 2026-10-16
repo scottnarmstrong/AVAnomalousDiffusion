@@ -3,14 +3,14 @@
 
 module
 
-public import AVenhance.Statements.Section3.SpaceAvgMat
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 /-! Statement file: `timeAvgMat` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/
 
 @[expose] public section
 
-open MeasureTheory Homogenization
+open MeasureTheory
 
 noncomputable section
 

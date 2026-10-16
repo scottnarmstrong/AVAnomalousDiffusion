@@ -3,9 +3,19 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesDiffusivityComparison
-public import AVenhance.Infra.Section4.TUpgradeConsumersNonneg
+import AVenhance.Infra.Section4.IteratesDiffusivityComparison
 public import AVenhance.Infra.Section5.Integration.OpenInputs
+public import AVenhance.Infra.Section4.IteratesTDischarge
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.IteratesFlowBounds
+import AVenhance.Infra.Section4.IteratesFlowClose
+import AVenhance.Infra.Section4.IteratesFlowGeometry
+import AVenhance.Infra.Section4.IteratesTSourceScale
+import AVenhance.Infra.Section4.IteratesVAbstractAmplitude
+import AVenhance.Infra.Section4.TUpgradeConsumersAmplitude
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
 
 @[expose] public section
 

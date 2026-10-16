@@ -4,6 +4,12 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.PartIEnergyIoiCutoff
+import AVenhance.Infra.Section5.Integration.Energy.FiniteNorm
+import AVenhance.Infra.Section5.Integration.Energy.Inequality
+import AVenhance.Infra.Section5.Integration.Energy.TimeDerivative
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Topology.Separation.CompletelyRegular
 
 /-! # The integrated energy inequality on a positive-time interval `[s,t]`
 

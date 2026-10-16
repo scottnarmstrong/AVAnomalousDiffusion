@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaScale
+import AVenhance.Infra.Section4.ThetaScale
 public import AVenhance.Infra.Section4.ThetaCommutator
-public import AVenhance.Infra.Section4.ThetaDifferentiatedEnergy
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Construction.IsStreamSeq
 
 /-! Pointwise differentiated-drift bounds from the high-order stream-regularity conclusion. -/
 

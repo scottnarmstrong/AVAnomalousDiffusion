@@ -3,7 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Flow.ThirdFieldTaylor
+import AVenhance.Infra.Flow.ThirdFieldTaylor
+public import AVenhance.Infra.Flow.HigherVariation3.Existence
+import AVenhance.Infra.Flow.Estimates
+import AVenhance.Infra.Flow.FieldTaylor
+import AVenhance.Infra.Flow.HigherVariation3.Growth
+import AVenhance.Infra.Flow.SecondSpatial
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Flow.SpatialC1
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Quadratic initial-point remainder for the flow's second variation. -/
 

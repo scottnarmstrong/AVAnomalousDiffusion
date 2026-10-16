@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityPeriodic
-public import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section4.LocalFinite
+public import AVenhance.Statements.Ingredients.HatXiML
+public import AVenhance.Statements.Ingredients.ZetaMK
+public import AVenhance.Statements.Section4.VecDiv
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+import Mathlib.Order.CompletePartialOrder
 
 /-! # Generic tools for the flux contracts
 

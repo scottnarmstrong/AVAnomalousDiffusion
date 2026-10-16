@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Cutoff.CardinalZeta
 public import AVenhance.Infra.Cutoff.ShiftPartition
-public import AVenhance.Infra.Cutoff.TimeScaleFacts
 public import AVenhance.Statements.Ingredients.IndIcc
+public import AVenhance.Infra.Cutoff.CardinalStep
+public import Mathlib.Analysis.InnerProductSpace.Basic
+import Mathlib.Topology.UniformSpace.Uniformizable
 
 /-! The unit-scale cutoff with a partition on odd integer translates. -/
 

@@ -3,7 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesRecursion
+import AVenhance.Infra.Section4.IteratesRecursion
+public import Mathlib.Algebra.BigOperators.Group.Finset.Defs
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+import Mathlib.Algebra.Order.Archimedean.Real.Basic
+import Mathlib.Tactic.Bound
+import Mathlib.Tactic.Monotonicity.Lemmas
+import Mathlib.Tactic.Positivity.Finset
 
 @[expose] public section
 

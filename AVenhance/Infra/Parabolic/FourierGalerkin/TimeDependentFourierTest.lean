@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TestDensityBridge
-public import Mathlib.Analysis.Calculus.ParametricIntegral
+import AVenhance.Infra.Parabolic.FourierGalerkin.TestDensityBridge
+public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Projection
+public import AVenhance.Infra.Section5.TestDensity
 
 /-!
 # Smooth time coefficients of spatial Fourier cutoffs

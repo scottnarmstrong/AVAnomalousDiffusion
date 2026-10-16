@@ -3,9 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section3.ChiMKCorrector
-public import AVenhance.Infra.Section5.FrozenFlowRegularity
-public import AVenhance.Infra.Section5.ShearOrthogonality
+import AVenhance.Infra.Section3.ChiMKCorrector
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section5.ShearOrthogonality
+public import AVenhance.Statements.Section4.ChiTilde
 
 /-! The corrector and stream profile use the same scalar shear
 coordinate after composition with the inverse flow. -/

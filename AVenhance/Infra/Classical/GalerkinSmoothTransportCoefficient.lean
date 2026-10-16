@@ -4,8 +4,8 @@
 module
 
 public import AVenhance.Infra.Classical.GalerkinSmoothEquationLimit
-public import AVenhance.Infra.Classical.GalerkinSmoothLimit
-public import AVenhance.Infra.Classical.GalerkinGenerator
+public import AVenhance.Infra.Classical.PeriodicCalculus
+import Mathlib.Topology.Separation.CompletelyRegular
 
 /-! Fourier coefficients of smooth transport terms as `L²` pairings. -/
 

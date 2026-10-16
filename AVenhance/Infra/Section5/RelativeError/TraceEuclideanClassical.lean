@@ -3,13 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TraceConcreteAverage
-public import AVenhance.Infra.Section5.RelativeError.TransportTraceGradient
-public import AVenhance.Infra.Section5.RelativeError.TransportPairingIntegral
-public import AVenhance.Infra.Section5.RelativeError.TransportTestSmooth
+import AVenhance.Infra.Section5.RelativeError.TransportPairingIntegral
 public import AVenhance.Infra.Section5.RelativeError.ClassicalEnergy
-public import AVenhance.Infra.Section5.RelativeError.TraceEuclideanTransport
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section5.RelativeError.TraceEuclideanTransport
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+public import AVenhance.Infra.Flow.VariationalEquation
+public import AVenhance.Statements.Roots.GradNormSq
+import AVenhance.Infra.Section5.RelativeError.TraceAveraging
+import AVenhance.Infra.Section5.RelativeError.TransportTracePairing
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # RelativeError: the classical low-mode trace bridge
 

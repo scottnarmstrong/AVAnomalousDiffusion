@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.LebronStep.Pieces
 public import AVenhance.Statements.FullTheorem.HolderTimeL2Le
-public import AVenhance.Statements.FullTheorem.IsHolderTimeL2
+import AVenhance.Infra.Section5.IndyStepDownPartI
+import AVenhance.Infra.Section5.Integration.PartIAnsatzL2
 
 /-! # Hölder-seminorm bookkeeping for the analytic case of `r.LeBron.2`
 

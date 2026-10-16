@@ -4,8 +4,6 @@
 module
 
 public import AVenhance.Infra.Flow.FiniteSpatialJetGlobal
-public import AVenhance.Infra.Flow.FirstJet
-public import AVenhance.Infra.Flow.SpatialC1
 
 /-! Identification of the first globally constructed jet with the spatial
 Fréchet derivative of the original flow. -/

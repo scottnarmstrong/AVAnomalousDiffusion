@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.A8Leaves
-public import AVenhance.Infra.Section5.RelativeError.TraceInstanceAdapters
-public import AVenhance.Infra.Section5.Contracts.SectionFourIterate
+import AVenhance.Infra.Section5.Contracts.A8Leaves
+import AVenhance.Infra.Section5.RelativeError.TraceInstanceAdapters
+import AVenhance.Infra.Section5.Contracts.SectionFourIterate
 public import AVenhance.Infra.Section5.Contracts.HmSup
+public import AVenhance.Infra.Section5.Contracts.ThetaProfile
 
 /-! # Step-down producer helper
 

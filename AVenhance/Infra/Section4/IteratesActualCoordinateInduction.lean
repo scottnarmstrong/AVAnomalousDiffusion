@@ -3,11 +3,23 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualHigherNormRecurrence
-public import AVenhance.Infra.Section4.IteratesActualFirstNormRecurrence
-public import AVenhance.Infra.Section4.IteratesHigherBudgetSmall
-public import AVenhance.Infra.Section4.IteratesFirstBudgetSmall
-public import AVenhance.Infra.Section4.IteratesCoordinateInduction
+import AVenhance.Infra.Section4.IteratesActualHigherNormRecurrence
+import AVenhance.Infra.Section4.IteratesActualFirstNormRecurrence
+import AVenhance.Infra.Section4.IteratesHigherBudgetSmall
+import AVenhance.Infra.Section4.IteratesFirstBudgetSmall
+import AVenhance.Infra.Section4.IteratesCoordinateInduction
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesAmplitude
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+public import AVenhance.Infra.Section4.IteratesFirstMaterialBudget
+public import AVenhance.Infra.Section4.IteratesMaterialBudgetConstant
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Construction.BarNorm
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesCorrectedRecursion
 
 @[expose] public section
 

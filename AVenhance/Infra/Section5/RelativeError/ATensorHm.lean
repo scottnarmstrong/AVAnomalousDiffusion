@@ -3,9 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ATensorHmEngine
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
-public import AVenhance.Infra.Section4.Amnr.HmAdapter
+import AVenhance.Infra.Section5.RelativeError.ATensorHmEngine
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section4.Amnr.HmAdapter
+public import AVenhance.Infra.Section4.HmBounds
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Section4.Amnr.Seed
+import AVenhance.Infra.Section5.Integration.PartIHmRegularity
+import AVenhance.Infra.Section5.LeftToShow.Scales
 
 /-! # the open-time `H̃_m` gradient from the AMNR tensor bound (actual iterates)
 
@@ -19,7 +28,7 @@ the open half space `(0,∞) × ℝ²`, so nothing is assumed at `t ≤ 0`. -/
 noncomputable section
 
 open MeasureTheory Homogenization
-open scoped Matrix.Norms.Elementwise ContDiff
+open scoped ContDiff
 
 namespace AVenhance.Infra.Section5.RelativeError
 

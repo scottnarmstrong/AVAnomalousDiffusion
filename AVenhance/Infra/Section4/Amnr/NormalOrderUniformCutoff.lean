@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.LocalFiniteNormalOrderL2
+import AVenhance.Infra.Section4.Amnr.LocalFiniteNormalOrderL2
+public import AVenhance.Infra.Section4.Amnr.CanonicalJetSamples
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
 
 /-! A normal-ordering constant independent of the lower material cutoff. -/
 

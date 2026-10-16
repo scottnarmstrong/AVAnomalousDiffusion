@@ -4,9 +4,8 @@
 module
 
 public import AVenhance.Infra.Section5.LeftJacobian.Candidate
-public import AVenhance.Infra.Section5.HmBaseFluxIdentity
 public import AVenhance.Infra.Section4.LocalFinite
-public import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Ingredients.CutoffConsequences
 
 /-! LeftJacobian the left-Jacobian form: the Piola coefficient identity.
 

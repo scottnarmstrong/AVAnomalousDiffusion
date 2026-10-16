@@ -3,16 +3,33 @@
 
 module
 
-public import AVenhance.Infra.Section3.ExplicitBounds
-public import AVenhance.Statements.Section3.QMNRChar
-public import Mathlib.Algebra.Field.Periodic
-public import Mathlib.Analysis.Calculus.Taylor
-public import AVenhance.Infra.Section3.FluxMatrix
-public import AVenhance.Infra.Section3.CorrTimeRegularity
-public import AVenhance.Infra.Ingredients.Overlap
-public import AVenhance.Infra.Ingredients.Parameters
-public import AVenhance.Infra.Section3.FluxTimeRegularity
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+import AVenhance.Statements.Section3.QMNRChar
+import Mathlib.Analysis.Calculus.Taylor
+import AVenhance.Infra.Section3.FluxMatrix
+import AVenhance.Infra.Section3.CorrTimeRegularity
+import AVenhance.Infra.Ingredients.Overlap
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.FluxTimeRegularity
+public import AVenhance.Statements.Section3.JHat
+public import AVenhance.Statements.Section3.KMat
+public import AVenhance.Statements.Section3.Khom
+public import AVenhance.Statements.Section3.QMNR
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.TimeScaleArithmetic
+import AVenhance.Infra.Section3.CorrectorBounds
+import AVenhance.Infra.Section3.ExplicitBounds.CutoffMemory
+import AVenhance.Infra.Section3.ExplicitBounds.MatrixBounds
+import AVenhance.Infra.Section3.FluxStructure
+import AVenhance.Infra.Section3.JMNPeriodAverage
+import AVenhance.Infra.Section3.JMNRegularity
+import AVenhance.Infra.Section3.QMNRRecursion
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
+import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+import Mathlib.Data.Int.Star
+import Mathlib.Order.CompletePartialOrder
 
 /-! Section 3.3 estimates. Repeated mean-zero periodic primitives have
 geometric bounds, rather than the printed factorial gain (E21e). -/

@@ -3,11 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyExponent
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyScale
-public import AVenhance.Infra.Section4.DmFlowTgrad
-public import AVenhance.Infra.Section4.HmPairingAssembly
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyScale
+import AVenhance.Infra.Section4.HmPairingAssembly
 public import AVenhance.Infra.Section5.SourceErrors
+public import AVenhance.Infra.Section4.DmBounds
+public import AVenhance.Statements.Ingredients.Gamma
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.HmDmScales
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `SourceErrorDContract`: scale bookkeeping
 

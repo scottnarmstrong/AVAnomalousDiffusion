@@ -3,14 +3,22 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3Time
-public import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3Scale
-public import AVenhance.Infra.Section5.Contracts.TermCenteredFinal
-public import AVenhance.Infra.Section5.Contracts.TermCenteredScale
-public import AVenhance.Infra.Section5.Contracts.TermCenteredTime
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffScalar
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFlux
+import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3Time
+import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3Scale
+import AVenhance.Infra.Section5.Contracts.TermCenteredScale
+import AVenhance.Infra.Section5.Contracts.TermCenteredTime
+import AVenhance.Infra.Section5.Contracts.TermSourcesFlux
 public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.Contracts.TermCenteredAnalytic
+import AVenhance.Infra.Section5.Contracts.TermCenteredNormie3Analytic
+import AVenhance.Infra.Section5.Integration.PartIAnsatzScale
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorScales
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `Normie3CenteredSourceContract`
 

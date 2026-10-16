@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.LebronStep.KappaBounds
-public import AVenhance.Infra.Section5.RelativeError.AssemblyScales
+public import AVenhance.Statements.Ingredients.Epsilon
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.EpsilonConsequences
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.SpecialFunctions.Pow.Continuity
+import Mathlib.Tactic.Positivity.Finset
 
 /-! # Abstract-real scale lemmas for the separated-chains argument
 

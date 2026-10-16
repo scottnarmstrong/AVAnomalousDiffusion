@@ -4,7 +4,9 @@
 module
 
 public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
-public import AVenhance.Infra.Flow.StartTimeDerivative
+import AVenhance.Infra.Flow.StartTimeDerivative
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Differential identities for the inverse flow of a construction stream. -/
 

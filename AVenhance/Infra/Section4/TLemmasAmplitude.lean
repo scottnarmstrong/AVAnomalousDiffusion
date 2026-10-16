@@ -4,7 +4,9 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesAmplitude
-public import AVenhance.Infra.Section4.IteratesRecursion
+import AVenhance.Infra.Section4.IteratesRecursion
+import Mathlib.Tactic.IntervalCases
+import Mathlib.Tactic.Positivity.Finset
 
 /-! Factorial-weighted closure of the source amplitudes in
 `l.Tm.minus.thetam`.  The analytic input is the exact per-increment `l.V`

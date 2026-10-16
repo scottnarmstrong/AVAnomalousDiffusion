@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpoint
-public import AVenhance.Infra.Section4.Amnr.HmAdapter
+public import AVenhance.Infra.Section4.Amnr.Calculus
+public import AVenhance.Infra.Section4.HmBounds
+import AVenhance.Infra.Section4.Amnr.FiniteSpatialWordBridge
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
+import AVenhance.Infra.Section4.Amnr.TensorNorm
 
 /-! Positive-time spatial-word adapter for the actual endpoint gradient.
 The terminal correction needs one spatial letter, not a material trace. -/

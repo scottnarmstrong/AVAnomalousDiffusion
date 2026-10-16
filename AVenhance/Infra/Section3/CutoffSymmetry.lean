@@ -3,12 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section3.ShearFormula
-public import AVenhance.Infra.Ingredients.TimeScaleArithmetic
 public import AVenhance.Statements.Section3.ZetaProd
-public import AVenhance.Statements.Section3.PsiM
-public import Homogenization.Ambient.Basic
-public import Mathlib.Algebra.Order.Floor.Ring
+public import AVenhance.Infra.Ingredients.TimeScales
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! Translation identities at the large Section 3 time scale. -/
 
@@ -18,7 +16,7 @@ noncomputable section
 
 namespace AVenhance.Infra.Section3
 
-open AVenhance Homogenization
+open AVenhance
 
 /-- The number of small cells in a large cell is congruent to one modulo four. -/
 theorem tauCellCount_mod_four (β : ℝ) (Λ m : ℕ) :

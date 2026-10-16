@@ -3,10 +3,11 @@
 
 module
 
-public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 public import Homogenization.Sobolev.H1.Definitions
-public import Mathlib.Analysis.Normed.Lp.PiLp
-public import Mathlib.MeasureTheory.Function.L2Space
+import Mathlib.MeasureTheory.Function.L2Space
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Roots.TimeCube
 
 /-! Minkowski inequalities in the exact periodic cell norms used by the two
 T-iterate lemmas.  Vector-valued gradients use `PiLp 2`, so their pointwise

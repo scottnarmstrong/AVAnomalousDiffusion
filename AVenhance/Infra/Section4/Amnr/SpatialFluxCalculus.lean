@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureFluxPeriodicity
+public import AVenhance.Infra.Section4.Amnr.SpatialWords
+import AVenhance.Infra.Section4.Amnr.TemperatureSpatialDiffusion
+import AVenhance.Infra.Section4.Amnr.TemperatureSpatialWords
 
 /-! Spatial differentiation of the actual divergence forcing. -/
 

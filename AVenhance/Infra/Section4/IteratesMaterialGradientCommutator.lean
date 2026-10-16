@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesErrorGradient
+import AVenhance.Infra.Section4.IteratesErrorGradient
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Section3.GradMatrix
+import AVenhance.Infra.Section4.IteratesWordTransport
 
 @[expose] public section
 

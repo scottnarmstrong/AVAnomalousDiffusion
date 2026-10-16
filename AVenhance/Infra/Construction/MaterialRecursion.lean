@@ -3,9 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Construction.MaterialComposition
-public import AVenhance.Infra.Construction.RecursionIncrement
-public import AVenhance.Infra.Numeric.Exponents
+public import AVenhance.Infra.Construction.MaterialGoalSource
 
 /-! Quantitative material bounds for one transported term in the stream
 recursion. The transport identity removes all spatial derivatives from the

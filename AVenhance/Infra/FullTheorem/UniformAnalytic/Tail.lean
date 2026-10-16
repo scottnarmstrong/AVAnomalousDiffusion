@@ -3,10 +3,16 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.UniformAnalytic.Chain
-public import AVenhance.Infra.FullTheorem.Contracts.UniformInputs
-public import AVenhance.Infra.Section5.RelativeError.AssemblyScales
-public import AVenhance.Infra.Section5.WeakEnergyIdentity
+import AVenhance.Infra.Section5.WeakEnergyIdentity
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.FullTheorem.LebronStep.DivFree
+import AVenhance.Infra.FullTheorem.LebronStep.VelocityBounds
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
+import AVenhance.Infra.Section5.RelativeError.ForcedEnergyClassical
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # The tail piece `w = θ − θ_M` (analytic case of `r.LeBron.2`)
 

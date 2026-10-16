@@ -4,19 +4,31 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.PartIAnsatzPointwise
-public import AVenhance.Infra.Section5.Integration.PartIAnsatzL2
-public import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
-public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
-public import AVenhance.Infra.Section4.TIterateSmooth
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraContinuity
-public import AVenhance.Infra.Section5.A0Facts
-public import AVenhance.Infra.Section5.MStar
-public import AVenhance.Infra.Section3.LRecurseTop
-public import AVenhance.Infra.Classical.Uniqueness
-public import AVenhance.Infra.Section4.ThetaClassicalUniqueness
-public import AVenhance.Infra.Section4.ThetaScale
-public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
-public import AVenhance.Infra.Numeric.Exponents
+import AVenhance.Infra.Section5.Integration.PartIAnsatzL2
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraContinuity
+import AVenhance.Infra.Section5.A0Facts
+import AVenhance.Infra.Section3.LRecurseTop
+import AVenhance.Infra.Classical.Uniqueness
+import AVenhance.Infra.Section4.ThetaClassicalUniqueness
+import AVenhance.Infra.Section4.ThetaScale
+import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
+import AVenhance.Infra.Numeric.Exponents
+public import AVenhance.Infra.Ingredients.EpsilonConsequences
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.GradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.IsThetaAnalytic
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.ClassicalRegularity
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-! # Right-limit initial defect for the Section 5 ansatz
 

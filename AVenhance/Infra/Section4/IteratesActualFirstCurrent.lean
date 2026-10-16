@@ -3,9 +3,27 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualFirstForcingPairing
-public import AVenhance.Infra.Section4.IteratesRetainedCurrentRegularity
-public import AVenhance.Infra.Section4.IteratesWordAnalyticForcing
+import AVenhance.Infra.Section4.IteratesActualFirstForcingPairing
+import AVenhance.Infra.Section4.IteratesRetainedCurrentRegularity
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.IteratesCancellation
+import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
+import AVenhance.Infra.Section4.IteratesForcing
+import AVenhance.Infra.Section4.IteratesForcingCoefficients
+import AVenhance.Infra.Section4.IteratesLaplacianEnergy
+import AVenhance.Infra.Section4.IteratesWordEnergy
+import AVenhance.Infra.Section4.IteratesWordForcingContinuity
+import AVenhance.Infra.Section4.IteratesWordRegularity
+import AVenhance.Infra.Section4.IteratesWordSolution
+import AVenhance.Infra.Section5.SMatRegularity
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

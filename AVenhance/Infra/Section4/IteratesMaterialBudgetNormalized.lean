@@ -4,8 +4,10 @@
 module
 
 public import AVenhance.Infra.Section4.IteratesMaterialBudgetConstant
-public import AVenhance.Infra.Section4.IteratesMaterialBudgetAmplitude
-public import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
+import AVenhance.Infra.Section4.IteratesMaterialBudgetAmplitude
+import AVenhance.Infra.Section4.IteratesDiffusiveMaterialScale
+public import AVenhance.Infra.Section4.IteratesAmplitude
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

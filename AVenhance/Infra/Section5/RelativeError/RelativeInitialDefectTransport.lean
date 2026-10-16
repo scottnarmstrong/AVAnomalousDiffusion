@@ -4,11 +4,11 @@
 module
 
 public import AVenhance.Infra.Ergodic.Flow
-public import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
-public import AVenhance.Infra.Torus.FrozenBridge
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+public import AVenhance.Statements.Roots.L2NormSq
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Generic torus transport energy, isolated from the broken physical Hm
 consumer. The valid generic argument is ported from HmTransportedEnergy;

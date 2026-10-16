@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesErrorEnergy
-public import AVenhance.Infra.Section4.IteratesPositiveFactorials
+import AVenhance.Infra.Section4.IteratesErrorEnergy
+import AVenhance.Infra.Section4.IteratesPositiveFactorials
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
 
 /-! Actual squared material-error energy in analytic weights. -/
 

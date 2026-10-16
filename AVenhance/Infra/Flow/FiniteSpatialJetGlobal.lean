@@ -5,6 +5,9 @@ module
 
 public import AVenhance.Infra.Flow.FiniteSpatialJet
 public import AVenhance.Infra.Flow.LinearGlobalExistence
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Prod
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Global recursive jet flows, built by solving each new derivative level as
 a linear equation along the preceding jet trajectory. -/

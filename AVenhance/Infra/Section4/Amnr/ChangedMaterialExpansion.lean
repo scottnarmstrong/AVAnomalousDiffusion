@@ -4,6 +4,10 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.ChangedAdvectionTerms
+import AVenhance.Infra.Section4.Amnr.FiniteWordSums
+import AVenhance.Infra.Section4.Amnr.FlowCoefficientBounds
+import AVenhance.Infra.Section4.Amnr.MaterialPowerChange
+import AVenhance.Infra.Section4.Amnr.SpatialCommutator
 
 /-! Finite, ordered correction expansions for actual material powers. -/
 

@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinGenerator
+import AVenhance.Infra.Classical.GalerkinGenerator
 public import AVenhance.Infra.Classical.GalerkinEvolution
+public import AVenhance.Statements.Section3.SpaceLap
+import AVenhance.Infra.Classical.PeriodicCalculus
 
 /-! Commutator forcing bounds for differentiated finite Fourier paths. -/
 

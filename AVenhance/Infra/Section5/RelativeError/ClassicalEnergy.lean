@@ -3,11 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Classical.TimeEnergy
-public import AVenhance.Infra.Classical.PeriodicCalculus
-public import AVenhance.Infra.Section5.ClassicalRegularity
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
-public import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Classical.TimeEnergy
+import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Section5.ClassicalRegularity
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Infra.Torus.Basic
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Section4.VecDiv
 
 /-!# RelativeError: classical periodic energy and mean identities
 

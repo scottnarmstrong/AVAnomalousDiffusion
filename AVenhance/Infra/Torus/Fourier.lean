@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Torus.Basic
+public import Mathlib.Analysis.Fourier.AddCircleMulti
 
 /-! Fourier coefficients and Parseval on the unit torus and its Euclidean cell. -/
 

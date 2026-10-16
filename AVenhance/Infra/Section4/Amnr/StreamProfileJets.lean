@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowGlobalSpatialSmoothness
+public import AVenhance.Statements.Ingredients.Ingredients
+public import AVenhance.Statements.Ingredients.Psi
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
 
 /-! Every primitive shear derivative with its exact physical amplitude and radius. -/
 

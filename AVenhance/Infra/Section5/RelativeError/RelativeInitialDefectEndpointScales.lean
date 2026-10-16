@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectEndpoint
+public import Mathlib.Analysis.Real.Sqrt
+import Mathlib.Tactic.Positivity.Finset
 
 /-! Scalar absorption of the actual endpoint source coefficients. The same
 estimate includes the terminal one-letter level; there is no extra derivative
@@ -12,7 +13,6 @@ or time-zero regularity assumption. -/
 @[expose] public section
 
 noncomputable section
-open MeasureTheory Homogenization
 namespace AVenhance.Infra.Section5.RelativeError
 
 /-- Each endpoint coefficient is bounded uniformly in both finite indices. -/

@@ -3,9 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesVelocityRegularity
-public import AVenhance.Infra.Section4.IteratesComponentEnergy
-public import AVenhance.Infra.Section4.IteratesTruncatedLinearPairing
+import AVenhance.Infra.Section4.IteratesComponentEnergy
+import AVenhance.Infra.Section4.IteratesTruncatedLinearPairing
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordRegularity
 
 /-! Linear integrated control of each actual material velocity term. -/
 

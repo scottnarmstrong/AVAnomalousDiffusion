@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesDriftExpansion
-public import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+import AVenhance.Infra.Section4.IteratesDriftExpansion
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
 
 /-! Every material commutator contains a positive-order velocity jet. -/
 

@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.Ingredients
+public import AVenhance.Statements.Ingredients.TauP
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! Positivity and spacing facts for the time scales. -/
 

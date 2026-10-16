@@ -4,7 +4,12 @@
 module
 
 public import AVenhance.Infra.Flow.Liouville
-public import Mathlib.MeasureTheory.Function.Jacobian
+import Mathlib.MeasureTheory.Function.Jacobian
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
+import AVenhance.Infra.Flow.InverseC1
+import AVenhance.Infra.Flow.SpatialC1
+import AVenhance.Infra.Flow.SpatialRegularity
 
 /-! Lebesgue measure is preserved by divergence-free smooth flows. -/
 

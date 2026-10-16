@@ -4,8 +4,8 @@
 module
 
 public import AVenhance.Infra.Section4.CoarseCoeff.WordBounds
-public import AVenhance.Infra.Section4.IteratesRadiusInflation
-public import Mathlib.Data.Nat.Choose.Basic
+import AVenhance.Infra.Section4.IteratesRadiusInflation
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
 
 @[expose] public section
 

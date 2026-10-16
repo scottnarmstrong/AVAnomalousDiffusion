@@ -4,9 +4,10 @@
 module
 
 public import AVenhance.Statements.Section3.UShear
-public import Mathlib.Analysis.Calculus.FDeriv.Prod
-public import Mathlib.Analysis.Calculus.FDeriv.Mul
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import AVenhance.Statements.Ingredients.Psi
+public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Section3.SigmaMat
+import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
 
 /-! Explicit differential identities for the Section 3 shear fields. -/
 

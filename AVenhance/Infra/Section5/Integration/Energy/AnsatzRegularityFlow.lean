@@ -3,10 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section5.GradientChain
-public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
-public import AVenhance.Infra.Section3.CorrTimeRegularity
-public import AVenhance.Infra.Section4.LocalFinite
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
+public import AVenhance.Infra.Flow.PeriodicSmooth
+public import AVenhance.Statements.Section3.GradMatrix
+public import AVenhance.Statements.Section4.XFlow
+public import AVenhance.Statements.Section4.XFlowInv
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! # Regularity of the ansatz `θ̃_m`: flow ingredients
 

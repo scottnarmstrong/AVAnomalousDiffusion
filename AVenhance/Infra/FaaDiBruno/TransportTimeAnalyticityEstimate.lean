@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Infra.FaaDiBruno.TransportTimeAnalyticity
+import AVenhance.Infra.FaaDiBruno.Composition
+import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
 
 @[expose] public section
 

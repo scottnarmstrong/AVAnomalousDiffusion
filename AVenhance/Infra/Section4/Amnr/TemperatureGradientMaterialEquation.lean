@@ -3,7 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureGradientDiffusion
+import AVenhance.Infra.Section4.Amnr.TemperatureGradientDiffusion
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.Amnr.MaterialCalculus
+import AVenhance.Infra.Section4.Amnr.TemperatureCalculus
+import AVenhance.Infra.Section4.Amnr.TemperatureLaplacian
+import AVenhance.Infra.Section4.Amnr.TemperatureSpatialDiffusion
 
 /-! The actual material gradient equation with all primitive fields identified. -/
 

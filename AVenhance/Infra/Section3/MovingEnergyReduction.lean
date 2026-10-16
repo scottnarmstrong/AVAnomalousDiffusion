@@ -4,7 +4,12 @@
 module
 
 public import AVenhance.Infra.Section3.MovingFluxEnergy
-public import AVenhance.Infra.Section3.CorrectorGradient
+import AVenhance.Infra.Section3.CorrectorGradient
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.FluxStructure
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Data.Int.Star
 
 /-! The pairwise spatial orthogonality behind the double-sum formula for the
 moving-cutoff corrector energy. -/

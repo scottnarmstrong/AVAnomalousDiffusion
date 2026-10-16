@@ -4,18 +4,21 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
-public import AVenhance.Infra.Section5.HmBaseFluxIdentity
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
+import AVenhance.Infra.Section5.HmBaseFluxIdentity
 public import AVenhance.Infra.Section4.IteratesWordDiffusion
-public import AVenhance.Infra.Section4.DmPulledGradient
-public import AVenhance.Infra.Construction.Section2FlowBridge
-public import AVenhance.Infra.Construction.Section2Scales
-public import AVenhance.Infra.Construction.AppB2Smoothness
-public import AVenhance.Infra.Construction.Section2JointInduction
-public import AVenhance.Infra.Section5.Terms.R46FluxFlow
-public import AVenhance.Infra.Section4.Amnr.FlowSpatialPrimitive
-public import AVenhance.Infra.Section4.IteratesFlowSupport
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+import AVenhance.Infra.Section4.DmPulledGradient
+import AVenhance.Infra.Section5.Terms.R46FluxFlow
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPrimitive
+import AVenhance.Infra.Section4.IteratesFlowSupport
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsPointwise
+public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.CutoffConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import Mathlib.Algebra.Order.Ring.Star
 
 /-! Pointwise calculus for the spacetime gradient of the averaged pulled
 temperature gradient. -/

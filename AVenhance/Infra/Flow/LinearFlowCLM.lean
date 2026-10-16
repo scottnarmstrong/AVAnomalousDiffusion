@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Flow.LinearWindowBounds
-public import Mathlib.Analysis.ODE.ExistUnique
+import AVenhance.Infra.Flow.LinearWindowBounds
+import Mathlib.Analysis.ODE.ExistUnique
+public import AVenhance.Infra.Flow.FlowOn
 
 /-! Continuous linear dependence on initial data for finite-window linear ODEs. -/
 

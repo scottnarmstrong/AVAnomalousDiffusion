@@ -3,8 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseFields
-public import AVenhance.Infra.Section3.FluxTimeRegularity
+import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseFields
+import AVenhance.Infra.Section3.FluxTimeRegularity
+public import AVenhance.Infra.Section5.Contracts.TermContinuityPointwiseTools
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.RelativeError.IteratesForcingSmooth
+import Mathlib.Order.CompletePartialOrder
 
 /-! # Joint continuity of `cutoff1`, `twistie1`, `twistie4`, `twistie5`, `normie3` for a smooth `T`
 

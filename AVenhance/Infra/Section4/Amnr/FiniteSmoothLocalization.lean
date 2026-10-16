@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FiniteMaterialCommutator
-public import AVenhance.Infra.Section4.Amnr.SmoothLocalization
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import Mathlib.RingTheory.Finiteness.Prod
 
 /-! Local smooth representatives at the finite source regularity order. -/
 

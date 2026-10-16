@@ -3,8 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.ATensorHm
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectGradientUniform
+import AVenhance.Infra.Section5.RelativeError.ATensorHm
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectGradientUniform
+public import AVenhance.Infra.Section4.HmBounds
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Section4.Amnr.HmAdapter
+import AVenhance.Infra.Section5.Integration.PartIHmRegularity
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.LeftToShow.Scales
 
 /-! # `κ_{m-1}`-normalised `H̃_m` gradient from the AMNR tensor bound (actual iterates)
 
@@ -19,7 +29,7 @@ input is the AMNR tensor bound. -/
 noncomputable section
 
 open MeasureTheory Homogenization
-open scoped Matrix.Norms.Elementwise ContDiff
+open scoped ContDiff
 
 namespace AVenhance.Infra.Section5.Contracts
 

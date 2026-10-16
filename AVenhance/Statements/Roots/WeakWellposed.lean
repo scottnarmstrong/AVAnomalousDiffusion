@@ -4,7 +4,7 @@
 module
 
 public import AVenhance.Statements.Roots.IsWeakSolution
-public import AVenhance.Proofs.Roots.WeakWellposed
+import AVenhance.Proofs.Roots.WeakWellposed
 
 /-! Statement file: `weak_wellposed` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/

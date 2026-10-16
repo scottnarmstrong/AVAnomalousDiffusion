@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.WeakGradientPeriodization
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarFourierDerivative
+import AVenhance.Infra.Parabolic.FourierGalerkin.WeakGradientPeriodization
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarRepresentative
+public import AVenhance.Statements.Roots.IsPeriodicH1With
 
 /-!
 # Almost-everywhere periodic H¹ slices

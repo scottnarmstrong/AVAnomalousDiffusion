@@ -10,8 +10,7 @@ public import AVenhance.Infra.Section4.Amnr.GradientMaterialSum
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory Filter
+open MeasureTheory Filter
 namespace AVenhance.Infra.Section4
-open AVenhance.Infra.Flow
 
 end AVenhance.Infra.Section4

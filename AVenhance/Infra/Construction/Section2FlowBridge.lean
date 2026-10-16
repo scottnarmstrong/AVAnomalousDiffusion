@@ -3,12 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Construction.MaterialFlowBounds
 public import AVenhance.Infra.Construction.MaterialFlowComposition
-public import AVenhance.Infra.Construction.MaterialAuxiliaryInduction
 public import AVenhance.Infra.Construction.MaterialJacobianFromP
-public import AVenhance.Infra.Construction.Section2FlowBoundsAtScale
+import AVenhance.Infra.Construction.Section2FlowBoundsAtScale
 public import AVenhance.Infra.Construction.Section2JointInduction
+import AVenhance.Infra.Construction.FlowTransport
+import AVenhance.Infra.Construction.Section2FlowRegularityCore
 
 /-! Bridges from the global source-form flow package to the per-scale
 hypotheses consumed by the Section 2 induction. -/

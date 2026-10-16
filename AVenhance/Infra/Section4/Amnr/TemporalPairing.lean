@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.DriftCommutatorPairing
+public import AVenhance.Statements.Roots.UnitCube
+public import Mathlib.MeasureTheory.Constructions.Pi
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 
 /-! Absolute time-integrated spatial pairings and the actual product measure. -/
 

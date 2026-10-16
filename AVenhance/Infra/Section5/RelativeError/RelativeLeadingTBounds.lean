@@ -3,9 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeLeadingBounds
-public import AVenhance.Infra.Section5.LeftToShow.AssemblyBounds
-public import AVenhance.Infra.Section5.AnalyticBridge.FlowForErgodicBound
+import AVenhance.Infra.Section5.RelativeError.RelativeLeadingBounds
+import AVenhance.Infra.Section5.AnalyticBridge.FlowForErgodicBound
+public import AVenhance.Infra.Section5.LeftToShow.Defs
+public import AVenhance.Infra.Section5.RelativeError.RelativeAnalytic
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.IsTIterates
+public import AVenhance.Statements.Section4.KappaSeq
 
 /-! Amplitude-generic leading-energy estimates on the actual datum and T iterates.
 The quadratic error has amplitude S squared; the base consumes only integrated gradients. -/

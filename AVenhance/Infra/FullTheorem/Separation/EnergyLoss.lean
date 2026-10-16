@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.Separation.Gradient
+import AVenhance.Infra.FullTheorem.Separation.Gradient
+public import AVenhance.Infra.FullTheorem.Separation.Derivs
 
 /-! # Energy loss of a classical solution on `[0,t]`
 

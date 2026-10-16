@@ -10,9 +10,8 @@ public import AVenhance.Infra.Section4.Amnr.StreamMaterialSum
 @[expose] public section
 
 noncomputable section
-open Homogenization Set
+open Set
 open scoped NNReal
 namespace AVenhance.Infra.Section4
-open AVenhance.Infra.Flow
 
 end AVenhance.Infra.Section4

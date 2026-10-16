@@ -4,11 +4,13 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermCenteredDefs
-public import AVenhance.Infra.Section5.SlowFactorBounds
-public import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
-public import AVenhance.Infra.Section5.Contracts.TermContinuity
-public import AVenhance.Infra.Section5.Contracts.TermCenteredSplitAlgebra
-public import AVenhance.Infra.Section5.Contracts.TermCenteredSplitFlux
+import AVenhance.Infra.Section5.Contracts.TermFluxesSlice
+import AVenhance.Infra.Section5.Contracts.TermCenteredSplitAlgebra
+import AVenhance.Infra.Section5.Contracts.TermCenteredSplitFlux
+public import AVenhance.Infra.Section5.SlowFactorBoundsSource
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Section3.MovingFluxEnergy
+import AVenhance.Infra.Section5.Contracts.TermCenteredSplitFields
 
 /-! # Divergence/nondivergence split of `twistie4ND`, `twistie5ND`
 

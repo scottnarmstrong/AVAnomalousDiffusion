@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureMaterialInduction
+import AVenhance.Infra.Section4.Amnr.TemperatureMaterialInduction
+public import AVenhance.Infra.Section4.Amnr.CanonicalJetSamples
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientIdentity
+public import AVenhance.Statements.Section4.IsTIterates
 
 /-! Amplitude-generic adapters for the mixed temperature/material calculus.
 

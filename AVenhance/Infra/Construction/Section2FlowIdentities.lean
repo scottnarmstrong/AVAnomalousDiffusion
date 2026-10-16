@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Classical.Drift
 public import AVenhance.Infra.Construction.TimeIncrement.FlowBounds
+public import AVenhance.Infra.Flow.Liouville
+public import AVenhance.Statements.Section4.VecDiv
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Flow.InverseC1
+import AVenhance.Infra.Flow.SpatialRegularity
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 
 /-! Structural identities for the Section 2 construction flow. -/
 

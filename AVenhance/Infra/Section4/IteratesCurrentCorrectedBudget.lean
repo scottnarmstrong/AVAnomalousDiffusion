@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesMaterialBounds
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Corrected quantitative current-material allocation. -/
 

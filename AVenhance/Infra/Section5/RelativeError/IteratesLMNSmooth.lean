@@ -3,9 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section3.ExplicitBounds
-public import AVenhance.Infra.Section4.LocalFinite
-public import Mathlib.Analysis.Calculus.ContDiff.Convolution
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Analysis.Calculus.ContDiff.Convolution
+public import AVenhance.Statements.Ingredients.HatXiML
+public import AVenhance.Statements.Section3.KMat
+public import Mathlib.Analysis.Convolution
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.MeasureTheory.Measure.Haar.Unique
+import Mathlib.Topology.UniformSpace.Uniformizable
 
 /-! # `C^∞` regularity of the memory coefficients `L_{m,n}` and of `𝐊_m`
 
@@ -19,7 +26,7 @@ support and `K` the locally integrable memory kernel, hence smooth by the convol
 
 noncomputable section
 
-open MeasureTheory Filter Topology Homogenization
+open MeasureTheory Filter Topology
 open scoped Matrix.Norms.Elementwise ContDiff Convolution
 
 namespace AVenhance.Infra.Section5.RelativeError

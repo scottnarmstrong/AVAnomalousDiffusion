@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Flow.LinearGlobalExistence
-public import Mathlib.Analysis.ODE.Gronwall
+import Mathlib.Analysis.ODE.Gronwall
+public import AVenhance.Infra.Flow.FlowOn
+public import Mathlib.Analysis.Complex.Exponential
 
 /-! Grönwall bounds for global linear flows with coefficients bounded only on
 the finite time window under consideration. -/

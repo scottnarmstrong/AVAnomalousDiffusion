@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
+import AVenhance.Infra.Section5.Contracts.TermSourcesFluxPointwise
+public import Homogenization.Ambient.Basic
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Abstract real inequalities for the pointwise bounds of the `twistie4`, `twistie5` fluxes
 

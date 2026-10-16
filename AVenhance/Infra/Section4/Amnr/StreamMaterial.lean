@@ -3,8 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.FlowMaterialJets
-public import AVenhance.Statements.FlowDefs.FlowInvLeftInverse
+import AVenhance.Statements.FlowDefs.FlowInvLeftInverse
+public import AVenhance.Infra.Section4.Amnr.Calculus
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Flow.JointC1
+import AVenhance.Infra.Section4.Amnr.Memory
+import AVenhance.Statements.FlowDefs.FlowInvRightInverse
+import AVenhance.Statements.FlowDefs.FlowIsFlow
+import Mathlib.Order.CompletePartialOrder
 
 /-! The actual coarse material cancellation in the stream recursion. -/
 

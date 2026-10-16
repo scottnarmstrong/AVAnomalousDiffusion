@@ -3,11 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.BaseEnergyRate
-public import AVenhance.Infra.Torus.FrozenBridge
-public import AVenhance.Statements.Roots.L2NormSq
-public import AVenhance.Statements.Roots.GradNormSq
-public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section5.RelativeError.BaseEnergyRate
+public import AVenhance.Infra.Torus.Basic
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Section4.IsClassicalSol
 
 /-! # integrated energy identity for classical solutions
 

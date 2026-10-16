@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.LocalFiniteNormalOrderL2
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientIdentity
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.Amnr.MixedSubwordBudget
+import AVenhance.Infra.Section4.Amnr.TemperatureCalculus
+import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientBounds
 
 /-! Actual canonical temperature flux jets at the finite source budget. -/
 

@@ -4,10 +4,12 @@
 module
 
 public import AVenhance.Statements.Flow.IsFlow
-public import AVenhance.Infra.Flow.FlowIntegral
-public import AVenhance.Infra.Flow.SmoothField
-public import Mathlib.Analysis.Calculus.FDeriv.Prod
-public import Mathlib.Analysis.Normed.Operator.Bilinear
+public import AVenhance.Infra.Flow.PeriodicSmooth
+import AVenhance.Infra.Flow.CurveUniqueness
+import AVenhance.Infra.Flow.Estimates
+import AVenhance.Infra.Flow.GlobalExistence
+import AVenhance.Infra.Flow.Laws
+import Mathlib.Analysis.Calculus.Deriv.Mul
 
 /-! The linear variational equation along a characterized flow trajectory. -/
 

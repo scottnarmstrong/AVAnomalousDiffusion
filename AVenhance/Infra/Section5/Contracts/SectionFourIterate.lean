@@ -4,18 +4,26 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section4.TLemmasMinusTheta
-public import AVenhance.Infra.Section4.IteratesVAbstractAmplitude
-public import AVenhance.Infra.Section4.IteratesTDischarge
-public import AVenhance.Infra.Section4.IteratesFlowGeometry
-public import AVenhance.Infra.Section4.IteratesFlowClose
-public import AVenhance.Infra.Section4.IteratesFlowBounds
-public import AVenhance.Infra.Section4.ThetaProfileDischarge
-public import AVenhance.Infra.Section4.ThetaAnalyticData
-public import AVenhance.Statements.Construction.StreamRegularity
-public import AVenhance.Statements.Section3.LRecurse
-public import AVenhance.Infra.Section5.MStar
-public import AVenhance.Infra.Section5.RelativeError.LaterStart
+import AVenhance.Infra.Section4.TLemmasMinusTheta
+import AVenhance.Infra.Section4.IteratesVAbstractAmplitude
+import AVenhance.Infra.Section4.IteratesTDischarge
+import AVenhance.Infra.Section4.IteratesFlowGeometry
+import AVenhance.Infra.Section4.IteratesFlowClose
+import AVenhance.Infra.Section4.IteratesFlowBounds
+import AVenhance.Infra.Section4.ThetaProfileDischarge
+import AVenhance.Infra.Section4.ThetaAnalyticData
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
+import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Section5.RelativeError.LaterStart
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section4.IteratesDiffusivityComparison
+import AVenhance.Infra.Section4.ThetaAnalyticTrace
+import AVenhance.Infra.Section4.ThetaScale
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Producer for the exact step-down part (i) SectionFourIterate contract -/
 

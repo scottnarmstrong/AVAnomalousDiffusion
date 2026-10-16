@@ -3,10 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section3.CutoffSymmetry
+import AVenhance.Infra.Section3.CutoffSymmetry
 public import AVenhance.Statements.Section3.CorrTime
-public import Homogenization.Ambient.Basic
-public import Mathlib.MeasureTheory.Group.MeasurableEquiv
+public import AVenhance.Infra.Ingredients.TimeScales
+import Mathlib.MeasureTheory.Integral.Bochner.Set
 
 /-! Translation covariance of the exponentially weighted corrector memory. -/
 
@@ -19,7 +19,6 @@ open MeasureTheory
 namespace AVenhance.Infra.Section3
 
 open AVenhance
-open Homogenization
 
 theorem TimeMemorySymmetry.volume_restrict_Iic_add_map (t T : ℝ) :
     (volume.restrict (Set.Iic t)).map (MeasurableEquiv.addRight T) =

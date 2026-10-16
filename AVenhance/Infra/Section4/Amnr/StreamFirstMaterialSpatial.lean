@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.SpatialMaterialEstimate
+public import AVenhance.Infra.Section4.Amnr.TransportProfileJets
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.EpsilonConsequences
 
 /-! All spatial orders in the first material fast-velocity estimate. -/
 

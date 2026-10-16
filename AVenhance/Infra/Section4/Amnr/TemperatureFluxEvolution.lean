@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureFluxGradient
+import AVenhance.Infra.Section4.Amnr.TemperatureFluxGradient
+public import AVenhance.Infra.Section4.Amnr.TemperatureFluxBounds
+public import AVenhance.Infra.Section4.Amnr.WordOrdering
+public import AVenhance.Statements.Section4.TForcing
+import AVenhance.Infra.Section4.Amnr.NormalOrderFields
+import AVenhance.Infra.Section4.Amnr.TemperatureGradientMaterialEquation
 
 /-! The actual iterate gradient equation in primitive flux form. -/
 

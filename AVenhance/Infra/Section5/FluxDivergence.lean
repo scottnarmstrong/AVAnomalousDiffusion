@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Statements.Section4.VecDiv
 
 /-! Coordinate product rule for divergence of a matrix acting on a vector. -/
 

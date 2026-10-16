@@ -4,7 +4,6 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Integration.SeparationContract
-public import AVenhance.Infra.FullTheorem.NoSelection.Scales
 
 /-! # Separation at one level, with the time and scale bookkeeping
 

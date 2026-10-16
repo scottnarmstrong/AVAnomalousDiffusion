@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.SourceJetAdvance
+public import AVenhance.Infra.Section4.Amnr.SourceVelocityAdvance
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.Amnr.HigherGradientStep
 
 /-! # Uniform source jet levels for the S-amplitude AMNR Hessian
 

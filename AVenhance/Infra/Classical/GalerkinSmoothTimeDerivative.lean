@@ -3,8 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinSmoothEquation
-public import AVenhance.Infra.Classical.GalerkinSmoothTransportCoefficient
+import AVenhance.Infra.Classical.GalerkinSmoothEquation
+public import AVenhance.Infra.Classical.GalerkinSmoothCoefficients
+public import AVenhance.Infra.Classical.GalerkinSmoothLimit
 
 /-! Continuous finite-mode time derivatives for the smooth Galerkin sequence. -/
 

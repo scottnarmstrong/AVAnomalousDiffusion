@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Ergodic.HMinusOneErgodicCore
+import AVenhance.Infra.Ergodic.HMinusOneSpectral
 
 /-! # The spectral homogeneous H⁻¹ ergodic estimate -/
 

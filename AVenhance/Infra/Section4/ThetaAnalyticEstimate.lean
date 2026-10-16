@@ -3,10 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaHonestRecursion
-public import AVenhance.Infra.Section4.ThetaClassicalUniqueness
-public import AVenhance.Statements.Section4.KappaSeq
-public import AVenhance.Statements.Section4.MTheta0
+public import AVenhance.Infra.Section4.ThetaDifferentiated
+public import AVenhance.Infra.Section4.ThetaHonestAnalytic
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.ThetaCommutatorBounds
+import AVenhance.Infra.Section4.ThetaScale
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Analytic estimates for the classical theta solution, conditional on the stream-regularity and diffusivity-recursion estimates. -/
 

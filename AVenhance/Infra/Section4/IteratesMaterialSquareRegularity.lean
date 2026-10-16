@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCrossIntegrability
-public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Section4.IteratesEnergyIntegrability
+import Mathlib.Order.CompletePartialOrder
 
 /-! Natural material-square integrability from actual initial-time carriers. -/
 

@@ -4,7 +4,6 @@
 module
 
 public import Mathlib.Analysis.SpecialFunctions.Pow.Real
-public import Mathlib.Tactic
 
 /-! The actual piecewise amplitude weights in l.V and their squared ratios.
 The theta base prefactor is handled by a common prefactor outside

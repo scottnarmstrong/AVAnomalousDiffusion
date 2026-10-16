@@ -3,11 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesVelocitySmooth
-public import AVenhance.Infra.Section4.IteratesVelocityTransfer
-public import AVenhance.Infra.Section4.IteratesHessianFactor
-public import AVenhance.Infra.Section4.IteratesMatrixContinuity
+import AVenhance.Infra.Section4.IteratesVelocitySmooth
+import AVenhance.Infra.Section4.IteratesHessianFactor
+import AVenhance.Infra.Section4.IteratesMatrixContinuity
 public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Statements.Roots.IsZ2Periodic
+import AVenhance.Infra.Section4.IteratesEnergy
+import AVenhance.Infra.Section4.IteratesVelocityLower
+import AVenhance.Infra.Section4.IteratesVelocityRegularity
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
 
 /-! Actual drift-gradient transfer on the full time cell. -/
 
@@ -15,7 +20,6 @@ public import AVenhance.Infra.Section4.IteratesTruncatedCell
 
 noncomputable section
 open Homogenization MeasureTheory
-open scoped Matrix.Norms.Elementwise
 namespace AVenhance.Infra.Section4
 open IterateCalculus
 open AVenhance

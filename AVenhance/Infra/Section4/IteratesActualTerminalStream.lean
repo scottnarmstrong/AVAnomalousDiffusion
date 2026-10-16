@@ -3,8 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualTerminalHighStream
-public import AVenhance.Infra.Section4.IteratesTruncatedStreamOrders
+import AVenhance.Infra.Section4.IteratesActualTerminalHighStream
+import AVenhance.Infra.Section4.IteratesTruncatedStreamOrders
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.IteratesStreamPhysical
+import AVenhance.Infra.Section4.IteratesTruncatedFirstFlux
+import AVenhance.Infra.Section4.IteratesWordFluxTimeEnergy
 
 /-! The complete actual all-order stream contribution under the stream-regularity estimates. -/
 

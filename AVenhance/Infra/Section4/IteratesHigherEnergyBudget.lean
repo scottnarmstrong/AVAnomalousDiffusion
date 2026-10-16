@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesAmplitude
+public import Mathlib.Analysis.Real.Sqrt
 
 @[expose] public section
 

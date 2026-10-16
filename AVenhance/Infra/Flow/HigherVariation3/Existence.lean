@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Flow.SpatialC2
+public import AVenhance.Infra.Flow.HigherVariation
+import AVenhance.Infra.Flow.Laws
 
 /-! The third variational affine system along a smooth flow. -/
 

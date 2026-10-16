@@ -4,7 +4,8 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Separation.Calculus
-public import AVenhance.Infra.FullTheorem.Separation.Pointwise
+import AVenhance.Infra.FullTheorem.Separation.Pointwise
+import AVenhance.Infra.Section4.ThetaDifferentiated
 
 /-! # Commutator pairings of first and second order
 

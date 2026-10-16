@@ -4,7 +4,12 @@
 module
 
 public import AVenhance.Infra.Section3.MovingFluxEnergy
-public import AVenhance.Infra.Section3.MovingEnergyReduction
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section3.ActiveModeFlux
+import AVenhance.Infra.Section3.FluxMatrix
+import AVenhance.Infra.Section3.FluxStructure
+import AVenhance.Infra.Section4.LocalFinite
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Matrix-valued flux comparison with the mode-reduced moving energy. -/
 

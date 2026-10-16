@@ -3,14 +3,14 @@
 
 module
 
-public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Statements.Roots.UnitCube
 
 /-! Statement file: `timeCube` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/
 
 @[expose] public section
 
-open MeasureTheory Filter Topology Homogenization
+open Homogenization
 
 namespace AVenhance
 

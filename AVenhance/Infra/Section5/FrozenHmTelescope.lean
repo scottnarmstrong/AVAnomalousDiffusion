@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section5.FiniteMaterialTelescope
+import AVenhance.Infra.Section5.FiniteMaterialTelescope
 public import AVenhance.Statements.Section4.Hm
 
 /-! source endpoint potentials and the finite `H_m` telescope. -/

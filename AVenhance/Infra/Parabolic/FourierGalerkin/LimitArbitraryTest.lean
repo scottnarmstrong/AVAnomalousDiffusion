@@ -3,9 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.LimitWeakEquation
-public import AVenhance.Infra.Parabolic.FourierGalerkin.LimitRepresentation
-public import Mathlib.MeasureTheory.Integral.Prod
+import AVenhance.Infra.Parabolic.FourierGalerkin.LimitWeakEquation
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarRepresentative
+public import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentFourierTest
+import AVenhance.Infra.Parabolic.FourierGalerkin.TimeDependentTestConvergence
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # Arbitrary tests for the synchronized Galerkin limit

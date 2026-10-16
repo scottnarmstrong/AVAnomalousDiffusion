@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CurveJacobian
+import AVenhance.Infra.Section4.Amnr.CurveJacobian
+public import AVenhance.Infra.Section4.Amnr.FlowCurve
+public import AVenhance.Infra.Section4.Amnr.JacobianJetBounds
+import AVenhance.Infra.Section4.Amnr.JacobianJetScaling
+import Mathlib.Analysis.Calculus.ContDiff.Bounds
 
 /-! Actual all-order spatial flow estimates from primitive field jets. -/
 

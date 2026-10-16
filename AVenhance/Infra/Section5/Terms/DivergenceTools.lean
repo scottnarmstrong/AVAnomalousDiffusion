@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Section5.HMinusTools
+public import AVenhance.Statements.Section4.VecDiv
 
 /-! Reusable test duality for divergence terms with either sign. -/
 

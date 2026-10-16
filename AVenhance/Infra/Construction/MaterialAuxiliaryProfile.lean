@@ -3,8 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Construction.MaterialAuxiliaryFlow
+import AVenhance.Infra.Construction.MaterialAuxiliaryFlow
 public import AVenhance.Infra.Section4.Amnr.TransportProfileJets
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.EpsilonConsequences
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.SpatialCompositionRates
+import AVenhance.Infra.Section4.Amnr.StreamMaterial
+import AVenhance.Infra.Section4.Amnr.StreamProfileJets
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
 
 /-! Transported profiles at auxiliary spatial orders, with material cutoff
 orders still checked against the literal source cutoff. -/

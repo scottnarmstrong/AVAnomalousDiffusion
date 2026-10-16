@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Statements.Ingredients.LIdx
+public import Homogenization.Ambient.Basic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
 
 /-! Statement file: `psi0` (Ingredients).
 This file contains exactly one declaration of the formalization's public statement surface. -/

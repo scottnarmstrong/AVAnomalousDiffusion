@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesEnergyIntegrability
+import AVenhance.Infra.Section4.IteratesEnergyIntegrability
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Roots.UnitCube
+import Mathlib.Order.CompletePartialOrder
 
 /-! Cross temporal pairings inherit integrability from the actual C1 carrier. -/
 

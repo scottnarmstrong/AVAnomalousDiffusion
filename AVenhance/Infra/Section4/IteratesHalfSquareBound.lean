@@ -3,8 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesCancellationRegularity
-public import AVenhance.Infra.Section4.IteratesMatrixMaterialPairing
+import AVenhance.Infra.Section4.IteratesCancellationRegularity
+import AVenhance.Infra.Section4.IteratesMatrixMaterialPairing
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Statements.Construction.IsAdmissibleStream
+public import AVenhance.Statements.Construction.StreamVel
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.TimeCube
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section4.IteratesMatrixContractionEnergy
+import Mathlib.Algebra.Order.Star.Real
 
 @[expose] public section
 

@@ -3,11 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeResidual
-public import AVenhance.Infra.Section5.Integration.Energy.Estimate
-public import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
-public import AVenhance.Infra.Section5.Integration.PartIEnergyIoi
-public import AVenhance.Infra.Section5.Integration.PartIAnsatzRegularityIoi
+import AVenhance.Infra.Section5.RelativeError.RelativeResidual
+import AVenhance.Infra.Section5.Integration.PartIEnergyIoi
+import AVenhance.Infra.Section5.Integration.PartIAnsatzRegularityIoi
+public import AVenhance.Infra.Section5.HMinusTools
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.Ansatz
+public import AVenhance.Statements.Section4.IsClassicalSol
 
 /-! Forced classical energy with relative initial defect and residual, on open time.
 

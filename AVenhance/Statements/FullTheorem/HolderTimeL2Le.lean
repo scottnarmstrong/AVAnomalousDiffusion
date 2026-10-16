@@ -3,21 +3,8 @@
 
 module
 
-public import AVenhance.Statements.Roots.IsWeakSolution
-public import AVenhance.Statements.Roots.IsHolderClass
-public import AVenhance.Statements.Roots.IsDivFree
-public import AVenhance.Statements.Roots.IsPeriodicH1With
-public import AVenhance.Statements.Roots.TimeCube
-public import AVenhance.Statements.Roots.IsTestFunction
-public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
-public import AVenhance.Statements.Section3.PermissibleSet
-public import AVenhance.Statements.Section4.KappaSeq
-public import AVenhance.Statements.Section4.IsClassicalSol
-public import AVenhance.Statements.Section4.IsThetaAnalytic
-public import AVenhance.Statements.Section4.MTheta0
-public import AVenhance.Statements.Construction.IsStreamSeq
-public import AVenhance.Statements.Construction.StreamVel
 public import AVenhance.Statements.FullTheorem.IsHolderTimeL2
+public import Homogenization.Sobolev.H1.Definitions
 
 /-! Public statement. -/
 

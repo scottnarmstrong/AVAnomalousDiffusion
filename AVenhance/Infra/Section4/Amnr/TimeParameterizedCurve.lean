@@ -4,6 +4,10 @@
 module
 
 public import AVenhance.Infra.Section4.Amnr.TimeParameterizedField
+public import AVenhance.Infra.Section4.Amnr.FlowCurve
+import AVenhance.Infra.Flow.SmoothField
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Analysis.Calculus.Deriv.Prod
 
 /-! The actual flow solves its target-time-parameterized integral equation. -/
 

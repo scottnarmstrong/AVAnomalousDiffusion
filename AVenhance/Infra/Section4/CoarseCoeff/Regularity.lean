@@ -3,8 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Representation
-public import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
+import AVenhance.Infra.Section4.CoarseCoeff.Representation
+import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
+public import AVenhance.Infra.Section4.CoarseCoeff.Form
+public import Mathlib.Analysis.Matrix.Normed
 
 @[expose] public section
 

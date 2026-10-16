@@ -5,7 +5,8 @@ module
 
 public import AVenhance.Statements.Flow.IsFlow
 public import AVenhance.Infra.Flow.PeriodicSmooth
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 /-! Integral formulation of a characterized flow trajectory. -/
 

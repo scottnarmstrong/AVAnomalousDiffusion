@@ -14,8 +14,6 @@ noncomputable section
 
 namespace AVenhance
 
-open Homogenization
-
 /-- `e.delta` (1008): `δ := (1/4)(q-1)(1 - ((2q+1)/(2q+2)) β)`. -/
 def delta (β : ℝ) : ℝ :=
   (1 / 4) * (q β - 1) * (1 - ((2 * q β + 1) / (2 * q β + 2)) * β)

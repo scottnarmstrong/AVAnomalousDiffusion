@@ -4,6 +4,10 @@
 module
 
 public import AVenhance.Infra.Section5.FlowPiola
+import AVenhance.Infra.Section5.FrozenFlowRegularity
+import AVenhance.Infra.Section5.PulledGradientTransport
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+import Mathlib.Order.CompletePartialOrder
 
 /-! The two-dimensional cofactor-divergence identity for smooth maps. -/
 

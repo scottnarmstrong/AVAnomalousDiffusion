@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Section5.Integration.Energy.Rate
+import AVenhance.Infra.Section5.Integration.Energy.Rate
+public import AVenhance.Infra.Section5.Integration.Energy.Pointwise
+public import AVenhance.Statements.Section4.HMinusOneNorm
+import AVenhance.Infra.Section5.Integration.Energy.Duality
 
 /-! # The differential energy inequality
 

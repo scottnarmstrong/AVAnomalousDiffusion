@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section5.Terms.ScaleTools
 public import AVenhance.Infra.Section5.Terms
+public import AVenhance.Infra.Section5.HMinusTools
 
 /-! Finite Ḣ⁻¹ assembly for the nine named Section 5 terms and `R46`.
 The exact residual identity is an explicit upstream input. Time measurability

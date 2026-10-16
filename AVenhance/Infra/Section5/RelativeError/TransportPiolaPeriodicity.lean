@@ -3,11 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TransportPiolaFlow
-public import AVenhance.Infra.Flow.Laws
-public import AVenhance.Infra.Flow.SmoothField
-public import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Flow.Laws
+import AVenhance.Infra.Flow.SmoothField
+import AVenhance.Infra.Classical.PeriodicCalculus
 public import AVenhance.Statements.Roots.SpaceGrad
+public import AVenhance.Infra.FaaDiBruno.TransportODEApplications
+public import AVenhance.Statements.Roots.IsZ2Periodic
 
 /-! # RelativeError: periodicity of the transported Piola vector -/
 

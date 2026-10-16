@@ -3,7 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.AssemblyDissipation
+import AVenhance.Infra.Section5.RelativeError.AssemblyDissipation
+public import AVenhance.Infra.Section5.H1Reduction
+public import AVenhance.Infra.Section5.Integration.Statements
+public import AVenhance.Infra.Section5.RelativeError.IteratesExist
+public import AVenhance.Statements.Roots.IsDivFree
+import AVenhance.Infra.Section5.WeakEnergyIdentity
 
 /-! # the main-theorem closure  Smooth analytic limit dissipation
 (`smooth_analytic_limit_dissipation`), weak well-posedness (`weakWellposedInput_of_A1`) and the

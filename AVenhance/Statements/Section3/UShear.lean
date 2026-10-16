@@ -3,14 +3,15 @@
 
 module
 
-public import AVenhance.Statements.Section3.SpaceLap
+public import AVenhance.Statements.Ingredients.A
+public import Homogenization.Ambient.Basic
 
 /-! Statement file: `uShear` (Section3).
 This file contains exactly one declaration of the formalization's public statement surface. -/
 
 @[expose] public section
 
-open MeasureTheory Homogenization
+open Homogenization
 
 noncomputable section
 

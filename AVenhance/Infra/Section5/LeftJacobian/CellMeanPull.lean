@@ -4,6 +4,7 @@
 module
 
 public import AVenhance.Infra.Section5.LeftJacobian.CellMean
+public import AVenhance.Infra.Section5.Terms
 
 /-!: the pulled cell flux `C⁰_k` of `normie3⁺` is the cell flux
 `cellFluxCell` (whose fast mean is the flux, `cellFluxCell_mean`) composed with

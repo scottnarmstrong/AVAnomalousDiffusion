@@ -3,10 +3,7 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.NoSelectionInputs.CosineIntegral
 public import Homogenization.Sobolev.WeakDerivatives
-public import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
-public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
 
 /-! # Iterated derivatives of `x ↦ c cos(a x₀)` -/
 

@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureFluxIdentity
+public import AVenhance.Infra.Section4.Amnr.FrozenBridge
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.Amnr.LocalSpatialWords
+import AVenhance.Infra.Section4.Amnr.TemperatureCalculus
+import AVenhance.Infra.Section4.Amnr.TemperatureSpatialDiffusion
 
 /-! The actual gradient diffusion term as an ordered two-spatial contraction. -/
 

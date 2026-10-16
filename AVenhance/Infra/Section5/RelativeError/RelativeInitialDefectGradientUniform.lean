@@ -3,9 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectGradient
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorH
-public import AVenhance.Infra.Section4.HmDmScales
+import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectGradient
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorH
+public import AVenhance.Infra.Section4.HmBounds
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.KappaSeq
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Section4.Params
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Statements.Section3.LRecurse
 
 /-! Uniform previous-diffusivity gradient normalization. Diffusivity bounds and corrected
 parameter rates discharge all scalar factors. The remaining upstream input

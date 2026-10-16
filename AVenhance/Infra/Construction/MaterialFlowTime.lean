@@ -3,8 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Construction.MaterialFlowBounds
-public import AVenhance.Infra.Construction.MaterialPullback
+public import AVenhance.Infra.Construction.MaterialGoalSource
 
 /-! Temporal material-Jacobian consequences of the source flow package. -/
 

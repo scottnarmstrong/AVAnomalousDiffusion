@@ -3,9 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesHomogeneousGradientMaterial
-public import AVenhance.Infra.Section4.IteratesHomogeneousPreviousScale
-public import AVenhance.Infra.Section4.IteratesTerminalPreviousMaterial
+import AVenhance.Infra.Section4.IteratesHomogeneousGradientMaterial
+import AVenhance.Infra.Section4.IteratesHomogeneousPreviousScale
+import AVenhance.Infra.Section4.IteratesTerminalPreviousMaterial
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
 
 @[expose] public section
 

@@ -3,9 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinGenerator
-public import Mathlib.MeasureTheory.Integral.Bochner.Set
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Projection
 
 /-! Continuity and time integrability of the smooth forcing in each Fourier Galerkin system. -/
 

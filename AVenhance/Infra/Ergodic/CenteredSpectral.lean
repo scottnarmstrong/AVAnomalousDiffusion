@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Ergodic.CenteredSpectralCore
+import AVenhance.Infra.Ergodic.CenteredSpectralCore
+public import AVenhance.Infra.Ergodic.HMinusOneErgodic
 
 /-! The homogeneous dual tests have zero mean, so the spectral estimate
 requires only the fast factor's mean. The high remainder is controlled in L2

@@ -3,8 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordForcingFlux
-public import AVenhance.Infra.Section4.IteratesWordFluxEnergy
+import AVenhance.Infra.Section4.IteratesWordForcingFlux
+import AVenhance.Infra.Section4.IteratesWordFluxEnergy
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.VecDiv
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import AVenhance.Infra.Section4.IteratesWordSplitPrincipal
+import Mathlib.Algebra.Order.Star.Real
 
 /-! All-order forcing-gradient energy from preceding L2 gradient energies. -/
 

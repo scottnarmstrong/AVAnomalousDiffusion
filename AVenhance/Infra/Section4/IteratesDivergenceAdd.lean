@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordFluxPairing
-public import AVenhance.Infra.Section4.IteratesForcingGradient
+import AVenhance.Infra.Section4.IteratesForcingGradient
+public import AVenhance.Statements.Section4.VecDiv
 
 @[expose] public section
 

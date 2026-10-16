@@ -4,8 +4,11 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermCenteredErgodic
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffPointwise
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffPointwise
 public import AVenhance.Infra.Section5.LeftToShow.FlowDiffeo
+public import AVenhance.Infra.Section5.ErgodicParams
+public import AVenhance.Statements.Ingredients.XiMK
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Generic centered ergodic bound for a locally finite sum of fast-slow products
 

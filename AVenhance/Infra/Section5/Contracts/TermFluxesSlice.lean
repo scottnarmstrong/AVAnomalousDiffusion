@@ -4,11 +4,13 @@
 module
 
 public import AVenhance.Infra.Section5.Contracts.TermFluxesJoint
-public import AVenhance.Infra.Section4.TIterateSmooth
-public import AVenhance.Infra.Section4.IteratesDiffusion
-public import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
-public import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
-public import AVenhance.Infra.Section3.MovingFluxEnergy
+import AVenhance.Infra.Section4.IteratesDiffusion
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Section3.MovingFluxEnergy
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularity
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularityFlow
+import Mathlib.Topology.Compactification.OnePoint.ProjectiveLine
 
 /-! # Fixed-time smoothness and periodicity of the flux ingredients
 

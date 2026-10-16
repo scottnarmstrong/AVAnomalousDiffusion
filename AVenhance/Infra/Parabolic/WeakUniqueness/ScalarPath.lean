@@ -3,11 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.WeakUniqueness.Distribution
-public import AVenhance.Infra.ODE.Linear.Basic
-public import Mathlib.Analysis.Calculus.ContDiff.Deriv
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+import AVenhance.Infra.Parabolic.WeakUniqueness.Distribution
+import AVenhance.Infra.ODE.Linear.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Deriv
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Operations
 
 /-!
 # Recovering an integral path from the scalar weak time equation

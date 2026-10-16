@@ -3,13 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.TransportPiolaDivergence
-public import AVenhance.Infra.Section5.RelativeError.TransportPiolaCellBound
-public import AVenhance.Infra.Section5.RelativeError.TransportPiolaIntegrationByParts
-public import AVenhance.Infra.Section5.RelativeError.TransportPiolaPeriodicity
+import AVenhance.Infra.Section5.RelativeError.TransportPiolaDivergence
+import AVenhance.Infra.Section5.RelativeError.TransportPiolaIntegrationByParts
+import AVenhance.Infra.Section5.RelativeError.TransportPiolaPeriodicity
 public import AVenhance.Infra.Section5.RelativeError.FlowTransportTest
-public import AVenhance.Infra.Section5.RelativeError.TransportTestSmooth
-public import AVenhance.Infra.Classical.PeriodicCalculus
+import AVenhance.Infra.Section5.RelativeError.TransportTestSmooth
+import AVenhance.Infra.Classical.PeriodicCalculus
+public import AVenhance.Infra.FaaDiBruno.TransportODEApplications
+import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+import AVenhance.Infra.Section5.LeftToShow.BreakUp.Slicing
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Order.CompletePartialOrder
 
 /-! # RelativeError: the transported Laplacian pairing as a Piola pairing -/
 

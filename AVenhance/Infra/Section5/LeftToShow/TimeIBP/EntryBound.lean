@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Abstract
 public import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Derivative
-public import AVenhance.Infra.Section5.LeftToShow.BreakUp
+import AVenhance.Infra.Section5.LeftToShow.BreakUp
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section5.LeftToShow.TimeIBP.Cube
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Order.CompletePartialOrder
 
 /-! # Entrywise integration by parts in time
 

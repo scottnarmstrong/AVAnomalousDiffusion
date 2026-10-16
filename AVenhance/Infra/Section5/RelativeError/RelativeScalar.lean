@@ -3,7 +3,8 @@
 
 module
 
-public import Mathlib.Analysis.SpecialFunctions.Sqrt
+public import Mathlib.Basic.Real.Basic
+import Mathlib.Algebra.Order.Archimedean.Real.Basic
 
 /-! Pure real arithmetic for the relative dissipation step. All transcendental
 quantities are supplied as abstract scalars to the polynomial arguments. -/

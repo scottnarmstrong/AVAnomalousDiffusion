@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordGrouping
-public import AVenhance.Infra.Section4.IteratesWordFluxPairing
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Section4.VecDiv
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.IteratesStreamPairing
+import AVenhance.Infra.Section4.IteratesWordFlux
 
 /-! All-order explicit gradient of the forcing, with exact binomial grouping. -/
 

@@ -3,19 +3,22 @@
 
 module
 
-public import AVenhance.Statements.FlowDefs.FlowIsFlow
-public import AVenhance.Statements.FlowDefs.FlowInv
+import AVenhance.Statements.FlowDefs.FlowIsFlow
 public import AVenhance.Infra.Construction.LimitFieldBounds
-public import AVenhance.Infra.Construction.ExplicitBarNorm
-public import AVenhance.Infra.Construction.LimitFieldRegularity
-public import AVenhance.Infra.Construction.Scalars
-public import AVenhance.Infra.Ingredients.TimeScaleBounds
-public import AVenhance.Infra.Flow.Liouville
-public import AVenhance.Infra.Flow.SpatialRegularity
-public import AVenhance.Infra.Flow.InverseC1
-public import AVenhance.Infra.Section3.CorrectorBounds
-public import AVenhance.Infra.Section4.LocalFinite
-public import Mathlib.Analysis.Calculus.MeanValue
+import AVenhance.Infra.Construction.ExplicitBarNorm
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Ingredients.TimeScaleBounds
+import AVenhance.Infra.Flow.SpatialRegularity
+import AVenhance.Infra.Flow.InverseC1
+public import AVenhance.Infra.Ingredients.EpsilonConsequences
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.LIdxConsequences
+import AVenhance.Infra.Ingredients.Parameters
+import Mathlib.Algebra.Order.Ring.Star
+import Mathlib.Algebra.Order.Star.Real
+import Mathlib.Analysis.Real.Pi.Bounds
+import Mathlib.Topology.Separation.CompletelyRegular
 
 /-! Time regularity ingredients for the limit stream.
 

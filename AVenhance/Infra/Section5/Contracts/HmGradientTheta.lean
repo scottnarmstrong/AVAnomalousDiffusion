@@ -4,12 +4,20 @@
 module
 
 public import AVenhance.Infra.Section5.Integration.OpenInputs
-public import AVenhance.Infra.Section4.ThetaProfileDischarge
-public import AVenhance.Infra.Section4.ThetaZeroBounds
-public import AVenhance.Infra.Section5.RelativeError.LaterStart
-public import AVenhance.Statements.Construction.StreamRegularity
-public import AVenhance.Statements.Section3.LRecurse
-public import AVenhance.Infra.Section5.MStar
+import AVenhance.Infra.Section4.ThetaProfileDischarge
+import AVenhance.Infra.Section4.ThetaZeroBounds
+import AVenhance.Infra.Section5.RelativeError.LaterStart
+import AVenhance.Statements.Construction.StreamRegularity
+import AVenhance.Statements.Section3.LRecurse
+import AVenhance.Infra.Section5.MStar
+public import AVenhance.Infra.Section4.ThetaAnalyticScale
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.ThetaAnalyticData
+import AVenhance.Infra.Section4.ThetaAnalyticTrace
+import AVenhance.Infra.Section4.ThetaClassicalUniqueness
+import AVenhance.Infra.Section4.ThetaScale
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Theta profile at the datum amplitude `2‖θ₀‖` in the big-bound premise block
 

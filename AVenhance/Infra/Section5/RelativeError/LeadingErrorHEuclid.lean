@@ -4,7 +4,6 @@
 module
 
 public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
-public import Mathlib.MeasureTheory.Function.LpSeminorm.Basic
 
 /-! # Euclidean bridge for the `H̃_m` gradient
 

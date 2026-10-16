@@ -3,9 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section5.HMinusTools
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+import AVenhance.Infra.Section5.HMinusTools
+public import Mathlib.Analysis.Calculus.Deriv.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
 
 /-! # Abstract integration by parts in time (`s.indy#Q-primitive`, `s.indy#ibp-in-time`)
 

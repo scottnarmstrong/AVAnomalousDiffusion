@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.LocalNormalOrderL2
+public import AVenhance.Statements.Section3.SpaceLap
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
 
 /-! Spatial diffusion calculus below the public AMNR facade. -/
 

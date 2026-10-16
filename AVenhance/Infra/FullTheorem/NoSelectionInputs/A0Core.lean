@@ -4,12 +4,11 @@
 module
 
 public import AVenhance.Infra.FullTheorem.Integration.NoSelectionInputs
-public import AVenhance.Infra.Section5.Integration.KeystoneStatements
-public import AVenhance.Infra.Section5.RelativeError
-public import AVenhance.Statements.Section4.IndyStepDown
-public import AVenhance.Statements.Section4.ClassicalWellposed
-public import AVenhance.Statements.Construction.LimitFieldRegular
-public import AVenhance.Statements.Construction.ExistsIsStreamSeq
+import AVenhance.Statements.Section4.IndyStepDown
+import AVenhance.Statements.Section4.ClassicalWellposed
+import AVenhance.Statements.Construction.LimitFieldRegular
+import AVenhance.Infra.Construction.LimitFieldBounds
+import AVenhance.Infra.Section5.RelativeError.AssemblyClosure
 
 /-! # `A0CoreContract`: the main theorem at ingredient level
 

@@ -3,9 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes
-public import Mathlib.MeasureTheory.Function.L2Space
-public import Mathlib.Analysis.Normed.Lp.PiLp
+public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Projection
 
 /-!
 # The spatial `L²` gradient space for real Fourier cutoffs

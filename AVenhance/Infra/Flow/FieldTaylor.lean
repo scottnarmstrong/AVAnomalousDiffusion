@@ -3,10 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Flow.PeriodicSmooth
 public import AVenhance.Infra.Flow.VariationalEquation
-public import Mathlib.Analysis.Calculus.MeanValue
-public import Mathlib.Analysis.Calculus.ContDiff.Bounds
+import Mathlib.Analysis.Calculus.MeanValue
+import Mathlib.Analysis.Calculus.ContDiff.Bounds
+import Mathlib.Topology.Algebra.Module.ModuleTopology
 
 /-! Second-order Taylor control for smooth periodic vector fields. -/
 

@@ -3,12 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.LeftJacobian.CellFlux
-public import AVenhance.Infra.Section5.LeftJacobian.RegroupSmooth
-public import AVenhance.Infra.Section5.MatrixFluxProduct
-public import AVenhance.Infra.Section5.DivergenceLinearity
-public import AVenhance.Infra.Section5.CorrectorLocalization
-public import AVenhance.Infra.Section5.OddSupportTsum
+import AVenhance.Infra.Section5.LeftJacobian.CellFlux
+import AVenhance.Infra.Section5.LeftJacobian.RegroupSmooth
+import AVenhance.Infra.Section5.MatrixFluxProduct
+import AVenhance.Infra.Section5.DivergenceLinearity
+import AVenhance.Infra.Section5.CorrectorLocalization
+import AVenhance.Infra.Section5.OddSupportTsum
+public import AVenhance.Infra.Section3.MovingFluxEnergy
+public import AVenhance.Infra.Section5.LeftJacobian.Candidate
+import AVenhance.Infra.Section5.GradientChain
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraDefs
 
 /-!: the literal split (36) implies the repaired split (38).
 

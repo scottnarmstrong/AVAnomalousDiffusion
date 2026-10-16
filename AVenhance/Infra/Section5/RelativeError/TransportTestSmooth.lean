@@ -4,7 +4,7 @@
 module
 
 public import AVenhance.Infra.Section5.RelativeError.FlowTransportTest
-public import AVenhance.Infra.Flow.JointSmoothFromFixedStart
+import AVenhance.Infra.Flow.JointSmoothFromFixedStart
 
 /-! # RelativeError: full smoothness of the inverse-flow transported test -/
 

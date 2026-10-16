@@ -3,9 +3,12 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.A7Assembly
-public import AVenhance.Infra.Section5.Contracts.Produced
-public import AVenhance.Infra.Section5.RelativeError.LaterStart
+import AVenhance.Infra.Section5.RelativeError.LaterStart
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.IteratesAnalyticWeightOrder
+import AVenhance.Infra.Section5.MStar
 
 /-! # Quantifier-block combinators and amplitude monotonicity for the step-down estimate leaves
 

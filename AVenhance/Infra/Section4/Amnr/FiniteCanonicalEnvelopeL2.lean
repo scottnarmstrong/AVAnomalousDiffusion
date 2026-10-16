@@ -3,8 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.LocalFiniteNormalOrder
-public import AVenhance.Infra.Section4.Amnr.CanonicalEnvelopeL2
+import AVenhance.Infra.Section4.Amnr.CanonicalEnvelopeL2
+public import AVenhance.Infra.Section4.Amnr.CanonicalJetSamples
 
 /-! The canonical L2 envelope needs only the source finite regularity order. -/
 

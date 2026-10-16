@@ -4,7 +4,6 @@
 module
 
 public import AVenhance.Infra.Parabolic.FourierGalerkin.ODE
-public import Mathlib.MeasureTheory.Function.StronglyMeasurable.AEStronglyMeasurable
 
 /-!
 # Finite coefficient matrices as continuous linear maps

@@ -3,9 +3,17 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.RelativeInitialDefectMaterialRegularity
-public import AVenhance.Infra.Section5.FrozenHmSourceTelescope
-public import AVenhance.Infra.Section5.StreamFlowPiola
+import AVenhance.Infra.Section5.FrozenHmSourceTelescope
+public import AVenhance.Infra.Section5.AmnrMaterialStep
+public import AVenhance.Infra.Section5.FrozenHmTelescope
+public import AVenhance.Statements.Section4.IsTIterates
+import AVenhance.Infra.Classical.Drift
+import AVenhance.Infra.Construction.StreamAdmissible
+import AVenhance.Infra.Section5.FrozenHmSourceIdentity
+import AVenhance.Infra.Section5.Integration.PartIHmRegularity
+import AVenhance.Infra.Section5.Integration.PartIHmRegularityHm
+import AVenhance.Infra.Section5.MaterialGradient
+import AVenhance.Infra.Section5.ResidualDataRegularity
 
 /-! The actual positive-time Hm material equation. Every calculus premise of
 the finite telescope is discharged from the actual T iteration. -/

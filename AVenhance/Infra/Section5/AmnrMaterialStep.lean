@@ -3,9 +3,13 @@
 
 module
 
-public import AVenhance.Infra.Section5.MaterialGradient
-public import AVenhance.Infra.Section3.QMNRRecursion
-public import AVenhance.Infra.Section4.AmnrBounds
+import AVenhance.Infra.Section5.MaterialGradient
+import AVenhance.Infra.Section3.QMNRRecursion
+public import AVenhance.Statements.Section3.QMNR
+public import AVenhance.Statements.Section4.Amnr
+import AVenhance.Infra.Section4.Amnr.Base
+import Mathlib.Analysis.Calculus.FDeriv.Symmetric
+import Mathlib.Order.CompletePartialOrder
 
 /-! Differentiating spatial divergence under the `A` material
 recursion. -/

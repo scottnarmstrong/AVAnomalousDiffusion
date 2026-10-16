@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.ThetaRecursion
+public import Mathlib.Analysis.Real.Sqrt
+import Mathlib.Tactic.Positivity.Finset
 
 /-! A factorial induction with the corrected factor two. -/
 

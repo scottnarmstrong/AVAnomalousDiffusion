@@ -3,10 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Ergodic.AveragesL1
-public import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
-public import Mathlib.MeasureTheory.Integral.Bochner.Basic
-public import Mathlib.MeasureTheory.Integral.IntegrableOn
+import AVenhance.Infra.Ergodic.AveragesL1
+public import AVenhance.Infra.Ergodic.FourierDecay
+public import AVenhance.Infra.Ergodic.Periodic
 
 /-! # The corrected L² ergodic estimate -/
 

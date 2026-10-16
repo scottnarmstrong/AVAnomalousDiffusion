@@ -4,7 +4,17 @@
 module
 
 public import AVenhance.Infra.FullTheorem.UniformAnalytic.CaseSmall
-public import AVenhance.Infra.FullTheorem.UniformAnalytic.ThetaM
+import AVenhance.Infra.FullTheorem.UniformAnalytic.ThetaM
+public import AVenhance.Infra.FullTheorem.UniformAnalytic.TailHolder
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.FullTheorem.LebronStep.Pieces
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Chain
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Holder
+import AVenhance.Infra.FullTheorem.UniformAnalytic.Scales
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section5.Integration.HMinusMeasurable
+import AVenhance.Statements.Section4.MTheta0IsLeast
 
 /-! # Case `M ≥ m₀` of the analytic case of `r.LeBron.2`
 

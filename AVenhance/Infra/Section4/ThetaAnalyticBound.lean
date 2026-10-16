@@ -4,11 +4,19 @@
 module
 
 public import AVenhance.Infra.Section4.ThetaAnalyticScale
-public import AVenhance.Infra.Section4.ThetaHonestRecursion
-public import AVenhance.Infra.Section4.ThetaZeroBounds
-public import AVenhance.Infra.Section4.ThetaClassicalUniqueness
+import AVenhance.Infra.Section4.ThetaHonestRecursion
+import AVenhance.Infra.Section4.ThetaZeroBounds
+import AVenhance.Infra.Section4.ThetaClassicalUniqueness
 public import AVenhance.Statements.Section4.IsThetaAnalytic
 public import AVenhance.Statements.Section4.KappaSeq
+public import AVenhance.Infra.Section4.ThetaAnalyticProof
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Section4.ThetaAnalyticData
+import AVenhance.Infra.Section4.ThetaAnalyticInduction
+import AVenhance.Infra.Section4.ThetaAnalyticRecursion
+import AVenhance.Infra.Section4.ThetaIntegratedEnergy
+import AVenhance.Infra.Section4.ThetaScale
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Full analytic theta estimate under the conditional stream-regularity and diffusivity-recursion
 conclusion data. -/

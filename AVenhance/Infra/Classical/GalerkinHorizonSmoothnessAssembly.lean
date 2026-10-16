@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.Classical.GalerkinHorizonSmoothnessRhs
+import AVenhance.Infra.Classical.GalerkinHorizonSmoothnessRhs
+public import AVenhance.Infra.Classical.GalerkinHorizonConsistency
+public import AVenhance.Infra.Classical.GalerkinHorizonSmoothnessProducer
+import AVenhance.Infra.Classical.GalerkinHorizonSmoothnessBoundary
+import AVenhance.Infra.Classical.TimeEnergy
 
 /-! Assemble time and spatial derivatives on the closed unit slab and rescale to physical horizons. -/
 

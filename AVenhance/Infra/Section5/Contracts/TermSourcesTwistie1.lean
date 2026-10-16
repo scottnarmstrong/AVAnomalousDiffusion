@@ -3,14 +3,25 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Energy
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Scale
-public import AVenhance.Infra.Section5.Contracts.Produced
-public import AVenhance.Infra.Section5.Contracts.TermSourcesTinyCoeff
-public import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffScalar
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorScales
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section4.TIterateSmooth
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Energy
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Scale
+import AVenhance.Infra.Section5.Contracts.Produced
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyCoeff
+import AVenhance.Infra.Section5.Contracts.TermSourcesCutoffScalar
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorScales
+import AVenhance.Infra.Section5.LeftToShow.Scales
+import AVenhance.Infra.Section4.TIterateSmooth
+public import AVenhance.Infra.Section5.Integration.OpenInputs
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Numeric.Exponents
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyContract
+import AVenhance.Infra.Section5.Contracts.TermSourcesTinyScale
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Bound
+import AVenhance.Infra.Section5.Contracts.TermSourcesTwistie1Jets
+import AVenhance.Statements.Section3.LRecurse
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # `Twistie1HMinusSourceContract` producer (`e.monster.est.5`, `enhance.tex` 7371–7460)
 

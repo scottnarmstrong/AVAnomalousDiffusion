@@ -3,13 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Classical.DerivativeBounds
-public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes
-public import AVenhance.Infra.Torus.FourierCalculus
-public import AVenhance.Infra.Torus.FrozenBridge
-public import AVenhance.Infra.ODE.Linear.Basic
-public import AVenhance.Infra.Classical.PeriodicCalculus
-public import Mathlib.Analysis.Calculus.Deriv.Mul
+import AVenhance.Infra.Torus.FrozenBridge
+import AVenhance.Infra.Classical.PeriodicCalculus
+public import AVenhance.Infra.Classical.Commutator
+public import AVenhance.Infra.Parabolic.FourierGalerkin.RealModes.Projection
+public import Homogenization.Ambient.HilbertFinite
+public import Mathlib.Algebra.Order.Archimedean.Real.Hom
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.LocallyConvex.AbsConvexOpen
+import Homogenization.Sobolev.CubeEmbedding.FaceReflectionLines
+import Mathlib.RingTheory.SimpleRing.Principal
 
 /-! Coordinate derivatives of the real Fourier modes used by the Galerkin system. -/
 

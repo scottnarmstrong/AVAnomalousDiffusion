@@ -3,11 +3,25 @@
 
 module
 
-public import AVenhance.Infra.Section5.Contracts.Produced
-public import AVenhance.Infra.Section5.SMatRegularity
-public import AVenhance.Infra.Section5.LeftToShow.Scales
-public import AVenhance.Infra.Section4.IteratesTThetaUpgrade
-public import AVenhance.Infra.Section4.IteratesForcingProfilesFromFlow
+import AVenhance.Infra.Section5.SMatRegularity
+import AVenhance.Infra.Section5.LeftToShow.Scales
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Statements.Section3.PermissibleSet
+public import AVenhance.Statements.Section4.KappaSeq
+public import AVenhance.Statements.Section4.SMat
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Construction.Scalars
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.IteratesDiffusivityComparison
+import AVenhance.Infra.Section4.IteratesDischargeBounds
+import AVenhance.Infra.Section4.IteratesFlowBounds
+import AVenhance.Infra.Section4.IteratesFlowClose
+import AVenhance.Infra.Section4.IteratesFlowCoefficientProfile
+import AVenhance.Infra.Section4.IteratesFlowGeometry
+import AVenhance.Infra.Section5.LeftToShow.Matrix
+import AVenhance.Statements.Section3.LRecurse
+import Mathlib.Algebra.Order.Star.Real
 
 /-! # Coefficient jets of the `e_{m-1}` matrix (`e.monster.est.tiny`)
 

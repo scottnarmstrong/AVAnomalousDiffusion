@@ -3,9 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.Density
-public import AVenhance.Infra.ODE.Linear.Existence
-public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+public import AVenhance.Infra.Parabolic.FourierGalerkin.ScalarSpace
 
 /-! Fourier and time-rescaling adapters for the classical Galerkin limit paths.
 

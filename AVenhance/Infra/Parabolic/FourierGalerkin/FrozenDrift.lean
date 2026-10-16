@@ -3,11 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Parabolic.FourierGalerkin.ODE
-public import Homogenization.Ambient.Basic
 public import AVenhance.Statements.Roots.UnitCube
-public import Mathlib.MeasureTheory.Integral.MeanInequalities
-public import Mathlib.MeasureTheory.Integral.Prod
+import Mathlib.MeasureTheory.Integral.Prod
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Measure.Haar.OfBasis
 
 /-!
 # Drift estimates from the boundedness hypothesis

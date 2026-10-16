@@ -4,6 +4,8 @@
 module
 
 public import AVenhance.Statements.Roots.UnitCube
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import Homogenization.Sobolev.H1.Definitions
 
 /-! Statement file: `IsPeriodicH1With` (Roots).
 This file contains exactly one declaration of the formalization's public statement surface. -/

@@ -3,7 +3,9 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesWordCoefficientSplit
+import AVenhance.Infra.Section4.IteratesWordCoefficientSplit
+public import AVenhance.Infra.Section4.IteratesWordFlux
+public import AVenhance.Statements.Section4.SMat
 
 @[expose] public section
 

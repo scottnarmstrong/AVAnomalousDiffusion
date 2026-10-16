@@ -3,8 +3,11 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.Integration.Statements
 public import AVenhance.Infra.FullTheorem.Integration.SeparationContract
+public import AVenhance.Statements.Construction.IsStreamSeq
+public import AVenhance.Statements.Roots.IsWeakSolutionGrad
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsThetaAnalytic
 
 /-! # small inputs of the no-selection argument
 

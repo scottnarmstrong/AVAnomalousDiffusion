@@ -3,11 +3,14 @@
 
 module
 
-public import AVenhance.Infra.Section4.CoarseCoeff.Regularity
-public import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
-public import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
-public import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
+import AVenhance.Infra.Section4.CoarseCoeff.Regularity
+import AVenhance.Infra.Section5.RelativeError.IteratesLMNSmooth
+import AVenhance.Infra.Section4.Amnr.FlowGlobalJointSmoothness
+import AVenhance.Infra.Section4.Amnr.FlowSpatialPeriodicity
 public import AVenhance.Statements.Section4.TForcing
+public import AVenhance.Statements.Roots.IsZ2Periodic
+public import Mathlib.Analysis.Matrix.Normed
+import AVenhance.Infra.Section4.CoarseCoeff.Representation
 
 /-! # RelativeError item 13: smoothness and periodicity of the iterate forcing `TForcing`
 

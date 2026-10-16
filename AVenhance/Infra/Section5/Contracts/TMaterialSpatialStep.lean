@@ -3,8 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.TemperatureMaterialStepL2
-public import AVenhance.Infra.Section4.Amnr.TemperatureIterateFluxJets
+import AVenhance.Infra.Section4.Amnr.TemperatureMaterialStepL2
+import AVenhance.Infra.Section4.Amnr.TemperatureIterateFluxJets
+public import AVenhance.Infra.Section4.Amnr.CanonicalJetSamples
+public import AVenhance.Infra.Section4.Amnr.NormalOrderConstants
+public import AVenhance.Infra.Section4.Amnr.TemperatureIterateGradientPDE
+import AVenhance.Infra.Cutoff.TimeScaleFacts
+import AVenhance.Infra.Ingredients.Parameters
+import AVenhance.Infra.Section4.Amnr.MixedSubwordBudget
+import AVenhance.Infra.Section4.Amnr.TemperatureCoefficientBounds
+import Mathlib.Order.CompletePartialOrder
 
 /-! One actual material gradient step from spatial orders at most two. -/
 

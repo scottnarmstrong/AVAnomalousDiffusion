@@ -3,10 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesDiffusivityComparison
-public import AVenhance.Infra.Section4.IteratesTSourceUpgrade
+import AVenhance.Infra.Section4.IteratesDiffusivityComparison
+import AVenhance.Infra.Section4.IteratesTSourceUpgrade
 public import AVenhance.Infra.Section4.IteratesMean
-public import AVenhance.Infra.Section3.KappaAtBounds
+import AVenhance.Infra.Section3.KappaAtBounds
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesBudgetConstantChoice
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+public import AVenhance.Statements.Construction.BarNorm
+public import AVenhance.Statements.Ingredients.Gamma
+public import AVenhance.Statements.Section4.IsTIterates
 
 @[expose] public section
 

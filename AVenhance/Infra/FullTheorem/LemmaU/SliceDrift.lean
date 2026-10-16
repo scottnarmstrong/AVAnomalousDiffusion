@@ -3,7 +3,11 @@
 
 module
 
-public import AVenhance.Infra.FullTheorem.LemmaU.TimeSlices
+import AVenhance.Infra.FullTheorem.LemmaU.TimeSlices
+public import AVenhance.Infra.FullTheorem.LemmaU.ModeCoefficients
+public import AVenhance.Infra.Parabolic.WeakUniqueness.ModePath
+import AVenhance.Infra.Parabolic.WeakUniqueness.WeakAlgebra
+import Mathlib.Algebra.Order.Star.Real
 
 /-!
 # Lemma U: the drift term on a time slice

@@ -3,7 +3,10 @@
 
 module
 
-public import AVenhance.Infra.Ergodic.AveragedCompositionNorm
+import AVenhance.Infra.Ergodic.AveragedCompositionNorm
+public import AVenhance.Infra.Ergodic.AveragedCompositionCalculus
+public import AVenhance.Infra.Ergodic.Flow
+import AVenhance.Infra.FaaDiBruno.Resummation
 
 /-! Sharp factorial resummation in the averaged composition estimate. -/
 

@@ -4,7 +4,6 @@
 module
 
 public import AVenhance.Infra.Classical.TimeEnergy
-public import AVenhance.Infra.Torus.Basic
 
 /-! # Time derivative of the periodic energy of a jointly `C¹` function
 

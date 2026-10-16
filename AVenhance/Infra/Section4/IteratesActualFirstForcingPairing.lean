@@ -3,9 +3,18 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesActualCenteredForcing
-public import AVenhance.Infra.Section4.IteratesActualFirstRemainderPairing
-public import AVenhance.Infra.Section4.IteratesTerminalCenteredForcingSplit
+import AVenhance.Infra.Section4.IteratesActualCenteredForcing
+import AVenhance.Infra.Section4.IteratesActualFirstRemainderPairing
+import AVenhance.Infra.Section4.IteratesTerminalCenteredForcingSplit
+public import AVenhance.Infra.Section4.IteratesPrimitive
+public import AVenhance.Infra.Section4.IteratesTruncatedCell
+public import AVenhance.Infra.Section4.IteratesWeightedFlux
+public import AVenhance.Infra.Section4.IteratesWordLeibniz
+public import AVenhance.Statements.Roots.L2NormSq
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.IsClassicalSol
+public import AVenhance.Statements.Section4.TForcing
+public import Mathlib.Analysis.Matrix.Normed
 
 @[expose] public section
 

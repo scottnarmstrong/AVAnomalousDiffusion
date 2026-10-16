@@ -3,7 +3,7 @@
 
 module
 
-public import AVenhance.Infra.Section4.Amnr.CanonicalJetSamples
+public import AVenhance.Infra.Section4.Amnr.Calculus
 
 /-! The finite canonical jet envelope preserves L2 control. -/
 

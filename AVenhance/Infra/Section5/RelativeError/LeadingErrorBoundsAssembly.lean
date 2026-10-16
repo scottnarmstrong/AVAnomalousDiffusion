@@ -3,10 +3,16 @@
 
 module
 
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsError
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
-public import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraContinuity
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsError
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsL2Ioi
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorAlgebraContinuity
 public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Infra.Section5.LeftToShow.Defs
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+public import AVenhance.Statements.Section4.Ansatz
+import AVenhance.Infra.Section5.Integration.Energy.AnsatzRegularityFlow
+import AVenhance.Infra.Section5.RelativeError.LeadingErrorBoundsFields
+import Mathlib.Order.CompletePartialOrder
 
 /-! # `L²_{t,x}` bound for the leading-gradient error in terms of the temperature norms
 

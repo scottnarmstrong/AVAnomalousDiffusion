@@ -4,9 +4,6 @@
 module
 
 public import AVenhance.Infra.Ergodic.Periodic
-public import Mathlib.MeasureTheory.Function.LocallyIntegrable
-public import Mathlib.MeasureTheory.Integral.BoundedContinuousFunction
-public import Mathlib.Analysis.SpecialFunctions.Complex.Log
 
 /-! # Fourier coefficient bounds for the basic ergodic estimate -/
 

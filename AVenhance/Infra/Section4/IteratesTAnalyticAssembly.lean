@@ -3,10 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTFiniteNorm
-public import AVenhance.Infra.Section4.IteratesFiniteAnalyticSum
-public import AVenhance.Infra.Section4.IteratesProfileNorms
-public import AVenhance.Infra.Section4.IteratesAnalyticRadiusDoubling
+import AVenhance.Infra.Section4.IteratesTFiniteNorm
+import AVenhance.Infra.Section4.IteratesFiniteAnalyticSum
+import AVenhance.Infra.Section4.IteratesProfileNorms
+import AVenhance.Infra.Section4.IteratesAnalyticRadiusDoubling
+public import AVenhance.Infra.Section4.CoarseCoeff.DirectionalCalculus
+public import AVenhance.Infra.Section4.IteratesAmplitude
+public import AVenhance.Infra.Section4.IteratesBasic
+public import AVenhance.Infra.Section4.IteratesCoordinateProfile
+import AVenhance.Infra.Section4.IteratesAnalyticWeightOrder
 
 @[expose] public section
 

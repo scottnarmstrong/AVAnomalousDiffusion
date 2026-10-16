@@ -3,9 +3,15 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesErrorGradient
-public import AVenhance.Infra.Section4.IteratesErrorRegularity
-public import AVenhance.Infra.Section4.IteratesVectorSquares
+import AVenhance.Infra.Section4.IteratesErrorGradient
+import AVenhance.Infra.Section4.IteratesErrorRegularity
+import AVenhance.Infra.Section4.IteratesVectorSquares
+public import AVenhance.Infra.Section4.IteratesWordCommutator
+public import AVenhance.Infra.Section4.IteratesWordDiffusion
+public import AVenhance.Statements.Roots.SpaceTimeGradNormSq
+import AVenhance.Infra.Section4.IteratesOscillatory
+import AVenhance.Infra.Section4.IteratesWeightedIntegrability
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Actual differentiated material-error energy for the previous increment. -/
 

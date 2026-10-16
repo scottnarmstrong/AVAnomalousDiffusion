@@ -3,7 +3,8 @@
 
 module
 
-public import AVenhance.Infra.Section4.IteratesTime
+public import Mathlib.Analysis.Real.Sqrt
+import Mathlib.Algebra.Order.Star.Real
 
 /-! Conversion of actual quadratic energies to the norm used in l.V.
 The differentiated PDE energy inequality must still be derived separately. -/
@@ -11,7 +12,6 @@ The differentiated PDE energy inequality must still be derived separately. -/
 @[expose] public section
 
 noncomputable section
-open Homogenization MeasureTheory
 namespace AVenhance.Infra.Section4
 open AVenhance
 
